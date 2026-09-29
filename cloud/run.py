@@ -50,6 +50,9 @@ JOB_BUDGET_MIN = 354          # GitHub stops a job at 360 minutes; keep a few fo
 CHECK_RUN_MIN = 5             # a run started outside market hours only checks that everything starts
 MAX_RESTARTS = 3
 SETTINGS_PATH = {"credit_spreads": "/api/filters"}     # every other strategy saves settings at /api/config
+STATUS_PATH = {"credit_spreads": "/api/status"}        # every other strategy reports at /api/state
+SETTINGS_KEY = {"credit_spreads": "filters"}           # the key its settings live under
+PAUSE_TO_SAVE = {"credit_spreads": ("/api/scanner/stop", "/api/scanner/start")}
 
 # Never saved: login and session secrets, the token form's file, caches, locks.
 SKIP_FILE = re.compile(r"^(secret_key|auth\.json|runtime\.json.*|scrip_.*\.json|.*\.lock|.*\.pid|.*\.tmp)$")
@@ -287,6 +290,8 @@ class Strategy:
         self.restarts = 0
         self.settings_done = False
         self.ever_ran = False
+        self.settings = None          # what this strategy is actually using now
+        self.settings_error = ""      # cloud/config.json refused; the strategy itself is fine
 
     def start(self, env_base, stop_hhmm):
         self.port = hub._free_port()
@@ -332,6 +337,19 @@ class Strategy:
             if self.state == "starting" and time.time() - self.started > 180:
                 self.error = "has not answered for 3 minutes - see its log"
 
+    def read_settings(self):
+        """The settings this strategy is running with, straight from the
+        strategy itself.  Saved into status.json so the desktop app can show
+        them and say whether they match the PC's."""
+        try:
+            st = self.call(STATUS_PATH.get(self.id, "/api/state"), timeout=10)
+            got = st.get(SETTINGS_KEY.get(self.id, "cfg"))
+            if isinstance(got, dict):
+                self.settings = got
+        except Exception:
+            pass
+        return self.settings
+
     def apply_settings(self, settings):
         """Settings from cloud/config.json, sent the way the strategy's own
         Save button sends them, so the strategy checks them itself."""
@@ -339,17 +357,34 @@ class Strategy:
             return
         self.settings_done = True
         body = settings.get(self.id)
+        current = self.read_settings()
         if not body:
             return
+        if isinstance(current, dict) and all(current.get(k) == v for k, v in body.items()):
+            log("%s: settings already as cloud/config.json asks" % self.id)
+            return
+        # Credit spreads refuses a filter change while its scanner is running,
+        # so pause it around the change; it is started again right after.
+        pause = PAUSE_TO_SAVE.get(self.id)
         try:
-            self.call(SETTINGS_PATH.get(self.id, "/api/config"), "POST", body, timeout=15)
+            if pause:
+                self.call(pause[0], "POST", {}, timeout=10)
+            self.call(SETTINGS_PATH.get(self.id, "/api/config"), "POST", body, timeout=20)
             log("%s: settings from cloud/config.json applied" % self.id)
         except urllib.error.HTTPError as e:
-            msg = e.read().decode("utf-8", "replace")[:300]
-            self.error = "settings in cloud/config.json refused: %s" % msg
-            log("%s: %s" % (self.id, self.error))
+            msg = redact(e.read().decode("utf-8", "replace"))[:300]
+            self.settings_error = "cloud/config.json was refused: %s" % msg
+            log("%s: %s" % (self.id, self.settings_error))
         except Exception as e:
-            log("%s: could not apply settings (%s)" % (self.id, e))
+            log("%s: could not apply settings (%s)" % (self.id, e.__class__.__name__))
+        finally:
+            if pause:
+                try:
+                    self.call(pause[1], "POST", {}, timeout=10)
+                except Exception as e:
+                    log("%s: could not restart the scanner after saving settings (%s)"
+                        % (self.id, e.__class__.__name__))
+            self.read_settings()
 
     def stop(self):
         proc = self.proc
@@ -425,6 +460,8 @@ def render(ctx):
         state = STATE_LABEL.get(s.state, s.state)
         if s.error:
             state += " - " + s.error.replace("|", "/")[:160]
+        if s.settings_error:
+            state += " ⚠️ " + s.settings_error.replace("|", "/")[:160]
         rows.append("| %s %s | %s | %s%s | %s%s | %s%s | %s | %s | %s |" % (
             s.man.get("icon", ""), s.name, state,
             inr(m.get("pnl_today"), True), pct(m.get("pct_today")),
@@ -454,7 +491,12 @@ def status_json(ctx):
         "updated": ist_now().isoformat(timespec="seconds"), "headline": ctx["headline"],
         "phase": ctx["phase"], "window": ctx["window"], "vix": ctx.get("vix"),
         "vix_limit": ctx.get("vix_limit"), "run_url": ctx["run_url"], "notices": ctx["notices"],
-        "strategies": {s.id: {"name": s.name, "state": s.state, "error": s.error, "summary": s.summary}
+        "token_text": ctx["token_text"], "token_expires": ctx.get("token_expires"),
+        "stop_at": ctx.get("stop_at"),
+        "strategies": {s.id: {"name": s.name, "icon": s.man.get("icon", ""),
+                              "color": s.man.get("color", ""), "description": s.man.get("description", ""),
+                              "state": s.state, "error": s.error, "summary": s.summary,
+                              "settings": s.settings, "settings_error": s.settings_error}
                        for s in ctx["strategies"]},
     }
 
@@ -549,7 +591,7 @@ def main():
     strategies = [Strategy(sid) for sid in sids]
     ctx = {"headline": "Starting", "phase": "starting", "run_url": run_url, "window": window,
            "notices": [], "strategies": strategies, "vix": None, "vix_limit": cfg["vix_limit"],
-           "token_text": "-"}
+           "token_text": "-", "token_expires": None, "stop_at": stop.isoformat(timespec="seconds")}
     warnings = set()
 
     def finish_failed(msg):
@@ -566,7 +608,7 @@ def main():
 
     # ── the token ────────────────────────────────────────────────────────────
     tok, cid, exp = read_token()
-    ctx["token_text"] = token_text(exp, stop)
+    ctx["token_text"], ctx["token_expires"] = token_text(exp, stop), exp
     if not tok:
         return finish_failed("no Dhan token. On GitHub open Settings → Secrets and variables → Actions and "
                              "add DHAN_ACCESS_TOKEN.")

@@ -48,7 +48,7 @@ HUB_SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 RES_DIR = getattr(sys, "_MEIPASS", HUB_SRC_DIR)      # bundled files when frozen
 APP_NAME = "NIFTY Trader"
 # Bump this, then push a matching tag (v1.2.3) to publish a GitHub release.
-APP_VERSION = "1.6.0"
+APP_VERSION = "1.7.0"
 DEFAULT_UPDATE_REPO = "Shubham050396/Nifty-Trading-Software"
 TOKEN_ENV = "NIFTY_HUB_TOKEN"
 LOG_MAX_BYTES = 5 * 1024 * 1024
@@ -354,7 +354,7 @@ try{if(window.parent!==window)window.parent.postMessage({nifty_ui_ready:1},"*");
  background:var(--panel,#121722);border-bottom:1px solid var(--bd,#222a3b);color:var(--mu,#7c8aa3)}
 #nifty-strip b{color:var(--br,#f1f5f9);font-size:13px}#nifty-strip .u{color:#22c55e}#nifty-strip .d{color:#ef4444}
 #nifty-strip .k{font-size:10px;font-weight:700;letter-spacing:.1em;margin-right:4px}</style>
-<script>(function(){function rs(v){return v==null?"-":"\u20b9"+Math.round(Math.abs(v)).toLocaleString("en-IN");}
+<script>(function(){function rs(v){return v==null?"-":"\\u20b9"+Math.round(Math.abs(v)).toLocaleString("en-IN");}
 function sg(v){return v==null?"-":(v>0?"+":v<0?"\u2212":"")+rs(v);}function c(v){return v>0?"u":v<0?"d":"";}
 function pc(v){return v==null?"":" ("+(v>0?"+":"")+v.toFixed(2)+"%)";}
 function it(k,v){return '<span><span class="k">'+k+"</span>"+v+"</span>";}
@@ -1284,6 +1284,409 @@ def _auto_check():
 
 
 # ═════════════════════════════════════════════════════════════════════════════
+#  THE CLOUD COPY  -  the same strategies running on GitHub, without this PC
+#
+#  A second, public repository (Nifty-Trading-Cloud) runs the strategies on
+#  GitHub's computers every weekday and saves what they did to its cloud-data
+#  branch.  The ☁ Cloud screen shows that here:
+#
+#    * reading needs nothing at all - the repository is public, so the status
+#      file is fetched straight from raw.githubusercontent.com every 2 minutes;
+#    * sending this PC's settings up to the cloud needs a GitHub token with
+#      Contents: Read and write on that one repository, saved in hub/cloud.json.
+#
+#  The cloud is never started or stopped from here.  This screen shows its
+#  results and changes the settings its next run will use.
+# ═════════════════════════════════════════════════════════════════════════════
+CLOUD_FILE = os.path.join(HUB_DIR, "cloud.json")
+DEFAULT_CLOUD_REPO = "Shubham050396/Nifty-Trading-Cloud"
+CLOUD_DATA_BRANCH = "cloud-data"
+CLOUD_CONFIG_PATH = "cloud/config.json"
+CLOUD_REFRESH = 120.0
+CLOUD = {"status": None, "error": "not read yet", "checked": 0.0, "fetching": False}
+_cloud_lock = threading.RLock()
+
+
+def read_cloud():
+    try:
+        with open(CLOUD_FILE, encoding="utf-8") as f:
+            d = json.load(f)
+    except (OSError, ValueError):
+        d = {}
+    return {"repo": (d.get("repo") or DEFAULT_CLOUD_REPO).strip(),
+            "token": (d.get("token") or "").strip(),
+            "enabled": bool(d.get("enabled", True)),
+            "send_token": bool(d.get("send_token", True)),
+            "token_sent_at": (d.get("token_sent_at") or "").strip()}
+
+
+def write_cloud(body):
+    cur = read_cloud()
+    repo = (body.get("repo") or cur["repo"]).strip()
+    repo = re.sub(r"^(https?://)?(www\.)?github\.com/", "", repo).strip("/")
+    if repo.endswith(".git"):
+        repo = repo[:-4]
+    if not _REPO_RE.match(repo):
+        raise ValueError("The cloud repository should look like owner/name, e.g. %s" % DEFAULT_CLOUD_REPO)
+    # A blank token field means "keep the saved one", so the other fields can
+    # be saved without sending the token back to the page.
+    token = cur["token"]
+    if body.get("clear_token"):
+        token = ""
+    elif (body.get("token") or "").strip():
+        token = body["token"].strip()
+    os.makedirs(HUB_DIR, exist_ok=True)
+    _write_json_atomic(CLOUD_FILE, {"repo": repo, "token": token,
+                                    "enabled": bool(body.get("enabled", cur["enabled"])),
+                                    "send_token": bool(body.get("send_token", cur["send_token"])),
+                                    "token_sent_at": "" if repo != cur["repo"] else cur["token_sent_at"]})
+    try:
+        if os.name != "nt":
+            os.chmod(CLOUD_FILE, 0o600)
+    except OSError:
+        pass
+    if repo != cur["repo"]:
+        with _cloud_lock:
+            CLOUD.update(status=None, error="not read yet", checked=0.0)
+    return read_cloud()
+
+
+def cloud_report_url(cfg=None):
+    cfg = cfg or read_cloud()
+    return "https://github.com/%s/blob/%s/REPORT.md" % (cfg["repo"], CLOUD_DATA_BRANCH)
+
+
+def fetch_cloud_status():
+    """Read status.json from the cloud-data branch.  The repository is public,
+    so no token is needed; the timestamp defeats GitHub's file cache, which
+    would otherwise hold a copy for a few minutes."""
+    cfg = read_cloud()
+    url = "https://raw.githubusercontent.com/%s/%s/status.json?t=%d" % (
+        cfg["repo"], CLOUD_DATA_BRANCH, int(time.time()))
+    req = urllib.request.Request(url, headers={"User-Agent": "NIFTY-Trader/" + APP_VERSION,
+                                               "Accept": "application/json",
+                                               "Cache-Control": "no-cache"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            status = json.loads(r.read().decode("utf-8"))
+        if not isinstance(status, dict):
+            raise ValueError("not an object")
+        with _cloud_lock:
+            CLOUD.update(status=status, error="", checked=time.time())
+    except urllib.error.HTTPError as e:
+        msg = ("Nothing saved yet. Run the Cloud trading workflow once on GitHub."
+               if e.code == 404 else "GitHub answered HTTP %d." % e.code)
+        with _cloud_lock:
+            CLOUD.update(error=msg, checked=time.time())
+    except Exception as e:
+        with _cloud_lock:
+            CLOUD.update(error="Could not reach GitHub (%s)." % e.__class__.__name__,
+                         checked=time.time())
+    return cloud_view()
+
+
+def _cloud_loop():
+    time.sleep(3)
+    while True:
+        try:
+            if read_cloud()["enabled"] and time.time() - CLOUD["checked"] >= CLOUD_REFRESH:
+                fetch_cloud_status()
+        except Exception:
+            traceback.print_exc()
+        time.sleep(10)
+
+
+def local_settings(sid):
+    """The settings this PC's copy of a strategy is using, read from the file
+    the strategy saves them in, so it works whether or not it is running.
+    Every strategy here keeps them under "cfg" (or "filters")."""
+    d = os.path.join(STRATEGIES_DIR, sid, "data")
+    if not os.path.isdir(d):
+        return None
+    for name in sorted(os.listdir(d)):
+        if not name.endswith(".json") or name.startswith(("scrip_", "runtime.", "auth.")):
+            continue
+        path = os.path.join(d, name)
+        try:
+            if os.path.getsize(path) > 5 * 1024 * 1024:
+                continue
+            with open(path, encoding="utf-8") as f:
+                obj = json.load(f)
+        except (OSError, ValueError):
+            continue
+        if not isinstance(obj, dict):
+            continue
+        for key in ("cfg", "filters"):
+            if isinstance(obj.get(key), dict) and obj[key]:
+                return {"key": key, "values": obj[key], "file": name}
+    return None
+
+
+def _cloud_api(cfg, path, method="GET", body=None, timeout=30):
+    if not cfg["token"]:
+        raise UpdateError("Add a GitHub token in ☁ Cloud → Set up sending, so this PC may "
+                          "change the cloud's settings.")
+    data = json.dumps(body).encode() if body is not None else None
+    req = urllib.request.Request(
+        "https://api.github.com/repos/%s%s" % (cfg["repo"], path), data=data, method=method,
+        headers={"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28",
+                 "Content-Type": "application/json",
+                 "User-Agent": "NIFTY-Trader/" + APP_VERSION})
+    # Unredirected: if GitHub ever redirects to another host, the token stays behind.
+    req.add_unredirected_header("Authorization", "Bearer " + cfg["token"])
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.loads(r.read().decode("utf-8") or "{}")
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            raise UpdateError("GitHub refused the token. On %s it needs Contents: Read and write "
+                              "and Secrets: Read and write. Paste a new one in ☁ Cloud → Set up "
+                              "sending." % cfg["repo"], e.code)
+        if e.code == 404:
+            raise UpdateError("GitHub could not find %s/%s. Check the repository name."
+                              % (cfg["repo"], CLOUD_CONFIG_PATH), 404)
+        if e.code == 409:
+            raise UpdateError("The cloud settings changed on GitHub while saving. Try again.", 409)
+        raise UpdateError("GitHub answered HTTP %d." % e.code, e.code)
+    except (urllib.error.URLError, OSError) as e:
+        raise UpdateError("Could not reach GitHub: %s" % getattr(e, "reason", e))
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  SENDING THE DHAN TOKEN TO GITHUB
+#
+#  So the token is pasted in ONE place.  GitHub will not take a secret in the
+#  clear: it must be sealed with the repository's own public key, the way
+#  libsodium's crypto_box_seal does it.  There is no such thing in Python's
+#  standard library and the exe ships no crypto wheel, so the three pieces it
+#  needs are written out here: X25519 (RFC 7748), XSalsa20 and Poly1305.
+#
+#  This is used ONLY to encrypt a value for GitHub, never to check anything
+#  anyone sends us, so it has no signature to verify and nothing to be fooled
+#  by.  It is checked against the published test vectors by tools/test_seal.py.
+# ─────────────────────────────────────────────────────────────────────────────
+_P25519 = 2 ** 255 - 19
+_M32 = 0xffffffff
+
+
+def _x25519(scalar, point):
+    """The RFC 7748 X25519 function: our secret times their public point."""
+    k = bytearray(scalar)
+    k[0] &= 248
+    k[31] = (k[31] & 127) | 64
+    k = int.from_bytes(k, "little")
+    x1 = int.from_bytes(point, "little") & ((1 << 255) - 1)
+    x2, z2, x3, z3, swap = 1, 0, x1, 1, 0
+    for t in range(254, -1, -1):
+        bit = (k >> t) & 1
+        if swap ^ bit:
+            x2, x3, z2, z3 = x3, x2, z3, z2
+        swap = bit
+        a = (x2 + z2) % _P25519
+        aa = a * a % _P25519
+        b = (x2 - z2) % _P25519
+        bb = b * b % _P25519
+        e = (aa - bb) % _P25519
+        c = (x3 + z3) % _P25519
+        d = (x3 - z3) % _P25519
+        da = d * a % _P25519
+        cb = c * b % _P25519
+        x3 = pow(da + cb, 2, _P25519)
+        z3 = x1 * pow(da - cb, 2, _P25519) % _P25519
+        x2 = aa * bb % _P25519
+        z2 = e * (aa + 121665 * e) % _P25519
+    if swap:
+        x2, x3, z2, z3 = x3, x2, z3, z2
+    return ((x2 * pow(z2, _P25519 - 2, _P25519)) % _P25519).to_bytes(32, "little")
+
+
+def _rotl32(v, n):
+    return ((v << n) | (v >> (32 - n))) & _M32
+
+
+# One Salsa20 double round as (word to change, the two words added, rotation):
+# the four column quarter-rounds, then the four row quarter-rounds.
+_SALSA_DOUBLE = tuple(
+    (t, a, b, r)
+    for group in (((4, 0, 12), (8, 4, 0), (12, 8, 4), (0, 12, 8)),
+                  ((9, 5, 1), (13, 9, 5), (1, 13, 9), (5, 1, 13)),
+                  ((14, 10, 6), (2, 14, 10), (6, 2, 14), (10, 6, 2)),
+                  ((3, 15, 11), (7, 3, 15), (11, 7, 3), (15, 11, 7)),
+                  ((1, 0, 3), (2, 1, 0), (3, 2, 1), (0, 3, 2)),
+                  ((6, 5, 4), (7, 6, 5), (4, 7, 6), (5, 4, 7)),
+                  ((11, 10, 9), (8, 11, 10), (9, 8, 11), (10, 9, 8)),
+                  ((12, 15, 14), (13, 12, 15), (14, 13, 12), (15, 14, 13)))
+    for (t, a, b), r in zip(group, (7, 9, 13, 18)))
+
+
+def _salsa20_rounds(state):
+    """The 20 Salsa20 rounds, without the final addition (that is HSalsa20)."""
+    x = list(state)
+    for _ in range(10):
+        for t, a, b, r in _SALSA_DOUBLE:
+            x[t] ^= _rotl32((x[a] + x[b]) & _M32, r)
+    return x
+
+
+_SIGMA = (0x61707865, 0x3320646e, 0x79622d32, 0x6b206574)   # "expand 32-byte k"
+
+
+def _salsa_state(key, nonce8, counter):
+    k = [int.from_bytes(key[i:i + 4], "little") for i in range(0, 32, 4)]
+    n = [int.from_bytes(nonce8[i:i + 4], "little") for i in range(0, 8, 4)]
+    c = [counter & _M32, (counter >> 32) & _M32]
+    return [_SIGMA[0], k[0], k[1], k[2],
+            k[3], _SIGMA[1], n[0], n[1],
+            c[0], c[1], _SIGMA[2], k[4],
+            k[5], k[6], k[7], _SIGMA[3]]
+
+
+def _hsalsa20(key, nonce16):
+    """crypto_core_hsalsa20: a new 32-byte key from a key and 16 nonce bytes."""
+    n = [int.from_bytes(nonce16[i:i + 4], "little") for i in range(0, 16, 4)]
+    k = [int.from_bytes(key[i:i + 4], "little") for i in range(0, 32, 4)]
+    x = _salsa20_rounds([_SIGMA[0], k[0], k[1], k[2],
+                         k[3], _SIGMA[1], n[0], n[1],
+                         n[2], n[3], _SIGMA[2], k[4],
+                         k[5], k[6], k[7], _SIGMA[3]])
+    return b"".join(x[i].to_bytes(4, "little") for i in (0, 5, 10, 15, 6, 7, 8, 9))
+
+
+def _xsalsa20_stream(key, nonce24, length):
+    sub = _hsalsa20(key, nonce24[:16])
+    out = bytearray()
+    counter = 0
+    while len(out) < length:
+        st = _salsa_state(sub, nonce24[16:24], counter)
+        mixed = _salsa20_rounds(st)
+        out += b"".join(((mixed[i] + st[i]) & _M32).to_bytes(4, "little") for i in range(16))
+        counter += 1
+    return bytes(out[:length])
+
+
+def _poly1305(msg, key):
+    r = int.from_bytes(key[:16], "little") & 0x0ffffffc0ffffffc0ffffffc0fffffff
+    s = int.from_bytes(key[16:32], "little")
+    p = (1 << 130) - 5
+    acc = 0
+    for i in range(0, len(msg), 16):
+        block = msg[i:i + 16]
+        acc = (acc + int.from_bytes(block + b"\x01", "little")) * r % p
+    return ((acc + s) & ((1 << 128) - 1)).to_bytes(16, "little")
+
+
+def _secretbox(message, nonce24, key):
+    """crypto_secretbox_xsalsa20poly1305: 16 bytes of tag, then the ciphertext."""
+    stream = _xsalsa20_stream(key, nonce24, 32 + len(message))
+    cipher = bytes(a ^ b for a, b in zip(message, stream[32:]))
+    return _poly1305(cipher, stream[:32]) + cipher
+
+
+def seal_for_github(public_key, message):
+    """libsodium's crypto_box_seal: what GitHub wants an Actions secret sealed
+    with.  Returns the ephemeral public key followed by the sealed box."""
+    esk = secrets.token_bytes(32)
+    epk = _x25519(esk, b"\x09" + b"\x00" * 31)              # our throw-away public key
+    shared = _x25519(esk, public_key)
+    key = _hsalsa20(shared, b"\x00" * 16)                   # crypto_box_beforenm
+    nonce = hashlib.blake2b(epk + public_key, digest_size=24).digest()
+    return epk + _secretbox(message, nonce, key)
+
+
+def push_cloud_settings(ids):
+    """Copy this PC's settings for the chosen strategies into the cloud's
+    cloud/config.json.  The cloud's next run sends them to each strategy the
+    same way its own Save button does, so the strategy still checks them."""
+    import base64
+    cfg = read_cloud()
+    sending, missing = {}, []
+    for sid in ids:
+        got = local_settings(sid)
+        if not got:
+            missing.append(sid)
+        else:
+            sending[sid] = got["values"]
+    if not sending:
+        raise UpdateError("No saved settings were found on this PC for %s. Open the strategy, "
+                          "press Save on its settings once, then send them."
+                          % (", ".join(missing) or "those strategies"))
+    cur = _cloud_api(cfg, "/contents/%s" % CLOUD_CONFIG_PATH)
+    try:
+        conf = json.loads(base64.b64decode(cur.get("content") or "").decode("utf-8"))
+        if not isinstance(conf, dict):
+            raise ValueError
+    except (ValueError, TypeError):
+        raise UpdateError("The cloud's %s could not be read. Fix it on GitHub first." % CLOUD_CONFIG_PATH)
+    settings = conf.get("settings")
+    conf["settings"] = settings = settings if isinstance(settings, dict) else {}
+    unchanged = [s for s in sending if settings.get(s) == sending[s]]
+    settings.update(sending)
+    body = json.dumps(conf, indent=2, sort_keys=False) + "\n"
+    _cloud_api(cfg, "/contents/%s" % CLOUD_CONFIG_PATH, "PUT", {
+        "message": "Settings for %s from NIFTY Trader" % ", ".join(sorted(sending)),
+        "content": base64.b64encode(body.encode("utf-8")).decode(),
+        "sha": cur.get("sha"),
+    })
+    return {"sent": sorted(sending), "missing": missing, "unchanged": unchanged}
+
+
+def push_cloud_token(access_token, client_id=""):
+    """Put the Dhan token into the cloud repository's DHAN_ACCESS_TOKEN secret,
+    so it is pasted in one place and both this PC and the cloud have it.
+    GitHub only takes a secret sealed with the repository's public key."""
+    import base64
+    cfg = read_cloud()
+    if not (access_token or "").strip():
+        raise UpdateError("There is no token to send. Paste one first.")
+    key = _cloud_api(cfg, "/actions/secrets/public-key")
+    pub = base64.b64decode(key["key"])
+    if len(pub) != 32:
+        raise UpdateError("GitHub sent a public key of an unexpected size; nothing was sent.")
+    for name, value in (("DHAN_ACCESS_TOKEN", access_token.strip()),
+                        ("DHAN_CLIENT_ID", (client_id or "").strip())):
+        if not value:
+            continue
+        _cloud_api(cfg, "/actions/secrets/" + name, "PUT", {
+            "encrypted_value": base64.b64encode(
+                seal_for_github(pub, value.encode("utf-8"))).decode(),
+            "key_id": key["key_id"]})
+    rec = read_cloud()
+    rec["token_sent_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    _write_json_atomic(CLOUD_FILE, rec)
+    return {"repo": cfg["repo"], "sent_at": rec["token_sent_at"],
+            "expires_at": _jwt_expiry(access_token)}
+
+
+def cloud_view(mgr=None):
+    """What the ☁ Cloud screen shows: the cloud's own status file, plus, for
+    each strategy, whether this PC's settings differ from the cloud's."""
+    cfg = read_cloud()
+    with _cloud_lock:
+        status = CLOUD["status"]
+        error, checked = CLOUD["error"], CLOUD["checked"]
+    out = {"repo": cfg["repo"], "enabled": cfg["enabled"], "has_token": bool(cfg["token"]),
+           "send_token": cfg["send_token"], "token_sent_at": cfg["token_sent_at"],
+           "token_tail": cfg["token"][-4:] if len(cfg["token"]) > 8 else "",
+           "report_url": cloud_report_url(cfg),
+           "actions_url": "https://github.com/%s/actions" % cfg["repo"],
+           "secret_url": "https://github.com/%s/settings/secrets/actions" % cfg["repo"],
+           "status": status, "error": error, "checked_at": checked or None,
+           "config_url": "https://github.com/%s/blob/main/%s" % (cfg["repo"], CLOUD_CONFIG_PATH)}
+    local = {}
+    ids = set((status or {}).get("strategies") or {})
+    for sid in ids | {r.id for r in (mgr.scan() if mgr else [])}:
+        got = local_settings(sid)
+        cloud_cfg = (((status or {}).get("strategies") or {}).get(sid) or {}).get("settings")
+        same = None
+        if got and isinstance(cloud_cfg, dict):
+            same = all(cloud_cfg.get(k) == v for k, v in got["values"].items())
+        local[sid] = {"has": bool(got), "same": same,
+                      "here": bool(os.path.isdir(os.path.join(STRATEGIES_DIR, sid)))}
+    out["local"] = local
+    return out
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 #  HUB WEB API
 # ═════════════════════════════════════════════════════════════════════════════
 def build_hub_app(mgr, port_holder):
@@ -1343,7 +1746,19 @@ def build_hub_app(mgr, port_holder):
     @hub.route("/api/broker", methods=["POST"])
     def broker_set():
         body = request.get_json(silent=True) or {}
-        write_broker(body.get("access_token"), body.get("client_id"))
+        rec = write_broker(body.get("access_token"), body.get("client_id"))
+        # One paste, both places: the same token also goes up to the cloud's
+        # DHAN_ACCESS_TOKEN secret, so its next run has it without a second trip
+        # to GitHub.  A failure here never loses the token saved on this PC.
+        cloud = {"tried": False}
+        cfg = read_cloud()
+        if rec["access_token"] and cfg["send_token"] and cfg["token"]:
+            cloud["tried"] = True
+            try:
+                cid = rec["client_id"] or _jwt_client_id(rec["access_token"])
+                cloud.update(ok=True, **push_cloud_token(rec["access_token"], cid))
+            except (UpdateError, OSError, ValueError, KeyError) as e:
+                cloud.update(ok=False, error=str(e))
         # A running strategy read the old token at launch, so it must be
         # restarted to pick this up. Doing it here is the whole point of having
         # one place: the user should not have to remember to do it per strategy.
@@ -1352,7 +1767,7 @@ def build_hub_app(mgr, port_holder):
             if r.state in ("running", "starting"):
                 _restart_later(r)
                 restarted.append(r.id)
-        return ok(restarted=restarted)
+        return ok(restarted=restarted, cloud=cloud)
 
     def _github_settings():
         c = read_github()
@@ -1419,6 +1834,59 @@ def build_hub_app(mgr, port_holder):
             strategies.append({"id": x.id, "name": m["name"], "icon": m["icon"],
                                "on": kill_applies(x.id, r), "kind": kind})
         return {"vix_limit": r["vix_limit"], "strategies": strategies}
+
+    @hub.route("/api/cloud", methods=["GET"])
+    def cloud_get():
+        return ok(**cloud_view(mgr))
+
+    @hub.route("/api/cloud/open", methods=["POST"])
+    def cloud_open():
+        what = (request.get_json(force=True, silent=True) or {}).get("what")
+        view = cloud_view()
+        url = {"report": view["report_url"], "actions": view["actions_url"],
+               "secret": view["secret_url"], "config": view["config_url"]}.get(what)
+        if not url:
+            return fail("Nothing to open.")
+        import webbrowser
+        webbrowser.open(url)
+        return ok(url=url)
+
+    @hub.route("/api/cloud/refresh", methods=["POST"])
+    def cloud_refresh():
+        fetch_cloud_status()
+        return ok(**cloud_view(mgr))
+
+    @hub.route("/api/cloud/settings", methods=["POST"])
+    def cloud_settings():
+        try:
+            write_cloud(request.get_json(force=True, silent=True) or {})
+        except ValueError as e:
+            return fail(e)
+        return ok(**cloud_view(mgr))
+
+    @hub.route("/api/cloud/push", methods=["POST"])
+    def cloud_push():
+        body = request.get_json(force=True, silent=True) or {}
+        ids = [s for s in (body.get("ids") or []) if isinstance(s, str)]
+        if not ids:
+            return fail("Pick at least one strategy whose settings should go to the cloud.")
+        try:
+            res = push_cloud_settings(ids)
+        except UpdateError as e:
+            return fail(e)
+        return ok(**res, **cloud_view(mgr))
+
+    @hub.route("/api/cloud/send-token", methods=["POST"])
+    def cloud_send_token():
+        cred = read_broker()
+        if not cred["access_token"]:
+            return fail("There is no Dhan token on this PC yet. Add one under 🔑 Broker token.")
+        try:
+            res = push_cloud_token(cred["access_token"],
+                                   cred["client_id"] or _jwt_client_id(cred["access_token"]))
+        except UpdateError as e:
+            return fail(e)
+        return ok(**res, **cloud_view(mgr))
 
     @hub.route("/api/risk", methods=["GET"])
     def risk_get():
@@ -1576,6 +2044,7 @@ def hub_main():
             traceback.print_exc()
     threading.Thread(target=_auto_check, daemon=True).start()
     threading.Thread(target=_vix_loop, daemon=True).start()
+    threading.Thread(target=_cloud_loop, daemon=True).start()
 
     if no_window:
         try:

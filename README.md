@@ -10,11 +10,18 @@ their own trade book. Both use the same Dhan token.
 
 ## Your daily routine
 
-1. **Evening:** generate a fresh access token on Dhan's website, then on GitHub open this repository →
-   **Settings → Secrets and variables → Actions** → `DHAN_ACCESS_TOKEN` → ✏️ **Update** → paste → **Update secret**.
-   The phone browser works too. Nobody can read the secret back, not even in the logs.
+1. **Evening:** put a fresh Dhan token in, either way round:
+   - **From the desktop app** (NIFTY Trader 1.7.0 and later): ⚙ → **Broker token** → paste → Save. It goes to this
+     PC *and* up to the secret below, so this is the only place you paste it. Set it up once under
+     ☁ **Cloud → Set up sending**.
+   - **On GitHub:** this repository → **Settings → Secrets and variables → Actions** → `DHAN_ACCESS_TOKEN` →
+     ✏️ **Update** → paste → **Update secret**. The phone browser works too.
+
+   Either way nobody can read the secret back, not even in the logs.
 2. **Next day:** nothing. It starts by itself at about 09:10 IST and stops at 15:15 IST.
-3. **Any time:** open the [report](https://github.com/Shubham050396/Nifty-Trading-Cloud/blob/cloud-data/REPORT.md), in any browser or the GitHub app.
+3. **Any time:** see the results in the desktop app's ☁ **Cloud** screen, or open the
+   [report](https://github.com/Shubham050396/Nifty-Trading-Cloud/blob/cloud-data/REPORT.md) in any browser
+   or the GitHub app.
 
 A Dhan token lasts 24 hours from when it is made, so a token made in the evening covers the whole next trading day.
 
@@ -55,7 +62,13 @@ Each run's page (Actions tab) shows the same report at the end, and its **logs**
 
 ## Settings
 
-Everything is in [`cloud/config.json`](cloud/config.json); edit it on GitHub (✏️) and the next run uses it.
+Two ways to change them, both ending up in [`cloud/config.json`](cloud/config.json), which the next run uses.
+
+**From the desktop app** (easier, and it checks as you type): set the strategy up on its own dashboard as usual,
+then ☁ **Cloud → Send my settings** on that strategy's card. The card also says whether the cloud's settings
+already match this PC's. Needs ☁ **Cloud → Set up sending** once.
+
+**On GitHub:** edit `cloud/config.json` directly (✏️).
 
 | Key | Meaning |
 |---|---|
@@ -64,9 +77,9 @@ Everything is in [`cloud/config.json`](cloud/config.json); edit it on GitHub (�
 | `save_every_minutes` | How often trades and the report are saved (default 5). |
 | `vix_limit` | India VIX kill switch, as in the desktop app (default 13.5; 0 = off). |
 | `vix_limit_applies_to` | e.g. `{"scalper": true}`. Empty = the option-selling strategies only (credit spreads, EMA hedge), as in the desktop app. |
-| `settings` | Strategy settings, e.g. `{"scalper": {"max_trades": 4}}`. Sent to the strategy the way its own Save button sends them. Empty = each strategy's defaults. |
+| `settings` | Strategy settings, e.g. `{"scalper": {"max_trades": 4}}`. Sent to the strategy the way its own Save button sends them. Empty = each strategy's defaults. This is what **Send my settings** in the app writes. |
 
-The strategies start with their **default settings**, not the ones on your laptop.
+Until you send settings, the strategies run with their **default settings**, not the ones on your laptop.
 
 ## Where things are
 
@@ -80,7 +93,7 @@ strategies/                   copied from Nifty-Trading-Software (commit ab471db
 
 cloud-data branch
   REPORT.md                   the report
-  status.json                 the same figures, for programs
+  status.json                 the same figures, read by the app's ☁ Cloud screen
   state/<strategy>/           each strategy's trade book and state
 ```
 
