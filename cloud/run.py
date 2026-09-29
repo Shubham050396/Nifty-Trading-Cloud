@@ -47,7 +47,9 @@ DATA_BRANCH = "cloud-data"
 
 IST = timezone(timedelta(hours=5, minutes=30))
 JOB_BUDGET_MIN = 354          # GitHub stops a job at 360 minutes; keep a few for the final save
-CHECK_RUN_MIN = 5             # a run started outside market hours only checks that everything starts
+CHECK_RUN_MIN = 5             # a run started outside the trading day only checks that everything starts
+MARKET_OPEN = (9, 15)         # IST
+EARLY_GRACE_MIN = 30          # how early before the open a run still counts as that day's
 MAX_RESTARTS = 3
 SETTINGS_PATH = {"credit_spreads": "/api/filters"}     # every other strategy saves settings at /api/config
 STATUS_PATH = {"credit_spreads": "/api/status"}        # every other strategy reports at /api/state
@@ -539,14 +541,21 @@ def redact_logs(sids):
 #  WHEN TO STOP
 # ═════════════════════════════════════════════════════════════════════════════
 def plan_stop(cfg):
-    """(stop time, what kind of run).  A normal day ends at stop_at (15:15 IST)
-    or before GitHub's 6-hour limit, whichever is first.  Started at a weekend
-    or after stop_at, the run only checks that everything starts."""
+    """(stop time, what kind of run).  A trading day ends at stop_at (15:15 IST)
+    or before GitHub's 6-hour limit, whichever is first.  A run started outside
+    the trading day - at a weekend, before the market opens, or after the close
+    - only checks that the token works and every strategy starts.  Without that
+    last case a run started at, say, 00:20 would sit there until its 6 hours ran
+    out, and could still be holding the job when the 09:10 one is due."""
     now = ist_now()
     started = float(os.environ.get("CLOUD_JOB_STARTED") or time.time())
     hard = datetime.fromtimestamp(started + JOB_BUDGET_MIN * 60, IST)
     h, m = (int(x) for x in str(cfg["stop_at"]).split(":"))
     day_stop = now.replace(hour=h, minute=m, second=0, microsecond=0)
+    # The schedule fires at 09:10 for a 09:15 open, and GitHub can be late, so
+    # the trading day is counted from a little before the open.
+    opens = now.replace(hour=MARKET_OPEN[0], minute=MARKET_OPEN[1], second=0, microsecond=0)
+    from_time = opens - timedelta(minutes=EARLY_GRACE_MIN)
     minutes = _arg("--minutes") or os.environ.get("CLOUD_MINUTES") or ""
     try:
         minutes = int(float(minutes))
@@ -554,9 +563,15 @@ def plan_stop(cfg):
         minutes = 0
     if minutes > 0:
         return min(now + timedelta(minutes=minutes), hard), "manual run (%d min)" % minutes
-    if now.weekday() >= 5 or now >= day_stop - timedelta(minutes=CHECK_RUN_MIN):
-        return min(now + timedelta(minutes=CHECK_RUN_MIN), hard), "check run (outside trading hours)"
-    return min(day_stop, hard), "trading day"
+    if now.weekday() >= 5:
+        why = "check run (weekend)"
+    elif now < from_time:
+        why = "check run (before the market opens)"
+    elif now >= day_stop - timedelta(minutes=CHECK_RUN_MIN):
+        why = "check run (after the trading day)"
+    else:
+        return min(day_stop, hard), "trading day"
+    return min(now + timedelta(minutes=CHECK_RUN_MIN), hard), why
 
 
 def token_text(exp, stop):
