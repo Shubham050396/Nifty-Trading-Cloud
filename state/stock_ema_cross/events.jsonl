@@ -15,3 +15,10 @@
 {"id": 15, "ts": "2026-09-30 00:20:43", "at": "00:20:43", "kind": "api", "msg": "share prices unavailable: HTTP 429"}
 {"id": 16, "ts": "2026-09-30 00:30:43", "at": "00:30:43", "kind": "contract", "msg": "watching 1386 contracts on 99 stocks (ATM +/- 3, CE/PE): 1386 added, 0 dropped"}
 {"id": 17, "ts": "2026-09-30 00:30:49", "at": "00:30:49", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 18, "ts": "2026-09-30 00:30:58", "at": "00:30:58", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 19, "ts": "2026-09-30 00:31:07", "at": "00:31:07", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 20, "ts": "2026-09-30 00:31:16", "at": "00:31:16", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 21, "ts": "2026-09-30 00:31:20", "at": "00:31:20", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 22, "ts": "2026-09-30 00:31:29", "at": "00:31:29", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 23, "ts": "2026-09-30 00:31:47", "at": "00:31:47", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 24, "ts": "2026-09-30 00:31:50", "at": "00:31:50", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}

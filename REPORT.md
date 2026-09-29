@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 06:14 IST** · updated 30 Sep 2026 00:30 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
+**Running until 06:14 IST** · updated 30 Sep 2026 00:35 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
 
 India VIX **13.41** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 00:20 → 06:14 IST (trading day)
 
@@ -19,12 +19,12 @@ Paper trading only. Margin figures are estimates, as in the desktop app. Trades 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-09-30 00:20:37] SCAN      scanner started automatically on launch
 serving NIFTY Credit Spreads on http://127.0.0.1:48789
 [2026-09-30 00:20:41] BOOT      scrip master downloaded: 4104 NIFTY contracts in 4.4s
 [2026-09-30 00:20:42] BOOT      Ready - 18 expiries, 4104 NIFTY contracts
 127.0.0.1 - - [29/Sep/2026 18:50:47] "GET /api/status HTTP/1.1" 200 -
 [2026-09-30 00:20:47] MARKET    heartbeat: pre-open, session starts 09:15 IST; token expires in 22h 20m
+[2026-09-30 00:35:48] MARKET    heartbeat: pre-open, session starts 09:15 IST; token expires in 22h 5m
 ```
 </details>
 
@@ -67,24 +67,24 @@ serving NIFTY MACD - Monthly 1000s on http://127.0.0.1:45093
 <details><summary>NIFTY Scalper - IVX-G - last log lines</summary>
 
 ```text
-[2026-09-30 00:20:41] RUN       scalper armed - started automatically on launch
 [2026-09-30 00:20:42] BOOT      scrip master: 4104 NIFTY contracts
 [2026-09-30 00:20:42] BOOT      Ready - lot 65, 18 expiries, trading 2026-10-06
 127.0.0.1 - - [29/Sep/2026 18:50:47] "GET /api/state HTTP/1.1" 200 -
 [2026-09-30 00:27:47] DATA      buffer gap > 15s - cleared, re-warming
 [2026-09-30 00:29:41] DATA      buffer gap > 15s - cleared, re-warming
+[2026-09-30 00:31:38] DATA      buffer gap > 15s - cleared, re-warming
 ```
 </details>
 
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[00:20:43] CONTROL   started automatically on launch - 99 stocks
-[00:20:43] API       market quote: rate limited by Dhan - now one call every 2.0 s
-[00:20:43] API       share prices unavailable: HTTP 429
-127.0.0.1 - - [29/Sep/2026 18:50:47] "GET /api/state HTTP/1.1" 200 -
-[00:30:43] CONTRACT  watching 1386 contracts on 99 stocks (ATM +/- 3, CE/PE): 1386 added, 0 dropped
-[00:30:49] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[00:31:07] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[00:31:16] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[00:31:20] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[00:31:29] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[00:31:47] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[00:31:50] API       chart history: rate limited by Dhan - now one call every 1.2 s
 ```
 </details>
 
