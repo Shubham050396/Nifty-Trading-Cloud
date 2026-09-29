@@ -1,0 +1,3 @@
+# Store every file byte-for-byte (no CRLF/LF conversion), so the in-app
+# strategy updater can compare local files with GitHub exactly.
+* -text

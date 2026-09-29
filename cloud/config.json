@@ -1,0 +1,8 @@
+{
+  "strategies": ["credit_spreads", "ema_hedge", "level_cross", "macd_monthly", "scalper", "stock_ema_cross"],
+  "stop_at": "15:15",
+  "save_every_minutes": 5,
+  "vix_limit": 13.5,
+  "vix_limit_applies_to": {},
+  "settings": {}
+}

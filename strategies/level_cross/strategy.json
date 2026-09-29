@@ -1,0 +1,11 @@
+{
+  "name": "NIFTY 2-Level Cross",
+  "description": "Buys one option when its premium crosses up through Level 2 or Level 3 with momentum. Exits on a VIX-based target, a trailing stop, or a failed push.",
+  "icon": "\ud83c\udfaf",
+  "color": "#a855f7",
+  "entry": "level_cross_app.py",
+  "app_object": "app",
+  "data_env": "DATA_DIR",
+  "autostart": false,
+  "runtime": "bundled"
+}

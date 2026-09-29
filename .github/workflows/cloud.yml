@@ -1,0 +1,69 @@
+# Runs the strategies on GitHub every weekday, no laptop needed.
+#
+#   Starts   09:10 IST Monday-Friday (GitHub may start it a few minutes late).
+#   Stops    15:15 IST, or earlier if GitHub's 6-hour limit comes first.
+#   Saves    trades, state and REPORT.md to the cloud-data branch every 5 minutes.
+#
+# The Dhan token comes from the DHAN_ACCESS_TOKEN secret:
+#   Settings -> Secrets and variables -> Actions.
+# To test at any time: Actions -> Cloud trading -> Run workflow.
+name: Cloud trading
+
+on:
+  schedule:
+    - cron: "40 3 * * 1-5"          # 03:40 UTC = 09:10 IST
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: "Stop after this many minutes. Leave empty: trade until 15:15 IST (outside market hours: a 5-minute check)."
+        required: false
+        default: ""
+
+permissions:
+  contents: write                   # save trades to the cloud-data branch
+  actions: write                    # keep this schedule switched on
+
+concurrency:
+  group: cloud-trading              # never two runs trading the same book
+  cancel-in-progress: false
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Note the start time
+        run: echo "CLOUD_JOB_STARTED=$(date +%s)" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install
+        run: python -m pip install --disable-pip-version-check flask requests tzdata
+
+      - name: Trade
+        env:
+          DHAN_ACCESS_TOKEN: ${{ secrets.DHAN_ACCESS_TOKEN }}
+          DHAN_CLIENT_ID: ${{ secrets.DHAN_CLIENT_ID }}
+          CLOUD_MINUTES: ${{ inputs.minutes }}
+        run: python cloud/run.py
+
+      # GitHub switches off schedules in public repos after 60 days without
+      # activity. Re-enabling it after every run keeps it on.
+      - name: Keep the daily schedule on
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/cloud.yml/enable" || true
+
+      - name: Keep the strategy logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ github.run_id }}
+          path: strategies/*/logs/
+          retention-days: 14
+          if-no-files-found: ignore

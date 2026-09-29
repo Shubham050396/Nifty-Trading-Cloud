@@ -1,0 +1,11 @@
+{
+  "name": "NIFTY MACD - Monthly 1000s",
+  "description": "MACD 30/60/15 cross on each option's own premium, on monthly-expiry strikes in multiples of 1000 (CE and PE). Enters only between Rs 144 and 1600 with yesterday's India VIX at 15 or below.",
+  "icon": "📈",
+  "color": "#22c55e",
+  "entry": "macd_app.py",
+  "app_object": "app",
+  "data_env": "DATA_DIR",
+  "autostart": false,
+  "runtime": "bundled"
+}

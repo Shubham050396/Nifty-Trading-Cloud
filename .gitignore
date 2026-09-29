@@ -1,0 +1,22 @@
+# Never commit credentials or trading state. Trades and state are saved by
+# cloud/run.py to the cloud-data branch, never to main.
+config.py
+hub/broker.json
+hub/github.json
+hub/risk.json
+secret_key
+runtime.json
+runtime.json.*
+*.lock
+*.pid
+data/
+strategies/*/data/
+strategies/*/logs/
+hub/logs/
+.cloud-data/
+
+# Caches
+*.bak
+*.bak.*
+__pycache__/
+*.pyc

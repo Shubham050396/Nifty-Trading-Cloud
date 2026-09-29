@@ -1,0 +1,11 @@
+{
+  "name": "Stock Options EMA Cross",
+  "description": "Buys ATM +/- 3 strike options of the Nifty 100 stocks when the premium crosses up through its 30-minute EMA 144 with momentum. Exits on a quick 15%, a 70% target, a Rs profit target, a close under EMA 55, or before a holiday.",
+  "icon": "\ud83d\udcca",
+  "color": "#22c55e",
+  "entry": "stock_ema_app.py",
+  "app_object": "app",
+  "data_env": "DATA_DIR",
+  "autostart": false,
+  "runtime": "bundled"
+}

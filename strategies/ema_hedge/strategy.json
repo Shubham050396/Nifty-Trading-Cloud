@@ -1,0 +1,11 @@
+{
+  "name": "NIFTY EMA Breakout Hedge",
+  "description": "The Pine 100 EMA breakout (40 EMA stop) run on the NIFTY index, traded as hedged ATM option spreads - one leg sold, one bought - in the current 4 expiries. VIX kill switch: above the VIX limit (default 13.5) it opens no spreads and closes all open ones.",
+  "icon": "\ud83d\udee1\ufe0f",
+  "color": "#14b8a6",
+  "entry": "ema_hedge_app.py",
+  "app_object": "app",
+  "data_env": "DATA_DIR",
+  "autostart": false,
+  "runtime": "bundled"
+}

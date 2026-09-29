@@ -1,0 +1,11 @@
+{
+  "name": "NIFTY Credit Spreads",
+  "description": "Sells defined-risk credit spreads on the NIFTY option chain, with a screener, margin check and exit rules. VIX kill switch: above the VIX limit (default 13.5) it takes no new trades and closes all open spreads.",
+  "icon": "\u2696\ufe0f",
+  "color": "#38bdf8",
+  "entry": "trading_web_app.py",
+  "app_object": "app",
+  "data_env": "DATA_DIR",
+  "autostart": false,
+  "runtime": "bundled"
+}

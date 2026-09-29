@@ -1,0 +1,11 @@
+{
+  "name": "NIFTY Scalper - IVX-G",
+  "description": "Buys one ATM option when volatility is rising, with a per-day loss budget and a hard trade cap.",
+  "icon": "\u26a1",
+  "color": "#f59e0b",
+  "entry": "scalper_app.py",
+  "app_object": "app",
+  "data_env": "SCALP_DATA_DIR",
+  "autostart": false,
+  "runtime": "bundled"
+}
