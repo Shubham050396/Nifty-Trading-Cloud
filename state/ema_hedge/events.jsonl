@@ -8,3 +8,4 @@
 {"id": 8, "ts": "2026-09-30 00:20:38", "at": "00:20:38", "kind": "control", "msg": "started automatically on launch"}
 {"id": 9, "ts": "2026-09-30 00:20:38", "at": "00:20:38", "kind": "day", "msg": "new session 2026-09-30"}
 {"id": 10, "ts": "2026-09-30 00:20:42", "at": "00:20:42", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
+{"id": 11, "ts": "2026-09-30 02:20:44", "at": "02:20:44", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}

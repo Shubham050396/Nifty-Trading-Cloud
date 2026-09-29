@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 06:14 IST** · updated 30 Sep 2026 02:16 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
+**Running until 06:14 IST** · updated 30 Sep 2026 02:21 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
 
 India VIX **13.41** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 00:20 → 06:14 IST (trading day)
 
@@ -19,24 +19,24 @@ Paper trading only. Margin figures are estimates, as in the desktop app. Trades 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-09-30 01:20:48] MARKET    heartbeat: pre-open, session starts 09:15 IST; token expires in 21h 20m
 [2026-09-30 01:35:49] MARKET    heartbeat: pre-open, session starts 09:15 IST; token expires in 21h 5m
 [2026-09-30 01:50:49] MARKET    heartbeat: pre-open, session starts 09:15 IST; token expires in 20h 50m
 [2026-09-30 02:05:44] API_ERROR marketfeed/ltp: HTTP 429 rate limited
 [2026-09-30 02:05:44] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
 [2026-09-30 02:05:49] MARKET    heartbeat: pre-open, session starts 09:15 IST; token expires in 20h 35m
+[2026-09-30 02:20:49] MARKET    heartbeat: pre-open, session starts 09:15 IST; token expires in 20h 20m
 ```
 </details>
 
 <details><summary>NIFTY EMA Breakout Hedge - last log lines</summary>
 
 ```text
-cloud: expiry-day exit 15:15 -> 06:09
 serving NIFTY EMA Breakout Hedge on http://127.0.0.1:53839
 [00:20:38] CONTROL   started automatically on launch
 [00:20:38] DAY       new session 2026-09-30
 [00:20:42] BOOT      ready - 18 expiries listed, NIFTY lot 65
 127.0.0.1 - - [29/Sep/2026 18:50:47] "GET /api/state HTTP/1.1" 200 -
+[02:20:44] VIX       India VIX unavailable (HTTP 429) - no new spreads until it can be read
 ```
 </details>
 
