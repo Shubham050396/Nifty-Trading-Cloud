@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 06:14 IST** · updated 30 Sep 2026 00:20 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
+**Running until 06:14 IST** · updated 30 Sep 2026 00:25 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
 
 India VIX **13.41** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 00:20 → 06:14 IST (trading day)
 
@@ -19,12 +19,12 @@ Paper trading only. Margin figures are estimates, as in the desktop app. Trades 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-09-30 00:20:37] BOOT      started (pid 2315, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/credit_spreads/data, auth=off)
 [2026-09-30 00:20:37] SCAN      scanner started automatically on launch
 serving NIFTY Credit Spreads on http://127.0.0.1:48789
 [2026-09-30 00:20:41] BOOT      scrip master downloaded: 4104 NIFTY contracts in 4.4s
 [2026-09-30 00:20:42] BOOT      Ready - 18 expiries, 4104 NIFTY contracts
 127.0.0.1 - - [29/Sep/2026 18:50:47] "GET /api/status HTTP/1.1" 200 -
+[2026-09-30 00:20:47] MARKET    heartbeat: pre-open, session starts 09:15 IST; token expires in 22h 20m
 ```
 </details>
 
