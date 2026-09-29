@@ -1,0 +1,6 @@
+{"id": 1, "ts": "2026-09-29 22:50:24", "at": "22:50:24", "kind": "boot", "msg": "engine thread started"}
+{"id": 2, "ts": "2026-09-29 22:50:24", "at": "22:50:24", "kind": "boot", "msg": "level-cross app up (pid 2307, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/level_cross/data)"}
+{"id": 3, "ts": "2026-09-29 22:50:29", "at": "22:50:29", "kind": "config", "msg": "no expiry chosen - using 2026-09-29"}
+{"id": 4, "ts": "2026-09-29 22:50:29", "at": "22:50:29", "kind": "boot", "msg": "ready - 18 expiries, 4104 contracts in the scrip master"}
+{"id": 5, "ts": "2026-09-29 22:50:29", "at": "22:50:29", "kind": "vix", "msg": "India VIX prev close 13.64 -> target 1000 ticks (Rs 50.00)"}
+{"id": 6, "ts": "2026-09-29 22:50:30", "at": "22:50:30", "kind": "control", "msg": "started automatically on launch"}

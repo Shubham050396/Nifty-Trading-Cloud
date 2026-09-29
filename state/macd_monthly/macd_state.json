@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "saved_at": "2026-09-29 22:50:29",
+  "cfg": {
+    "expiries": [
+      "2026-10-27"
+    ],
+    "opt_types": [
+      "CE",
+      "PE"
+    ],
+    "strike_mode": "atm",
+    "strikes_each_side": 3,
+    "strike_list": [],
+    "fast": 30,
+    "slow": 60,
+    "signal": 15,
+    "bar_minutes": 5,
+    "min_premium": 144.0,
+    "max_premium": 1600.0,
+    "vix_max": 15.0,
+    "direction": "long_short",
+    "lots": 1,
+    "max_trades_per_day": 30,
+    "max_open": 10
+  },
+  "lanes": {},
+  "unflushed_trades": [],
+  "trades_today": 0,
+  "day": "2026-09-29"
+}

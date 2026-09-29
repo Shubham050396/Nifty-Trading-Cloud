@@ -1,50 +1,132 @@
 {
-  "updated": "2026-09-29T22:45:40+05:30",
-  "headline": "\u274c Not trading",
-  "phase": "failed",
-  "window": "22:45 \u2192 22:50 IST (check run (outside trading hours))",
-  "vix": null,
+  "updated": "2026-09-29T22:50:33+05:30",
+  "headline": "Running until 22:55 IST",
+  "phase": "running",
+  "window": "22:50 \u2192 22:55 IST (check run (outside trading hours))",
+  "vix": 13.41,
   "vix_limit": 13.5,
-  "run_url": "https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36603489589",
-  "notices": [
-    "No Dhan token. On GitHub open Settings \u2192 Secrets and variables \u2192 Actions and add DHAN_ACCESS_TOKEN."
-  ],
+  "run_url": "https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36604204667",
+  "notices": [],
   "strategies": {
     "credit_spreads": {
       "name": "NIFTY Credit Spreads",
-      "state": "stopped",
+      "state": "running",
       "error": "",
-      "summary": null
+      "summary": {
+        "margin_used": 0,
+        "open": 0,
+        "margin_next": null,
+        "margin_next_max": null,
+        "basis": "hedged credit spread: SPAN + exposure estimate (+/-15%)",
+        "pnl_today": 0,
+        "pnl_all": 0,
+        "pnl_open": 0,
+        "pct_today": null,
+        "pct_all": null,
+        "pct_open": null,
+        "trades_today": 0,
+        "trades_all": 0
+      }
     },
     "ema_hedge": {
       "name": "NIFTY EMA Breakout Hedge",
-      "state": "stopped",
+      "state": "running",
       "error": "",
-      "summary": null
+      "summary": {
+        "margin_used": 0,
+        "open": 0,
+        "margin_next": null,
+        "margin_next_max": null,
+        "basis": "hedged spreads in every current expiry: SPAN + exposure estimate",
+        "pnl_today": 0,
+        "pnl_all": 0,
+        "pnl_open": 0,
+        "pct_today": null,
+        "pct_all": null,
+        "pct_open": null,
+        "trades_today": 0,
+        "trades_all": 0
+      }
     },
     "level_cross": {
       "name": "NIFTY 2-Level Cross",
-      "state": "stopped",
+      "state": "running",
       "error": "",
-      "summary": null
+      "summary": {
+        "margin_used": 0,
+        "open": 0,
+        "margin_next": null,
+        "margin_next_max": null,
+        "basis": "option buying: premium x quantity, paid in full",
+        "pnl_today": 0,
+        "pnl_all": 0,
+        "pnl_open": 0,
+        "pct_today": null,
+        "pct_all": null,
+        "pct_open": null,
+        "trades_today": 0,
+        "trades_all": 0
+      }
     },
     "macd_monthly": {
       "name": "NIFTY MACD - Monthly 1000s",
-      "state": "stopped",
+      "state": "running",
       "error": "",
-      "summary": null
+      "summary": {
+        "margin_used": 0,
+        "open": 0,
+        "margin_next": null,
+        "margin_next_max": null,
+        "basis": "long: premium x quantity; short: naked-short margin estimate (~9.7% of notional)",
+        "pnl_today": 0,
+        "pnl_all": 0,
+        "pnl_open": 0,
+        "pct_today": null,
+        "pct_all": null,
+        "pct_open": null,
+        "trades_today": 0,
+        "trades_all": 0
+      }
     },
     "scalper": {
       "name": "NIFTY Scalper - IVX-G",
-      "state": "stopped",
+      "state": "running",
       "error": "",
-      "summary": null
+      "summary": {
+        "margin_used": 0,
+        "open": 0,
+        "margin_next": 6955,
+        "margin_next_max": 14268,
+        "basis": "option buying: ATM premium x quantity, paid in full",
+        "pnl_today": 0,
+        "pnl_all": 0,
+        "pnl_open": 0,
+        "pct_today": null,
+        "pct_all": null,
+        "pct_open": null,
+        "trades_today": 0,
+        "trades_all": 0
+      }
     },
     "stock_ema_cross": {
       "name": "Stock Options EMA Cross",
-      "state": "stopped",
+      "state": "running",
       "error": "",
-      "summary": null
+      "summary": {
+        "margin_used": 0,
+        "open": 0,
+        "margin_next": null,
+        "margin_next_max": null,
+        "basis": "option buying: premium x quantity, paid in full",
+        "pnl_today": 0,
+        "pnl_all": 0,
+        "pnl_open": 0,
+        "pct_today": null,
+        "pct_all": null,
+        "pct_open": null,
+        "trades_today": 0,
+        "trades_all": 0
+      }
     }
   }
 }

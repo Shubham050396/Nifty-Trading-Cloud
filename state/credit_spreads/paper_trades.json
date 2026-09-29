@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "saved_at": "2026-09-29 22:50:24",
+  "paper_positions": [],
+  "trade_history": [],
+  "pnl_series": [],
+  "filters": {
+    "min_eff": 50,
+    "min_pop": 72,
+    "dte_range": [
+      45,
+      90
+    ],
+    "ltp_range": [
+      127,
+      1000
+    ],
+    "exit_dte": 21,
+    "wing_width": 500,
+    "lots": 1,
+    "min_credit": 0,
+    "min_ror": 0,
+    "min_spread_pop": 0
+  },
+  "scanning_active": true,
+  "force_scan": false
+}
