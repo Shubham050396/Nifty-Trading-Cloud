@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-29T22:50:33+05:30",
-  "headline": "Running until 22:55 IST",
-  "phase": "running",
+  "updated": "2026-09-29T22:55:26+05:30",
+  "headline": "Finished for the day at 22:55 IST",
+  "phase": "finished",
   "window": "22:50 \u2192 22:55 IST (check run (outside trading hours))",
   "vix": 13.41,
   "vix_limit": 13.5,
@@ -10,7 +10,7 @@
   "strategies": {
     "credit_spreads": {
       "name": "NIFTY Credit Spreads",
-      "state": "running",
+      "state": "saved",
       "error": "",
       "summary": {
         "margin_used": 0,
@@ -30,7 +30,7 @@
     },
     "ema_hedge": {
       "name": "NIFTY EMA Breakout Hedge",
-      "state": "running",
+      "state": "saved",
       "error": "",
       "summary": {
         "margin_used": 0,
@@ -50,7 +50,7 @@
     },
     "level_cross": {
       "name": "NIFTY 2-Level Cross",
-      "state": "running",
+      "state": "saved",
       "error": "",
       "summary": {
         "margin_used": 0,
@@ -70,7 +70,7 @@
     },
     "macd_monthly": {
       "name": "NIFTY MACD - Monthly 1000s",
-      "state": "running",
+      "state": "saved",
       "error": "",
       "summary": {
         "margin_used": 0,
@@ -90,7 +90,7 @@
     },
     "scalper": {
       "name": "NIFTY Scalper - IVX-G",
-      "state": "running",
+      "state": "saved",
       "error": "",
       "summary": {
         "margin_used": 0,
@@ -110,7 +110,7 @@
     },
     "stock_ema_cross": {
       "name": "Stock Options EMA Cross",
-      "state": "running",
+      "state": "saved",
       "error": "",
       "summary": {
         "margin_used": 0,
