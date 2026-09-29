@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-29T22:44:20+05:30",
+  "updated": "2026-09-29T22:45:40+05:30",
   "headline": "\u274c Not trading",
   "phase": "failed",
-  "window": "22:44 \u2192 22:49 IST (check run (outside trading hours))",
+  "window": "22:45 \u2192 22:50 IST (check run (outside trading hours))",
   "vix": null,
   "vix_limit": 13.5,
   "run_url": "https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36603489589",
