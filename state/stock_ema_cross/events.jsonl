@@ -22,3 +22,4 @@
 {"id": 22, "ts": "2026-09-30 00:31:29", "at": "00:31:29", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 23, "ts": "2026-09-30 00:31:47", "at": "00:31:47", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 24, "ts": "2026-09-30 00:31:50", "at": "00:31:50", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 25, "ts": "2026-09-30 00:53:39", "at": "00:53:39", "kind": "warm", "msg": "bar history loaded for all 1386 contracts"}

@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 06:14 IST** · updated 30 Sep 2026 00:50 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
+**Running until 06:14 IST** · updated 30 Sep 2026 00:55 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
 
 India VIX **13.41** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 00:20 → 06:14 IST (trading day)
 
@@ -79,12 +79,12 @@ serving NIFTY MACD - Monthly 1000s on http://127.0.0.1:45093
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[00:31:07] API       chart history: rate limited by Dhan - now one call every 1.2 s
 [00:31:16] API       chart history: rate limited by Dhan - now one call every 1.2 s
 [00:31:20] API       chart history: rate limited by Dhan - now one call every 1.2 s
 [00:31:29] API       chart history: rate limited by Dhan - now one call every 1.2 s
 [00:31:47] API       chart history: rate limited by Dhan - now one call every 1.2 s
 [00:31:50] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[00:53:39] WARM      bar history loaded for all 1386 contracts
 ```
 </details>
 
