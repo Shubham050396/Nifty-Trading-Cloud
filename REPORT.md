@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 06:14 IST** · updated 30 Sep 2026 04:57 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
+**Running until 06:14 IST** · updated 30 Sep 2026 05:02 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
 
 India VIX **13.41** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 00:20 → 06:14 IST (trading day)
 
