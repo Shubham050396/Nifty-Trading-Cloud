@@ -3,3 +3,8 @@
 {"id": 3, "ts": "2026-09-29 22:50:25", "at": "22:50:25", "kind": "control", "msg": "started automatically on launch"}
 {"id": 4, "ts": "2026-09-29 22:50:25", "at": "22:50:25", "kind": "candles", "msg": "loaded 825 NIFTY 5-minute candles. The script's position right now: FLAT"}
 {"id": 5, "ts": "2026-09-29 22:50:29", "at": "22:50:29", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
+{"id": 6, "ts": "2026-09-30 00:20:37", "at": "00:20:37", "kind": "boot", "msg": "engine thread started"}
+{"id": 7, "ts": "2026-09-30 00:20:37", "at": "00:20:37", "kind": "boot", "msg": "ema-hedge app up (pid 2316, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/ema_hedge/data)"}
+{"id": 8, "ts": "2026-09-30 00:20:38", "at": "00:20:38", "kind": "control", "msg": "started automatically on launch"}
+{"id": 9, "ts": "2026-09-30 00:20:38", "at": "00:20:38", "kind": "day", "msg": "new session 2026-09-30"}
+{"id": 10, "ts": "2026-09-30 00:20:42", "at": "00:20:42", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
