@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-09-30 10:45:53",
+  "saved_at": "2026-09-30 10:46:07",
   "cfg": {
     "interval": 5,
     "ema_entry": 100,
@@ -119,7 +119,9 @@
       "note": "closing 4 spreads"
     }
   ],
-  "positions": [
+  "positions": [],
+  "pending": null,
+  "unflushed_trades": [
     {
       "view": "LONG",
       "spread": "credit",
@@ -136,7 +138,8 @@
           "opt_type": "PE",
           "entry": 254.65,
           "mark": 255.0,
-          "sid": "51341"
+          "sid": "51341",
+          "exit": 255.0
         },
         {
           "role": "BUY",
@@ -145,7 +148,8 @@
           "opt_type": "PE",
           "entry": 186.75,
           "mark": 184.9,
-          "sid": "51331"
+          "sid": "51331",
+          "exit": 184.9
         }
       ],
       "net": 67.9,
@@ -166,76 +170,21 @@
       "index_signal": 22727.95,
       "signal_at": "2026-09-30 09:20",
       "spot_entry": 22698.9,
-      "mark_at": 1790744758.654006,
-      "status": "OPEN",
-      "spot_now": 22705.85
-    }
-  ],
-  "pending": null,
-  "unflushed_trades": [
-    {
-      "view": "LONG",
-      "spread": "credit",
-      "opt_type": "PE",
-      "expiry": "2026-10-19",
-      "atm": 22750.0,
-      "far": 22550.0,
-      "width": 200.0,
-      "legs": [
-        {
-          "role": "SELL",
-          "sign": -1,
-          "strike": 22750.0,
-          "opt_type": "PE",
-          "entry": 224.4,
-          "mark": 241.85,
-          "sid": "47152",
-          "exit": 245.1
-        },
-        {
-          "role": "BUY",
-          "sign": 1,
-          "strike": 22550.0,
-          "opt_type": "PE",
-          "entry": 157.15,
-          "mark": 166.45,
-          "sid": "47138",
-          "exit": 169.35
-        }
-      ],
-      "net": 67.25,
-      "lot": 65,
-      "lots": 1,
-      "qty": 65,
-      "max_profit": 4371.25,
-      "max_loss": 8628.75,
-      "net_now": 75.4,
-      "pnl": -552.5,
-      "spot": 22725.25,
-      "id": "L-1790740200-2026-10-19-PE-1790740792463",
-      "sig_id": "L-1790740200",
-      "slot": 3,
-      "kind": "entry",
-      "opened": "2026-09-30 09:29:52",
-      "opened_ts": 1790740792.463625,
-      "index_signal": 22727.95,
-      "signal_at": "2026-09-30 09:20",
-      "spot_entry": 22725.25,
       "status": "CLOSED",
-      "spot_now": 22701.1,
-      "closed": "2026-09-30 10:45:53",
-      "closed_ts": 1790745353.5571268,
+      "spot_now": 22705.85,
+      "closed": "2026-09-30 10:46:07",
+      "closed_ts": 1790745367.8785055,
       "reason": "EMA_STOP",
-      "exit_src": "live quote",
-      "net_exit": 75.75,
+      "exit_src": "last mark",
+      "net_exit": 70.1,
       "spot_exit": 22702.75,
       "index_exit": 22702.75,
-      "sell_strike": 22750.0,
-      "sell_entry": 224.4,
-      "sell_exit": 245.1,
-      "buy_strike": 22550.0,
-      "buy_entry": 157.15,
-      "buy_exit": 169.35
+      "sell_strike": 22700.0,
+      "sell_entry": 254.65,
+      "sell_exit": 255.0,
+      "buy_strike": 22500.0,
+      "buy_entry": 186.75,
+      "buy_exit": 184.9
     }
   ],
   "day": "2026-09-30"

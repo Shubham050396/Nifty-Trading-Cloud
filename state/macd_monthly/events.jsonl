@@ -50,3 +50,7 @@
 {"id": 50, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "entry", "msg": "BUY 2026-10-27 24000 PE @ 1183.60  (bar close 1178.35, MACD hist +0.05, VIX 13.41)"}
 {"id": 51, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "signal", "msg": "2026-10-27 25000 PE MACD crossed UP (bar close 2155.00, hist -0.50 -> +0.38)"}
 {"id": 52, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "skip", "msg": "buy 2026-10-27 25000 PE ignored - premium 2155.00 is outside 144 - 1600"}
+{"id": 53, "ts": "2026-09-30 10:55:01", "at": "10:55:01", "kind": "signal", "msg": "2026-10-27 26000 PE MACD crossed UP (bar close 3136.00, hist -0.06 -> +0.65)"}
+{"id": 54, "ts": "2026-09-30 10:55:01", "at": "10:55:01", "kind": "skip", "msg": "buy 2026-10-27 26000 PE ignored - premium 3136.00 is outside 144 - 1600"}
+{"id": 55, "ts": "2026-09-30 10:55:01", "at": "10:55:01", "kind": "signal", "msg": "2026-10-27 23000 PE MACD crossed UP (bar close 392.55, hist -0.15 -> +0.29)"}
+{"id": 56, "ts": "2026-09-30 10:55:01", "at": "10:55:01", "kind": "entry", "msg": "BUY 2026-10-27 23000 PE @ 392.90  (bar close 392.55, MACD hist +0.29, VIX 13.41)"}
