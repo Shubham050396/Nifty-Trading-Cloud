@@ -506,3 +506,18 @@
 {"id": 506, "ts": "2026-09-30 12:25:18", "at": "12:25:18", "kind": "entry", "msg": "L3 BUY 2026-10-06 22500 CE @ 338.85  target 388.85  trail 304.97 (10%)"}
 {"id": 507, "ts": "2026-09-30 12:25:33", "at": "12:25:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 508, "ts": "2026-09-30 12:25:49", "at": "12:25:49", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 509, "ts": "2026-09-30 12:26:04", "at": "12:26:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 510, "ts": "2026-09-30 12:26:19", "at": "12:26:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 511, "ts": "2026-09-30 12:26:49", "at": "12:26:49", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 512, "ts": "2026-09-30 12:27:20", "at": "12:27:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 513, "ts": "2026-09-30 12:27:35", "at": "12:27:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 514, "ts": "2026-09-30 12:28:05", "at": "12:28:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 515, "ts": "2026-09-30 12:28:35", "at": "12:28:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 516, "ts": "2026-09-30 12:28:51", "at": "12:28:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 517, "ts": "2026-09-30 12:29:06", "at": "12:29:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 518, "ts": "2026-09-30 12:29:21", "at": "12:29:21", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 519, "ts": "2026-09-30 12:29:52", "at": "12:29:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 520, "ts": "2026-09-30 12:30:22", "at": "12:30:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 521, "ts": "2026-09-30 12:30:24", "at": "12:30:24", "kind": "vix", "msg": "India VIX prev close 13.41 -> target 1000 ticks (Rs 50.00)"}
+{"id": 522, "ts": "2026-09-30 12:30:37", "at": "12:30:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 523, "ts": "2026-09-30 12:30:52", "at": "12:30:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
