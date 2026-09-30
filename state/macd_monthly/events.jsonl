@@ -18,3 +18,5 @@
 {"id": 18, "ts": "2026-09-30 09:29:48", "at": "09:29:48", "kind": "boot", "msg": "ready - 14 monthly expiries, 4036 contracts in the scrip master"}
 {"id": 19, "ts": "2026-09-30 09:29:48", "at": "09:29:48", "kind": "vix", "msg": "India VIX prev close 13.41 - entries allowed"}
 {"id": 20, "ts": "2026-09-30 09:29:52", "at": "09:29:52", "kind": "history", "msg": "2026-10-27 21000 PE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the MACD needs 75 of them. Retried every 10 min."}
+{"id": 21, "ts": "2026-09-30 09:30:01", "at": "09:30:01", "kind": "history", "msg": "2026-10-27 26000 PE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the MACD needs 75 of them. Retried every 10 min."}
+{"id": 22, "ts": "2026-09-30 09:32:31", "at": "09:32:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
