@@ -678,3 +678,13 @@
 {"id": 678, "ts": "2026-09-30 14:35:04", "at": "14:35:04", "kind": "signal", "msg": "GAIL 170 PE 27 Oct crossed EMA 144 at 2.69 - not taken: premium under Rs 5"}
 {"id": 679, "ts": "2026-09-30 14:36:00", "at": "14:36:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 680, "ts": "2026-09-30 14:36:27", "at": "14:36:27", "kind": "warm", "msg": "bar history loaded for all 1580 contracts"}
+{"id": 681, "ts": "2026-09-30 14:37:40", "at": "14:37:40", "kind": "warm", "msg": "bar history loaded for all 1580 contracts"}
+{"id": 682, "ts": "2026-09-30 14:38:22", "at": "14:38:22", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 683, "ts": "2026-09-30 14:39:49", "at": "14:39:49", "kind": "gap", "msg": "1 contract had no prices for 293+ session minutes (HINDALCO 970 PE 27 Oct) - reloading their bar history"}
+{"id": 684, "ts": "2026-09-30 14:39:50", "at": "14:39:50", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 685, "ts": "2026-09-30 14:40:04", "at": "14:40:04", "kind": "signal", "msg": "ADANIPOWER 195 PE 27 Oct crossed EMA 144 at 3.70 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 686, "ts": "2026-09-30 14:40:04", "at": "14:40:04", "kind": "signal", "msg": "ADANIPOWER 200 PE 27 Oct crossed EMA 144 at 5.55 - not taken: under EMA 55"}
+{"id": 687, "ts": "2026-09-30 14:40:04", "at": "14:40:04", "kind": "signal", "msg": "ADANIPOWER 210 PE 27 Oct crossed EMA 144 at 11.13 - not taken: under EMA 55"}
+{"id": 688, "ts": "2026-09-30 14:40:04", "at": "14:40:04", "kind": "signal", "msg": "DABUR 370 PE 27 Oct crossed EMA 144 at 4.20 - not taken: premium under Rs 5"}
+{"id": 689, "ts": "2026-09-30 14:41:05", "at": "14:41:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 690, "ts": "2026-09-30 14:41:09", "at": "14:41:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}

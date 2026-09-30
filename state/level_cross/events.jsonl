@@ -876,3 +876,18 @@
 {"id": 876, "ts": "2026-09-30 14:36:14", "at": "14:36:14", "kind": "signal", "msg": "2026-10-06 22900 PE held above 270.95 for 5 min - fall-back exit is armed"}
 {"id": 877, "ts": "2026-09-30 14:36:29", "at": "14:36:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 878, "ts": "2026-09-30 14:36:44", "at": "14:36:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 879, "ts": "2026-09-30 14:37:00", "at": "14:37:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 880, "ts": "2026-09-30 14:37:15", "at": "14:37:15", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 881, "ts": "2026-09-30 14:37:45", "at": "14:37:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 882, "ts": "2026-09-30 14:38:15", "at": "14:38:15", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 883, "ts": "2026-09-30 14:38:30", "at": "14:38:30", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 884, "ts": "2026-09-30 14:38:46", "at": "14:38:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 885, "ts": "2026-09-30 14:39:01", "at": "14:39:01", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 886, "ts": "2026-09-30 14:39:16", "at": "14:39:16", "kind": "exit", "msg": "L2 2026-10-06 22900 PE TARGET @ 300.95  P&L Rs 3250.00"}
+{"id": 887, "ts": "2026-09-30 14:39:31", "at": "14:39:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 888, "ts": "2026-09-30 14:40:01", "at": "14:40:01", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 889, "ts": "2026-09-30 14:40:17", "at": "14:40:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 890, "ts": "2026-09-30 14:40:32", "at": "14:40:32", "kind": "entry", "msg": "L2 BUY 2026-10-06 22800 PE @ 229.70  target 279.70  trail 195.24 (15%)"}
+{"id": 891, "ts": "2026-09-30 14:40:47", "at": "14:40:47", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 892, "ts": "2026-09-30 14:41:17", "at": "14:41:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 893, "ts": "2026-09-30 14:41:47", "at": "14:41:47", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
