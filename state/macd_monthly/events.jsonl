@@ -41,3 +41,12 @@
 {"id": 41, "ts": "2026-09-30 10:45:00", "at": "10:45:00", "kind": "signal", "msg": "2026-10-27 23000 CE MACD crossed DOWN (bar close 225.00, hist +0.11 -> -0.17)"}
 {"id": 42, "ts": "2026-09-30 10:45:00", "at": "10:45:00", "kind": "exit", "msg": "LONG 2026-10-27 23000 CE MACD_DOWN @ 224.00  P&L Rs -975.00"}
 {"id": 43, "ts": "2026-09-30 10:45:00", "at": "10:45:00", "kind": "entry", "msg": "SELL SHORT 2026-10-27 23000 CE @ 224.00  (bar close 225.00, MACD hist -0.17, VIX 13.41)"}
+{"id": 44, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "signal", "msg": "2026-10-27 21000 CE MACD crossed DOWN (bar close 1827.20, hist +0.31 -> -0.47)"}
+{"id": 45, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "skip", "msg": "short 2026-10-27 21000 CE ignored - premium 1827.20 is outside 144 - 1600"}
+{"id": 46, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "signal", "msg": "2026-10-27 22000 CE MACD crossed DOWN (bar close 898.80, hist +0.22 -> -0.39)"}
+{"id": 47, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "exit", "msg": "LONG 2026-10-27 22000 CE MACD_DOWN @ 897.25  P&L Rs -1823.25"}
+{"id": 48, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "entry", "msg": "SELL SHORT 2026-10-27 22000 CE @ 897.25  (bar close 898.80, MACD hist -0.39, VIX 13.41)"}
+{"id": 49, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "signal", "msg": "2026-10-27 24000 PE MACD crossed UP (bar close 1178.35, hist -0.76 -> +0.05)"}
+{"id": 50, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "entry", "msg": "BUY 2026-10-27 24000 PE @ 1183.60  (bar close 1178.35, MACD hist +0.05, VIX 13.41)"}
+{"id": 51, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "signal", "msg": "2026-10-27 25000 PE MACD crossed UP (bar close 2155.00, hist -0.50 -> +0.38)"}
+{"id": 52, "ts": "2026-09-30 10:50:00", "at": "10:50:00", "kind": "skip", "msg": "buy 2026-10-27 25000 PE ignored - premium 2155.00 is outside 144 - 1600"}

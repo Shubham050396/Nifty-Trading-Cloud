@@ -175,3 +175,14 @@
 {"id": 175, "ts": "2026-09-30 10:45:09", "at": "10:45:09", "kind": "signal", "msg": "EXIT LONG at 2026-09-30 10:40: NIFTY closed 22702.75 - closed through the stop EMA"}
 {"id": 176, "ts": "2026-09-30 10:45:23", "at": "10:45:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 177, "ts": "2026-09-30 10:45:23", "at": "10:45:23", "kind": "exit", "msg": "BULL 2026-10-06: SELL 22750 PE @ 146.20 + BUY 22550 PE @ 72.05 - closed through the stop EMA. P&L Rs -458.25 (no live quote - last mark)"}
+{"id": 178, "ts": "2026-09-30 10:45:38", "at": "10:45:38", "kind": "exit", "msg": "BULL 2026-10-13: SELL 22750 PE @ 208.90 + BUY 22550 PE @ 133.55 - closed through the stop EMA. P&L Rs -481.00"}
+{"id": 179, "ts": "2026-09-30 10:45:53", "at": "10:45:53", "kind": "exit", "msg": "BULL 2026-10-19: SELL 22750 PE @ 245.10 + BUY 22550 PE @ 169.35 - closed through the stop EMA. P&L Rs -552.50"}
+{"id": 180, "ts": "2026-09-30 10:46:07", "at": "10:46:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 181, "ts": "2026-09-30 10:46:07", "at": "10:46:07", "kind": "exit", "msg": "BULL 2026-10-27: SELL 22700 PE @ 255.00 + BUY 22500 PE @ 184.90 - closed through the stop EMA. P&L Rs -143.00 (no live quote - last mark)"}
+{"id": 182, "ts": "2026-09-30 10:46:23", "at": "10:46:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 183, "ts": "2026-09-30 10:47:09", "at": "10:47:09", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 184, "ts": "2026-09-30 10:47:30", "at": "10:47:30", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 185, "ts": "2026-09-30 10:48:31", "at": "10:48:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 186, "ts": "2026-09-30 10:48:51", "at": "10:48:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 187, "ts": "2026-09-30 10:49:52", "at": "10:49:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 188, "ts": "2026-09-30 10:50:12", "at": "10:50:12", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
