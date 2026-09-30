@@ -395,3 +395,10 @@
 {"id": 395, "ts": "2026-09-30 13:24:43", "at": "13:24:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 396, "ts": "2026-09-30 13:25:45", "at": "13:25:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 397, "ts": "2026-09-30 13:26:10", "at": "13:26:10", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 398, "ts": "2026-09-30 13:27:06", "at": "13:27:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 399, "ts": "2026-09-30 13:27:26", "at": "13:27:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 400, "ts": "2026-09-30 13:28:27", "at": "13:28:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 401, "ts": "2026-09-30 13:28:47", "at": "13:28:47", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 402, "ts": "2026-09-30 13:29:48", "at": "13:29:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 403, "ts": "2026-09-30 13:30:09", "at": "13:30:09", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 404, "ts": "2026-09-30 13:31:10", "at": "13:31:10", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

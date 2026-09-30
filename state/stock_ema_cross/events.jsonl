@@ -547,3 +547,11 @@
 {"id": 547, "ts": "2026-09-30 13:24:10", "at": "13:24:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 548, "ts": "2026-09-30 13:25:05", "at": "13:25:05", "kind": "skip", "msg": "INDHOTEL 750 CE 27 Oct signal at 12.00 skipped - 5 positions already open"}
 {"id": 549, "ts": "2026-09-30 13:25:10", "at": "13:25:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 550, "ts": "2026-09-30 13:26:54", "at": "13:26:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 551, "ts": "2026-09-30 13:30:02", "at": "13:30:02", "kind": "signal", "msg": "ICICIBANK 1330 PE 27 Oct crossed EMA 144 at 25.50 - not taken: under EMA 55, momentum 2.0%"}
+{"id": 552, "ts": "2026-09-30 13:30:02", "at": "13:30:02", "kind": "signal", "msg": "ICICIBANK 1340 PE 27 Oct crossed EMA 144 at 30.55 - not taken: under EMA 55"}
+{"id": 553, "ts": "2026-09-30 13:30:02", "at": "13:30:02", "kind": "signal", "msg": "HAL 4500 PE 27 Oct crossed EMA 144 at 40.75 - not taken: momentum -2.6%"}
+{"id": 554, "ts": "2026-09-30 13:30:02", "at": "13:30:02", "kind": "signal", "msg": "ICICIBANK 1360 PE 27 Oct crossed EMA 144 at 41.70 - not taken: under EMA 55, momentum 2.3%"}
+{"id": 555, "ts": "2026-09-30 13:30:04", "at": "13:30:04", "kind": "skip", "msg": "HDFCBANK 720 PE 27 Oct signal at 17.20 skipped - 5 positions already open"}
+{"id": 556, "ts": "2026-09-30 13:30:05", "at": "13:30:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 557, "ts": "2026-09-30 13:31:09", "at": "13:31:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
