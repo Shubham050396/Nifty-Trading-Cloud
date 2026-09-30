@@ -148,3 +148,18 @@
 {"id": 148, "ts": "2026-09-30 10:00:05", "at": "10:00:05", "kind": "signal", "msg": "TATASTEEL 190 CE 27 Oct crossed EMA 144 at 5.35 - not taken: momentum 2.9%"}
 {"id": 149, "ts": "2026-09-30 10:00:05", "at": "10:00:05", "kind": "signal", "msg": "TATASTEEL 195 CE 27 Oct crossed EMA 144 at 3.40 - not taken: premium under Rs 5"}
 {"id": 150, "ts": "2026-09-30 10:00:06", "at": "10:00:06", "kind": "skip", "msg": "INDIGO 5100 CE 27 Oct signal at 101.60 skipped - 5 positions already open"}
+{"id": 151, "ts": "2026-09-30 10:01:43", "at": "10:01:43", "kind": "warm", "msg": "bar history loaded for all 1514 contracts"}
+{"id": 152, "ts": "2026-09-30 10:01:55", "at": "10:01:55", "kind": "warm", "msg": "bar history loaded for all 1516 contracts"}
+{"id": 153, "ts": "2026-09-30 10:02:42", "at": "10:02:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 154, "ts": "2026-09-30 10:03:06", "at": "10:03:06", "kind": "gap", "msg": "1 contract had no prices for 26+ session minutes (HEROMOTOCO 5350 CE 27 Oct) - reloading their bar history"}
+{"id": 155, "ts": "2026-09-30 10:03:07", "at": "10:03:07", "kind": "warm", "msg": "bar history loaded for all 1516 contracts"}
+{"id": 156, "ts": "2026-09-30 10:03:28", "at": "10:03:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 157, "ts": "2026-09-30 10:03:36", "at": "10:03:36", "kind": "gap", "msg": "1 contract had no prices for 24+ session minutes (CANBK 122 CE 27 Oct) - reloading their bar history"}
+{"id": 158, "ts": "2026-09-30 10:03:37", "at": "10:03:37", "kind": "warm", "msg": "bar history loaded for all 1516 contracts"}
+{"id": 159, "ts": "2026-09-30 10:05:04", "at": "10:05:04", "kind": "signal", "msg": "ITC 260 PE 27 Oct crossed EMA 144 at 2.80 - not taken: premium under Rs 5"}
+{"id": 160, "ts": "2026-09-30 10:05:05", "at": "10:05:05", "kind": "signal", "msg": "TECHM 1600 PE 27 Oct crossed EMA 144 at 82.50 - not taken: under EMA 55, momentum -16.7%"}
+{"id": 161, "ts": "2026-09-30 10:05:05", "at": "10:05:05", "kind": "signal", "msg": "WIPRO 155 PE 27 Oct crossed EMA 144 at 2.67 - not taken: under EMA 55, momentum -36.3%, premium under Rs 5"}
+{"id": 162, "ts": "2026-09-30 10:05:05", "at": "10:05:05", "kind": "signal", "msg": "BPCL 300 PE 27 Oct crossed EMA 144 at 5.30 - not taken: under EMA 55, momentum -24.3%"}
+{"id": 163, "ts": "2026-09-30 10:05:05", "at": "10:05:05", "kind": "signal", "msg": "BPCL 320 PE 27 Oct crossed EMA 144 at 16.50 - not taken: under EMA 55, momentum -17.5%"}
+{"id": 164, "ts": "2026-09-30 10:05:05", "at": "10:05:05", "kind": "signal", "msg": "DABUR 390 PE 27 Oct crossed EMA 144 at 12.00 - not taken: momentum -14.6%"}
+{"id": 165, "ts": "2026-09-30 10:05:06", "at": "10:05:06", "kind": "skip", "msg": "KOTAKBANK 410 CE 27 Oct signal at 12.15 skipped - 5 positions already open"}

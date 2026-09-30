@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-09-30 09:59:51",
+  "saved_at": "2026-09-30 10:00:02",
   "cfg": {
     "expiries": [
       "2026-10-27"
@@ -25,34 +25,6 @@
     "max_open": 10
   },
   "lanes": {
-    "2026-10-27|CE|22000": {
-      "expiry": "2026-10-27",
-      "opt_type": "CE",
-      "strike": 22000.0,
-      "sid": "51308",
-      "position": {
-        "id": "2026-10-27-CE-22000-SHORT-1790742300656",
-        "lane": "2026-10-27|CE|22000",
-        "contract": "2026-10-27 22000 CE",
-        "dir": "SHORT",
-        "opened": "2026-09-30 09:55:00",
-        "opened_ts": 1790742300.6560326,
-        "expiry": "2026-10-27",
-        "opt_type": "CE",
-        "strike": 22000.0,
-        "entry": 915.85,
-        "qty": 65,
-        "lot": 65,
-        "lots": 1,
-        "signal_close": 908.65,
-        "entry_macd": -5.766,
-        "entry_hist": -0.205,
-        "vix": 13.41,
-        "mark": 929.2,
-        "pnl": -867.75,
-        "status": "OPEN"
-      }
-    },
     "2026-10-27|CE|23000": {
       "expiry": "2026-10-27",
       "opt_type": "CE",
@@ -76,13 +48,41 @@
         "entry_macd": -5.37,
         "entry_hist": -0.201,
         "vix": 13.41,
-        "mark": 238.0,
-        "pnl": -633.75,
+        "mark": 237.05,
+        "pnl": -572.0,
         "status": "OPEN"
       }
     }
   },
-  "unflushed_trades": [],
+  "unflushed_trades": [
+    {
+      "id": "2026-10-27-CE-22000-SHORT-1790742300656",
+      "lane": "2026-10-27|CE|22000",
+      "contract": "2026-10-27 22000 CE",
+      "dir": "SHORT",
+      "opened": "2026-09-30 09:55:00",
+      "opened_ts": 1790742300.6560326,
+      "expiry": "2026-10-27",
+      "opt_type": "CE",
+      "strike": 22000.0,
+      "entry": 915.85,
+      "qty": 65,
+      "lot": 65,
+      "lots": 1,
+      "signal_close": 908.65,
+      "entry_macd": -5.766,
+      "entry_hist": -0.205,
+      "vix": 13.41,
+      "mark": 925.3,
+      "pnl": -614.25,
+      "status": "CLOSED",
+      "closed": "2026-09-30 10:00:02",
+      "closed_ts": 1790742602.7320812,
+      "exit": 925.3,
+      "reason": "MACD_UP",
+      "points": -9.45
+    }
+  ],
   "trades_today": 2,
   "day": "2026-09-30"
 }
