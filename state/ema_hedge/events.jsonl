@@ -9,3 +9,11 @@
 {"id": 9, "ts": "2026-09-30 00:20:38", "at": "00:20:38", "kind": "day", "msg": "new session 2026-09-30"}
 {"id": 10, "ts": "2026-09-30 00:20:42", "at": "00:20:42", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
 {"id": 11, "ts": "2026-09-30 02:20:44", "at": "02:20:44", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 12, "ts": "2026-09-30 09:29:43", "at": "09:29:43", "kind": "boot", "msg": "engine thread started"}
+{"id": 13, "ts": "2026-09-30 09:29:43", "at": "09:29:43", "kind": "boot", "msg": "ema-hedge app up (pid 2269, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/ema_hedge/data)"}
+{"id": 14, "ts": "2026-09-30 09:29:44", "at": "09:29:44", "kind": "control", "msg": "started automatically on launch"}
+{"id": 15, "ts": "2026-09-30 09:29:45", "at": "09:29:45", "kind": "signal", "msg": "LONG signal at 2026-09-30 09:20: NIFTY closed 22727.95 above the 100 EMA after 25+ bars under it - opening bullish spreads"}
+{"id": 16, "ts": "2026-09-30 09:29:45", "at": "09:29:45", "kind": "entry", "msg": "BULL 2026-10-06 (slot 1): SELL 22750 PE @ 136.15 + BUY 22550 PE @ 69.05 = credit 67.10 x 65 - max profit Rs 4362, max loss Rs 8638"}
+{"id": 17, "ts": "2026-09-30 09:29:49", "at": "09:29:49", "kind": "entry", "msg": "BULL 2026-10-13 (slot 2): SELL 22750 PE @ 189.65 + BUY 22550 PE @ 121.70 = credit 67.95 x 65 - max profit Rs 4417, max loss Rs 8583"}
+{"id": 18, "ts": "2026-09-30 09:29:49", "at": "09:29:49", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
+{"id": 19, "ts": "2026-09-30 09:29:52", "at": "09:29:52", "kind": "entry", "msg": "BULL 2026-10-19 (slot 3): SELL 22750 PE @ 224.40 + BUY 22550 PE @ 157.15 = credit 67.25 x 65 - max profit Rs 4371, max loss Rs 8629"}

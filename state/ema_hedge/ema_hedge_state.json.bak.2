@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-09-29 22:55:25",
+  "saved_at": "2026-09-30 09:29:45",
   "cfg": {
     "interval": 5,
     "ema_entry": 100,
@@ -24,9 +24,17 @@
     "spread_sl_pct": 0
   },
   "sig": {
-    "side": null
+    "side": "LONG",
+    "id": "L-1790740200",
+    "t": 1790740200,
+    "at": "2026-09-30 09:20",
+    "entry": 22727.95,
+    "stop": 20455.16,
+    "target": 45455.9,
+    "stop_pct": 10.0,
+    "target_pct": 100.0
   },
-  "last_bar_t": 1790675700,
+  "last_bar_t": 1790740200,
   "signals": [
     {
       "kind": "LONG",
@@ -99,10 +107,77 @@
       "reason": "EMA_STOP",
       "side": "LONG",
       "note": "before this app was watching"
+    },
+    {
+      "kind": "LONG",
+      "t": 1790740200,
+      "at": "2026-09-30 09:20",
+      "close": 22727.95,
+      "reason": null,
+      "side": null,
+      "note": "traded"
     }
   ],
-  "positions": [],
-  "pending": null,
+  "positions": [
+    {
+      "view": "LONG",
+      "spread": "credit",
+      "opt_type": "PE",
+      "expiry": "2026-10-06",
+      "atm": 22750.0,
+      "far": 22550.0,
+      "width": 200.0,
+      "legs": [
+        {
+          "role": "SELL",
+          "sign": -1,
+          "strike": 22750.0,
+          "opt_type": "PE",
+          "entry": 136.15,
+          "mark": 136.4,
+          "sid": null
+        },
+        {
+          "role": "BUY",
+          "sign": 1,
+          "strike": 22550.0,
+          "opt_type": "PE",
+          "entry": 69.05,
+          "mark": 68.85,
+          "sid": null
+        }
+      ],
+      "net": 67.1,
+      "lot": 65,
+      "lots": 1,
+      "qty": 65,
+      "max_profit": 4361.5,
+      "max_loss": 8638.5,
+      "net_now": 67.55,
+      "pnl": -29.25,
+      "spot": 22726.4,
+      "id": "L-1790740200-2026-10-06-PE-1790740785729",
+      "sig_id": "L-1790740200",
+      "slot": 1,
+      "kind": "entry",
+      "opened": "2026-09-30 09:29:45",
+      "opened_ts": 1790740785.7294757,
+      "index_signal": 22727.95,
+      "signal_at": "2026-09-30 09:20",
+      "spot_entry": 22726.4,
+      "mark_at": 1790740785.7294757,
+      "status": "OPEN"
+    }
+  ],
+  "pending": {
+    "kind": "entry",
+    "sig_id": "L-1790740200",
+    "side": "LONG",
+    "created": 1790740785.4643881,
+    "deadline": 1790741384.69029,
+    "done": [],
+    "why": {}
+  },
   "unflushed_trades": [],
-  "day": "2026-09-29"
+  "day": "2026-09-30"
 }

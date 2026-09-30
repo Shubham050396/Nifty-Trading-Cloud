@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-09-29 22:50:25",
+  "saved_at": "2026-09-30 09:29:45",
   "cfg": {
     "interval": 5,
     "ema_entry": 100,
@@ -24,9 +24,17 @@
     "spread_sl_pct": 0
   },
   "sig": {
-    "side": null
+    "side": "LONG",
+    "id": "L-1790740200",
+    "t": 1790740200,
+    "at": "2026-09-30 09:20",
+    "entry": 22727.95,
+    "stop": 20455.16,
+    "target": 45455.9,
+    "stop_pct": 10.0,
+    "target_pct": 100.0
   },
-  "last_bar_t": 1790675700,
+  "last_bar_t": 1790740200,
   "signals": [
     {
       "kind": "LONG",
@@ -99,10 +107,27 @@
       "reason": "EMA_STOP",
       "side": "LONG",
       "note": "before this app was watching"
+    },
+    {
+      "kind": "LONG",
+      "t": 1790740200,
+      "at": "2026-09-30 09:20",
+      "close": 22727.95,
+      "reason": null,
+      "side": null,
+      "note": "traded"
     }
   ],
   "positions": [],
-  "pending": null,
+  "pending": {
+    "kind": "entry",
+    "sig_id": "L-1790740200",
+    "side": "LONG",
+    "created": 1790740785.4643881,
+    "deadline": null,
+    "done": [],
+    "why": {}
+  },
   "unflushed_trades": [],
-  "day": "2026-09-29"
+  "day": "2026-09-30"
 }
