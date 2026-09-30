@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-09-30 11:45:03",
+  "saved_at": "2026-09-30 12:05:02",
   "cfg": {
     "expiries": [
       "2026-10-27"
@@ -25,34 +25,6 @@
     "max_open": 10
   },
   "lanes": {
-    "2026-10-27|CE|22000": {
-      "expiry": "2026-10-27",
-      "opt_type": "CE",
-      "strike": 22000.0,
-      "sid": "51308",
-      "position": {
-        "id": "2026-10-27-CE-22000-SHORT-1790745600970",
-        "lane": "2026-10-27|CE|22000",
-        "contract": "2026-10-27 22000 CE",
-        "dir": "SHORT",
-        "opened": "2026-09-30 10:50:00",
-        "opened_ts": 1790745600.9708707,
-        "expiry": "2026-10-27",
-        "opt_type": "CE",
-        "strike": 22000.0,
-        "entry": 897.25,
-        "qty": 65,
-        "lot": 65,
-        "lots": 1,
-        "signal_close": 898.8,
-        "entry_macd": -4.398,
-        "entry_hist": -0.394,
-        "vix": 13.41,
-        "mark": 901.2,
-        "pnl": -256.75,
-        "status": "OPEN"
-      }
-    },
     "2026-10-27|CE|23000": {
       "expiry": "2026-10-27",
       "opt_type": "CE",
@@ -76,8 +48,8 @@
         "entry_macd": -5.061,
         "entry_hist": -0.173,
         "vix": 13.41,
-        "mark": 223.05,
-        "pnl": 61.75,
+        "mark": 229.2,
+        "pnl": -338.0,
         "status": "OPEN"
       }
     },
@@ -104,8 +76,8 @@
         "entry_macd": -2.553,
         "entry_hist": 0.054,
         "vix": 13.41,
-        "mark": 1177.2,
-        "pnl": -416.0,
+        "mark": 1155.9,
+        "pnl": -1800.5,
         "status": "OPEN"
       }
     },
@@ -132,13 +104,41 @@
         "entry_macd": -5.551,
         "entry_hist": 0.289,
         "vix": 13.41,
-        "mark": 393.0,
-        "pnl": 6.5,
+        "mark": 378.15,
+        "pnl": -958.75,
         "status": "OPEN"
       }
     }
   },
-  "unflushed_trades": [],
+  "unflushed_trades": [
+    {
+      "id": "2026-10-27-CE-22000-SHORT-1790745600970",
+      "lane": "2026-10-27|CE|22000",
+      "contract": "2026-10-27 22000 CE",
+      "dir": "SHORT",
+      "opened": "2026-09-30 10:50:00",
+      "opened_ts": 1790745600.9708707,
+      "expiry": "2026-10-27",
+      "opt_type": "CE",
+      "strike": 22000.0,
+      "entry": 897.25,
+      "qty": 65,
+      "lot": 65,
+      "lots": 1,
+      "signal_close": 898.8,
+      "entry_macd": -4.398,
+      "entry_hist": -0.394,
+      "vix": 13.41,
+      "mark": 918.85,
+      "pnl": -1404.0,
+      "status": "CLOSED",
+      "closed": "2026-09-30 12:05:02",
+      "closed_ts": 1790750102.9249284,
+      "exit": 918.85,
+      "reason": "MACD_UP",
+      "points": -21.6
+    }
+  ],
   "trades_today": 8,
   "day": "2026-09-30"
 }
