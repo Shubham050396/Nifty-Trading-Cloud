@@ -1,54 +1,54 @@
 # NIFTY Cloud report
 
-**Running until 15:15 IST** · updated 30 Sep 2026 12:41 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36666861472)
+**Running until 15:15 IST** · updated 30 Sep 2026 12:46 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36666861472)
 
 India VIX **13.05** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 09:29 → 15:15 IST (trading day)
 
 | Strategy | State | P&L today | Open P&L | All-time P&L | Trades today | Open | Margin blocked |
 |---|---|--:|--:|--:|--:|--:|--:|
-| ⚖️ NIFTY Credit Spreads | 🟢 running | ₹0 | +₹644 (+0.22%) | ₹0 | 0 | 5 | ₹2,98,462 |
+| ⚖️ NIFTY Credit Spreads | 🟢 running | ₹0 | +₹835 (+0.28%) | ₹0 | 0 | 5 | ₹2,98,654 |
 | 🛡️ NIFTY EMA Breakout Hedge | 🟢 running | −₹1,635 (-0.91%) | ₹0 | −₹1,635 (-0.91%) | 4 | 0 | ₹0 |
-| 🎯 NIFTY 2-Level Cross | 🟢 running | −₹1,297 (-8.42%) | +₹1,167 (+5.30%) | −₹1,297 (-8.42%) | 1 | 1 | ₹22,025 |
-| 📈 NIFTY MACD - Monthly 1000s | 🟢 running | −₹13,692 (-1.41%) | +₹5,232 (+1.45%) | −₹13,692 (-1.41%) | 10 | 4 | ₹3,61,535 |
+| 🎯 NIFTY 2-Level Cross | 🟢 running | −₹1,297 (-8.42%) | +₹1,372 (+6.23%) | −₹1,297 (-8.42%) | 1 | 1 | ₹22,025 |
+| 📈 NIFTY MACD - Monthly 1000s | 🟢 running | −₹13,692 (-1.41%) | +₹6,110 (+1.69%) | −₹13,692 (-1.41%) | 10 | 4 | ₹3,61,575 |
 | ⚡ NIFTY Scalper - IVX-G | 🟢 running | ₹0 | ₹0 | ₹0 | 0 | 0 | ₹0 |
-| 📊 Stock Options EMA Cross | 🟢 running | −₹4,934 (-7.58%) | −₹2,134 (-2.02%) | −₹4,934 (-7.58%) | 3 | 5 | ₹1,05,494 |
-| **Total** | | **−₹21,558** | **+₹4,909** | **−₹21,558** | **18** | **15** | **₹7,87,516** |
+| 📊 Stock Options EMA Cross | 🟢 running | −₹4,934 (-7.58%) | −₹3,455 (-3.28%) | −₹4,934 (-7.58%) | 3 | 5 | ₹1,05,494 |
+| **Total** | | **−₹21,558** | **+₹4,862** | **−₹21,558** | **18** | **15** | **₹7,87,748** |
 
 Paper trading only. Margin figures are estimates, as in the desktop app. Trades and state for each strategy are in the [state](state) folder.
 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-09-30 12:33:44] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 12:34:48] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 12:35:52] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 12:36:56] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 12:40:07] API_ERROR marketfeed/ltp: HTTP 429 rate limited
 [2026-09-30 12:40:07] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
+[2026-09-30 12:41:11] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 12:42:15] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 12:43:19] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 12:44:23] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 12:45:26] API_ERROR marketfeed/ltp: HTTP 429 rate limited
 ```
 </details>
 
 <details><summary>NIFTY EMA Breakout Hedge - last log lines</summary>
 
 ```text
-[12:38:20] API       rate limited by Dhan - now one call every 15.1 s
-[12:38:40] API       rate limited by Dhan - now one call every 15.1 s
-[12:39:38] VIX       India VIX unavailable (HTTP 429) - no new spreads until it can be read
-[12:39:41] API       rate limited by Dhan - now one call every 15.1 s
-[12:40:01] API       rate limited by Dhan - now one call every 15.1 s
-[12:41:02] API       rate limited by Dhan - now one call every 15.1 s
+[12:41:22] API       rate limited by Dhan - now one call every 15.1 s
+[12:42:23] API       rate limited by Dhan - now one call every 15.1 s
+[12:42:44] API       rate limited by Dhan - now one call every 15.1 s
+[12:43:45] API       rate limited by Dhan - now one call every 15.1 s
+[12:45:06] API       rate limited by Dhan - now one call every 15.1 s
+[12:45:26] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
 <details><summary>NIFTY 2-Level Cross - last log lines</summary>
 
 ```text
-[12:39:28] API       rate limited by Dhan - now one call every 15.1 s
-[12:39:43] API       rate limited by Dhan - now one call every 15.1 s
-[12:39:59] API       rate limited by Dhan - now one call every 15.1 s
-[12:40:14] API       rate limited by Dhan - now one call every 15.1 s
-[12:40:44] API       rate limited by Dhan - now one call every 15.1 s
-[12:41:00] API       rate limited by Dhan - now one call every 15.1 s
+[12:43:46] API       rate limited by Dhan - now one call every 15.1 s
+[12:44:16] API       rate limited by Dhan - now one call every 15.1 s
+[12:44:32] API       rate limited by Dhan - now one call every 15.1 s
+[12:45:02] API       rate limited by Dhan - now one call every 15.1 s
+[12:45:32] API       rate limited by Dhan - now one call every 15.1 s
+[12:46:02] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
@@ -79,12 +79,12 @@ serving NIFTY Scalper - IVX-G on http://127.0.0.1:46175
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[12:39:04] API       market quote: rate limited by Dhan - now one call every 2.0 s
-[12:39:39] WARM      bar history loaded for all 1566 contracts
-[12:40:05] EXIT      SELL DLF 660 PE 27 Oct EMA_STOP @ 16.15  -12.0%  P&L Rs -2090.00
-[12:40:05] SIGNAL    VEDL 250 PE 27 Oct crossed EMA 144 at 4.20 - not taken: momentum 0.0%, premium under Rs 5
-[12:40:05] SIGNAL    KOTAKBANK 430 CE 27 Oct crossed EMA 144 at 4.60 - not taken: premium under Rs 5
-[12:40:06] ENTRY     BUY INDIGO 5100 CE 27 Oct x150 @ 101.00 (signal close 100.75, EMA 144 97.17, momentum 5.3%)  quick 116.15 till 13:10, target 171.70, stop below EMA 55
+[12:45:03] SIGNAL    SHRIRAMFIN 920 PE 27 Oct crossed EMA 144 at 9.40 - not taken: under EMA 55, momentum -12.6%
+[12:45:03] SIGNAL    DABUR 380 PE 27 Oct crossed EMA 144 at 7.05 - not taken: momentum -2.1%
+[12:45:03] SIGNAL    DLF 650 CE 27 Oct crossed EMA 144 at 28.50 - not taken: under EMA 55
+[12:45:03] SIGNAL    DLF 660 CE 27 Oct crossed EMA 144 at 22.50 - not taken: under EMA 55
+[12:45:03] SIGNAL    VBL 450 CE 27 Oct crossed EMA 144 at 7.35 - not taken: momentum 2.1%
+[12:45:15] WARM      bar history loaded for all 1566 contracts
 ```
 </details>
 

@@ -469,3 +469,12 @@
 {"id": 469, "ts": "2026-09-30 12:40:05", "at": "12:40:05", "kind": "signal", "msg": "VEDL 250 PE 27 Oct crossed EMA 144 at 4.20 - not taken: momentum 0.0%, premium under Rs 5"}
 {"id": 470, "ts": "2026-09-30 12:40:05", "at": "12:40:05", "kind": "signal", "msg": "KOTAKBANK 430 CE 27 Oct crossed EMA 144 at 4.60 - not taken: premium under Rs 5"}
 {"id": 471, "ts": "2026-09-30 12:40:06", "at": "12:40:06", "kind": "entry", "msg": "BUY INDIGO 5100 CE 27 Oct x150 @ 101.00 (signal close 100.75, EMA 144 97.17, momentum 5.3%)  quick 116.15 till 13:10, target 171.70, stop below EMA 55"}
+{"id": 472, "ts": "2026-09-30 12:44:15", "at": "12:44:15", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 473, "ts": "2026-09-30 12:45:03", "at": "12:45:03", "kind": "signal", "msg": "ICICIBANK 1340 PE 27 Oct crossed EMA 144 at 29.90 - not taken: under EMA 55, momentum -8.0%"}
+{"id": 474, "ts": "2026-09-30 12:45:03", "at": "12:45:03", "kind": "signal", "msg": "ITC 265 PE 27 Oct crossed EMA 144 at 4.40 - not taken: premium under Rs 5"}
+{"id": 475, "ts": "2026-09-30 12:45:03", "at": "12:45:03", "kind": "signal", "msg": "SHRIRAMFIN 920 PE 27 Oct crossed EMA 144 at 9.40 - not taken: under EMA 55, momentum -12.6%"}
+{"id": 476, "ts": "2026-09-30 12:45:03", "at": "12:45:03", "kind": "signal", "msg": "DABUR 380 PE 27 Oct crossed EMA 144 at 7.05 - not taken: momentum -2.1%"}
+{"id": 477, "ts": "2026-09-30 12:45:03", "at": "12:45:03", "kind": "signal", "msg": "DLF 650 CE 27 Oct crossed EMA 144 at 28.50 - not taken: under EMA 55"}
+{"id": 478, "ts": "2026-09-30 12:45:03", "at": "12:45:03", "kind": "signal", "msg": "DLF 660 CE 27 Oct crossed EMA 144 at 22.50 - not taken: under EMA 55"}
+{"id": 479, "ts": "2026-09-30 12:45:03", "at": "12:45:03", "kind": "signal", "msg": "VBL 450 CE 27 Oct crossed EMA 144 at 7.35 - not taken: momentum 2.1%"}
+{"id": 480, "ts": "2026-09-30 12:45:15", "at": "12:45:15", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
