@@ -478,3 +478,18 @@
 {"id": 478, "ts": "2026-09-30 12:45:03", "at": "12:45:03", "kind": "signal", "msg": "DLF 660 CE 27 Oct crossed EMA 144 at 22.50 - not taken: under EMA 55"}
 {"id": 479, "ts": "2026-09-30 12:45:03", "at": "12:45:03", "kind": "signal", "msg": "VBL 450 CE 27 Oct crossed EMA 144 at 7.35 - not taken: momentum 2.1%"}
 {"id": 480, "ts": "2026-09-30 12:45:15", "at": "12:45:15", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 481, "ts": "2026-09-30 12:46:28", "at": "12:46:28", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 482, "ts": "2026-09-30 12:46:55", "at": "12:46:55", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 483, "ts": "2026-09-30 12:47:06", "at": "12:47:06", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 484, "ts": "2026-09-30 12:47:43", "at": "12:47:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 485, "ts": "2026-09-30 12:48:51", "at": "12:48:51", "kind": "exit", "msg": "SELL INDIGO 5100 CE 27 Oct QUICK_TARGET @ 117.90  +16.7%  P&L Rs 2535.00"}
+{"id": 486, "ts": "2026-09-30 12:49:03", "at": "12:49:03", "kind": "gap", "msg": "1 contract had no prices for 195+ session minutes (INDIGO 4950 PE 27 Oct) - reloading their bar history"}
+{"id": 487, "ts": "2026-09-30 12:49:04", "at": "12:49:04", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 488, "ts": "2026-09-30 12:49:30", "at": "12:49:30", "kind": "gap", "msg": "1 contract had no prices for 182+ session minutes (INDIGO 5050 PE 27 Oct) - reloading their bar history"}
+{"id": 489, "ts": "2026-09-30 12:49:31", "at": "12:49:31", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 490, "ts": "2026-09-30 12:50:04", "at": "12:50:04", "kind": "signal", "msg": "TATASTEEL 185 CE 27 Oct crossed EMA 144 at 7.74 - not taken: momentum -9.9%"}
+{"id": 491, "ts": "2026-09-30 12:50:04", "at": "12:50:04", "kind": "signal", "msg": "BPCL 320 PE 27 Oct crossed EMA 144 at 16.35 - not taken: under EMA 55, momentum 0.9%"}
+{"id": 492, "ts": "2026-09-30 12:50:05", "at": "12:50:05", "kind": "entry", "msg": "BUY AXISBANK 1240 CE 27 Oct x625 @ 30.80 (signal close 31.20, EMA 144 30.35, momentum 22.6%)  quick 35.42 till 13:20, target 52.36, stop below EMA 55"}
+{"id": 493, "ts": "2026-09-30 12:50:05", "at": "12:50:05", "kind": "skip", "msg": "INDHOTEL 720 CE 27 Oct signal at 25.15 skipped - 5 positions already open"}
+{"id": 494, "ts": "2026-09-30 12:50:05", "at": "12:50:05", "kind": "skip", "msg": "ADANIPORTS 1780 CE 27 Oct signal at 49.15 skipped - 5 positions already open"}
+{"id": 495, "ts": "2026-09-30 12:50:45", "at": "12:50:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
