@@ -514,3 +514,19 @@
 {"id": 514, "ts": "2026-09-30 13:05:04", "at": "13:05:04", "kind": "signal", "msg": "ITC 265 PE 27 Oct crossed EMA 144 at 4.45 - not taken: momentum 0.0%, premium under Rs 5"}
 {"id": 515, "ts": "2026-09-30 13:05:04", "at": "13:05:04", "kind": "signal", "msg": "ITC 270 PE 27 Oct crossed EMA 144 at 6.85 - not taken: momentum -0.7%"}
 {"id": 516, "ts": "2026-09-30 13:05:04", "at": "13:05:04", "kind": "exit", "msg": "SELL LODHA 1100 PE 27 Oct EMA_STOP @ 31.25  -14.5%  P&L Rs -3312.50"}
+{"id": 517, "ts": "2026-09-30 13:06:19", "at": "13:06:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 518, "ts": "2026-09-30 13:08:58", "at": "13:08:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 519, "ts": "2026-09-30 13:09:22", "at": "13:09:22", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 520, "ts": "2026-09-30 13:09:33", "at": "13:09:33", "kind": "gap", "msg": "1 contract had no prices for 22+ session minutes (INDIGO 5150 CE 27 Oct) - reloading their bar history"}
+{"id": 521, "ts": "2026-09-30 13:09:34", "at": "13:09:34", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 522, "ts": "2026-09-30 13:09:45", "at": "13:09:45", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 523, "ts": "2026-09-30 13:10:03", "at": "13:10:03", "kind": "signal", "msg": "NTPC 320 PE 27 Oct crossed EMA 144 at 4.20 - not taken: under EMA 55, momentum -9.7%, premium under Rs 5"}
+{"id": 524, "ts": "2026-09-30 13:10:03", "at": "13:10:03", "kind": "signal", "msg": "TATASTEEL 185 CE 27 Oct crossed EMA 144 at 7.78 - not taken: momentum -3.6%"}
+{"id": 525, "ts": "2026-09-30 13:10:03", "at": "13:10:03", "kind": "signal", "msg": "DIVISLAB 9200 PE 27 Oct crossed EMA 144 at 164.00 - not taken: momentum -5.2%"}
+{"id": 526, "ts": "2026-09-30 13:10:03", "at": "13:10:03", "kind": "signal", "msg": "IRFC 80 CE 27 Oct crossed EMA 144 at 2.36 - not taken: premium under Rs 5"}
+{"id": 527, "ts": "2026-09-30 13:10:03", "at": "13:10:03", "kind": "signal", "msg": "IRFC 82 CE 27 Oct crossed EMA 144 at 1.61 - not taken: premium under Rs 5"}
+{"id": 528, "ts": "2026-09-30 13:10:03", "at": "13:10:03", "kind": "signal", "msg": "DIVISLAB 9000 PE 27 Oct crossed EMA 144 at 105.00 - not taken: momentum -5.6%"}
+{"id": 529, "ts": "2026-09-30 13:11:01", "at": "13:11:01", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 530, "ts": "2026-09-30 13:11:12", "at": "13:11:12", "kind": "gap", "msg": "1 contract had no prices for 191+ session minutes (CGPOWER 830 PE 27 Oct) - reloading their bar history"}
+{"id": 531, "ts": "2026-09-30 13:11:13", "at": "13:11:13", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 532, "ts": "2026-09-30 13:11:20", "at": "13:11:20", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
