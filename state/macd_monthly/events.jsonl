@@ -131,3 +131,4 @@
 {"id": 131, "ts": "2026-09-30 13:55:00", "at": "13:55:00", "kind": "exit", "msg": "SHORT 2026-10-27 23000 PE MACD_UP @ 379.00  P&L Rs -903.50"}
 {"id": 132, "ts": "2026-09-30 13:55:00", "at": "13:55:00", "kind": "entry", "msg": "BUY 2026-10-27 23000 PE @ 379.00  (bar close 376.00, MACD hist +0.31, VIX 13.41)"}
 {"id": 133, "ts": "2026-09-30 13:55:33", "at": "13:55:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 134, "ts": "2026-09-30 13:56:54", "at": "13:56:54", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
