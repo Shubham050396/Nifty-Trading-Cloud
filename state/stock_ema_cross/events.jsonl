@@ -493,3 +493,10 @@
 {"id": 493, "ts": "2026-09-30 12:50:05", "at": "12:50:05", "kind": "skip", "msg": "INDHOTEL 720 CE 27 Oct signal at 25.15 skipped - 5 positions already open"}
 {"id": 494, "ts": "2026-09-30 12:50:05", "at": "12:50:05", "kind": "skip", "msg": "ADANIPORTS 1780 CE 27 Oct signal at 49.15 skipped - 5 positions already open"}
 {"id": 495, "ts": "2026-09-30 12:50:45", "at": "12:50:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 496, "ts": "2026-09-30 12:51:45", "at": "12:51:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 497, "ts": "2026-09-30 12:51:50", "at": "12:51:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 498, "ts": "2026-09-30 12:53:47", "at": "12:53:47", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 499, "ts": "2026-09-30 12:54:48", "at": "12:54:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 500, "ts": "2026-09-30 12:55:02", "at": "12:55:02", "kind": "signal", "msg": "BEL 380 PE 27 Oct crossed EMA 144 at 4.90 - not taken: under EMA 55, momentum -5.8%, premium under Rs 5"}
+{"id": 501, "ts": "2026-09-30 12:55:02", "at": "12:55:02", "kind": "signal", "msg": "SBIN 940 PE 27 Oct crossed EMA 144 at 7.55 - not taken: under EMA 55, momentum -10.7%"}
+{"id": 502, "ts": "2026-09-30 12:55:02", "at": "12:55:02", "kind": "exit", "msg": "SELL HEROMOTOCO 5300 PE 27 Oct EMA_STOP @ 118.60  -15.9%  P&L Rs -3360.00"}
