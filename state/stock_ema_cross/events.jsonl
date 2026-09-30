@@ -332,3 +332,10 @@
 {"id": 332, "ts": "2026-09-30 11:20:01", "at": "11:20:01", "kind": "signal", "msg": "INFY 940 PE 27 Oct crossed EMA 144 at 11.25 - not taken: under EMA 55"}
 {"id": 333, "ts": "2026-09-30 11:20:03", "at": "11:20:03", "kind": "skip", "msg": "INDIGO 5000 PE 27 Oct signal at 180.00 skipped - 5 positions already open"}
 {"id": 334, "ts": "2026-09-30 11:20:22", "at": "11:20:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 335, "ts": "2026-09-30 11:22:01", "at": "11:22:01", "kind": "warm", "msg": "bar history loaded for all 1558 contracts"}
+{"id": 336, "ts": "2026-09-30 11:23:33", "at": "11:23:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 337, "ts": "2026-09-30 11:23:58", "at": "11:23:58", "kind": "warm", "msg": "bar history loaded for all 1560 contracts"}
+{"id": 338, "ts": "2026-09-30 11:24:37", "at": "11:24:37", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 339, "ts": "2026-09-30 11:25:02", "at": "11:25:02", "kind": "signal", "msg": "ADANIENT 2900 PE 27 Oct crossed EMA 144 at 81.35 - not taken: under EMA 55"}
+{"id": 340, "ts": "2026-09-30 11:25:02", "at": "11:25:02", "kind": "signal", "msg": "AXISBANK 1220 PE 27 Oct crossed EMA 144 at 28.85 - not taken: under EMA 55, momentum -7.1%"}
+{"id": 341, "ts": "2026-09-30 11:25:02", "at": "11:25:02", "kind": "signal", "msg": "AXISBANK 1240 PE 27 Oct crossed EMA 144 at 38.90 - not taken: under EMA 55, momentum -5.6%"}
