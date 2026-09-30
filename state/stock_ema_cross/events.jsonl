@@ -238,3 +238,16 @@
 {"id": 238, "ts": "2026-09-30 10:40:02", "at": "10:40:02", "kind": "signal", "msg": "BPCL 300 PE 27 Oct crossed EMA 144 at 5.30 - not taken: under EMA 55"}
 {"id": 239, "ts": "2026-09-30 10:40:03", "at": "10:40:03", "kind": "skip", "msg": "KOTAKBANK 400 CE 27 Oct signal at 18.20 skipped - 5 positions already open"}
 {"id": 240, "ts": "2026-09-30 10:40:15", "at": "10:40:15", "kind": "warm", "msg": "bar history loaded for all 1540 contracts"}
+{"id": 241, "ts": "2026-09-30 10:40:34", "at": "10:40:34", "kind": "gap", "msg": "1 contract had no prices for 50+ session minutes (VBL 425 PE 27 Oct) - reloading their bar history"}
+{"id": 242, "ts": "2026-09-30 10:40:35", "at": "10:40:35", "kind": "warm", "msg": "bar history loaded for all 1540 contracts"}
+{"id": 243, "ts": "2026-09-30 10:41:26", "at": "10:41:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 244, "ts": "2026-09-30 10:42:04", "at": "10:42:04", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 245, "ts": "2026-09-30 10:42:11", "at": "10:42:11", "kind": "warm", "msg": "bar history loaded for all 1542 contracts"}
+{"id": 246, "ts": "2026-09-30 10:44:16", "at": "10:44:16", "kind": "warm", "msg": "bar history loaded for all 1544 contracts"}
+{"id": 247, "ts": "2026-09-30 10:44:23", "at": "10:44:23", "kind": "warm", "msg": "bar history loaded for all 1544 contracts"}
+{"id": 248, "ts": "2026-09-30 10:45:04", "at": "10:45:04", "kind": "signal", "msg": "HCLTECH 1250 PE 27 Oct crossed EMA 144 at 47.00 - not taken: under EMA 55, momentum -6.5%"}
+{"id": 249, "ts": "2026-09-30 10:45:04", "at": "10:45:04", "kind": "signal", "msg": "TECHM 1600 PE 27 Oct crossed EMA 144 at 80.40 - not taken: under EMA 55, momentum -4.3%"}
+{"id": 250, "ts": "2026-09-30 10:45:04", "at": "10:45:04", "kind": "signal", "msg": "ADANIPOWER 205 PE 27 Oct crossed EMA 144 at 7.27 - not taken: under EMA 55, momentum -17.9%"}
+{"id": 251, "ts": "2026-09-30 10:45:04", "at": "10:45:04", "kind": "signal", "msg": "GAIL 175 PE 27 Oct crossed EMA 144 at 4.97 - not taken: momentum 1.8%, premium under Rs 5"}
+{"id": 252, "ts": "2026-09-30 10:45:04", "at": "10:45:04", "kind": "signal", "msg": "SOLARINDS 20000 PE 27 Oct crossed EMA 144 at 990.00 - not taken: under EMA 55"}
+{"id": 253, "ts": "2026-09-30 10:45:04", "at": "10:45:04", "kind": "signal", "msg": "ETERNAL 305 PE 27 Oct crossed EMA 144 at 4.50 - not taken: premium under Rs 5"}

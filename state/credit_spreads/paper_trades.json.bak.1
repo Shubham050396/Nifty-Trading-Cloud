@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "saved_at": "2026-09-30 09:59:34",
+  "saved_at": "2026-09-30 10:42:07",
   "paper_positions": [
     {
       "schema": 2,
@@ -78,7 +78,7 @@
           "exit_order_id": null,
           "exit_order_status": null,
           "exit_time": null,
-          "last_mark": 198.0,
+          "last_mark": 193.95,
           "last_mark_source": "ltp"
         },
         {
@@ -121,7 +121,7 @@
           "exit_order_id": null,
           "exit_order_status": null,
           "exit_time": null,
-          "last_mark": 356.2,
+          "last_mark": 349.7,
           "last_mark_source": "ltp"
         }
       ],
@@ -212,7 +212,7 @@
           "exit_order_id": null,
           "exit_order_status": null,
           "exit_time": null,
-          "last_mark": 89.25,
+          "last_mark": 87.8,
           "last_mark_source": "ltp"
         },
         {
@@ -255,7 +255,7 @@
           "exit_order_id": null,
           "exit_order_status": null,
           "exit_time": null,
-          "last_mark": 203.0,
+          "last_mark": 198.0,
           "last_mark_source": "ltp"
         }
       ],
@@ -346,7 +346,7 @@
           "exit_order_id": null,
           "exit_order_status": null,
           "exit_time": null,
-          "last_mark": 76.25,
+          "last_mark": 80.25,
           "last_mark_source": "ltp"
         },
         {
@@ -389,7 +389,7 @@
           "exit_order_id": null,
           "exit_order_status": null,
           "exit_time": null,
-          "last_mark": 136.7,
+          "last_mark": 139.6,
           "last_mark_source": "ltp"
         }
       ],
@@ -480,7 +480,7 @@
           "exit_order_id": null,
           "exit_order_status": null,
           "exit_time": null,
-          "last_mark": 604.0,
+          "last_mark": 587.35,
           "last_mark_source": "ltp"
         },
         {
@@ -523,7 +523,7 @@
           "exit_order_id": null,
           "exit_order_status": null,
           "exit_time": null,
-          "last_mark": 920.0,
+          "last_mark": 904.9,
           "last_mark_source": "ltp"
         }
       ],
@@ -536,6 +536,140 @@
       "Entry_Price": 316.0,
       "SecurityID": "55326",
       "Time": "2026-09-30 09:59:34",
+      "DTE": 90
+    },
+    {
+      "schema": 2,
+      "id": "d68a67579e7d490c",
+      "Structure": "CREDIT_SPREAD",
+      "Strategy": "BULL_PUT_SPREAD",
+      "Order_Mode": "PAPER",
+      "Status": "OPEN",
+      "Underlying": "NIFTY",
+      "Expiry": "2026-12-29",
+      "Type": "PUT",
+      "Short_Strike": 22000.0,
+      "Long_Strike": 21500.0,
+      "Wing_Width": 500.0,
+      "Lot_Size": 65,
+      "Lots": 1,
+      "Qty": 65,
+      "Entry_Time": "2026-09-30 10:42:07",
+      "Entry_DTE": 90,
+      "Entry_Spot": 22706.7,
+      "Entry_Synth": 23102.65,
+      "Net_Credit": 70.8,
+      "Credit_Received": 4602.0,
+      "Max_Profit": 4602.0,
+      "Max_Loss": 27898.0,
+      "Return_On_Risk": 16.5,
+      "Breakeven": 21929.2,
+      "POP": 75.8,
+      "Short_POP": 78.1,
+      "Efficiency": 67.08,
+      "Spread_Efficiency": 8.0,
+      "Net_Delta": 0.0684,
+      "Net_Theta": 0.04,
+      "Net_Gamma": -5e-05,
+      "Net_Vega": -7.41,
+      "Label": "22000 / 21500 PE",
+      "legs": [
+        {
+          "role": "WING",
+          "transaction_type": "BUY",
+          "exit_transaction_type": "SELL",
+          "security_id": "62444",
+          "exchange_segment": "NSE_FNO",
+          "product_type": "MARGIN",
+          "order_type": "LIMIT",
+          "validity": "DAY",
+          "drv_expiry_date": "2026-12-29",
+          "drv_option_type": "PUT",
+          "drv_strike_price": 21500.0,
+          "trading_symbol": "NIFTY-Dec2026-21500-PE",
+          "lot_size": 65,
+          "lots": 1,
+          "quantity": 65,
+          "sequence_entry": 1,
+          "sequence_exit": 2,
+          "entry_quote": 119.9,
+          "entry_bid": 119.25,
+          "entry_ask": 124.95,
+          "entry_fill_price": 119.9,
+          "entry_filled_qty": 65,
+          "entry_order_id": null,
+          "entry_order_status": "PAPER_FILLED",
+          "entry_time": "2026-09-30 10:42:07",
+          "entry_iv": 15.03,
+          "entry_greeks": {
+            "delta": 0.1351,
+            "gamma": 0.00013,
+            "theta": -1.168,
+            "vega": 24.55
+          },
+          "exit_quote": null,
+          "exit_fill_price": null,
+          "exit_price_source": null,
+          "exit_filled_qty": 0,
+          "exit_order_id": null,
+          "exit_order_status": null,
+          "exit_time": null,
+          "last_mark": 119.9,
+          "last_mark_source": "ltp"
+        },
+        {
+          "role": "SHORT",
+          "transaction_type": "SELL",
+          "exit_transaction_type": "BUY",
+          "security_id": "58649",
+          "exchange_segment": "NSE_FNO",
+          "product_type": "MARGIN",
+          "order_type": "LIMIT",
+          "validity": "DAY",
+          "drv_expiry_date": "2026-12-29",
+          "drv_option_type": "PUT",
+          "drv_strike_price": 22000.0,
+          "trading_symbol": "NIFTY-Dec2026-22000-PE",
+          "lot_size": 65,
+          "lots": 1,
+          "quantity": 65,
+          "sequence_entry": 2,
+          "sequence_exit": 1,
+          "entry_quote": 190.7,
+          "entry_bid": 191.45,
+          "entry_ask": 192.0,
+          "entry_fill_price": 190.7,
+          "entry_filled_qty": 65,
+          "entry_order_id": null,
+          "entry_order_status": "PAPER_FILLED",
+          "entry_time": "2026-09-30 10:42:07",
+          "entry_iv": 14.29,
+          "entry_greeks": {
+            "delta": 0.2034,
+            "gamma": 0.00018,
+            "theta": -1.207,
+            "vega": 31.97
+          },
+          "exit_quote": null,
+          "exit_fill_price": null,
+          "exit_price_source": null,
+          "exit_filled_qty": 0,
+          "exit_order_id": null,
+          "exit_order_status": null,
+          "exit_time": null,
+          "last_mark": 190.7,
+          "last_mark_source": "ltp"
+        }
+      ],
+      "Defer_Count": 0,
+      "Exit_Time": null,
+      "Exit_Reason": null,
+      "Net_Exit_Debit": null,
+      "Realized_PnL": null,
+      "Strike": 22000.0,
+      "Entry_Price": 70.8,
+      "SecurityID": "58649",
+      "Time": "2026-09-30 10:42:07",
       "DTE": 90
     }
   ],
@@ -648,6 +782,166 @@
     [
       1790742510,
       237.25
+    ],
+    [
+      1790742574,
+      325.0
+    ],
+    [
+      1790742637,
+      286.0
+    ],
+    [
+      1790742701,
+      468.0
+    ],
+    [
+      1790742765,
+      458.25
+    ],
+    [
+      1790742829,
+      406.25
+    ],
+    [
+      1790742893,
+      471.25
+    ],
+    [
+      1790742956,
+      237.25
+    ],
+    [
+      1790743020,
+      500.5
+    ],
+    [
+      1790743084,
+      526.5
+    ],
+    [
+      1790743148,
+      211.25
+    ],
+    [
+      1790743212,
+      260.0
+    ],
+    [
+      1790743276,
+      -130.0
+    ],
+    [
+      1790743340,
+      -578.5
+    ],
+    [
+      1790743403,
+      -230.75
+    ],
+    [
+      1790743467,
+      185.25
+    ],
+    [
+      1790743531,
+      227.5
+    ],
+    [
+      1790743595,
+      123.5
+    ],
+    [
+      1790743659,
+      -253.5
+    ],
+    [
+      1790743722,
+      -312.0
+    ],
+    [
+      1790743786,
+      -542.75
+    ],
+    [
+      1790743850,
+      -373.75
+    ],
+    [
+      1790743914,
+      -468.0
+    ],
+    [
+      1790743978,
+      -198.25
+    ],
+    [
+      1790744042,
+      -234.0
+    ],
+    [
+      1790744106,
+      58.5
+    ],
+    [
+      1790744170,
+      -71.5
+    ],
+    [
+      1790744233,
+      -149.5
+    ],
+    [
+      1790744297,
+      -45.5
+    ],
+    [
+      1790744361,
+      35.75
+    ],
+    [
+      1790744425,
+      175.5
+    ],
+    [
+      1790744489,
+      -3.25
+    ],
+    [
+      1790744552,
+      -169.0
+    ],
+    [
+      1790744616,
+      591.5
+    ],
+    [
+      1790744680,
+      984.75
+    ],
+    [
+      1790744744,
+      991.25
+    ],
+    [
+      1790744808,
+      1469.0
+    ],
+    [
+      1790744872,
+      1287.0
+    ],
+    [
+      1790744935,
+      734.5
+    ],
+    [
+      1790744999,
+      809.25
+    ],
+    [
+      1790745063,
+      598.0
     ]
   ],
   "filters": {

@@ -162,3 +162,16 @@
 {"id": 162, "ts": "2026-09-30 10:39:10", "at": "10:39:10", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 163, "ts": "2026-09-30 10:39:54", "at": "10:39:54", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 164, "ts": "2026-09-30 10:40:10", "at": "10:40:10", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 165, "ts": "2026-09-30 10:40:54", "at": "10:40:54", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 166, "ts": "2026-09-30 10:41:10", "at": "10:41:10", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 167, "ts": "2026-09-30 10:41:54", "at": "10:41:54", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 168, "ts": "2026-09-30 10:42:40", "at": "10:42:40", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 169, "ts": "2026-09-30 10:42:53", "at": "10:42:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 170, "ts": "2026-09-30 10:43:08", "at": "10:43:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 171, "ts": "2026-09-30 10:43:52", "at": "10:43:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 172, "ts": "2026-09-30 10:44:08", "at": "10:44:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 173, "ts": "2026-09-30 10:44:52", "at": "10:44:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 174, "ts": "2026-09-30 10:45:08", "at": "10:45:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 175, "ts": "2026-09-30 10:45:09", "at": "10:45:09", "kind": "signal", "msg": "EXIT LONG at 2026-09-30 10:40: NIFTY closed 22702.75 - closed through the stop EMA"}
+{"id": 176, "ts": "2026-09-30 10:45:23", "at": "10:45:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 177, "ts": "2026-09-30 10:45:23", "at": "10:45:23", "kind": "exit", "msg": "BULL 2026-10-06: SELL 22750 PE @ 146.20 + BUY 22550 PE @ 72.05 - closed through the stop EMA. P&L Rs -458.25 (no live quote - last mark)"}

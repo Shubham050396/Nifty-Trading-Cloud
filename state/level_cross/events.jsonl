@@ -220,3 +220,16 @@
 {"id": 220, "ts": "2026-09-30 10:39:34", "at": "10:39:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 221, "ts": "2026-09-30 10:39:49", "at": "10:39:49", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 222, "ts": "2026-09-30 10:40:04", "at": "10:40:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 223, "ts": "2026-09-30 10:40:34", "at": "10:40:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 224, "ts": "2026-09-30 10:41:05", "at": "10:41:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 225, "ts": "2026-09-30 10:41:20", "at": "10:41:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 226, "ts": "2026-09-30 10:41:50", "at": "10:41:50", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 227, "ts": "2026-09-30 10:42:20", "at": "10:42:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 228, "ts": "2026-09-30 10:42:50", "at": "10:42:50", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 229, "ts": "2026-09-30 10:43:21", "at": "10:43:21", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 230, "ts": "2026-09-30 10:43:51", "at": "10:43:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 231, "ts": "2026-09-30 10:44:06", "at": "10:44:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 232, "ts": "2026-09-30 10:44:21", "at": "10:44:21", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 233, "ts": "2026-09-30 10:44:37", "at": "10:44:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 234, "ts": "2026-09-30 10:45:07", "at": "10:45:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 235, "ts": "2026-09-30 10:45:22", "at": "10:45:22", "kind": "entry", "msg": "L2 BUY 2026-10-06 22900 PE @ 236.80  target 286.80  trail 201.28 (15%)"}
