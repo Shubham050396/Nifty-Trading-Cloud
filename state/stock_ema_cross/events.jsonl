@@ -507,3 +507,10 @@
 {"id": 507, "ts": "2026-09-30 13:00:03", "at": "13:00:03", "kind": "signal", "msg": "HDFCBANK 730 PE 27 Oct crossed EMA 144 at 22.00 - not taken: momentum -2.4%"}
 {"id": 508, "ts": "2026-09-30 13:00:03", "at": "13:00:03", "kind": "signal", "msg": "HDFCBANK 740 PE 27 Oct crossed EMA 144 at 28.25 - not taken: momentum -2.1%"}
 {"id": 509, "ts": "2026-09-30 13:00:03", "at": "13:00:03", "kind": "signal", "msg": "DLF 660 CE 27 Oct crossed EMA 144 at 22.30 - not taken: under EMA 55"}
+{"id": 510, "ts": "2026-09-30 13:03:41", "at": "13:03:41", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 511, "ts": "2026-09-30 13:05:04", "at": "13:05:04", "kind": "signal", "msg": "HDFCBANK 710 PE 27 Oct crossed EMA 144 at 12.90 - not taken: momentum -5.5%"}
+{"id": 512, "ts": "2026-09-30 13:05:04", "at": "13:05:04", "kind": "signal", "msg": "HDFCBANK 720 PE 27 Oct crossed EMA 144 at 17.05 - not taken: momentum -5.8%"}
+{"id": 513, "ts": "2026-09-30 13:05:04", "at": "13:05:04", "kind": "signal", "msg": "ITC 260 PE 27 Oct crossed EMA 144 at 2.75 - not taken: momentum 1.9%, premium under Rs 5"}
+{"id": 514, "ts": "2026-09-30 13:05:04", "at": "13:05:04", "kind": "signal", "msg": "ITC 265 PE 27 Oct crossed EMA 144 at 4.45 - not taken: momentum 0.0%, premium under Rs 5"}
+{"id": 515, "ts": "2026-09-30 13:05:04", "at": "13:05:04", "kind": "signal", "msg": "ITC 270 PE 27 Oct crossed EMA 144 at 6.85 - not taken: momentum -0.7%"}
+{"id": 516, "ts": "2026-09-30 13:05:04", "at": "13:05:04", "kind": "exit", "msg": "SELL LODHA 1100 PE 27 Oct EMA_STOP @ 31.25  -14.5%  P&L Rs -3312.50"}
