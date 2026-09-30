@@ -570,3 +570,23 @@
 {"id": 570, "ts": "2026-09-30 13:40:03", "at": "13:40:03", "kind": "signal", "msg": "DIVISLAB 9200 PE 27 Oct crossed EMA 144 at 162.60 - not taken: momentum -0.3%"}
 {"id": 571, "ts": "2026-09-30 13:40:03", "at": "13:40:03", "kind": "signal", "msg": "IOC 135 PE 27 Oct crossed EMA 144 at 3.26 - not taken: under EMA 55, premium under Rs 5"}
 {"id": 572, "ts": "2026-09-30 13:40:03", "at": "13:40:03", "kind": "signal", "msg": "DIVISLAB 9000 PE 27 Oct crossed EMA 144 at 104.60 - not taken: momentum 0.0%"}
+{"id": 573, "ts": "2026-09-30 13:42:50", "at": "13:42:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 574, "ts": "2026-09-30 13:43:23", "at": "13:43:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 575, "ts": "2026-09-30 13:45:03", "at": "13:45:03", "kind": "signal", "msg": "BEL 375 PE 27 Oct crossed EMA 144 at 3.70 - not taken: under EMA 55, momentum 2.8%, premium under Rs 5"}
+{"id": 576, "ts": "2026-09-30 13:45:03", "at": "13:45:03", "kind": "signal", "msg": "BPCL 300 PE 27 Oct crossed EMA 144 at 5.40 - not taken: under EMA 55"}
+{"id": 577, "ts": "2026-09-30 13:45:03", "at": "13:45:03", "kind": "signal", "msg": "DABUR 385 PE 27 Oct crossed EMA 144 at 9.10 - not taken: momentum 1.1%"}
+{"id": 578, "ts": "2026-09-30 13:45:03", "at": "13:45:03", "kind": "signal", "msg": "HAL 4500 PE 27 Oct crossed EMA 144 at 40.60 - not taken: momentum -1.1%"}
+{"id": 579, "ts": "2026-09-30 13:45:03", "at": "13:45:03", "kind": "signal", "msg": "TATAPOWER 360 PE 27 Oct crossed EMA 144 at 6.30 - not taken: under EMA 55"}
+{"id": 580, "ts": "2026-09-30 13:45:03", "at": "13:45:03", "kind": "signal", "msg": "DABUR 400 PE 27 Oct crossed EMA 144 at 18.85 - not taken: momentum -0.8%"}
+{"id": 581, "ts": "2026-09-30 13:45:03", "at": "13:45:03", "kind": "signal", "msg": "ICICIBANK 1350 PE 27 Oct crossed EMA 144 at 36.85 - not taken: under EMA 55"}
+{"id": 582, "ts": "2026-09-30 13:45:03", "at": "13:45:03", "kind": "signal", "msg": "ICICIBANK 1360 PE 27 Oct crossed EMA 144 at 43.10 - not taken: under EMA 55"}
+{"id": 583, "ts": "2026-09-30 13:45:03", "at": "13:45:03", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 584, "ts": "2026-09-30 13:45:04", "at": "13:45:04", "kind": "skip", "msg": "BPCL 310 PE 27 Oct signal at 10.40 skipped - 5 positions already open"}
+{"id": 585, "ts": "2026-09-30 13:45:04", "at": "13:45:04", "kind": "skip", "msg": "HDFCBANK 700 PE 27 Oct signal at 10.05 skipped - 5 positions already open"}
+{"id": 586, "ts": "2026-09-30 13:45:04", "at": "13:45:04", "kind": "skip", "msg": "HDFCBANK 690 PE 27 Oct signal at 7.35 skipped - 5 positions already open"}
+{"id": 587, "ts": "2026-09-30 13:45:25", "at": "13:45:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 588, "ts": "2026-09-30 13:45:38", "at": "13:45:38", "kind": "warm", "msg": "bar history loaded for all 1568 contracts"}
+{"id": 589, "ts": "2026-09-30 13:45:50", "at": "13:45:50", "kind": "warm", "msg": "bar history loaded for all 1568 contracts"}
+{"id": 590, "ts": "2026-09-30 13:45:57", "at": "13:45:57", "kind": "warm", "msg": "bar history loaded for all 1568 contracts"}
+{"id": 591, "ts": "2026-09-30 13:46:02", "at": "13:46:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 592, "ts": "2026-09-30 13:46:31", "at": "13:46:31", "kind": "warm", "msg": "bar history loaded for all 1570 contracts"}
