@@ -361,3 +361,10 @@
 {"id": 361, "ts": "2026-09-30 11:40:03", "at": "11:40:03", "kind": "signal", "msg": "HDFCBANK 710 PE 27 Oct crossed EMA 144 at 13.05 - not taken: momentum -8.1%"}
 {"id": 362, "ts": "2026-09-30 11:40:03", "at": "11:40:03", "kind": "signal", "msg": "VBL 450 CE 27 Oct crossed EMA 144 at 7.05 - not taken: under EMA 55, momentum -1.4%"}
 {"id": 363, "ts": "2026-09-30 11:40:35", "at": "11:40:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 364, "ts": "2026-09-30 11:40:45", "at": "11:40:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 365, "ts": "2026-09-30 11:44:31", "at": "11:44:31", "kind": "gap", "msg": "1 contract had no prices for 124+ session minutes (HEROMOTOCO 5250 CE 27 Oct) - reloading their bar history"}
+{"id": 366, "ts": "2026-09-30 11:44:32", "at": "11:44:32", "kind": "warm", "msg": "bar history loaded for all 1564 contracts"}
+{"id": 367, "ts": "2026-09-30 11:44:50", "at": "11:44:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 368, "ts": "2026-09-30 11:45:04", "at": "11:45:04", "kind": "signal", "msg": "ADANIPORTS 1800 CE 27 Oct crossed EMA 144 at 34.50 - not taken: momentum 1.5%"}
+{"id": 369, "ts": "2026-09-30 11:45:04", "at": "11:45:04", "kind": "signal", "msg": "SOLARINDS 20000 PE 27 Oct crossed EMA 144 at 980.95 - not taken: under EMA 55"}
+{"id": 370, "ts": "2026-09-30 11:45:40", "at": "11:45:40", "kind": "warm", "msg": "bar history loaded for all 1564 contracts"}
