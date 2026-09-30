@@ -203,3 +203,14 @@
 {"id": 203, "ts": "2026-09-30 10:19:22", "at": "10:19:22", "kind": "warm", "msg": "bar history loaded for all 1530 contracts"}
 {"id": 204, "ts": "2026-09-30 10:20:03", "at": "10:20:03", "kind": "signal", "msg": "INDIGO 5100 CE 27 Oct crossed EMA 144 at 101.75 - not taken: momentum -0.6%"}
 {"id": 205, "ts": "2026-09-30 10:20:03", "at": "10:20:03", "kind": "signal", "msg": "TCS 2040 PE 27 Oct crossed EMA 144 at 46.05 - not taken: under EMA 55, momentum -9.5%"}
+{"id": 206, "ts": "2026-09-30 10:20:47", "at": "10:20:47", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 207, "ts": "2026-09-30 10:21:39", "at": "10:21:39", "kind": "warm", "msg": "bar history loaded for all 1532 contracts"}
+{"id": 208, "ts": "2026-09-30 10:22:02", "at": "10:22:02", "kind": "warm", "msg": "bar history loaded for all 1532 contracts"}
+{"id": 209, "ts": "2026-09-30 10:23:22", "at": "10:23:22", "kind": "gap", "msg": "1 contract had no prices for 38+ session minutes (CANBK 119 PE 27 Oct) - reloading their bar history"}
+{"id": 210, "ts": "2026-09-30 10:23:24", "at": "10:23:24", "kind": "warm", "msg": "bar history loaded for all 1532 contracts"}
+{"id": 211, "ts": "2026-09-30 10:24:09", "at": "10:24:09", "kind": "warm", "msg": "bar history loaded for all 1532 contracts"}
+{"id": 212, "ts": "2026-09-30 10:25:03", "at": "10:25:03", "kind": "signal", "msg": "WIPRO 160 PE 27 Oct crossed EMA 144 at 4.38 - not taken: under EMA 55, momentum -8.2%, premium under Rs 5"}
+{"id": 213, "ts": "2026-09-30 10:25:03", "at": "10:25:03", "kind": "signal", "msg": "GAIL 175 PE 27 Oct crossed EMA 144 at 4.92 - not taken: under EMA 55, momentum 0.4%, premium under Rs 5"}
+{"id": 214, "ts": "2026-09-30 10:25:04", "at": "10:25:04", "kind": "skip", "msg": "HCLTECH 1260 CE 27 Oct signal at 41.40 skipped - 5 positions already open"}
+{"id": 215, "ts": "2026-09-30 10:25:04", "at": "10:25:04", "kind": "skip", "msg": "DLF 650 PE 27 Oct signal at 15.00 skipped - 5 positions already open"}
+{"id": 216, "ts": "2026-09-30 10:25:04", "at": "10:25:04", "kind": "skip", "msg": "HCLTECH 1240 CE 27 Oct signal at 51.20 skipped - 5 positions already open"}
