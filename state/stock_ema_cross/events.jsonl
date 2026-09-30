@@ -690,3 +690,6 @@
 {"id": 690, "ts": "2026-09-30 14:41:09", "at": "14:41:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
 {"id": 691, "ts": "2026-09-30 14:42:05", "at": "14:42:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 692, "ts": "2026-09-30 14:45:03", "at": "14:45:03", "kind": "signal", "msg": "DLF 660 CE 27 Oct crossed EMA 144 at 22.60 - not taken: under EMA 55, momentum -7.8%"}
+{"id": 693, "ts": "2026-09-30 14:47:01", "at": "14:47:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 694, "ts": "2026-09-30 14:50:02", "at": "14:50:02", "kind": "signal", "msg": "KOTAKBANK 415 CE 27 Oct crossed EMA 144 at 10.60 - not taken: momentum -8.2%"}
+{"id": 695, "ts": "2026-09-30 14:50:15", "at": "14:50:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
