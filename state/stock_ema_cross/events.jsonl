@@ -309,3 +309,20 @@
 {"id": 309, "ts": "2026-09-30 11:10:03", "at": "11:10:03", "kind": "skip", "msg": "TECHM 1500 PE 27 Oct signal at 33.15 skipped - 5 positions already open"}
 {"id": 310, "ts": "2026-09-30 11:10:03", "at": "11:10:03", "kind": "skip", "msg": "HEROMOTOCO 5200 PE 27 Oct signal at 94.00 skipped - 5 positions already open"}
 {"id": 311, "ts": "2026-09-30 11:10:03", "at": "11:10:03", "kind": "skip", "msg": "JINDALSTEL 1100 PE 27 Oct signal at 14.95 skipped - 5 positions already open"}
+{"id": 312, "ts": "2026-09-30 11:11:51", "at": "11:11:51", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 313, "ts": "2026-09-30 11:11:51", "at": "11:11:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 314, "ts": "2026-09-30 11:12:22", "at": "11:12:22", "kind": "warm", "msg": "bar history loaded for all 1556 contracts"}
+{"id": 315, "ts": "2026-09-30 11:12:40", "at": "11:12:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 316, "ts": "2026-09-30 11:13:41", "at": "11:13:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 317, "ts": "2026-09-30 11:13:51", "at": "11:13:51", "kind": "gap", "msg": "1 contract had no prices for 79+ session minutes (JSWSTEEL 1230 PE 27 Oct) - reloading their bar history"}
+{"id": 318, "ts": "2026-09-30 11:13:52", "at": "11:13:52", "kind": "warm", "msg": "bar history loaded for all 1556 contracts"}
+{"id": 319, "ts": "2026-09-30 11:14:34", "at": "11:14:34", "kind": "warm", "msg": "bar history loaded for all 1556 contracts"}
+{"id": 320, "ts": "2026-09-30 11:14:49", "at": "11:14:49", "kind": "warm", "msg": "bar history loaded for all 1556 contracts"}
+{"id": 321, "ts": "2026-09-30 11:15:03", "at": "11:15:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 322, "ts": "2026-09-30 11:15:05", "at": "11:15:05", "kind": "signal", "msg": "ADANIENT 3100 PE 27 Oct crossed EMA 144 at 208.00 - not taken: under EMA 55"}
+{"id": 323, "ts": "2026-09-30 11:15:05", "at": "11:15:05", "kind": "signal", "msg": "TATASTEEL 182.5 CE 27 Oct crossed EMA 144 at 9.07 - not taken: under EMA 55, momentum -4.3%"}
+{"id": 324, "ts": "2026-09-30 11:15:05", "at": "11:15:05", "kind": "signal", "msg": "ADANIPOWER 195 PE 27 Oct crossed EMA 144 at 3.52 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 325, "ts": "2026-09-30 11:15:05", "at": "11:15:05", "kind": "signal", "msg": "DIVISLAB 9200 PE 27 Oct crossed EMA 144 at 163.90 - not taken: momentum -6.3%"}
+{"id": 326, "ts": "2026-09-30 11:15:10", "at": "11:15:10", "kind": "exit", "msg": "SELL TVSMOTOR 4100 CE 27 Oct EMA_STOP @ 148.00  -8.5%  P&L Rs -2397.50"}
+{"id": 327, "ts": "2026-09-30 11:15:11", "at": "11:15:11", "kind": "entry", "msg": "BUY HEROMOTOCO 5300 PE 27 Oct x150 @ 141.00 (signal close 138.00, EMA 144 134.87, momentum 17.2%)  quick 162.15 till 11:45, target 239.70, stop below EMA 55"}
+{"id": 328, "ts": "2026-09-30 11:15:27", "at": "11:15:27", "kind": "warm", "msg": "bar history loaded for all 1558 contracts"}
