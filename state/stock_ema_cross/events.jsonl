@@ -620,3 +620,10 @@
 {"id": 620, "ts": "2026-09-30 14:10:03", "at": "14:10:03", "kind": "signal", "msg": "TATAPOWER 355 PE 27 Oct crossed EMA 144 at 4.70 - not taken: premium under Rs 5"}
 {"id": 621, "ts": "2026-09-30 14:10:04", "at": "14:10:04", "kind": "skip", "msg": "BPCL 305 PE 27 Oct signal at 7.90 skipped - 5 positions already open"}
 {"id": 622, "ts": "2026-09-30 14:10:04", "at": "14:10:04", "kind": "skip", "msg": "HDFCBANK 700 PE 27 Oct signal at 10.15 skipped - 5 positions already open"}
+{"id": 623, "ts": "2026-09-30 14:11:46", "at": "14:11:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 624, "ts": "2026-09-30 14:15:01", "at": "14:15:01", "kind": "signal", "msg": "SHRIRAMFIN 960 PE 27 Oct crossed EMA 144 at 18.65 - not taken: under EMA 55"}
+{"id": 625, "ts": "2026-09-30 14:15:01", "at": "14:15:01", "kind": "signal", "msg": "IRFC 80 PE 27 Oct crossed EMA 144 at 3.22 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 626, "ts": "2026-09-30 14:15:01", "at": "14:15:01", "kind": "signal", "msg": "LICI 380 PE 27 Oct crossed EMA 144 at 2.45 - not taken: premium under Rs 5"}
+{"id": 627, "ts": "2026-09-30 14:15:01", "at": "14:15:01", "kind": "signal", "msg": "BEL 370 PE 27 Oct crossed EMA 144 at 2.90 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 628, "ts": "2026-09-30 14:16:03", "at": "14:16:03", "kind": "gap", "msg": "1 contract had no prices for 282+ session minutes (HAVELLS 1050 CE 27 Oct) - reloading their bar history"}
+{"id": 629, "ts": "2026-09-30 14:16:04", "at": "14:16:04", "kind": "warm", "msg": "bar history loaded for all 1572 contracts"}
