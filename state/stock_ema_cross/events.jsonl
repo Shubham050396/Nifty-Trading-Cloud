@@ -280,3 +280,9 @@
 {"id": 280, "ts": "2026-09-30 10:55:01", "at": "10:55:01", "kind": "signal", "msg": "KOTAKBANK 410 CE 27 Oct crossed EMA 144 at 12.20 - not taken: momentum 0.4%"}
 {"id": 281, "ts": "2026-09-30 10:55:05", "at": "10:55:05", "kind": "gap", "msg": "1 contract had no prices for 59+ session minutes (NTPC 312.5 PE 27 Oct) - reloading their bar history"}
 {"id": 282, "ts": "2026-09-30 10:55:06", "at": "10:55:06", "kind": "warm", "msg": "bar history loaded for all 1548 contracts"}
+{"id": 283, "ts": "2026-09-30 10:55:53", "at": "10:55:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 284, "ts": "2026-09-30 10:59:33", "at": "10:59:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 285, "ts": "2026-09-30 11:00:03", "at": "11:00:03", "kind": "signal", "msg": "AXISBANK 1240 PE 27 Oct crossed EMA 144 at 39.30 - not taken: under EMA 55, momentum -5.4%"}
+{"id": 286, "ts": "2026-09-30 11:00:03", "at": "11:00:03", "kind": "signal", "msg": "INFY 1040 PE 27 Oct crossed EMA 144 at 47.60 - not taken: under EMA 55"}
+{"id": 287, "ts": "2026-09-30 11:00:03", "at": "11:00:03", "kind": "signal", "msg": "ADANIPOWER 205 PE 27 Oct crossed EMA 144 at 7.48 - not taken: under EMA 55, momentum 1.6%"}
+{"id": 288, "ts": "2026-09-30 11:00:09", "at": "11:00:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
