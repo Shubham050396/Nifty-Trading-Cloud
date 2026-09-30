@@ -536,3 +536,8 @@
 {"id": 536, "ts": "2026-09-30 15:10:29", "at": "15:10:29", "kind": "vix", "msg": "India VIX 13.58 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
 {"id": 537, "ts": "2026-09-30 15:11:25", "at": "15:11:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 538, "ts": "2026-09-30 15:11:45", "at": "15:11:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 539, "ts": "2026-09-30 15:12:31", "at": "15:12:31", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 540, "ts": "2026-09-30 15:12:46", "at": "15:12:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 541, "ts": "2026-09-30 15:13:06", "at": "15:13:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 542, "ts": "2026-09-30 15:14:07", "at": "15:14:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 543, "ts": "2026-09-30 15:14:27", "at": "15:14:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

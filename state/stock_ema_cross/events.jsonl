@@ -723,3 +723,9 @@
 {"id": 723, "ts": "2026-09-30 15:11:11", "at": "15:11:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 724, "ts": "2026-09-30 15:11:30", "at": "15:11:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 725, "ts": "2026-09-30 15:11:31", "at": "15:11:31", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 726, "ts": "2026-09-30 15:12:15", "at": "15:12:15", "kind": "warm", "msg": "bar history loaded for all 1584 contracts"}
+{"id": 727, "ts": "2026-09-30 15:12:56", "at": "15:12:56", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 728, "ts": "2026-09-30 15:13:27", "at": "15:13:27", "kind": "warm", "msg": "bar history loaded for all 1584 contracts"}
+{"id": 729, "ts": "2026-09-30 15:14:33", "at": "15:14:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 730, "ts": "2026-09-30 15:14:50", "at": "15:14:50", "kind": "warm", "msg": "bar history loaded for all 1584 contracts"}
+{"id": 731, "ts": "2026-09-30 15:14:58", "at": "15:14:58", "kind": "warm", "msg": "bar history loaded for all 1584 contracts"}
