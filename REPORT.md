@@ -1,54 +1,54 @@
 # NIFTY Cloud report
 
-**Running until 15:15 IST** · updated 30 Sep 2026 09:39 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36666861472)
+**Running until 15:15 IST** · updated 30 Sep 2026 09:45 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36666861472)
 
-India VIX **13.31** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 09:29 → 15:15 IST (trading day)
+India VIX **13.32** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 09:29 → 15:15 IST (trading day)
 
 | Strategy | State | P&L today | Open P&L | All-time P&L | Trades today | Open | Margin blocked |
 |---|---|--:|--:|--:|--:|--:|--:|
-| ⚖️ NIFTY Credit Spreads | 🟢 running | ₹0 | +₹406 (+0.22%) | ₹0 | 0 | 3 | ₹1,85,416 |
-| 🛡️ NIFTY EMA Breakout Hedge | 🟢 running | ₹0 | −₹1,164 (-0.65%) | ₹0 | 0 | 4 | ₹1,80,190 |
+| ⚖️ NIFTY Credit Spreads | 🟢 running | ₹0 | +₹370 (+0.20%) | ₹0 | 0 | 3 | ₹1,85,380 |
+| 🛡️ NIFTY EMA Breakout Hedge | 🟢 running | ₹0 | −₹998 (-0.55%) | ₹0 | 0 | 4 | ₹1,80,310 |
 | 🎯 NIFTY 2-Level Cross | 🟢 running | ₹0 | ₹0 | ₹0 | 0 | 0 | ₹0 |
 | 📈 NIFTY MACD - Monthly 1000s | 🟢 running | ₹0 | ₹0 | ₹0 | 0 | 0 | ₹0 |
 | ⚡ NIFTY Scalper - IVX-G | 🟢 running | ₹0 | ₹0 | ₹0 | 0 | 0 | ₹0 |
-| 📊 Stock Options EMA Cross | 🟢 running | ₹0 | +₹618 (+3.54%) | ₹0 | 0 | 1 | ₹17,432 |
-| **Total** | | **₹0** | **−₹140** | **₹0** | **0** | **8** | **₹3,83,038** |
+| 📊 Stock Options EMA Cross | 🟢 running | ₹0 | +₹1,691 (+2.54%) | ₹0 | 0 | 3 | ₹66,562 |
+| **Total** | | **₹0** | **+₹1,063** | **₹0** | **0** | **10** | **₹4,32,252** |
 
 Paper trading only. Margin figures are estimates, as in the desktop app. Trades and state for each strategy are in the [state](state) folder.
 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-09-30 09:32:57] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
-[2026-09-30 09:34:00] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 09:35:04] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 09:36:08] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 09:37:12] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 09:38:16] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 09:40:24] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 09:40:24] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
+[2026-09-30 09:41:28] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 09:43:35] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 09:43:35] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
+[2026-09-30 09:44:39] API_ERROR marketfeed/ltp: HTTP 429 rate limited
 ```
 </details>
 
 <details><summary>NIFTY EMA Breakout Hedge - last log lines</summary>
 
 ```text
-[09:37:28] API       rate limited by Dhan - now one call every 15.1 s
-[09:37:43] API       rate limited by Dhan - now one call every 15.1 s
-[09:38:28] API       rate limited by Dhan - now one call every 15.1 s
-[09:38:43] API       rate limited by Dhan - now one call every 15.1 s
-[09:39:28] API       rate limited by Dhan - now one call every 15.1 s
-[09:39:43] API       rate limited by Dhan - now one call every 15.1 s
+[09:42:26] API       rate limited by Dhan - now one call every 15.1 s
+[09:42:41] API       rate limited by Dhan - now one call every 15.1 s
+[09:43:26] API       rate limited by Dhan - now one call every 15.1 s
+[09:43:41] API       rate limited by Dhan - now one call every 15.1 s
+[09:44:25] API       rate limited by Dhan - now one call every 15.1 s
+[09:44:41] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
 <details><summary>NIFTY 2-Level Cross - last log lines</summary>
 
 ```text
-[09:37:33] API       rate limited by Dhan - now one call every 15.1 s
-[09:38:03] API       rate limited by Dhan - now one call every 15.1 s
-[09:38:33] API       rate limited by Dhan - now one call every 15.1 s
-[09:39:03] API       rate limited by Dhan - now one call every 15.1 s
-[09:39:33] API       rate limited by Dhan - now one call every 15.1 s
-[09:39:49] API       rate limited by Dhan - now one call every 15.1 s
+[09:43:07] API       rate limited by Dhan - now one call every 15.1 s
+[09:43:22] API       rate limited by Dhan - now one call every 15.1 s
+[09:43:37] API       rate limited by Dhan - now one call every 15.1 s
+[09:43:53] API       rate limited by Dhan - now one call every 15.1 s
+[09:44:23] API       rate limited by Dhan - now one call every 15.1 s
+[09:44:53] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
@@ -79,12 +79,12 @@ serving NIFTY Scalper - IVX-G on http://127.0.0.1:46175
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[09:37:01] API       chart history: rate limited by Dhan - now one call every 1.2 s
-[09:37:27] API       chart history: rate limited by Dhan - now one call every 1.2 s
-[09:37:40] API       chart history: rate limited by Dhan - now one call every 1.2 s
-[09:38:31] API       chart history: rate limited by Dhan - now one call every 1.2 s
-[09:38:57] API       chart history: rate limited by Dhan - now one call every 1.2 s
-[09:39:20] API       market quote: rate limited by Dhan - now one call every 2.0 s
+[09:40:02] ENTRY     BUY DIVISLAB 9500 PE 27 Oct x100 @ 297.50 (signal close 293.00, EMA 144 282.19, momentum 22.3%)  quick 342.12 till 10:10, target 505.75, stop below EMA 55
+[09:40:02] ENTRY     BUY VBL 430 CE 27 Oct x1275 @ 15.20 (signal close 15.00, EMA 144 14.37, momentum 7.9%)  quick 17.48 till 10:10, target 25.84, stop below EMA 55
+[09:40:29] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[09:42:22] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[09:42:30] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[09:42:32] API       market quote: rate limited by Dhan - now one call every 2.0 s
 ```
 </details>
 

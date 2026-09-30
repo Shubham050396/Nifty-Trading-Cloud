@@ -106,3 +106,9 @@
 {"id": 106, "ts": "2026-09-30 09:38:31", "at": "09:38:31", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 107, "ts": "2026-09-30 09:38:57", "at": "09:38:57", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 108, "ts": "2026-09-30 09:39:20", "at": "09:39:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 109, "ts": "2026-09-30 09:40:02", "at": "09:40:02", "kind": "entry", "msg": "BUY DIVISLAB 9500 PE 27 Oct x100 @ 297.50 (signal close 293.00, EMA 144 282.19, momentum 22.3%)  quick 342.12 till 10:10, target 505.75, stop below EMA 55"}
+{"id": 110, "ts": "2026-09-30 09:40:02", "at": "09:40:02", "kind": "entry", "msg": "BUY VBL 430 CE 27 Oct x1275 @ 15.20 (signal close 15.00, EMA 144 14.37, momentum 7.9%)  quick 17.48 till 10:10, target 25.84, stop below EMA 55"}
+{"id": 111, "ts": "2026-09-30 09:40:29", "at": "09:40:29", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 112, "ts": "2026-09-30 09:42:22", "at": "09:42:22", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 113, "ts": "2026-09-30 09:42:30", "at": "09:42:30", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 114, "ts": "2026-09-30 09:42:32", "at": "09:42:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
