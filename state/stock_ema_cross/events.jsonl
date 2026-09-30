@@ -347,3 +347,8 @@
 {"id": 347, "ts": "2026-09-30 11:30:02", "at": "11:30:02", "kind": "signal", "msg": "VBL 450 CE 27 Oct crossed EMA 144 at 7.05 - not taken: under EMA 55, momentum 2.2%"}
 {"id": 348, "ts": "2026-09-30 11:30:29", "at": "11:30:29", "kind": "gap", "msg": "1 contract had no prices for 103+ session minutes (HINDALCO 930 PE 27 Oct) - reloading their bar history"}
 {"id": 349, "ts": "2026-09-30 11:30:30", "at": "11:30:30", "kind": "warm", "msg": "bar history loaded for all 1560 contracts"}
+{"id": 350, "ts": "2026-09-30 11:30:41", "at": "11:30:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 351, "ts": "2026-09-30 11:32:04", "at": "11:32:04", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 352, "ts": "2026-09-30 11:32:29", "at": "11:32:29", "kind": "warm", "msg": "bar history loaded for all 1562 contracts"}
+{"id": 353, "ts": "2026-09-30 11:35:01", "at": "11:35:01", "kind": "signal", "msg": "ADANIPORTS 1760 CE 27 Oct crossed EMA 144 at 55.35 - not taken: momentum 0.2%"}
+{"id": 354, "ts": "2026-09-30 11:35:24", "at": "11:35:24", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
