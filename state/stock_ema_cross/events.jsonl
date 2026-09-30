@@ -705,3 +705,13 @@
 {"id": 705, "ts": "2026-09-30 14:59:21", "at": "14:59:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 706, "ts": "2026-09-30 15:00:03", "at": "15:00:03", "kind": "signal", "msg": "ADANIENT 2800 PE 27 Oct crossed EMA 144 at 45.90 - not taken: under EMA 55"}
 {"id": 707, "ts": "2026-09-30 15:01:22", "at": "15:01:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 708, "ts": "2026-09-30 15:02:07", "at": "15:02:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 709, "ts": "2026-09-30 15:04:10", "at": "15:04:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 710, "ts": "2026-09-30 15:05:04", "at": "15:05:04", "kind": "signal", "msg": "ADANIPORTS 1760 CE 27 Oct crossed EMA 144 at 57.40 - not taken: momentum -6.1%"}
+{"id": 711, "ts": "2026-09-30 15:05:04", "at": "15:05:04", "kind": "signal", "msg": "ADANIPORTS 1800 CE 27 Oct crossed EMA 144 at 34.90 - not taken: momentum -7.7%"}
+{"id": 712, "ts": "2026-09-30 15:05:04", "at": "15:05:04", "kind": "signal", "msg": "DMART 3900 CE 27 Oct crossed EMA 144 at 97.40 - not taken: momentum -3.8%"}
+{"id": 713, "ts": "2026-09-30 15:05:04", "at": "15:05:04", "kind": "signal", "msg": "VBL 430 CE 27 Oct crossed EMA 144 at 14.80 - not taken: under EMA 55, momentum -2.6%"}
+{"id": 714, "ts": "2026-09-30 15:05:05", "at": "15:05:05", "kind": "skip", "msg": "DLF 670 CE 27 Oct signal at 19.75 skipped - 5 positions already open"}
+{"id": 715, "ts": "2026-09-30 15:05:18", "at": "15:05:18", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 716, "ts": "2026-09-30 15:05:48", "at": "15:05:48", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 717, "ts": "2026-09-30 15:06:15", "at": "15:06:15", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
