@@ -455,3 +455,6 @@
 {"id": 455, "ts": "2026-09-30 12:30:04", "at": "12:30:04", "kind": "signal", "msg": "VBL 450 CE 27 Oct crossed EMA 144 at 7.25 - not taken: momentum 2.8%"}
 {"id": 456, "ts": "2026-09-30 12:30:04", "at": "12:30:04", "kind": "signal", "msg": "ICICIBANK 1350 PE 27 Oct crossed EMA 144 at 36.40 - not taken: under EMA 55, momentum -2.2%"}
 {"id": 457, "ts": "2026-09-30 12:30:04", "at": "12:30:04", "kind": "signal", "msg": "ICICIBANK 1360 PE 27 Oct crossed EMA 144 at 42.35 - not taken: under EMA 55, momentum -1.5%"}
+{"id": 458, "ts": "2026-09-30 12:32:33", "at": "12:32:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 459, "ts": "2026-09-30 12:33:34", "at": "12:33:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 460, "ts": "2026-09-30 12:35:04", "at": "12:35:04", "kind": "skip", "msg": "ADANIPORTS 1780 CE 27 Oct signal at 47.85 skipped - 5 positions already open"}
