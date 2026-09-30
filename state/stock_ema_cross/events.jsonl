@@ -543,3 +543,7 @@
 {"id": 543, "ts": "2026-09-30 13:20:04", "at": "13:20:04", "kind": "entry", "msg": "BUY TVSMOTOR 4200 CE 27 Oct x175 @ 121.30 (signal close 121.55, EMA 144 112.33, momentum 11.7%)  quick 139.49 till 13:50, target 206.21, stop below EMA 55"}
 {"id": 544, "ts": "2026-09-30 13:21:13", "at": "13:21:13", "kind": "gap", "msg": "1 contract had no prices for 214+ session minutes (HAVELLS 1030 PE 27 Oct) - reloading their bar history"}
 {"id": 545, "ts": "2026-09-30 13:21:14", "at": "13:21:14", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 546, "ts": "2026-09-30 13:23:00", "at": "13:23:00", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 547, "ts": "2026-09-30 13:24:10", "at": "13:24:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 548, "ts": "2026-09-30 13:25:05", "at": "13:25:05", "kind": "skip", "msg": "INDHOTEL 750 CE 27 Oct signal at 12.00 skipped - 5 positions already open"}
+{"id": 549, "ts": "2026-09-30 13:25:10", "at": "13:25:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
