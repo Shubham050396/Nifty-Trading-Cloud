@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-09-30 12:10:02",
+  "saved_at": "2026-09-30 12:20:00",
   "cfg": {
     "expiries": [
       "2026-10-27"
@@ -48,8 +48,8 @@
         "entry_macd": -7.199,
         "entry_hist": 0.602,
         "vix": 13.41,
-        "mark": 912.65,
-        "pnl": -403.0,
+        "mark": 896.3,
+        "pnl": -1465.75,
         "status": "OPEN"
       }
     },
@@ -76,36 +76,8 @@
         "entry_macd": -6.709,
         "entry_hist": 0.14,
         "vix": 13.41,
-        "mark": 227.55,
-        "pnl": -100.75,
-        "status": "OPEN"
-      }
-    },
-    "2026-10-27|PE|24000": {
-      "expiry": "2026-10-27",
-      "opt_type": "PE",
-      "strike": 24000.0,
-      "sid": "51393",
-      "position": {
-        "id": "2026-10-27-PE-24000-SHORT-1790750402908",
-        "lane": "2026-10-27|PE|24000",
-        "contract": "2026-10-27 24000 PE",
-        "dir": "SHORT",
-        "opened": "2026-09-30 12:10:02",
-        "opened_ts": 1790750402.908306,
-        "expiry": "2026-10-27",
-        "opt_type": "PE",
-        "strike": 24000.0,
-        "entry": 1161.8,
-        "qty": 65,
-        "lot": 65,
-        "lots": 1,
-        "signal_close": 1159.6,
-        "entry_macd": 2.543,
-        "entry_hist": -0.239,
-        "vix": 13.41,
-        "mark": 1161.8,
-        "pnl": 0.0,
+        "mark": 219.75,
+        "pnl": -607.75,
         "status": "OPEN"
       }
     },
@@ -132,13 +104,41 @@
         "entry_macd": -5.551,
         "entry_hist": 0.289,
         "vix": 13.41,
-        "mark": 380.0,
-        "pnl": -838.5,
+        "mark": 391.35,
+        "pnl": -100.75,
         "status": "OPEN"
       }
     }
   },
-  "unflushed_trades": [],
+  "unflushed_trades": [
+    {
+      "id": "2026-10-27-PE-24000-SHORT-1790750402908",
+      "lane": "2026-10-27|PE|24000",
+      "contract": "2026-10-27 24000 PE",
+      "dir": "SHORT",
+      "opened": "2026-09-30 12:10:02",
+      "opened_ts": 1790750402.908306,
+      "expiry": "2026-10-27",
+      "opt_type": "PE",
+      "strike": 24000.0,
+      "entry": 1161.8,
+      "qty": 65,
+      "lot": 65,
+      "lots": 1,
+      "signal_close": 1159.6,
+      "entry_macd": 2.543,
+      "entry_hist": -0.239,
+      "vix": 13.41,
+      "mark": 1185.8,
+      "pnl": -1560.0,
+      "status": "CLOSED",
+      "closed": "2026-09-30 12:20:00",
+      "closed_ts": 1790751000.0963082,
+      "exit": 1185.8,
+      "reason": "MACD_UP",
+      "points": -24.0
+    }
+  ],
   "trades_today": 11,
   "day": "2026-09-30"
 }
