@@ -737,3 +737,8 @@
 {"id": 737, "ts": "2026-09-30 15:28:30", "at": "15:28:30", "kind": "control", "msg": "started automatically on launch - 99 stocks"}
 {"id": 738, "ts": "2026-09-30 15:28:30", "at": "15:28:30", "kind": "contract", "msg": "watching 1386 contracts on 99 stocks (ATM +/- 3, CE/PE): 1381 added, 0 dropped"}
 {"id": 739, "ts": "2026-09-30 15:28:31", "at": "15:28:31", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 740, "ts": "2026-09-30 15:29:31", "at": "15:29:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 741, "ts": "2026-09-30 15:30:01", "at": "15:30:01", "kind": "exit", "msg": "SELL TVSMOTOR 4200 CE 27 Oct EMA_STOP @ 96.55  -20.4%  P&L Rs -4331.25"}
+{"id": 742, "ts": "2026-09-30 15:30:01", "at": "15:30:01", "kind": "signal", "msg": "ADANIPORTS 1800 CE 27 Oct crossed EMA 144 at 34.45 - not taken: momentum -5.6%"}
+{"id": 743, "ts": "2026-09-30 15:30:01", "at": "15:30:01", "kind": "signal", "msg": "GAIL 170 PE 27 Oct crossed EMA 144 at 2.74 - not taken: momentum -4.9%, premium under Rs 5"}
+{"id": 744, "ts": "2026-09-30 15:30:03", "at": "15:30:03", "kind": "entry", "msg": "BUY DLF 670 CE 27 Oct x950 @ 19.10 (signal close 19.30, EMA 144 19.04, momentum 13.5%)  quick 21.96 till 16:00, target 32.47, stop below EMA 55"}
