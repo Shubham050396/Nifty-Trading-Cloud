@@ -339,3 +339,11 @@
 {"id": 339, "ts": "2026-09-30 11:25:02", "at": "11:25:02", "kind": "signal", "msg": "ADANIENT 2900 PE 27 Oct crossed EMA 144 at 81.35 - not taken: under EMA 55"}
 {"id": 340, "ts": "2026-09-30 11:25:02", "at": "11:25:02", "kind": "signal", "msg": "AXISBANK 1220 PE 27 Oct crossed EMA 144 at 28.85 - not taken: under EMA 55, momentum -7.1%"}
 {"id": 341, "ts": "2026-09-30 11:25:02", "at": "11:25:02", "kind": "signal", "msg": "AXISBANK 1240 PE 27 Oct crossed EMA 144 at 38.90 - not taken: under EMA 55, momentum -5.6%"}
+{"id": 342, "ts": "2026-09-30 11:27:05", "at": "11:27:05", "kind": "warm", "msg": "bar history loaded for all 1560 contracts"}
+{"id": 343, "ts": "2026-09-30 11:27:49", "at": "11:27:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 344, "ts": "2026-09-30 11:28:47", "at": "11:28:47", "kind": "warm", "msg": "bar history loaded for all 1560 contracts"}
+{"id": 345, "ts": "2026-09-30 11:30:02", "at": "11:30:02", "kind": "signal", "msg": "TATASTEEL 182.5 CE 27 Oct crossed EMA 144 at 9.00 - not taken: under EMA 55, momentum 1.7%"}
+{"id": 346, "ts": "2026-09-30 11:30:02", "at": "11:30:02", "kind": "signal", "msg": "DABUR 370 PE 27 Oct crossed EMA 144 at 4.25 - not taken: premium under Rs 5"}
+{"id": 347, "ts": "2026-09-30 11:30:02", "at": "11:30:02", "kind": "signal", "msg": "VBL 450 CE 27 Oct crossed EMA 144 at 7.05 - not taken: under EMA 55, momentum 2.2%"}
+{"id": 348, "ts": "2026-09-30 11:30:29", "at": "11:30:29", "kind": "gap", "msg": "1 contract had no prices for 103+ session minutes (HINDALCO 930 PE 27 Oct) - reloading their bar history"}
+{"id": 349, "ts": "2026-09-30 11:30:30", "at": "11:30:30", "kind": "warm", "msg": "bar history loaded for all 1560 contracts"}
