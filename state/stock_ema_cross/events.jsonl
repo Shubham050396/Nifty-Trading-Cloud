@@ -115,3 +115,21 @@
 {"id": 115, "ts": "2026-09-30 09:45:01", "at": "09:45:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 116, "ts": "2026-09-30 09:45:10", "at": "09:45:10", "kind": "skip", "msg": "VBL 440 CE 27 Oct signal at 10.75 skipped - already 1 open on VBL"}
 {"id": 117, "ts": "2026-09-30 09:45:21", "at": "09:45:21", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 118, "ts": "2026-09-30 09:50:05", "at": "09:50:05", "kind": "signal", "msg": "HCLTECH 1240 PE 27 Oct crossed EMA 144 at 46.00 - not taken: momentum -5.1%"}
+{"id": 119, "ts": "2026-09-30 09:50:05", "at": "09:50:05", "kind": "signal", "msg": "INFY 980 PE 27 Oct crossed EMA 144 at 21.90 - not taken: under EMA 55, momentum -27.0%"}
+{"id": 120, "ts": "2026-09-30 09:50:05", "at": "09:50:05", "kind": "signal", "msg": "TECHM 1560 PE 27 Oct crossed EMA 144 at 59.15 - not taken: under EMA 55, momentum -12.0%"}
+{"id": 121, "ts": "2026-09-30 09:50:05", "at": "09:50:05", "kind": "signal", "msg": "ULTRACEMCO 11000 PE 27 Oct crossed EMA 144 at 255.45 - not taken: momentum -12.1%"}
+{"id": 122, "ts": "2026-09-30 09:50:08", "at": "09:50:08", "kind": "entry", "msg": "BUY LODHA 1100 PE 27 Oct x625 @ 36.55 (signal close 36.00, EMA 144 34.80, momentum 10.6%)  quick 42.03 till 10:20, target 62.13, stop below EMA 55"}
+{"id": 123, "ts": "2026-09-30 09:50:08", "at": "09:50:08", "kind": "entry", "msg": "BUY TVSMOTOR 4100 CE 27 Oct x175 @ 161.70 (signal close 160.10, EMA 144 159.58, momentum 5.1%)  quick 185.95 till 10:20, target 274.89, stop below EMA 55"}
+{"id": 124, "ts": "2026-09-30 09:50:28", "at": "09:50:28", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 125, "ts": "2026-09-30 09:50:56", "at": "09:50:56", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 126, "ts": "2026-09-30 09:51:29", "at": "09:51:29", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 127, "ts": "2026-09-30 09:52:03", "at": "09:52:03", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 128, "ts": "2026-09-30 09:53:54", "at": "09:53:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 129, "ts": "2026-09-30 09:54:06", "at": "09:54:06", "kind": "gap", "msg": "1 contract had no prices for 16+ session minutes (VBL 435 CE 27 Oct) - reloading their bar history"}
+{"id": 130, "ts": "2026-09-30 09:54:30", "at": "09:54:30", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 131, "ts": "2026-09-30 09:55:04", "at": "09:55:04", "kind": "signal", "msg": "ITC 260 PE 27 Oct crossed EMA 144 at 2.80 - not taken: premium under Rs 5"}
+{"id": 132, "ts": "2026-09-30 09:55:04", "at": "09:55:04", "kind": "signal", "msg": "GAIL 175 PE 27 Oct crossed EMA 144 at 4.88 - not taken: under EMA 55, momentum -13.3%, premium under Rs 5"}
+{"id": 133, "ts": "2026-09-30 09:55:04", "at": "09:55:04", "kind": "signal", "msg": "INDHOTEL 700 PE 27 Oct crossed EMA 144 at 8.15 - not taken: momentum -3.0%"}
+{"id": 134, "ts": "2026-09-30 09:55:04", "at": "09:55:04", "kind": "signal", "msg": "INDHOTEL 720 PE 27 Oct crossed EMA 144 at 15.65 - not taken: momentum -2.5%"}
+{"id": 135, "ts": "2026-09-30 09:55:04", "at": "09:55:04", "kind": "signal", "msg": "IOC 135 PE 27 Oct crossed EMA 144 at 3.31 - not taken: under EMA 55, momentum -12.4%, premium under Rs 5"}
