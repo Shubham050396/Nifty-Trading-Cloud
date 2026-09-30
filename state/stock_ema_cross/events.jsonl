@@ -555,3 +555,9 @@
 {"id": 555, "ts": "2026-09-30 13:30:04", "at": "13:30:04", "kind": "skip", "msg": "HDFCBANK 720 PE 27 Oct signal at 17.20 skipped - 5 positions already open"}
 {"id": 556, "ts": "2026-09-30 13:30:05", "at": "13:30:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 557, "ts": "2026-09-30 13:31:09", "at": "13:31:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 558, "ts": "2026-09-30 13:32:15", "at": "13:32:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 559, "ts": "2026-09-30 13:32:26", "at": "13:32:26", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 560, "ts": "2026-09-30 13:34:17", "at": "13:34:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 561, "ts": "2026-09-30 13:34:21", "at": "13:34:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 562, "ts": "2026-09-30 13:35:02", "at": "13:35:02", "kind": "signal", "msg": "JSWSTEEL 1300 PE 27 Oct crossed EMA 144 at 41.40 - not taken: under EMA 55, momentum -7.8%"}
+{"id": 563, "ts": "2026-09-30 13:35:03", "at": "13:35:03", "kind": "skip", "msg": "DLF 670 CE 27 Oct signal at 20.50 skipped - 5 positions already open"}

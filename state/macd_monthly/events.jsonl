@@ -105,3 +105,4 @@
 {"id": 105, "ts": "2026-09-30 13:12:11", "at": "13:12:11", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 106, "ts": "2026-09-30 13:21:41", "at": "13:21:41", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 107, "ts": "2026-09-30 13:29:54", "at": "13:29:54", "kind": "vix", "msg": "India VIX prev close 13.41 - entries allowed"}
+{"id": 108, "ts": "2026-09-30 13:33:52", "at": "13:33:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
