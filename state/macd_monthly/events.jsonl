@@ -146,3 +146,4 @@
 {"id": 146, "ts": "2026-09-30 14:40:16", "at": "14:40:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 147, "ts": "2026-09-30 14:45:01", "at": "14:45:01", "kind": "signal", "msg": "2026-10-27 26000 CE MACD crossed UP (bar close 2.00, hist -0.00 -> +0.01)"}
 {"id": 148, "ts": "2026-09-30 14:45:01", "at": "14:45:01", "kind": "skip", "msg": "buy 2026-10-27 26000 CE ignored - premium 2.00 is outside 144 - 1600"}
+{"id": 149, "ts": "2026-09-30 14:53:48", "at": "14:53:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
