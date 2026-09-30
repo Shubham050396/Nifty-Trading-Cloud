@@ -436,3 +436,16 @@
 {"id": 436, "ts": "2026-09-30 12:20:04", "at": "12:20:04", "kind": "signal", "msg": "VBL 440 CE 27 Oct crossed EMA 144 at 10.35 - not taken: under EMA 55, momentum -3.3%"}
 {"id": 437, "ts": "2026-09-30 12:20:04", "at": "12:20:04", "kind": "signal", "msg": "VEDL 250 PE 27 Oct crossed EMA 144 at 4.05 - not taken: momentum -15.6%, premium under Rs 5"}
 {"id": 438, "ts": "2026-09-30 12:20:04", "at": "12:20:04", "kind": "signal", "msg": "TATAPOWER 350 PE 27 Oct crossed EMA 144 at 3.70 - not taken: momentum -9.8%, premium under Rs 5"}
+{"id": 439, "ts": "2026-09-30 12:21:14", "at": "12:21:14", "kind": "warm", "msg": "bar history loaded for all 1564 contracts"}
+{"id": 440, "ts": "2026-09-30 12:21:25", "at": "12:21:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 441, "ts": "2026-09-30 12:22:03", "at": "12:22:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 442, "ts": "2026-09-30 12:22:25", "at": "12:22:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 443, "ts": "2026-09-30 12:23:04", "at": "12:23:04", "kind": "gap", "msg": "1 contract had no prices for 149+ session minutes (HAVELLS 1010 PE 27 Oct) - reloading their bar history"}
+{"id": 444, "ts": "2026-09-30 12:23:04", "at": "12:23:04", "kind": "warm", "msg": "bar history loaded for all 1564 contracts"}
+{"id": 445, "ts": "2026-09-30 12:23:26", "at": "12:23:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 446, "ts": "2026-09-30 12:24:11", "at": "12:24:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 447, "ts": "2026-09-30 12:24:27", "at": "12:24:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 448, "ts": "2026-09-30 12:25:03", "at": "12:25:03", "kind": "entry", "msg": "BUY KOTAKBANK 420 CE 27 Oct x2000 @ 8.30 (signal close 8.20, EMA 144 7.77, momentum 13.9%)  quick 9.54 till 12:55, target 14.11, stop below EMA 55"}
+{"id": 449, "ts": "2026-09-30 12:25:03", "at": "12:25:03", "kind": "skip", "msg": "INDIGO 5000 CE 27 Oct signal at 139.50 skipped - 5 positions already open"}
+{"id": 450, "ts": "2026-09-30 12:25:03", "at": "12:25:03", "kind": "skip", "msg": "ADANIPORTS 1780 CE 27 Oct signal at 47.80 skipped - 5 positions already open"}
+{"id": 451, "ts": "2026-09-30 12:25:03", "at": "12:25:03", "kind": "skip", "msg": "TVSMOTOR 4100 CE 27 Oct signal at 160.00 skipped - 5 positions already open"}
