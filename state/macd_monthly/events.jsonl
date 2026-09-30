@@ -102,3 +102,4 @@
 {"id": 102, "ts": "2026-09-30 12:35:02", "at": "12:35:02", "kind": "signal", "msg": "2026-10-27 22000 PE MACD crossed DOWN (bar close 71.15, hist +0.16 -> -0.03)"}
 {"id": 103, "ts": "2026-09-30 12:35:02", "at": "12:35:02", "kind": "skip", "msg": "short 2026-10-27 22000 PE ignored - premium 71.15 is outside 144 - 1600"}
 {"id": 104, "ts": "2026-09-30 13:02:43", "at": "13:02:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 105, "ts": "2026-09-30 13:12:11", "at": "13:12:11", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
