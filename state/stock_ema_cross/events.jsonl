@@ -537,3 +537,9 @@
 {"id": 537, "ts": "2026-09-30 13:15:03", "at": "13:15:03", "kind": "signal", "msg": "ADANIPORTS 1780 CE 27 Oct crossed EMA 144 at 47.75 - not taken: momentum -0.1%"}
 {"id": 538, "ts": "2026-09-30 13:15:03", "at": "13:15:03", "kind": "signal", "msg": "HDFCBANK 720 PE 27 Oct crossed EMA 144 at 17.15 - not taken: momentum 3.3%"}
 {"id": 539, "ts": "2026-09-30 13:15:04", "at": "13:15:04", "kind": "entry", "msg": "BUY HDFCBANK 710 PE 27 Oct x650 @ 12.90 (signal close 12.90, EMA 144 12.76, momentum 4.0%)  quick 14.83 till 13:45, target 21.93, stop below EMA 55"}
+{"id": 540, "ts": "2026-09-30 13:18:24", "at": "13:18:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 541, "ts": "2026-09-30 13:18:36", "at": "13:18:36", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
+{"id": 542, "ts": "2026-09-30 13:19:27", "at": "13:19:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 543, "ts": "2026-09-30 13:20:04", "at": "13:20:04", "kind": "entry", "msg": "BUY TVSMOTOR 4200 CE 27 Oct x175 @ 121.30 (signal close 121.55, EMA 144 112.33, momentum 11.7%)  quick 139.49 till 13:50, target 206.21, stop below EMA 55"}
+{"id": 544, "ts": "2026-09-30 13:21:13", "at": "13:21:13", "kind": "gap", "msg": "1 contract had no prices for 214+ session minutes (HAVELLS 1030 PE 27 Oct) - reloading their bar history"}
+{"id": 545, "ts": "2026-09-30 13:21:14", "at": "13:21:14", "kind": "warm", "msg": "bar history loaded for all 1566 contracts"}
