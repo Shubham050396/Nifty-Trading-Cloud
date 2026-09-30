@@ -131,3 +131,15 @@
 {"id": 131, "ts": "2026-09-30 10:24:03", "at": "10:24:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 132, "ts": "2026-09-30 10:24:18", "at": "10:24:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 133, "ts": "2026-09-30 10:25:03", "at": "10:25:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 134, "ts": "2026-09-30 10:25:18", "at": "10:25:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 135, "ts": "2026-09-30 10:26:03", "at": "10:26:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 136, "ts": "2026-09-30 10:26:18", "at": "10:26:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 137, "ts": "2026-09-30 10:26:34", "at": "10:26:34", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 138, "ts": "2026-09-30 10:27:02", "at": "10:27:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 139, "ts": "2026-09-30 10:27:18", "at": "10:27:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 140, "ts": "2026-09-30 10:28:02", "at": "10:28:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 141, "ts": "2026-09-30 10:28:18", "at": "10:28:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 142, "ts": "2026-09-30 10:29:02", "at": "10:29:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 143, "ts": "2026-09-30 10:29:03", "at": "10:29:03", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 144, "ts": "2026-09-30 10:30:00", "at": "10:30:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 145, "ts": "2026-09-30 10:30:16", "at": "10:30:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

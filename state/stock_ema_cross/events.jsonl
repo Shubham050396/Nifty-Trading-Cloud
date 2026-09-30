@@ -214,3 +214,8 @@
 {"id": 214, "ts": "2026-09-30 10:25:04", "at": "10:25:04", "kind": "skip", "msg": "HCLTECH 1260 CE 27 Oct signal at 41.40 skipped - 5 positions already open"}
 {"id": 215, "ts": "2026-09-30 10:25:04", "at": "10:25:04", "kind": "skip", "msg": "DLF 650 PE 27 Oct signal at 15.00 skipped - 5 positions already open"}
 {"id": 216, "ts": "2026-09-30 10:25:04", "at": "10:25:04", "kind": "skip", "msg": "HCLTECH 1240 CE 27 Oct signal at 51.20 skipped - 5 positions already open"}
+{"id": 217, "ts": "2026-09-30 10:25:20", "at": "10:25:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 218, "ts": "2026-09-30 10:27:49", "at": "10:27:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 219, "ts": "2026-09-30 10:28:14", "at": "10:28:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 220, "ts": "2026-09-30 10:28:34", "at": "10:28:34", "kind": "warm", "msg": "bar history loaded for all 1534 contracts"}
+{"id": 221, "ts": "2026-09-30 10:30:02", "at": "10:30:02", "kind": "signal", "msg": "HCLTECH 1260 PE 27 Oct crossed EMA 144 at 49.65 - not taken: under EMA 55, momentum -7.5%"}
