@@ -616,3 +616,7 @@
 {"id": 616, "ts": "2026-09-30 14:05:01", "at": "14:05:01", "kind": "signal", "msg": "ADANIENT 3000 PE 27 Oct crossed EMA 144 at 130.40 - not taken: under EMA 55"}
 {"id": 617, "ts": "2026-09-30 14:05:01", "at": "14:05:01", "kind": "signal", "msg": "SHRIRAMFIN 1000 PE 27 Oct crossed EMA 144 at 36.60 - not taken: under EMA 55, momentum 1.7%"}
 {"id": 618, "ts": "2026-09-30 14:05:01", "at": "14:05:01", "kind": "signal", "msg": "TATAPOWER 360 PE 27 Oct crossed EMA 144 at 6.35 - not taken: under EMA 55"}
+{"id": 619, "ts": "2026-09-30 14:07:58", "at": "14:07:58", "kind": "warm", "msg": "bar history loaded for all 1572 contracts"}
+{"id": 620, "ts": "2026-09-30 14:10:03", "at": "14:10:03", "kind": "signal", "msg": "TATAPOWER 355 PE 27 Oct crossed EMA 144 at 4.70 - not taken: premium under Rs 5"}
+{"id": 621, "ts": "2026-09-30 14:10:04", "at": "14:10:04", "kind": "skip", "msg": "BPCL 305 PE 27 Oct signal at 7.90 skipped - 5 positions already open"}
+{"id": 622, "ts": "2026-09-30 14:10:04", "at": "14:10:04", "kind": "skip", "msg": "HDFCBANK 700 PE 27 Oct signal at 10.15 skipped - 5 positions already open"}

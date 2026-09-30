@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-09-30 14:05:02",
+  "saved_at": "2026-09-30 14:10:01",
   "cfg": {
     "expiries": [
       "2026-10-27"
@@ -48,8 +48,8 @@
         "entry_macd": 3.554,
         "entry_hist": -0.215,
         "vix": 13.41,
-        "mark": 919.25,
-        "pnl": -926.25,
+        "mark": 906.0,
+        "pnl": -65.0,
         "status": "OPEN"
       }
     },
@@ -76,8 +76,8 @@
         "entry_macd": -1.655,
         "entry_hist": -0.041,
         "vix": 13.41,
-        "mark": 225.3,
-        "pnl": -373.75,
+        "mark": 219.7,
+        "pnl": -9.75,
         "status": "OPEN"
       }
     },
@@ -104,8 +104,8 @@
         "entry_macd": -7.762,
         "entry_hist": 0.637,
         "vix": 13.41,
-        "mark": 1155.1,
-        "pnl": -1075.75,
+        "mark": 1169.7,
+        "pnl": -126.75,
         "status": "OPEN"
       }
     },
@@ -132,8 +132,8 @@
         "entry_macd": -8.457,
         "entry_hist": 0.313,
         "vix": 13.41,
-        "mark": 371.1,
-        "pnl": -513.5,
+        "mark": 383.05,
+        "pnl": 263.25,
         "status": "OPEN"
       }
     }
