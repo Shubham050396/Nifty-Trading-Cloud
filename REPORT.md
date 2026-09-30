@@ -1,54 +1,54 @@
 # NIFTY Cloud report
 
-**Running until 15:15 IST** · updated 30 Sep 2026 10:15 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36666861472)
+**Running until 15:15 IST** · updated 30 Sep 2026 10:20 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36666861472)
 
 India VIX **12.99** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 09:29 → 15:15 IST (trading day)
 
 | Strategy | State | P&L today | Open P&L | All-time P&L | Trades today | Open | Margin blocked |
 |---|---|--:|--:|--:|--:|--:|--:|
-| ⚖️ NIFTY Credit Spreads | 🟢 running | ₹0 | +₹185 (+0.08%) | ₹0 | 0 | 4 | ₹2,33,650 |
-| 🛡️ NIFTY EMA Breakout Hedge | 🟢 running | ₹0 | +₹280 (+0.15%) | ₹0 | 0 | 4 | ₹1,80,569 |
+| ⚖️ NIFTY Credit Spreads | 🟢 running | ₹0 | −₹543 (-0.23%) | ₹0 | 0 | 4 | ₹2,32,922 |
+| 🛡️ NIFTY EMA Breakout Hedge | 🟢 running | ₹0 | +₹536 (+0.30%) | ₹0 | 0 | 4 | ₹1,80,573 |
 | 🎯 NIFTY 2-Level Cross | 🟢 running | ₹0 | ₹0 | ₹0 | 0 | 0 | ₹0 |
-| 📈 NIFTY MACD - Monthly 1000s | 🟢 running | −₹1,313 (-0.46%) | +₹1,580 (+2.09%) | −₹1,313 (-0.46%) | 2 | 2 | ₹75,680 |
+| 📈 NIFTY MACD - Monthly 1000s | 🟢 running | −₹1,313 (-0.46%) | +₹1,781 (+2.35%) | −₹1,313 (-0.46%) | 2 | 2 | ₹75,680 |
 | ⚡ NIFTY Scalper - IVX-G | 🟢 running | ₹0 | ₹0 | ₹0 | 0 | 0 | ₹0 |
-| 📊 Stock Options EMA Cross | 🟢 running | ₹0 | +₹6,305 (+5.36%) | ₹0 | 0 | 5 | ₹1,17,704 |
-| **Total** | | **−₹1,313** | **+₹8,350** | **−₹1,313** | **2** | **15** | **₹6,07,603** |
+| 📊 Stock Options EMA Cross | 🟢 running | ₹0 | +₹4,629 (+3.93%) | ₹0 | 0 | 5 | ₹1,17,704 |
+| **Total** | | **−₹1,313** | **+₹6,403** | **−₹1,313** | **2** | **15** | **₹6,06,879** |
 
 Paper trading only. Margin figures are estimates, as in the desktop app. Trades and state for each strategy are in the [state](state) folder.
 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-09-30 10:09:04] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
-[2026-09-30 10:10:08] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 10:11:12] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 10:12:16] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-09-30 10:13:20] API_ERROR marketfeed/ltp: HTTP 429 rate limited
 [2026-09-30 10:14:24] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 10:16:31] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 10:16:31] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
+[2026-09-30 10:17:35] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 10:19:43] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-09-30 10:19:43] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
 ```
 </details>
 
 <details><summary>NIFTY EMA Breakout Hedge - last log lines</summary>
 
 ```text
-[10:12:22] API       rate limited by Dhan - now one call every 15.1 s
-[10:13:07] API       rate limited by Dhan - now one call every 15.1 s
-[10:13:22] API       rate limited by Dhan - now one call every 15.1 s
-[10:14:07] API       rate limited by Dhan - now one call every 15.1 s
-[10:14:22] API       rate limited by Dhan - now one call every 15.1 s
-[10:15:07] API       rate limited by Dhan - now one call every 15.1 s
+[10:17:22] API       rate limited by Dhan - now one call every 15.1 s
+[10:18:07] API       rate limited by Dhan - now one call every 15.1 s
+[10:18:08] VIX       India VIX unavailable (HTTP 429) - no new spreads until it can be read
+[10:19:05] API       rate limited by Dhan - now one call every 15.1 s
+[10:19:20] API       rate limited by Dhan - now one call every 15.1 s
+[10:20:05] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
 <details><summary>NIFTY 2-Level Cross - last log lines</summary>
 
 ```text
-[10:13:00] API       rate limited by Dhan - now one call every 15.1 s
-[10:13:30] API       rate limited by Dhan - now one call every 15.1 s
-[10:14:00] API       rate limited by Dhan - now one call every 15.1 s
-[10:14:30] API       rate limited by Dhan - now one call every 15.1 s
-[10:14:45] API       rate limited by Dhan - now one call every 15.1 s
-[10:15:01] API       rate limited by Dhan - now one call every 15.1 s
+[10:18:03] API       rate limited by Dhan - now one call every 15.1 s
+[10:18:33] API       rate limited by Dhan - now one call every 15.1 s
+[10:19:03] API       rate limited by Dhan - now one call every 15.1 s
+[10:19:19] API       rate limited by Dhan - now one call every 15.1 s
+[10:19:34] API       rate limited by Dhan - now one call every 15.1 s
+[10:19:49] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
@@ -79,12 +79,12 @@ serving NIFTY Scalper - IVX-G on http://127.0.0.1:46175
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[10:14:39] API       market quote: rate limited by Dhan - now one call every 2.0 s
-[10:15:04] SKIP      TATASTEEL 190 CE 27 Oct signal at 5.31 skipped - 5 positions already open
-[10:15:04] SKIP      TECHM 1600 CE 27 Oct signal at 34.05 skipped - 5 positions already open
-[10:15:04] SKIP      TECHM 1500 CE 27 Oct signal at 86.25 skipped - 5 positions already open
-[10:15:08] GAP       1 contract had no prices for 25+ session minutes (VBL 445 PE 27 Oct) - reloading their bar history
-[10:15:10] WARM      bar history loaded for all 1526 contracts
+[10:18:39] API       market quote: rate limited by Dhan - now one call every 2.0 s
+[10:18:59] WARM      bar history loaded for all 1530 contracts
+[10:19:22] API       market quote: rate limited by Dhan - now one call every 2.0 s
+[10:19:22] WARM      bar history loaded for all 1530 contracts
+[10:20:03] SIGNAL    INDIGO 5100 CE 27 Oct crossed EMA 144 at 101.75 - not taken: momentum -0.6%
+[10:20:03] SIGNAL    TCS 2040 PE 27 Oct crossed EMA 144 at 46.05 - not taken: under EMA 55, momentum -9.5%
 ```
 </details>
 

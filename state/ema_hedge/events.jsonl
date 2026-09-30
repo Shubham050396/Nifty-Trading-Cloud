@@ -110,3 +110,14 @@
 {"id": 110, "ts": "2026-09-30 10:14:07", "at": "10:14:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 111, "ts": "2026-09-30 10:14:22", "at": "10:14:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 112, "ts": "2026-09-30 10:15:07", "at": "10:15:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 113, "ts": "2026-09-30 10:15:22", "at": "10:15:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 114, "ts": "2026-09-30 10:15:53", "at": "10:15:53", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 115, "ts": "2026-09-30 10:16:06", "at": "10:16:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 116, "ts": "2026-09-30 10:16:22", "at": "10:16:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 117, "ts": "2026-09-30 10:17:06", "at": "10:17:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 118, "ts": "2026-09-30 10:17:22", "at": "10:17:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 119, "ts": "2026-09-30 10:18:07", "at": "10:18:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 120, "ts": "2026-09-30 10:18:08", "at": "10:18:08", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 121, "ts": "2026-09-30 10:19:05", "at": "10:19:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 122, "ts": "2026-09-30 10:19:20", "at": "10:19:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 123, "ts": "2026-09-30 10:20:05", "at": "10:20:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
