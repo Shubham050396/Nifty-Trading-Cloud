@@ -403,3 +403,14 @@
 {"id": 403, "ts": "2026-09-30 12:05:01", "at": "12:05:01", "kind": "signal", "msg": "INFY 980 PE 27 Oct crossed EMA 144 at 21.85 - not taken: under EMA 55, momentum 0.9%"}
 {"id": 404, "ts": "2026-09-30 12:05:01", "at": "12:05:01", "kind": "signal", "msg": "VBL 450 CE 27 Oct crossed EMA 144 at 7.10 - not taken: under EMA 55, momentum -2.7%"}
 {"id": 405, "ts": "2026-09-30 12:05:02", "at": "12:05:02", "kind": "skip", "msg": "TVSMOTOR 4100 CE 27 Oct signal at 162.10 skipped - 5 positions already open"}
+{"id": 406, "ts": "2026-09-30 12:06:00", "at": "12:06:00", "kind": "gap", "msg": "1 contract had no prices for 138+ session minutes (INDIGO 4850 PE 27 Oct) - reloading their bar history"}
+{"id": 407, "ts": "2026-09-30 12:06:01", "at": "12:06:01", "kind": "warm", "msg": "bar history loaded for all 1564 contracts"}
+{"id": 408, "ts": "2026-09-30 12:08:14", "at": "12:08:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 409, "ts": "2026-09-30 12:08:22", "at": "12:08:22", "kind": "gap", "msg": "1 contract had no prices for 136+ session minutes (CANBK 118 CE 27 Oct) - reloading their bar history"}
+{"id": 410, "ts": "2026-09-30 12:08:23", "at": "12:08:23", "kind": "warm", "msg": "bar history loaded for all 1564 contracts"}
+{"id": 411, "ts": "2026-09-30 12:09:15", "at": "12:09:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 412, "ts": "2026-09-30 12:09:17", "at": "12:09:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}
+{"id": 413, "ts": "2026-09-30 12:10:03", "at": "12:10:03", "kind": "signal", "msg": "ITC 260 PE 27 Oct crossed EMA 144 at 2.75 - not taken: premium under Rs 5"}
+{"id": 414, "ts": "2026-09-30 12:10:03", "at": "12:10:03", "kind": "signal", "msg": "TATASTEEL 195 CE 27 Oct crossed EMA 144 at 3.38 - not taken: premium under Rs 5"}
+{"id": 415, "ts": "2026-09-30 12:10:04", "at": "12:10:04", "kind": "skip", "msg": "ITC 270 PE 27 Oct signal at 7.00 skipped - 5 positions already open"}
+{"id": 416, "ts": "2026-09-30 12:10:04", "at": "12:10:04", "kind": "skip", "msg": "SUNPHARMA 1900 PE 27 Oct signal at 69.00 skipped - 5 positions already open"}
