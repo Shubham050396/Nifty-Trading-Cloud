@@ -1,14 +1,15 @@
 {
   "schema_version": 2,
-  "saved_at": "2026-09-30 10:42:07",
-  "paper_positions": [
+  "saved_at": "2026-09-30 14:36:03",
+  "paper_positions": [],
+  "trade_history": [
     {
       "schema": 2,
       "id": "5c47fbf4e2774366",
       "Structure": "CREDIT_SPREAD",
       "Strategy": "BEAR_CALL_SPREAD",
       "Order_Mode": "PAPER",
-      "Status": "OPEN",
+      "Status": "CLOSED",
       "Underlying": "NIFTY",
       "Expiry": "2026-12-29",
       "Type": "CALL",
@@ -71,14 +72,14 @@
             "theta": -3.838,
             "vega": 38.1
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 180.7,
+          "exit_fill_price": 180.7,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 192.0,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 180.7,
           "last_mark_source": "ltp"
         },
         {
@@ -114,27 +115,29 @@
             "theta": -5.094,
             "vega": 44.54
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 324.1,
+          "exit_fill_price": 324.1,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 348.0,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 324.1,
           "last_mark_source": "ltp"
         }
       ],
       "Defer_Count": 0,
-      "Exit_Time": null,
-      "Exit_Reason": null,
-      "Net_Exit_Debit": null,
-      "Realized_PnL": null,
+      "Exit_Time": "2026-09-30 14:36:03",
+      "Exit_Reason": "VIX_KILL",
+      "Net_Exit_Debit": 143.4,
+      "Realized_PnL": 1251.25,
       "Strike": 23500.0,
       "Entry_Price": 162.65,
       "SecurityID": "62884",
       "Time": "2026-09-30 09:30:53",
-      "DTE": 90
+      "DTE": 90,
+      "Exit_price": 143.4,
+      "Exit_time": "2026-09-30 14:36:03"
     },
     {
       "schema": 2,
@@ -142,7 +145,7 @@
       "Structure": "CREDIT_SPREAD",
       "Strategy": "BEAR_CALL_SPREAD",
       "Order_Mode": "PAPER",
-      "Status": "OPEN",
+      "Status": "CLOSED",
       "Underlying": "NIFTY",
       "Expiry": "2026-11-23",
       "Type": "CALL",
@@ -205,14 +208,14 @@
             "theta": -3.365,
             "vega": 22.72
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 78.6,
+          "exit_fill_price": 78.6,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 86.95,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 78.6,
           "last_mark_source": "ltp"
         },
         {
@@ -248,27 +251,29 @@
             "theta": -5.176,
             "vega": 31.82
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 176.3,
+          "exit_fill_price": 176.3,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 196.0,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 176.3,
           "last_mark_source": "ltp"
         }
       ],
       "Defer_Count": 0,
-      "Exit_Time": null,
-      "Exit_Reason": null,
-      "Net_Exit_Debit": null,
-      "Realized_PnL": null,
+      "Exit_Time": "2026-09-30 14:36:03",
+      "Exit_Reason": "VIX_KILL",
+      "Net_Exit_Debit": 97.7,
+      "Realized_PnL": 1001.0,
       "Strike": 23500.0,
       "Entry_Price": 113.1,
       "SecurityID": "64373",
       "Time": "2026-09-30 09:30:53",
-      "DTE": 54
+      "DTE": 54,
+      "Exit_price": 97.7,
+      "Exit_time": "2026-09-30 14:36:03"
     },
     {
       "schema": 2,
@@ -276,7 +281,7 @@
       "Structure": "CREDIT_SPREAD",
       "Strategy": "BULL_PUT_SPREAD",
       "Order_Mode": "PAPER",
-      "Status": "OPEN",
+      "Status": "CLOSED",
       "Underlying": "NIFTY",
       "Expiry": "2026-11-23",
       "Type": "PUT",
@@ -339,14 +344,14 @@
             "theta": -1.698,
             "vega": 17.17
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 96.75,
+          "exit_fill_price": 96.75,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 81.7,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 96.75,
           "last_mark_source": "ltp"
         },
         {
@@ -382,27 +387,29 @@
             "theta": -1.957,
             "vega": 24.09
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 164.1,
+          "exit_fill_price": 164.1,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 141.3,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 164.1,
           "last_mark_source": "ltp"
         }
       ],
       "Defer_Count": 0,
-      "Exit_Time": null,
-      "Exit_Reason": null,
-      "Net_Exit_Debit": null,
-      "Realized_PnL": null,
+      "Exit_Time": "2026-09-30 14:36:03",
+      "Exit_Reason": "VIX_KILL",
+      "Net_Exit_Debit": 67.35,
+      "Realized_PnL": -458.25,
       "Strike": 22000.0,
       "Entry_Price": 60.3,
       "SecurityID": "64239",
       "Time": "2026-09-30 09:30:53",
-      "DTE": 54
+      "DTE": 54,
+      "Exit_price": 67.35,
+      "Exit_time": "2026-09-30 14:36:03"
     },
     {
       "schema": 2,
@@ -410,7 +417,7 @@
       "Structure": "CREDIT_SPREAD",
       "Strategy": "BEAR_CALL_SPREAD",
       "Order_Mode": "PAPER",
-      "Status": "OPEN",
+      "Status": "CLOSED",
       "Underlying": "NIFTY",
       "Expiry": "2026-12-29",
       "Type": "CALL",
@@ -473,14 +480,14 @@
             "theta": -6.013,
             "vega": 43.27
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 550.7,
+          "exit_fill_price": 550.7,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 585.05,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 550.7,
           "last_mark_source": "ltp"
         },
         {
@@ -516,27 +523,29 @@
             "theta": -6.338,
             "vega": 33.29
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 845.3,
+          "exit_fill_price": 845.3,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 904.9,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 845.3,
           "last_mark_source": "ltp"
         }
       ],
       "Defer_Count": 0,
-      "Exit_Time": null,
-      "Exit_Reason": null,
-      "Net_Exit_Debit": null,
-      "Realized_PnL": null,
+      "Exit_Time": "2026-09-30 14:36:03",
+      "Exit_Reason": "VIX_KILL",
+      "Net_Exit_Debit": 294.6,
+      "Realized_PnL": 1391.0,
       "Strike": 22500.0,
       "Entry_Price": 316.0,
       "SecurityID": "55326",
       "Time": "2026-09-30 09:59:34",
-      "DTE": 90
+      "DTE": 90,
+      "Exit_price": 294.6,
+      "Exit_time": "2026-09-30 14:36:03"
     },
     {
       "schema": 2,
@@ -544,7 +553,7 @@
       "Structure": "CREDIT_SPREAD",
       "Strategy": "BULL_PUT_SPREAD",
       "Order_Mode": "PAPER",
-      "Status": "OPEN",
+      "Status": "CLOSED",
       "Underlying": "NIFTY",
       "Expiry": "2026-12-29",
       "Type": "PUT",
@@ -607,14 +616,14 @@
             "theta": -1.168,
             "vega": 24.55
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 145.05,
+          "exit_fill_price": 145.05,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 119.9,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 145.05,
           "last_mark_source": "ltp"
         },
         {
@@ -650,30 +659,31 @@
             "theta": -1.207,
             "vega": 31.97
           },
-          "exit_quote": null,
-          "exit_fill_price": null,
-          "exit_price_source": null,
-          "exit_filled_qty": 0,
+          "exit_quote": 218.55,
+          "exit_fill_price": 218.55,
+          "exit_price_source": "ltp",
+          "exit_filled_qty": 65,
           "exit_order_id": null,
-          "exit_order_status": null,
-          "exit_time": null,
-          "last_mark": 190.7,
+          "exit_order_status": "PAPER_FILLED",
+          "exit_time": "2026-09-30 14:36:03",
+          "last_mark": 218.55,
           "last_mark_source": "ltp"
         }
       ],
       "Defer_Count": 0,
-      "Exit_Time": null,
-      "Exit_Reason": null,
-      "Net_Exit_Debit": null,
-      "Realized_PnL": null,
+      "Exit_Time": "2026-09-30 14:36:03",
+      "Exit_Reason": "VIX_KILL",
+      "Net_Exit_Debit": 73.5,
+      "Realized_PnL": -175.5,
       "Strike": 22000.0,
       "Entry_Price": 70.8,
       "SecurityID": "58649",
       "Time": "2026-09-30 10:42:07",
-      "DTE": 90
+      "DTE": 90,
+      "Exit_price": 73.5,
+      "Exit_time": "2026-09-30 14:36:03"
     }
   ],
-  "trade_history": [],
   "pnl_series": [
     [
       1790740853,
@@ -946,6 +956,882 @@
     [
       1790745127,
       490.75
+    ],
+    [
+      1790745191,
+      503.75
+    ],
+    [
+      1790745255,
+      507.0
+    ],
+    [
+      1790745318,
+      724.75
+    ],
+    [
+      1790745382,
+      890.5
+    ],
+    [
+      1790745446,
+      1244.75
+    ],
+    [
+      1790745510,
+      1469.0
+    ],
+    [
+      1790745574,
+      1196.0
+    ],
+    [
+      1790745638,
+      919.75
+    ],
+    [
+      1790745701,
+      1085.5
+    ],
+    [
+      1790745765,
+      1306.5
+    ],
+    [
+      1790745829,
+      890.5
+    ],
+    [
+      1790745893,
+      864.5
+    ],
+    [
+      1790745957,
+      650.0
+    ],
+    [
+      1790746021,
+      338.0
+    ],
+    [
+      1790746084,
+      1381.25
+    ],
+    [
+      1790746148,
+      1170.0
+    ],
+    [
+      1790746212,
+      1098.5
+    ],
+    [
+      1790746276,
+      1511.25
+    ],
+    [
+      1790746340,
+      1121.25
+    ],
+    [
+      1790746404,
+      851.5
+    ],
+    [
+      1790746468,
+      1306.5
+    ],
+    [
+      1790746531,
+      1183.0
+    ],
+    [
+      1790746595,
+      1127.75
+    ],
+    [
+      1790746659,
+      1121.25
+    ],
+    [
+      1790746723,
+      900.25
+    ],
+    [
+      1790746787,
+      981.5
+    ],
+    [
+      1790746851,
+      1579.5
+    ],
+    [
+      1790746914,
+      669.5
+    ],
+    [
+      1790746978,
+      809.25
+    ],
+    [
+      1790747042,
+      1101.75
+    ],
+    [
+      1790747106,
+      1381.25
+    ],
+    [
+      1790747170,
+      1254.5
+    ],
+    [
+      1790747234,
+      1657.5
+    ],
+    [
+      1790747298,
+      1358.5
+    ],
+    [
+      1790747361,
+      1472.25
+    ],
+    [
+      1790747425,
+      1436.5
+    ],
+    [
+      1790747489,
+      1160.25
+    ],
+    [
+      1790747553,
+      1144.0
+    ],
+    [
+      1790747617,
+      994.5
+    ],
+    [
+      1790747681,
+      1238.25
+    ],
+    [
+      1790747745,
+      1904.5
+    ],
+    [
+      1790747808,
+      1599.0
+    ],
+    [
+      1790747872,
+      1371.5
+    ],
+    [
+      1790747936,
+      1254.5
+    ],
+    [
+      1790748000,
+      1111.5
+    ],
+    [
+      1790748064,
+      1807.0
+    ],
+    [
+      1790748128,
+      1257.75
+    ],
+    [
+      1790748192,
+      1108.25
+    ],
+    [
+      1790748256,
+      845.0
+    ],
+    [
+      1790748319,
+      1719.25
+    ],
+    [
+      1790748383,
+      1296.75
+    ],
+    [
+      1790748447,
+      1101.75
+    ],
+    [
+      1790748521,
+      1472.25
+    ],
+    [
+      1790748575,
+      1137.5
+    ],
+    [
+      1790748638,
+      949.0
+    ],
+    [
+      1790748702,
+      913.25
+    ],
+    [
+      1790748766,
+      1342.25
+    ],
+    [
+      1790748830,
+      1566.5
+    ],
+    [
+      1790748893,
+      822.25
+    ],
+    [
+      1790748957,
+      971.75
+    ],
+    [
+      1790749021,
+      1020.5
+    ],
+    [
+      1790749085,
+      1131.0
+    ],
+    [
+      1790749148,
+      1306.5
+    ],
+    [
+      1790749212,
+      929.5
+    ],
+    [
+      1790749276,
+      945.75
+    ],
+    [
+      1790749340,
+      1007.5
+    ],
+    [
+      1790749404,
+      962.0
+    ],
+    [
+      1790749467,
+      1202.5
+    ],
+    [
+      1790749531,
+      1254.5
+    ],
+    [
+      1790749595,
+      874.25
+    ],
+    [
+      1790749659,
+      1114.75
+    ],
+    [
+      1790749722,
+      1488.5
+    ],
+    [
+      1790749786,
+      1092.0
+    ],
+    [
+      1790749850,
+      851.5
+    ],
+    [
+      1790749914,
+      542.75
+    ],
+    [
+      1790749978,
+      981.5
+    ],
+    [
+      1790750042,
+      1118.0
+    ],
+    [
+      1790750105,
+      1244.75
+    ],
+    [
+      1790750169,
+      1069.25
+    ],
+    [
+      1790750233,
+      1235.0
+    ],
+    [
+      1790750297,
+      1225.25
+    ],
+    [
+      1790750361,
+      1550.25
+    ],
+    [
+      1790750424,
+      1222.0
+    ],
+    [
+      1790750488,
+      1053.0
+    ],
+    [
+      1790750552,
+      1521.0
+    ],
+    [
+      1790750616,
+      1118.0
+    ],
+    [
+      1790750680,
+      1391.0
+    ],
+    [
+      1790750743,
+      1573.0
+    ],
+    [
+      1790750807,
+      1712.75
+    ],
+    [
+      1790750871,
+      1706.25
+    ],
+    [
+      1790750935,
+      1842.75
+    ],
+    [
+      1790750999,
+      2050.75
+    ],
+    [
+      1790751062,
+      2395.25
+    ],
+    [
+      1790751126,
+      1638.0
+    ],
+    [
+      1790751190,
+      887.25
+    ],
+    [
+      1790751254,
+      507.0
+    ],
+    [
+      1790751318,
+      695.5
+    ],
+    [
+      1790751382,
+      1040.0
+    ],
+    [
+      1790751445,
+      913.25
+    ],
+    [
+      1790751509,
+      864.5
+    ],
+    [
+      1790751573,
+      861.25
+    ],
+    [
+      1790751637,
+      991.25
+    ],
+    [
+      1790751700,
+      1137.5
+    ],
+    [
+      1790751764,
+      711.75
+    ],
+    [
+      1790751828,
+      880.75
+    ],
+    [
+      1790751892,
+      676.0
+    ],
+    [
+      1790751956,
+      380.25
+    ],
+    [
+      1790752019,
+      575.25
+    ],
+    [
+      1790752083,
+      575.25
+    ],
+    [
+      1790752147,
+      42.25
+    ],
+    [
+      1790752211,
+      643.5
+    ],
+    [
+      1790752275,
+      536.25
+    ],
+    [
+      1790752338,
+      591.5
+    ],
+    [
+      1790752402,
+      549.25
+    ],
+    [
+      1790752466,
+      650.0
+    ],
+    [
+      1790752530,
+      835.25
+    ],
+    [
+      1790752594,
+      65.0
+    ],
+    [
+      1790752657,
+      -240.5
+    ],
+    [
+      1790752721,
+      -55.25
+    ],
+    [
+      1790752785,
+      208.0
+    ],
+    [
+      1790752849,
+      -315.25
+    ],
+    [
+      1790752912,
+      42.25
+    ],
+    [
+      1790752976,
+      637.0
+    ],
+    [
+      1790753040,
+      786.5
+    ],
+    [
+      1790753104,
+      386.75
+    ],
+    [
+      1790753168,
+      -123.5
+    ],
+    [
+      1790753232,
+      42.25
+    ],
+    [
+      1790753295,
+      334.75
+    ],
+    [
+      1790753359,
+      273.0
+    ],
+    [
+      1790753423,
+      308.75
+    ],
+    [
+      1790753487,
+      487.5
+    ],
+    [
+      1790753550,
+      494.0
+    ],
+    [
+      1790753614,
+      234.0
+    ],
+    [
+      1790753678,
+      442.0
+    ],
+    [
+      1790753742,
+      334.75
+    ],
+    [
+      1790753805,
+      386.75
+    ],
+    [
+      1790753869,
+      598.0
+    ],
+    [
+      1790753933,
+      520.0
+    ],
+    [
+      1790753997,
+      646.75
+    ],
+    [
+      1790754061,
+      581.75
+    ],
+    [
+      1790754124,
+      588.25
+    ],
+    [
+      1790754188,
+      838.5
+    ],
+    [
+      1790754252,
+      728.0
+    ],
+    [
+      1790754316,
+      1001.0
+    ],
+    [
+      1790754379,
+      1079.0
+    ],
+    [
+      1790754443,
+      695.5
+    ],
+    [
+      1790754507,
+      325.0
+    ],
+    [
+      1790754571,
+      1017.25
+    ],
+    [
+      1790754635,
+      851.5
+    ],
+    [
+      1790754698,
+      962.0
+    ],
+    [
+      1790754762,
+      799.5
+    ],
+    [
+      1790754826,
+      620.75
+    ],
+    [
+      1790754890,
+      676.0
+    ],
+    [
+      1790754953,
+      887.25
+    ],
+    [
+      1790755017,
+      546.0
+    ],
+    [
+      1790755081,
+      689.0
+    ],
+    [
+      1790755145,
+      331.5
+    ],
+    [
+      1790755209,
+      702.0
+    ],
+    [
+      1790755272,
+      945.75
+    ],
+    [
+      1790755336,
+      546.0
+    ],
+    [
+      1790755400,
+      669.5
+    ],
+    [
+      1790755464,
+      507.0
+    ],
+    [
+      1790755528,
+      591.5
+    ],
+    [
+      1790755591,
+      1264.25
+    ],
+    [
+      1790755655,
+      949.0
+    ],
+    [
+      1790755719,
+      1046.5
+    ],
+    [
+      1790755782,
+      1131.0
+    ],
+    [
+      1790755846,
+      1001.0
+    ],
+    [
+      1790755910,
+      1751.75
+    ],
+    [
+      1790755974,
+      1738.75
+    ],
+    [
+      1790756038,
+      1527.5
+    ],
+    [
+      1790756101,
+      1199.25
+    ],
+    [
+      1790756165,
+      2070.25
+    ],
+    [
+      1790756229,
+      1667.25
+    ],
+    [
+      1790756293,
+      2076.75
+    ],
+    [
+      1790756356,
+      1751.75
+    ],
+    [
+      1790756420,
+      1465.75
+    ],
+    [
+      1790756484,
+      2096.25
+    ],
+    [
+      1790756548,
+      1543.75
+    ],
+    [
+      1790756612,
+      2151.5
+    ],
+    [
+      1790756675,
+      1761.5
+    ],
+    [
+      1790756739,
+      1868.75
+    ],
+    [
+      1790756803,
+      1901.25
+    ],
+    [
+      1790756867,
+      1917.5
+    ],
+    [
+      1790756930,
+      2197.0
+    ],
+    [
+      1790756994,
+      1634.75
+    ],
+    [
+      1790757058,
+      1511.25
+    ],
+    [
+      1790757122,
+      1576.25
+    ],
+    [
+      1790757185,
+      1413.75
+    ],
+    [
+      1790757249,
+      1911.0
+    ],
+    [
+      1790757313,
+      1930.5
+    ],
+    [
+      1790757377,
+      1621.75
+    ],
+    [
+      1790757440,
+      1456.0
+    ],
+    [
+      1790757504,
+      1309.75
+    ],
+    [
+      1790757568,
+      1712.75
+    ],
+    [
+      1790757632,
+      1634.75
+    ],
+    [
+      1790757696,
+      1599.0
+    ],
+    [
+      1790757760,
+      1872.0
+    ],
+    [
+      1790757824,
+      2096.25
+    ],
+    [
+      1790757887,
+      1956.5
+    ],
+    [
+      1790757951,
+      2093.0
+    ],
+    [
+      1790758015,
+      2245.75
+    ],
+    [
+      1790758079,
+      2093.0
+    ],
+    [
+      1790758142,
+      2057.25
+    ],
+    [
+      1790758206,
+      2044.25
+    ],
+    [
+      1790758270,
+      2050.75
+    ],
+    [
+      1790758334,
+      2570.75
+    ],
+    [
+      1790758398,
+      2278.25
+    ],
+    [
+      1790758462,
+      2015.0
+    ],
+    [
+      1790758525,
+      2479.75
+    ],
+    [
+      1790758589,
+      2327.0
+    ],
+    [
+      1790758653,
+      2424.5
+    ],
+    [
+      1790758717,
+      2567.5
+    ],
+    [
+      1790758781,
+      3289.0
+    ],
+    [
+      1790758844,
+      2746.25
+    ],
+    [
+      1790758908,
+      3640.0
+    ],
+    [
+      1790758972,
+      2733.25
+    ],
+    [
+      1790759036,
+      2739.75
+    ],
+    [
+      1790759100,
+      2882.75
     ]
   ],
   "filters": {

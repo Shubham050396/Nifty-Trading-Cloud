@@ -860,3 +860,19 @@
 {"id": 860, "ts": "2026-09-30 14:31:10", "at": "14:31:10", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 861, "ts": "2026-09-30 14:31:25", "at": "14:31:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 862, "ts": "2026-09-30 14:31:41", "at": "14:31:41", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 863, "ts": "2026-09-30 14:32:11", "at": "14:32:11", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 864, "ts": "2026-09-30 14:32:41", "at": "14:32:41", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 865, "ts": "2026-09-30 14:32:56", "at": "14:32:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 866, "ts": "2026-09-30 14:33:11", "at": "14:33:11", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 867, "ts": "2026-09-30 14:33:27", "at": "14:33:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 868, "ts": "2026-09-30 14:33:57", "at": "14:33:57", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 869, "ts": "2026-09-30 14:34:12", "at": "14:34:12", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 870, "ts": "2026-09-30 14:34:27", "at": "14:34:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 871, "ts": "2026-09-30 14:34:43", "at": "14:34:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 872, "ts": "2026-09-30 14:35:13", "at": "14:35:13", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 873, "ts": "2026-09-30 14:35:28", "at": "14:35:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 874, "ts": "2026-09-30 14:35:43", "at": "14:35:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 875, "ts": "2026-09-30 14:35:59", "at": "14:35:59", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 876, "ts": "2026-09-30 14:36:14", "at": "14:36:14", "kind": "signal", "msg": "2026-10-06 22900 PE held above 270.95 for 5 min - fall-back exit is armed"}
+{"id": 877, "ts": "2026-09-30 14:36:29", "at": "14:36:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 878, "ts": "2026-09-30 14:36:44", "at": "14:36:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
