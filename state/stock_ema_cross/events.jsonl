@@ -81,3 +81,28 @@
 {"id": 81, "ts": "2026-09-30 09:34:32", "at": "09:34:32", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 82, "ts": "2026-09-30 09:34:38", "at": "09:34:38", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 83, "ts": "2026-09-30 09:34:46", "at": "09:34:46", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 84, "ts": "2026-09-30 09:34:55", "at": "09:34:55", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 85, "ts": "2026-09-30 09:34:59", "at": "09:34:59", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 86, "ts": "2026-09-30 09:35:00", "at": "09:35:00", "kind": "signal", "msg": "ITC 265 PE 27 Oct crossed EMA 144 at 4.45 - not taken: momentum 3.5%, premium under Rs 5"}
+{"id": 87, "ts": "2026-09-30 09:35:00", "at": "09:35:00", "kind": "signal", "msg": "ADANIPOWER 200 PE 27 Oct crossed EMA 144 at 5.66 - not taken: under EMA 55, momentum -15.0%"}
+{"id": 88, "ts": "2026-09-30 09:35:01", "at": "09:35:01", "kind": "entry", "msg": "BUY DLF 660 PE 27 Oct x950 @ 18.35 (signal close 18.20, EMA 144 17.63, momentum 6.1%)  quick 21.10 till 10:05, target 31.20, stop below EMA 55"}
+{"id": 89, "ts": "2026-09-30 09:35:03", "at": "09:35:03", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 90, "ts": "2026-09-30 09:35:08", "at": "09:35:08", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 91, "ts": "2026-09-30 09:35:13", "at": "09:35:13", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 92, "ts": "2026-09-30 09:35:20", "at": "09:35:20", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 93, "ts": "2026-09-30 09:35:29", "at": "09:35:29", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 94, "ts": "2026-09-30 09:35:42", "at": "09:35:42", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 95, "ts": "2026-09-30 09:35:46", "at": "09:35:46", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 96, "ts": "2026-09-30 09:35:50", "at": "09:35:50", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 97, "ts": "2026-09-30 09:35:55", "at": "09:35:55", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 98, "ts": "2026-09-30 09:35:59", "at": "09:35:59", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 99, "ts": "2026-09-30 09:36:07", "at": "09:36:07", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 100, "ts": "2026-09-30 09:36:11", "at": "09:36:11", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 101, "ts": "2026-09-30 09:36:16", "at": "09:36:16", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 102, "ts": "2026-09-30 09:36:24", "at": "09:36:24", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 103, "ts": "2026-09-30 09:37:01", "at": "09:37:01", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 104, "ts": "2026-09-30 09:37:27", "at": "09:37:27", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 105, "ts": "2026-09-30 09:37:40", "at": "09:37:40", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 106, "ts": "2026-09-30 09:38:31", "at": "09:38:31", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 107, "ts": "2026-09-30 09:38:57", "at": "09:38:57", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 108, "ts": "2026-09-30 09:39:20", "at": "09:39:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
