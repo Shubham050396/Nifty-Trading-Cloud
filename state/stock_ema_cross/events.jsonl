@@ -599,3 +599,9 @@
 {"id": 599, "ts": "2026-09-30 13:50:04", "at": "13:50:04", "kind": "skip", "msg": "DABUR 380 PE 27 Oct signal at 7.20 skipped - 5 positions already open"}
 {"id": 600, "ts": "2026-09-30 13:50:04", "at": "13:50:04", "kind": "skip", "msg": "DABUR 390 PE 27 Oct signal at 12.45 skipped - 5 positions already open"}
 {"id": 601, "ts": "2026-09-30 13:51:30", "at": "13:51:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 602, "ts": "2026-09-30 13:52:31", "at": "13:52:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 603, "ts": "2026-09-30 13:53:28", "at": "13:53:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 604, "ts": "2026-09-30 13:53:32", "at": "13:53:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 605, "ts": "2026-09-30 13:55:02", "at": "13:55:02", "kind": "signal", "msg": "BOSCHLTD 48000 PE 27 Oct crossed EMA 144 at 1390.10 - not taken: under EMA 55"}
+{"id": 606, "ts": "2026-09-30 13:55:02", "at": "13:55:02", "kind": "signal", "msg": "VBL 440 CE 27 Oct crossed EMA 144 at 10.40 - not taken: momentum -8.8%"}
+{"id": 607, "ts": "2026-09-30 13:56:35", "at": "13:56:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
