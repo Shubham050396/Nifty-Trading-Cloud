@@ -178,3 +178,14 @@
 {"id": 178, "ts": "2026-09-30 10:10:04", "at": "10:10:04", "kind": "skip", "msg": "BPCL 310 PE 27 Oct signal at 10.35 skipped - 5 positions already open"}
 {"id": 179, "ts": "2026-09-30 10:10:04", "at": "10:10:04", "kind": "skip", "msg": "DLF 650 PE 27 Oct signal at 15.05 skipped - 5 positions already open"}
 {"id": 180, "ts": "2026-09-30 10:10:04", "at": "10:10:04", "kind": "skip", "msg": "ICICIGI 1500 CE 27 Oct signal at 68.65 skipped - 5 positions already open"}
+{"id": 181, "ts": "2026-09-30 10:10:10", "at": "10:10:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 182, "ts": "2026-09-30 10:10:57", "at": "10:10:57", "kind": "gap", "msg": "1 contract had no prices for 18+ session minutes (CANBK 118 PE 27 Oct) - reloading their bar history"}
+{"id": 183, "ts": "2026-09-30 10:10:58", "at": "10:10:58", "kind": "warm", "msg": "bar history loaded for all 1524 contracts"}
+{"id": 184, "ts": "2026-09-30 10:11:47", "at": "10:11:47", "kind": "warm", "msg": "bar history loaded for all 1524 contracts"}
+{"id": 185, "ts": "2026-09-30 10:14:11", "at": "10:14:11", "kind": "warm", "msg": "bar history loaded for all 1526 contracts"}
+{"id": 186, "ts": "2026-09-30 10:14:39", "at": "10:14:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 187, "ts": "2026-09-30 10:15:04", "at": "10:15:04", "kind": "skip", "msg": "TATASTEEL 190 CE 27 Oct signal at 5.31 skipped - 5 positions already open"}
+{"id": 188, "ts": "2026-09-30 10:15:04", "at": "10:15:04", "kind": "skip", "msg": "TECHM 1600 CE 27 Oct signal at 34.05 skipped - 5 positions already open"}
+{"id": 189, "ts": "2026-09-30 10:15:04", "at": "10:15:04", "kind": "skip", "msg": "TECHM 1500 CE 27 Oct signal at 86.25 skipped - 5 positions already open"}
+{"id": 190, "ts": "2026-09-30 10:15:08", "at": "10:15:08", "kind": "gap", "msg": "1 contract had no prices for 25+ session minutes (VBL 445 PE 27 Oct) - reloading their bar history"}
+{"id": 191, "ts": "2026-09-30 10:15:10", "at": "10:15:10", "kind": "warm", "msg": "bar history loaded for all 1526 contracts"}
