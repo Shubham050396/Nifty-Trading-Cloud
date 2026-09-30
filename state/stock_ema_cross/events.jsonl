@@ -414,3 +414,15 @@
 {"id": 414, "ts": "2026-09-30 12:10:03", "at": "12:10:03", "kind": "signal", "msg": "TATASTEEL 195 CE 27 Oct crossed EMA 144 at 3.38 - not taken: premium under Rs 5"}
 {"id": 415, "ts": "2026-09-30 12:10:04", "at": "12:10:04", "kind": "skip", "msg": "ITC 270 PE 27 Oct signal at 7.00 skipped - 5 positions already open"}
 {"id": 416, "ts": "2026-09-30 12:10:04", "at": "12:10:04", "kind": "skip", "msg": "SUNPHARMA 1900 PE 27 Oct signal at 69.00 skipped - 5 positions already open"}
+{"id": 417, "ts": "2026-09-30 12:12:32", "at": "12:12:32", "kind": "gap", "msg": "1 contract had no prices for 134+ session minutes (HINDALCO 910 PE 27 Oct) - reloading their bar history"}
+{"id": 418, "ts": "2026-09-30 12:12:33", "at": "12:12:33", "kind": "warm", "msg": "bar history loaded for all 1564 contracts"}
+{"id": 419, "ts": "2026-09-30 12:13:18", "at": "12:13:18", "kind": "warm", "msg": "bar history loaded for all 1564 contracts"}
+{"id": 420, "ts": "2026-09-30 12:13:32", "at": "12:13:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 421, "ts": "2026-09-30 12:15:01", "at": "12:15:01", "kind": "signal", "msg": "HDFCBANK 680 PE 27 Oct crossed EMA 144 at 5.50 - not taken: momentum 2.8%"}
+{"id": 422, "ts": "2026-09-30 12:15:01", "at": "12:15:01", "kind": "signal", "msg": "HDFCBANK 690 PE 27 Oct crossed EMA 144 at 7.40 - not taken: momentum 0.7%"}
+{"id": 423, "ts": "2026-09-30 12:15:01", "at": "12:15:01", "kind": "signal", "msg": "HDFCBANK 700 PE 27 Oct crossed EMA 144 at 10.05 - not taken: momentum 1.0%"}
+{"id": 424, "ts": "2026-09-30 12:15:01", "at": "12:15:01", "kind": "signal", "msg": "ICICIBANK 1320 PE 27 Oct crossed EMA 144 at 22.90 - not taken: under EMA 55, momentum -7.1%"}
+{"id": 425, "ts": "2026-09-30 12:15:01", "at": "12:15:01", "kind": "signal", "msg": "ITC 265 PE 27 Oct crossed EMA 144 at 4.45 - not taken: premium under Rs 5"}
+{"id": 426, "ts": "2026-09-30 12:15:01", "at": "12:15:01", "kind": "signal", "msg": "TECHM 1500 PE 27 Oct crossed EMA 144 at 32.70 - not taken: under EMA 55, momentum -4.8%"}
+{"id": 427, "ts": "2026-09-30 12:15:01", "at": "12:15:01", "kind": "exit", "msg": "SELL VBL 430 CE 27 Oct EMA_STOP @ 14.85  -2.3%  P&L Rs -446.25"}
+{"id": 428, "ts": "2026-09-30 12:15:01", "at": "12:15:01", "kind": "signal", "msg": "INFY 940 PE 27 Oct crossed EMA 144 at 11.45 - not taken: under EMA 55, momentum 1.3%"}
