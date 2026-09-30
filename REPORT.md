@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 06:14 IST** · updated 30 Sep 2026 06:07 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
+**Running until 06:14 IST** · updated 30 Sep 2026 06:12 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36614929896)
 
 India VIX **13.41** (limit 13.50) · Dhan token: valid until 30 Sep 22:41 IST · trading window: 00:20 → 06:14 IST (trading day)
 
@@ -67,12 +67,12 @@ serving NIFTY MACD - Monthly 1000s on http://127.0.0.1:45093
 <details><summary>NIFTY Scalper - IVX-G - last log lines</summary>
 
 ```text
-[2026-09-30 00:20:42] BOOT      scrip master: 4104 NIFTY contracts
 [2026-09-30 00:20:42] BOOT      Ready - lot 65, 18 expiries, trading 2026-10-06
 127.0.0.1 - - [29/Sep/2026 18:50:47] "GET /api/state HTTP/1.1" 200 -
 [2026-09-30 00:27:47] DATA      buffer gap > 15s - cleared, re-warming
 [2026-09-30 00:29:41] DATA      buffer gap > 15s - cleared, re-warming
 [2026-09-30 00:31:38] DATA      buffer gap > 15s - cleared, re-warming
+[2026-09-30 06:12:01] HALT      HALTED: session over (15:25)
 ```
 </details>
 
