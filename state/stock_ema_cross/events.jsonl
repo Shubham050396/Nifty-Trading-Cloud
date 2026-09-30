@@ -219,3 +219,16 @@
 {"id": 219, "ts": "2026-09-30 10:28:14", "at": "10:28:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 220, "ts": "2026-09-30 10:28:34", "at": "10:28:34", "kind": "warm", "msg": "bar history loaded for all 1534 contracts"}
 {"id": 221, "ts": "2026-09-30 10:30:02", "at": "10:30:02", "kind": "signal", "msg": "HCLTECH 1260 PE 27 Oct crossed EMA 144 at 49.65 - not taken: under EMA 55, momentum -7.5%"}
+{"id": 222, "ts": "2026-09-30 10:30:21", "at": "10:30:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 223, "ts": "2026-09-30 10:30:40", "at": "10:30:40", "kind": "warm", "msg": "bar history loaded for all 1534 contracts"}
+{"id": 224, "ts": "2026-09-30 10:31:31", "at": "10:31:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 225, "ts": "2026-09-30 10:33:33", "at": "10:33:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 226, "ts": "2026-09-30 10:34:00", "at": "10:34:00", "kind": "warm", "msg": "bar history loaded for all 1536 contracts"}
+{"id": 227, "ts": "2026-09-30 10:34:56", "at": "10:34:56", "kind": "warm", "msg": "bar history loaded for all 1538 contracts"}
+{"id": 228, "ts": "2026-09-30 10:35:03", "at": "10:35:03", "kind": "signal", "msg": "ITC 270 PE 27 Oct crossed EMA 144 at 6.85 - not taken: momentum -4.9%"}
+{"id": 229, "ts": "2026-09-30 10:35:03", "at": "10:35:03", "kind": "signal", "msg": "TCS 2040 PE 27 Oct crossed EMA 144 at 45.70 - not taken: under EMA 55, momentum -7.6%"}
+{"id": 230, "ts": "2026-09-30 10:35:03", "at": "10:35:03", "kind": "signal", "msg": "TCS 2080 PE 27 Oct crossed EMA 144 at 62.50 - not taken: under EMA 55, momentum -6.9%"}
+{"id": 231, "ts": "2026-09-30 10:35:03", "at": "10:35:03", "kind": "signal", "msg": "TCS 2100 PE 27 Oct crossed EMA 144 at 72.30 - not taken: under EMA 55, momentum -6.3%"}
+{"id": 232, "ts": "2026-09-30 10:35:03", "at": "10:35:03", "kind": "signal", "msg": "WIPRO 155 PE 27 Oct crossed EMA 144 at 2.68 - not taken: under EMA 55, momentum -1.1%, premium under Rs 5"}
+{"id": 233, "ts": "2026-09-30 10:35:03", "at": "10:35:03", "kind": "signal", "msg": "DABUR 380 PE 27 Oct crossed EMA 144 at 7.00 - not taken: momentum 0.0%"}
+{"id": 234, "ts": "2026-09-30 10:35:15", "at": "10:35:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
