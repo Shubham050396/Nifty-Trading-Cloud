@@ -627,3 +627,9 @@
 {"id": 627, "ts": "2026-09-30 14:15:01", "at": "14:15:01", "kind": "signal", "msg": "BEL 370 PE 27 Oct crossed EMA 144 at 2.90 - not taken: under EMA 55, premium under Rs 5"}
 {"id": 628, "ts": "2026-09-30 14:16:03", "at": "14:16:03", "kind": "gap", "msg": "1 contract had no prices for 282+ session minutes (HAVELLS 1050 CE 27 Oct) - reloading their bar history"}
 {"id": 629, "ts": "2026-09-30 14:16:04", "at": "14:16:04", "kind": "warm", "msg": "bar history loaded for all 1572 contracts"}
+{"id": 630, "ts": "2026-09-30 14:16:48", "at": "14:16:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 631, "ts": "2026-09-30 14:16:51", "at": "14:16:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}
+{"id": 632, "ts": "2026-09-30 14:17:48", "at": "14:17:48", "kind": "gap", "msg": "1 contract had no prices for 259+ session minutes (HEROMOTOCO 5150 PE 27 Oct) - reloading their bar history"}
+{"id": 633, "ts": "2026-09-30 14:17:49", "at": "14:17:49", "kind": "warm", "msg": "bar history loaded for all 1572 contracts"}
+{"id": 634, "ts": "2026-09-30 14:18:59", "at": "14:18:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 635, "ts": "2026-09-30 14:20:03", "at": "14:20:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
