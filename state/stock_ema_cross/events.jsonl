@@ -1241,3 +1241,14 @@
 {"id": 1241, "ts": "2026-10-01 15:01:55", "at": "15:01:55", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
 {"id": 1242, "ts": "2026-10-01 15:02:17", "at": "15:02:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1243, "ts": "2026-10-01 15:03:59", "at": "15:03:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1244, "ts": "2026-10-01 15:05:13", "at": "15:05:13", "kind": "signal", "msg": "DMART 3900 CE 27 Oct crossed EMA 144 at 97.85 - not taken: under EMA 55"}
+{"id": 1245, "ts": "2026-10-01 15:05:13", "at": "15:05:13", "kind": "signal", "msg": "CGPOWER 840 PE 27 Oct crossed EMA 144 at 13.55 - not taken: under EMA 55, momentum -11.4%"}
+{"id": 1246, "ts": "2026-10-01 15:05:20", "at": "15:05:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1247, "ts": "2026-10-01 15:05:39", "at": "15:05:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1248, "ts": "2026-10-01 15:05:57", "at": "15:05:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1249, "ts": "2026-10-01 15:06:00", "at": "15:06:00", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1250, "ts": "2026-10-01 15:06:24", "at": "15:06:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1251, "ts": "2026-10-01 15:06:34", "at": "15:06:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1252, "ts": "2026-10-01 15:06:55", "at": "15:06:55", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1253, "ts": "2026-10-01 15:07:18", "at": "15:07:18", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1254, "ts": "2026-10-01 15:08:18", "at": "15:08:18", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

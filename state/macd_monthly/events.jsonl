@@ -354,3 +354,7 @@
 {"id": 354, "ts": "2026-10-01 15:03:14", "at": "15:03:14", "kind": "vix", "msg": "India VIX prev close 13.49 - entries allowed"}
 {"id": 355, "ts": "2026-10-01 15:03:35", "at": "15:03:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 356, "ts": "2026-10-01 15:04:20", "at": "15:04:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 357, "ts": "2026-10-01 15:05:32", "at": "15:05:32", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 358, "ts": "2026-10-01 15:07:20", "at": "15:07:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 359, "ts": "2026-10-01 15:08:19", "at": "15:08:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 360, "ts": "2026-10-01 15:09:17", "at": "15:09:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
