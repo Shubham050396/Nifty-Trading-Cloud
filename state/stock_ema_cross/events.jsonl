@@ -989,3 +989,13 @@
 {"id": 989, "ts": "2026-10-01 13:17:29", "at": "13:17:29", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 990, "ts": "2026-10-01 13:17:36", "at": "13:17:36", "kind": "warm", "msg": "bar history loaded for all 1574 contracts"}
 {"id": 991, "ts": "2026-10-01 13:17:45", "at": "13:17:45", "kind": "warm", "msg": "bar history loaded for all 1574 contracts"}
+{"id": 992, "ts": "2026-10-01 13:19:42", "at": "13:19:42", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
+{"id": 993, "ts": "2026-10-01 13:20:04", "at": "13:20:04", "kind": "signal", "msg": "COALINDIA 405 PE 27 Oct crossed EMA 144 at 3.30 - not taken: premium under Rs 5"}
+{"id": 994, "ts": "2026-10-01 13:20:04", "at": "13:20:04", "kind": "exit", "msg": "SELL INDIGO 5000 CE 27 Oct EMA_STOP @ 122.20  -16.1%  P&L Rs -3510.00"}
+{"id": 995, "ts": "2026-10-01 13:20:06", "at": "13:20:06", "kind": "entry", "msg": "BUY COALINDIA 420 PE 27 Oct x1350 @ 8.25 (signal close 8.30, EMA 144 7.08, momentum 22.1%)  quick 9.49 till 13:50, target 14.03, stop below EMA 55"}
+{"id": 996, "ts": "2026-10-01 13:20:06", "at": "13:20:06", "kind": "skip", "msg": "INDIGO 5000 PE 27 Oct signal at 180.00 skipped - 5 positions already open"}
+{"id": 997, "ts": "2026-10-01 13:20:30", "at": "13:20:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 998, "ts": "2026-10-01 13:21:58", "at": "13:21:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 999, "ts": "2026-10-01 13:22:10", "at": "13:22:10", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
+{"id": 1000, "ts": "2026-10-01 13:22:22", "at": "13:22:22", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
+{"id": 1001, "ts": "2026-10-01 13:22:59", "at": "13:22:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
