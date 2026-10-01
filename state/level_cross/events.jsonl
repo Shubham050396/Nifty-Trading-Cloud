@@ -1220,3 +1220,20 @@
 {"id": 1220, "ts": "2026-10-01 12:42:27", "at": "12:42:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1221, "ts": "2026-10-01 12:42:42", "at": "12:42:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1222, "ts": "2026-10-01 12:42:57", "at": "12:42:57", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1223, "ts": "2026-10-01 12:43:28", "at": "12:43:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1224, "ts": "2026-10-01 12:43:43", "at": "12:43:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1225, "ts": "2026-10-01 12:44:13", "at": "12:44:13", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1226, "ts": "2026-10-01 12:44:28", "at": "12:44:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1227, "ts": "2026-10-01 12:44:58", "at": "12:44:58", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1228, "ts": "2026-10-01 12:45:14", "at": "12:45:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1229, "ts": "2026-10-01 12:45:44", "at": "12:45:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1230, "ts": "2026-10-01 12:45:59", "at": "12:45:59", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1231, "ts": "2026-10-01 12:46:15", "at": "12:46:15", "kind": "exit", "msg": "L3 2026-10-06 22800 PE TARGET @ 386.75  P&L Rs 3250.00"}
+{"id": 1232, "ts": "2026-10-01 12:46:29", "at": "12:46:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1233, "ts": "2026-10-01 12:46:45", "at": "12:46:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1234, "ts": "2026-10-01 12:47:00", "at": "12:47:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1235, "ts": "2026-10-01 12:47:15", "at": "12:47:15", "kind": "entry", "msg": "L2 BUY 2026-10-06 22600 PE @ 241.95  target 291.95  trail 205.66 (15%)"}
+{"id": 1236, "ts": "2026-10-01 12:47:30", "at": "12:47:30", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1237, "ts": "2026-10-01 12:47:45", "at": "12:47:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1238, "ts": "2026-10-01 12:48:01", "at": "12:48:01", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1239, "ts": "2026-10-01 12:48:16", "at": "12:48:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

@@ -872,3 +872,31 @@
 {"id": 872, "ts": "2026-10-01 12:42:39", "at": "12:42:39", "kind": "warm", "msg": "bar history loaded for all 1494 contracts"}
 {"id": 873, "ts": "2026-10-01 12:43:01", "at": "12:43:01", "kind": "warm", "msg": "bar history loaded for all 1494 contracts"}
 {"id": 874, "ts": "2026-10-01 12:43:12", "at": "12:43:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 875, "ts": "2026-10-01 12:44:14", "at": "12:44:14", "kind": "warm", "msg": "bar history loaded for all 1496 contracts"}
+{"id": 876, "ts": "2026-10-01 12:44:19", "at": "12:44:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 877, "ts": "2026-10-01 12:44:39", "at": "12:44:39", "kind": "warm", "msg": "bar history loaded for all 1498 contracts"}
+{"id": 878, "ts": "2026-10-01 12:45:03", "at": "12:45:03", "kind": "contract", "msg": "watching 1510 contracts on 99 stocks (ATM +/- 3, CE/PE): 18 added, 6 dropped"}
+{"id": 879, "ts": "2026-10-01 12:45:11", "at": "12:45:11", "kind": "signal", "msg": "COALINDIA 430 CE 27 Oct crossed EMA 144 at 7.60 - not taken: under EMA 55"}
+{"id": 880, "ts": "2026-10-01 12:45:11", "at": "12:45:11", "kind": "signal", "msg": "CGPOWER 880 PE 27 Oct crossed EMA 144 at 28.00 - not taken: under EMA 55"}
+{"id": 881, "ts": "2026-10-01 12:45:11", "at": "12:45:11", "kind": "signal", "msg": "DMART 4000 CE 27 Oct crossed EMA 144 at 65.70 - not taken: momentum -13.9%"}
+{"id": 882, "ts": "2026-10-01 12:45:16", "at": "12:45:16", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 883, "ts": "2026-10-01 12:45:19", "at": "12:45:19", "kind": "skip", "msg": "COALINDIA 425 CE 27 Oct signal at 10.10 skipped - 5 positions already open"}
+{"id": 884, "ts": "2026-10-01 12:45:19", "at": "12:45:19", "kind": "skip", "msg": "LODHA 1100 PE 27 Oct signal at 36.00 skipped - 5 positions already open"}
+{"id": 885, "ts": "2026-10-01 12:45:19", "at": "12:45:19", "kind": "skip", "msg": "COALINDIA 420 CE 27 Oct signal at 12.95 skipped - 5 positions already open"}
+{"id": 886, "ts": "2026-10-01 12:45:19", "at": "12:45:19", "kind": "skip", "msg": "HDFCBANK 710 PE 27 Oct signal at 13.35 skipped - 5 positions already open"}
+{"id": 887, "ts": "2026-10-01 12:45:19", "at": "12:45:19", "kind": "skip", "msg": "HDFCBANK 700 PE 27 Oct signal at 9.90 skipped - 5 positions already open"}
+{"id": 888, "ts": "2026-10-01 12:45:19", "at": "12:45:19", "kind": "skip", "msg": "COALINDIA 410 CE 27 Oct signal at 20.75 skipped - 5 positions already open"}
+{"id": 889, "ts": "2026-10-01 12:45:19", "at": "12:45:19", "kind": "skip", "msg": "VBL 440 PE 27 Oct signal at 21.05 skipped - 5 positions already open"}
+{"id": 890, "ts": "2026-10-01 12:45:34", "at": "12:45:34", "kind": "contract", "msg": "watching 1520 contracts on 99 stocks (ATM +/- 3, CE/PE): 10 added, 0 dropped"}
+{"id": 891, "ts": "2026-10-01 12:45:41", "at": "12:45:41", "kind": "exit", "msg": "SELL DIVISLAB 9500 PE 27 Oct PROFIT_TARGET @ 421.60  +41.7%  P&L Rs 12410.00"}
+{"id": 892, "ts": "2026-10-01 12:45:48", "at": "12:45:48", "kind": "warm", "msg": "bar history loaded for all 1520 contracts"}
+{"id": 893, "ts": "2026-10-01 12:46:00", "at": "12:46:00", "kind": "warm", "msg": "bar history loaded for all 1524 contracts"}
+{"id": 894, "ts": "2026-10-01 12:46:12", "at": "12:46:12", "kind": "contract", "msg": "watching 1534 contracts on 99 stocks (ATM +/- 3, CE/PE): 10 added, 0 dropped"}
+{"id": 895, "ts": "2026-10-01 12:46:13", "at": "12:46:13", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 896, "ts": "2026-10-01 12:46:23", "at": "12:46:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 897, "ts": "2026-10-01 12:46:32", "at": "12:46:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 898, "ts": "2026-10-01 12:46:44", "at": "12:46:44", "kind": "warm", "msg": "bar history loaded for all 1534 contracts"}
+{"id": 899, "ts": "2026-10-01 12:46:58", "at": "12:46:58", "kind": "warm", "msg": "bar history loaded for all 1538 contracts"}
+{"id": 900, "ts": "2026-10-01 12:47:45", "at": "12:47:45", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 901, "ts": "2026-10-01 12:48:15", "at": "12:48:15", "kind": "warm", "msg": "bar history loaded for all 1544 contracts"}
+{"id": 902, "ts": "2026-10-01 12:48:19", "at": "12:48:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
