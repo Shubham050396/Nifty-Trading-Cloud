@@ -1529,3 +1529,17 @@
 {"id": 1529, "ts": "2026-10-01 14:28:20", "at": "14:28:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1530, "ts": "2026-10-01 14:28:50", "at": "14:28:50", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1531, "ts": "2026-10-01 14:29:05", "at": "14:29:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1532, "ts": "2026-10-01 14:29:36", "at": "14:29:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1533, "ts": "2026-10-01 14:29:51", "at": "14:29:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1534, "ts": "2026-10-01 14:30:06", "at": "14:30:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1535, "ts": "2026-10-01 14:30:36", "at": "14:30:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1536, "ts": "2026-10-01 14:30:52", "at": "14:30:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1537, "ts": "2026-10-01 14:31:07", "at": "14:31:07", "kind": "skip", "msg": "L2 2026-10-06 22200 CE cross ignored - daily cap"}
+{"id": 1538, "ts": "2026-10-01 14:31:22", "at": "14:31:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1539, "ts": "2026-10-01 14:31:37", "at": "14:31:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1540, "ts": "2026-10-01 14:32:22", "at": "14:32:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1541, "ts": "2026-10-01 14:32:52", "at": "14:32:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1542, "ts": "2026-10-01 14:33:07", "at": "14:33:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1543, "ts": "2026-10-01 14:33:37", "at": "14:33:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1544, "ts": "2026-10-01 14:33:53", "at": "14:33:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1545, "ts": "2026-10-01 14:34:08", "at": "14:34:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

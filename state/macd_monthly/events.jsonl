@@ -296,3 +296,11 @@
 {"id": 296, "ts": "2026-10-01 14:24:58", "at": "14:24:58", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 297, "ts": "2026-10-01 14:26:35", "at": "14:26:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 298, "ts": "2026-10-01 14:27:33", "at": "14:27:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 299, "ts": "2026-10-01 14:29:22", "at": "14:29:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 300, "ts": "2026-10-01 14:29:37", "at": "14:29:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 301, "ts": "2026-10-01 14:29:52", "at": "14:29:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 302, "ts": "2026-10-01 14:30:08", "at": "14:30:08", "kind": "signal", "msg": "2026-10-27 23000 CE MACD crossed UP (bar close 117.70, hist -0.11 -> +0.13)"}
+{"id": 303, "ts": "2026-10-01 14:30:08", "at": "14:30:08", "kind": "skip", "msg": "buy 2026-10-27 23000 CE ignored - premium 117.70 is outside 144 - 1600"}
+{"id": 304, "ts": "2026-10-01 14:32:14", "at": "14:32:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 305, "ts": "2026-10-01 14:32:58", "at": "14:32:58", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 306, "ts": "2026-10-01 14:33:28", "at": "14:33:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
