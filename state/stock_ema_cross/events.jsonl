@@ -861,3 +861,14 @@
 {"id": 861, "ts": "2026-10-01 12:36:30", "at": "12:36:30", "kind": "warm", "msg": "bar history loaded for all 1490 contracts"}
 {"id": 862, "ts": "2026-10-01 12:37:57", "at": "12:37:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.0 s"}
 {"id": 863, "ts": "2026-10-01 12:38:12", "at": "12:38:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.1 s"}
+{"id": 864, "ts": "2026-10-01 12:39:11", "at": "12:39:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 865, "ts": "2026-10-01 12:40:18", "at": "12:40:18", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 866, "ts": "2026-10-01 12:40:21", "at": "12:40:21", "kind": "warm", "msg": "bar history loaded for all 1492 contracts"}
+{"id": 867, "ts": "2026-10-01 12:40:28", "at": "12:40:28", "kind": "signal", "msg": "COALINDIA 415 CE 27 Oct crossed EMA 144 at 15.45 - not taken: under EMA 55"}
+{"id": 868, "ts": "2026-10-01 12:40:45", "at": "12:40:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 869, "ts": "2026-10-01 12:41:29", "at": "12:41:29", "kind": "skip", "msg": "DLF 650 PE 27 Oct signal at 14.65 skipped - 5 positions already open"}
+{"id": 870, "ts": "2026-10-01 12:41:29", "at": "12:41:29", "kind": "skip", "msg": "VBL 420 PE 27 Oct signal at 9.50 skipped - 5 positions already open"}
+{"id": 871, "ts": "2026-10-01 12:41:37", "at": "12:41:37", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 872, "ts": "2026-10-01 12:42:39", "at": "12:42:39", "kind": "warm", "msg": "bar history loaded for all 1494 contracts"}
+{"id": 873, "ts": "2026-10-01 12:43:01", "at": "12:43:01", "kind": "warm", "msg": "bar history loaded for all 1494 contracts"}
+{"id": 874, "ts": "2026-10-01 12:43:12", "at": "12:43:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
