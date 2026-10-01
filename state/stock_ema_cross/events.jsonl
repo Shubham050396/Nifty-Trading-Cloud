@@ -773,3 +773,26 @@
 {"id": 773, "ts": "2026-10-01 12:07:57", "at": "12:07:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 774, "ts": "2026-10-01 12:07:58", "at": "12:07:58", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 775, "ts": "2026-10-01 12:08:05", "at": "12:08:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 776, "ts": "2026-10-01 12:08:23", "at": "12:08:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 777, "ts": "2026-10-01 12:08:24", "at": "12:08:24", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 778, "ts": "2026-10-01 12:09:17", "at": "12:09:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 779, "ts": "2026-10-01 12:09:26", "at": "12:09:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 780, "ts": "2026-10-01 12:09:44", "at": "12:09:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 781, "ts": "2026-10-01 12:09:53", "at": "12:09:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 782, "ts": "2026-10-01 12:10:02", "at": "12:10:02", "kind": "signal", "msg": "DLF 660 PE 27 Oct crossed EMA 144 at 18.00 - not taken: momentum -1.1%"}
+{"id": 783, "ts": "2026-10-01 12:10:07", "at": "12:10:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 784, "ts": "2026-10-01 12:10:15", "at": "12:10:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 785, "ts": "2026-10-01 12:10:38", "at": "12:10:38", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 786, "ts": "2026-10-01 12:10:39", "at": "12:10:39", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 787, "ts": "2026-10-01 12:10:46", "at": "12:10:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 788, "ts": "2026-10-01 12:11:04", "at": "12:11:04", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 789, "ts": "2026-10-01 12:11:08", "at": "12:11:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 790, "ts": "2026-10-01 12:11:14", "at": "12:11:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.5 s"}
+{"id": 791, "ts": "2026-10-01 12:11:40", "at": "12:11:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 792, "ts": "2026-10-01 12:11:58", "at": "12:11:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 793, "ts": "2026-10-01 12:12:07", "at": "12:12:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 794, "ts": "2026-10-01 12:12:09", "at": "12:12:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}
+{"id": 795, "ts": "2026-10-01 12:12:15", "at": "12:12:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 4.5 s"}
+{"id": 796, "ts": "2026-10-01 12:12:25", "at": "12:12:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 7.5 s"}
+{"id": 797, "ts": "2026-10-01 12:13:01", "at": "12:13:01", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 798, "ts": "2026-10-01 12:13:07", "at": "12:13:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
