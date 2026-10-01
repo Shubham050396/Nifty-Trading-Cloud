@@ -368,3 +368,8 @@
 {"id": 368, "ts": "2026-10-01 15:55:26", "at": "15:55:26", "kind": "control", "msg": "started automatically on launch"}
 {"id": 369, "ts": "2026-10-01 15:55:30", "at": "15:55:30", "kind": "boot", "msg": "ready - 14 monthly expiries, 4064 contracts in the scrip master"}
 {"id": 370, "ts": "2026-10-01 15:55:30", "at": "15:55:30", "kind": "vix", "msg": "India VIX prev close 13.49 - entries allowed"}
+{"id": 371, "ts": "2026-10-01 21:11:46", "at": "21:11:46", "kind": "boot", "msg": "engine thread started"}
+{"id": 372, "ts": "2026-10-01 21:11:46", "at": "21:11:46", "kind": "boot", "msg": "macd app up (pid 2370, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/macd_monthly/data)"}
+{"id": 373, "ts": "2026-10-01 21:11:48", "at": "21:11:48", "kind": "control", "msg": "started automatically on launch"}
+{"id": 374, "ts": "2026-10-01 21:11:51", "at": "21:11:51", "kind": "boot", "msg": "ready - 14 monthly expiries, 4064 contracts in the scrip master"}
+{"id": 375, "ts": "2026-10-01 21:11:51", "at": "21:11:51", "kind": "vix", "msg": "India VIX prev close 13.49 - entries allowed"}
