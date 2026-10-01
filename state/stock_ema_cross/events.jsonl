@@ -999,3 +999,8 @@
 {"id": 999, "ts": "2026-10-01 13:22:10", "at": "13:22:10", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
 {"id": 1000, "ts": "2026-10-01 13:22:22", "at": "13:22:22", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
 {"id": 1001, "ts": "2026-10-01 13:22:59", "at": "13:22:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1002, "ts": "2026-10-01 13:25:03", "at": "13:25:03", "kind": "signal", "msg": "HDFCLIFE 530 PE 27 Oct crossed EMA 144 at 14.20 - not taken: under EMA 55"}
+{"id": 1003, "ts": "2026-10-01 13:25:03", "at": "13:25:03", "kind": "signal", "msg": "BPCL 290 PE 27 Oct crossed EMA 144 at 3.30 - not taken: premium under Rs 5"}
+{"id": 1004, "ts": "2026-10-01 13:25:03", "at": "13:25:03", "kind": "signal", "msg": "CGPOWER 840 PE 27 Oct crossed EMA 144 at 13.50 - not taken: under EMA 55"}
+{"id": 1005, "ts": "2026-10-01 13:25:04", "at": "13:25:04", "kind": "skip", "msg": "INDIGO 4800 PE 27 Oct signal at 95.85 skipped - 5 positions already open"}
+{"id": 1006, "ts": "2026-10-01 13:25:16", "at": "13:25:16", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
