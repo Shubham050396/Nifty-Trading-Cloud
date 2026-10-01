@@ -555,3 +555,14 @@
 {"id": 555, "ts": "2026-10-01 12:03:02", "at": "12:03:02", "kind": "vix", "msg": "India VIX 13.61 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
 {"id": 556, "ts": "2026-10-01 12:03:03", "at": "12:03:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 557, "ts": "2026-10-01 12:03:06", "at": "12:03:06", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
+{"id": 558, "ts": "2026-10-01 12:04:02", "at": "12:04:02", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 559, "ts": "2026-10-01 12:04:04", "at": "12:04:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 560, "ts": "2026-10-01 12:04:24", "at": "12:04:24", "kind": "api", "msg": "rate limited by Dhan - now one call every 7.1 s"}
+{"id": 561, "ts": "2026-10-01 12:05:05", "at": "12:05:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 10.1 s"}
+{"id": 562, "ts": "2026-10-01 12:05:25", "at": "12:05:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 563, "ts": "2026-10-01 12:05:45", "at": "12:05:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 564, "ts": "2026-10-01 12:07:05", "at": "12:07:05", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 565, "ts": "2026-10-01 12:07:07", "at": "12:07:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 566, "ts": "2026-10-01 12:07:27", "at": "12:07:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 567, "ts": "2026-10-01 12:07:47", "at": "12:07:47", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 568, "ts": "2026-10-01 12:08:07", "at": "12:08:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

@@ -171,3 +171,11 @@
 {"id": 171, "ts": "2026-10-01 12:03:06", "at": "12:03:06", "kind": "vix", "msg": "India VIX prev close 13.49 - entries allowed"}
 {"id": 172, "ts": "2026-10-01 12:03:07", "at": "12:03:07", "kind": "signal", "msg": "2026-10-27 24000 PE: MACD crossed DOWN while prices were not being watched"}
 {"id": 173, "ts": "2026-10-01 12:03:07", "at": "12:03:07", "kind": "exit", "msg": "LONG 2026-10-27 24000 PE MACD_DOWN_MISSED @ 1347.50  P&L Rs 11430.25"}
+{"id": 174, "ts": "2026-10-01 12:03:17", "at": "12:03:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 175, "ts": "2026-10-01 12:04:36", "at": "12:04:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 176, "ts": "2026-10-01 12:05:15", "at": "12:05:15", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 177, "ts": "2026-10-01 12:05:25", "at": "12:05:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 6.1 s"}
+{"id": 178, "ts": "2026-10-01 12:05:37", "at": "12:05:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 8.1 s"}
+{"id": 179, "ts": "2026-10-01 12:06:14", "at": "12:06:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 9.1 s"}
+{"id": 180, "ts": "2026-10-01 12:06:48", "at": "12:06:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 12.1 s"}
+{"id": 181, "ts": "2026-10-01 12:07:34", "at": "12:07:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
