@@ -548,3 +548,10 @@
 {"id": 548, "ts": "2026-09-30 15:29:27", "at": "15:29:27", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
 {"id": 549, "ts": "2026-09-30 15:29:28", "at": "15:29:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 550, "ts": "2026-09-30 15:29:48", "at": "15:29:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 7.1 s"}
+{"id": 551, "ts": "2026-10-01 12:03:01", "at": "12:03:01", "kind": "boot", "msg": "engine thread started"}
+{"id": 552, "ts": "2026-10-01 12:03:01", "at": "12:03:01", "kind": "boot", "msg": "ema-hedge app up (pid 2296, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/ema_hedge/data)"}
+{"id": 553, "ts": "2026-10-01 12:03:02", "at": "12:03:02", "kind": "control", "msg": "started automatically on launch"}
+{"id": 554, "ts": "2026-10-01 12:03:02", "at": "12:03:02", "kind": "day", "msg": "new session 2026-10-01"}
+{"id": 555, "ts": "2026-10-01 12:03:02", "at": "12:03:02", "kind": "vix", "msg": "India VIX 13.61 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
+{"id": 556, "ts": "2026-10-01 12:03:03", "at": "12:03:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 557, "ts": "2026-10-01 12:03:06", "at": "12:03:06", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}

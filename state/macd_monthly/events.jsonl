@@ -155,3 +155,19 @@
 {"id": 155, "ts": "2026-09-30 15:28:28", "at": "15:28:28", "kind": "contract", "msg": "2026-10-27: watching ATM 23000 +/- 3 strikes of 1000 (CE/PE)"}
 {"id": 156, "ts": "2026-09-30 15:28:31", "at": "15:28:31", "kind": "boot", "msg": "ready - 14 monthly expiries, 4036 contracts in the scrip master"}
 {"id": 157, "ts": "2026-09-30 15:28:31", "at": "15:28:31", "kind": "vix", "msg": "India VIX prev close 13.41 - entries allowed"}
+{"id": 158, "ts": "2026-10-01 12:03:01", "at": "12:03:01", "kind": "boot", "msg": "engine thread started"}
+{"id": 159, "ts": "2026-10-01 12:03:01", "at": "12:03:01", "kind": "boot", "msg": "macd app up (pid 2298, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/macd_monthly/data)"}
+{"id": 160, "ts": "2026-10-01 12:03:03", "at": "12:03:03", "kind": "control", "msg": "started automatically on launch"}
+{"id": 161, "ts": "2026-10-01 12:03:03", "at": "12:03:03", "kind": "day", "msg": "new session 2026-10-01 - counters reset"}
+{"id": 162, "ts": "2026-10-01 12:03:03", "at": "12:03:03", "kind": "vix", "msg": "India VIX prev close 13.49 - entries allowed"}
+{"id": 163, "ts": "2026-10-01 12:03:04", "at": "12:03:04", "kind": "contract", "msg": "2026-10-27: watching ATM 23000 +/- 3 strikes of 1000 (CE/PE)"}
+{"id": 164, "ts": "2026-10-01 12:03:04", "at": "12:03:04", "kind": "signal", "msg": "2026-10-27 22000 CE: MACD crossed UP while prices were not being watched"}
+{"id": 165, "ts": "2026-10-01 12:03:04", "at": "12:03:04", "kind": "exit", "msg": "SHORT 2026-10-27 22000 CE MACD_UP_MISSED @ 757.30  P&L Rs 9600.50"}
+{"id": 166, "ts": "2026-10-01 12:03:04", "at": "12:03:04", "kind": "signal", "msg": "2026-10-27 23000 CE: MACD crossed UP while prices were not being watched"}
+{"id": 167, "ts": "2026-10-01 12:03:04", "at": "12:03:04", "kind": "exit", "msg": "SHORT 2026-10-27 23000 CE MACD_UP_MISSED @ 157.25  P&L Rs 4049.50"}
+{"id": 168, "ts": "2026-10-01 12:03:04", "at": "12:03:04", "kind": "signal", "msg": "2026-10-27 23000 PE: MACD crossed DOWN while prices were not being watched"}
+{"id": 169, "ts": "2026-10-01 12:03:04", "at": "12:03:04", "kind": "exit", "msg": "LONG 2026-10-27 23000 PE MACD_DOWN_MISSED @ 497.80  P&L Rs 7722.00"}
+{"id": 170, "ts": "2026-10-01 12:03:06", "at": "12:03:06", "kind": "boot", "msg": "ready - 14 monthly expiries, 4064 contracts in the scrip master"}
+{"id": 171, "ts": "2026-10-01 12:03:06", "at": "12:03:06", "kind": "vix", "msg": "India VIX prev close 13.49 - entries allowed"}
+{"id": 172, "ts": "2026-10-01 12:03:07", "at": "12:03:07", "kind": "signal", "msg": "2026-10-27 24000 PE: MACD crossed DOWN while prices were not being watched"}
+{"id": 173, "ts": "2026-10-01 12:03:07", "at": "12:03:07", "kind": "exit", "msg": "LONG 2026-10-27 24000 PE MACD_DOWN_MISSED @ 1347.50  P&L Rs 11430.25"}

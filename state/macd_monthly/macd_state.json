@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-09-30 15:33:26",
+  "saved_at": "2026-10-01 12:03:07",
   "cfg": {
     "expiries": [
       "2026-10-27"
@@ -24,121 +24,36 @@
     "max_trades_per_day": 30,
     "max_open": 10
   },
-  "lanes": {
-    "2026-10-27|CE|22000": {
-      "expiry": "2026-10-27",
-      "opt_type": "CE",
-      "strike": 22000.0,
-      "sid": "51308",
-      "position": {
-        "id": "2026-10-27-CE-22000-SHORT-1790756700053",
-        "lane": "2026-10-27|CE|22000",
-        "contract": "2026-10-27 22000 CE",
-        "dir": "SHORT",
-        "opened": "2026-09-30 13:55:00",
-        "opened_ts": 1790756700.053916,
-        "expiry": "2026-10-27",
-        "opt_type": "CE",
-        "strike": 22000.0,
-        "entry": 905.0,
-        "qty": 65,
-        "lot": 65,
-        "lots": 1,
-        "signal_close": 908.15,
-        "entry_macd": 3.554,
-        "entry_hist": -0.215,
-        "vix": 13.41,
-        "mark": 811.8,
-        "pnl": 6058.0,
-        "status": "OPEN"
-      }
-    },
-    "2026-10-27|CE|23000": {
-      "expiry": "2026-10-27",
-      "opt_type": "CE",
-      "strike": 23000.0,
-      "sid": "51352",
-      "position": {
-        "id": "2026-10-27-CE-23000-SHORT-1790756700058",
-        "lane": "2026-10-27|CE|23000",
-        "contract": "2026-10-27 23000 CE",
-        "dir": "SHORT",
-        "opened": "2026-09-30 13:55:00",
-        "opened_ts": 1790756700.058378,
-        "expiry": "2026-10-27",
-        "opt_type": "CE",
-        "strike": 23000.0,
-        "entry": 219.55,
-        "qty": 65,
-        "lot": 65,
-        "lots": 1,
-        "signal_close": 221.15,
-        "entry_macd": -1.655,
-        "entry_hist": -0.041,
-        "vix": 13.41,
-        "mark": 179.5,
-        "pnl": 2603.25,
-        "status": "OPEN"
-      }
-    },
-    "2026-10-27|PE|24000": {
+  "lanes": {},
+  "unflushed_trades": [
+    {
+      "id": "2026-10-27-PE-24000-LONG-1790756700061",
+      "lane": "2026-10-27|PE|24000",
+      "contract": "2026-10-27 24000 PE",
+      "dir": "LONG",
+      "opened": "2026-09-30 13:55:00",
+      "opened_ts": 1790756700.0614514,
       "expiry": "2026-10-27",
       "opt_type": "PE",
       "strike": 24000.0,
-      "sid": "51393",
-      "position": {
-        "id": "2026-10-27-PE-24000-LONG-1790756700061",
-        "lane": "2026-10-27|PE|24000",
-        "contract": "2026-10-27 24000 PE",
-        "dir": "LONG",
-        "opened": "2026-09-30 13:55:00",
-        "opened_ts": 1790756700.0614514,
-        "expiry": "2026-10-27",
-        "opt_type": "PE",
-        "strike": 24000.0,
-        "entry": 1171.65,
-        "qty": 65,
-        "lot": 65,
-        "lots": 1,
-        "signal_close": 1175.4,
-        "entry_macd": -7.762,
-        "entry_hist": 0.637,
-        "vix": 13.41,
-        "mark": 1282.85,
-        "pnl": 7228.0,
-        "status": "OPEN"
-      }
-    },
-    "2026-10-27|PE|23000": {
-      "expiry": "2026-10-27",
-      "opt_type": "PE",
-      "strike": 23000.0,
-      "sid": "51353",
-      "position": {
-        "id": "2026-10-27-PE-23000-LONG-1790756700066",
-        "lane": "2026-10-27|PE|23000",
-        "contract": "2026-10-27 23000 PE",
-        "dir": "LONG",
-        "opened": "2026-09-30 13:55:00",
-        "opened_ts": 1790756700.0661128,
-        "expiry": "2026-10-27",
-        "opt_type": "PE",
-        "strike": 23000.0,
-        "entry": 379.0,
-        "qty": 65,
-        "lot": 65,
-        "lots": 1,
-        "signal_close": 376.0,
-        "entry_macd": -8.457,
-        "entry_hist": 0.313,
-        "vix": 13.41,
-        "mark": 455.7,
-        "pnl": 4985.5,
-        "status": "OPEN"
-      }
+      "entry": 1171.65,
+      "qty": 65,
+      "lot": 65,
+      "lots": 1,
+      "signal_close": 1175.4,
+      "entry_macd": -7.762,
+      "entry_hist": 0.637,
+      "vix": 13.41,
+      "mark": 1347.5,
+      "pnl": 11430.25,
+      "status": "CLOSED",
+      "closed": "2026-10-01 12:03:07",
+      "closed_ts": 1790836387.4342854,
+      "exit": 1347.5,
+      "reason": "MACD_DOWN_MISSED",
+      "points": 175.85
     }
-  },
-  "unflushed_trades": [],
-  "trades_today": 18,
-  "day": "2026-09-30"
+  ],
+  "trades_today": 0,
+  "day": "2026-10-01"
 }
