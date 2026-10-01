@@ -323,3 +323,14 @@
 {"id": 323, "ts": "2026-10-01 14:43:00", "at": "14:43:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 324, "ts": "2026-10-01 14:43:59", "at": "14:43:59", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 325, "ts": "2026-10-01 14:44:14", "at": "14:44:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 326, "ts": "2026-10-01 14:44:29", "at": "14:44:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 327, "ts": "2026-10-01 14:45:00", "at": "14:45:00", "kind": "signal", "msg": "2026-10-27 24000 PE MACD crossed DOWN (bar close 1535.00, hist +0.02 -> -2.15)"}
+{"id": 328, "ts": "2026-10-01 14:45:00", "at": "14:45:00", "kind": "exit", "msg": "LONG 2026-10-27 24000 PE MACD_DOWN @ 1536.25  P&L Rs 6867.25"}
+{"id": 329, "ts": "2026-10-01 14:45:00", "at": "14:45:00", "kind": "entry", "msg": "SELL SHORT 2026-10-27 24000 PE @ 1536.25  (bar close 1535.00, MACD hist -2.15, VIX 13.49)"}
+{"id": 330, "ts": "2026-10-01 14:45:00", "at": "14:45:00", "kind": "signal", "msg": "2026-10-27 23000 PE MACD crossed DOWN (bar close 651.60, hist +0.45 -> -1.41)"}
+{"id": 331, "ts": "2026-10-01 14:45:00", "at": "14:45:00", "kind": "exit", "msg": "LONG 2026-10-27 23000 PE MACD_DOWN @ 651.30  P&L Rs 6630.00"}
+{"id": 332, "ts": "2026-10-01 14:45:00", "at": "14:45:00", "kind": "entry", "msg": "SELL SHORT 2026-10-27 23000 PE @ 651.30  (bar close 651.60, MACD hist -1.41, VIX 13.49)"}
+{"id": 333, "ts": "2026-10-01 14:46:06", "at": "14:46:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 334, "ts": "2026-10-01 14:46:36", "at": "14:46:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 335, "ts": "2026-10-01 14:47:35", "at": "14:47:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 336, "ts": "2026-10-01 14:48:46", "at": "14:48:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
