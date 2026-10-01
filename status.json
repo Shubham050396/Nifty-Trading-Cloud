@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-01T20:41:05+05:30",
+  "updated": "2026-10-01T21:00:10+05:30",
   "headline": "\u274c Not trading",
   "phase": "failed",
-  "window": "20:41 \u2192 20:46 IST (check run (after the trading day))",
+  "window": "21:00 \u2192 21:05 IST (check run (after the trading day))",
   "vix": null,
   "vix_limit": 13.5,
-  "run_url": "https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36882225312",
+  "run_url": "https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/36884728604",
   "notices": [
     "The Dhan token expired at 01 Oct 20:21 IST. Paste a fresh one into the DHAN_ACCESS_TOKEN secret, then start this workflow again from the Actions tab."
   ],
   "token_text": "**EXPIRED**",
   "token_expires": 1790866267,
-  "stop_at": "2026-10-01T20:46:04+05:30",
+  "stop_at": "2026-10-01T21:05:09+05:30",
   "strategies": {
     "credit_spreads": {
       "name": "NIFTY Credit Spreads",
