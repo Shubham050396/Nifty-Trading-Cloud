@@ -229,3 +229,7 @@
 {"id": 229, "ts": "2026-10-01 12:45:10", "at": "12:45:10", "kind": "skip", "msg": "short 2026-10-27 23000 CE ignored - premium 129.75 is outside 144 - 1600"}
 {"id": 230, "ts": "2026-10-01 12:47:29", "at": "12:47:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 14.1 s"}
 {"id": 231, "ts": "2026-10-01 12:47:44", "at": "12:47:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 232, "ts": "2026-10-01 12:48:42", "at": "12:48:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 233, "ts": "2026-10-01 12:50:07", "at": "12:50:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 234, "ts": "2026-10-01 12:50:37", "at": "12:50:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 235, "ts": "2026-10-01 12:51:35", "at": "12:51:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
