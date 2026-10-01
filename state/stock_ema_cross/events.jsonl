@@ -1231,3 +1231,13 @@
 {"id": 1231, "ts": "2026-10-01 14:57:30", "at": "14:57:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1232, "ts": "2026-10-01 14:58:30", "at": "14:58:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1233, "ts": "2026-10-01 14:59:14", "at": "14:59:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1234, "ts": "2026-10-01 14:59:23", "at": "14:59:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1235, "ts": "2026-10-01 14:59:33", "at": "14:59:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1236, "ts": "2026-10-01 14:59:51", "at": "14:59:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1237, "ts": "2026-10-01 15:00:10", "at": "15:00:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1238, "ts": "2026-10-01 15:00:19", "at": "15:00:19", "kind": "exit", "msg": "SELL KOTAKBANK 420 CE 27 Oct PRE_HOLIDAY @ 10.00  +20.5%  P&L Rs 3400.00"}
+{"id": 1239, "ts": "2026-10-01 15:00:19", "at": "15:00:19", "kind": "signal", "msg": "DLF 650 PE 27 Oct crossed EMA 144 at 14.65 - not taken: momentum -10.7%"}
+{"id": 1240, "ts": "2026-10-01 15:01:17", "at": "15:01:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1241, "ts": "2026-10-01 15:01:55", "at": "15:01:55", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1242, "ts": "2026-10-01 15:02:17", "at": "15:02:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1243, "ts": "2026-10-01 15:03:59", "at": "15:03:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
