@@ -237,3 +237,9 @@
 {"id": 237, "ts": "2026-10-01 12:55:18", "at": "12:55:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 238, "ts": "2026-10-01 12:55:33", "at": "12:55:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 239, "ts": "2026-10-01 12:56:18", "at": "12:56:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 240, "ts": "2026-10-01 12:58:49", "at": "12:58:49", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 241, "ts": "2026-10-01 12:59:04", "at": "12:59:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 242, "ts": "2026-10-01 13:00:53", "at": "13:00:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 243, "ts": "2026-10-01 13:02:04", "at": "13:02:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 244, "ts": "2026-10-01 13:02:20", "at": "13:02:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 245, "ts": "2026-10-01 13:03:07", "at": "13:03:07", "kind": "vix", "msg": "India VIX prev close 13.49 - entries allowed"}
