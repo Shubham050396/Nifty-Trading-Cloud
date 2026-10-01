@@ -1065,3 +1065,15 @@
 {"id": 1065, "ts": "2026-10-01 13:58:02", "at": "13:58:02", "kind": "warm", "msg": "bar history loaded for all 1580 contracts"}
 {"id": 1066, "ts": "2026-10-01 13:58:06", "at": "13:58:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1067, "ts": "2026-10-01 13:58:50", "at": "13:58:50", "kind": "contract", "msg": "watching 1580 contracts on 99 stocks (ATM +/- 3, CE/PE): 10 added, 10 dropped"}
+{"id": 1068, "ts": "2026-10-01 13:59:00", "at": "13:59:00", "kind": "warm", "msg": "bar history loaded for all 1580 contracts"}
+{"id": 1069, "ts": "2026-10-01 13:59:05", "at": "13:59:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1070, "ts": "2026-10-01 13:59:44", "at": "13:59:44", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1071, "ts": "2026-10-01 14:00:06", "at": "14:00:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1072, "ts": "2026-10-01 14:00:08", "at": "14:00:08", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1073, "ts": "2026-10-01 14:01:02", "at": "14:01:02", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1074, "ts": "2026-10-01 14:01:41", "at": "14:01:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1075, "ts": "2026-10-01 14:01:44", "at": "14:01:44", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1076, "ts": "2026-10-01 14:02:12", "at": "14:02:12", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1077, "ts": "2026-10-01 14:02:39", "at": "14:02:39", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1078, "ts": "2026-10-01 14:03:02", "at": "14:03:02", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1079, "ts": "2026-10-01 14:03:10", "at": "14:03:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
