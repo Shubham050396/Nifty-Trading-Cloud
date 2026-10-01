@@ -216,3 +216,8 @@
 {"id": 216, "ts": "2026-10-01 12:30:00", "at": "12:30:00", "kind": "skip", "msg": "buy 2026-10-27 26000 PE ignored - premium 3418.70 is outside 144 - 1600"}
 {"id": 217, "ts": "2026-10-01 12:30:43", "at": "12:30:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 218, "ts": "2026-10-01 12:31:42", "at": "12:31:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 219, "ts": "2026-10-01 12:33:42", "at": "12:33:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 220, "ts": "2026-10-01 12:36:03", "at": "12:36:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 221, "ts": "2026-10-01 12:36:33", "at": "12:36:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 222, "ts": "2026-10-01 12:37:18", "at": "12:37:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 223, "ts": "2026-10-01 12:38:16", "at": "12:38:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
