@@ -1086,3 +1086,9 @@
 {"id": 1086, "ts": "2026-10-01 14:06:07", "at": "14:06:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1087, "ts": "2026-10-01 14:07:07", "at": "14:07:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1088, "ts": "2026-10-01 14:07:34", "at": "14:07:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1089, "ts": "2026-10-01 14:09:02", "at": "14:09:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1090, "ts": "2026-10-01 14:10:10", "at": "14:10:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1091, "ts": "2026-10-01 14:10:54", "at": "14:10:54", "kind": "signal", "msg": "DMART 3800 CE 27 Oct crossed EMA 144 at 142.20 - not taken: under EMA 55, momentum 0.0%"}
+{"id": 1092, "ts": "2026-10-01 14:12:04", "at": "14:12:04", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1093, "ts": "2026-10-01 14:12:13", "at": "14:12:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1094, "ts": "2026-10-01 14:13:48", "at": "14:13:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
