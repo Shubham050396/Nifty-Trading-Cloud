@@ -187,3 +187,13 @@
 {"id": 187, "ts": "2026-10-01 12:15:52", "at": "12:15:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 188, "ts": "2026-10-01 12:17:41", "at": "12:17:41", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 189, "ts": "2026-10-01 12:17:56", "at": "12:17:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 190, "ts": "2026-10-01 12:20:07", "at": "12:20:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 191, "ts": "2026-10-01 12:20:22", "at": "12:20:22", "kind": "signal", "msg": "2026-10-27 23000 PE MACD crossed UP (bar close 551.35, hist -0.68 -> +0.27)"}
+{"id": 192, "ts": "2026-10-01 12:20:22", "at": "12:20:22", "kind": "entry", "msg": "BUY 2026-10-27 23000 PE @ 549.30  (bar close 551.35, MACD hist +0.27, VIX 13.49)"}
+{"id": 193, "ts": "2026-10-01 12:20:22", "at": "12:20:22", "kind": "signal", "msg": "2026-10-27 22000 PE MACD crossed UP (bar close 124.45, hist -0.01 -> +0.29)"}
+{"id": 194, "ts": "2026-10-01 12:20:22", "at": "12:20:22", "kind": "skip", "msg": "buy 2026-10-27 22000 PE ignored - premium 124.45 is outside 144 - 1600"}
+{"id": 195, "ts": "2026-10-01 12:20:37", "at": "12:20:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 196, "ts": "2026-10-01 12:22:02", "at": "12:22:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 197, "ts": "2026-10-01 12:22:32", "at": "12:22:32", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 198, "ts": "2026-10-01 12:23:02", "at": "12:23:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 199, "ts": "2026-10-01 12:23:17", "at": "12:23:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
