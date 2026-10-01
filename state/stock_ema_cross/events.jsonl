@@ -1211,3 +1211,14 @@
 {"id": 1211, "ts": "2026-10-01 14:48:02", "at": "14:48:02", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
 {"id": 1212, "ts": "2026-10-01 14:48:26", "at": "14:48:26", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
 {"id": 1213, "ts": "2026-10-01 14:49:15", "at": "14:49:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1214, "ts": "2026-10-01 14:50:15", "at": "14:50:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1215, "ts": "2026-10-01 14:50:17", "at": "14:50:17", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1216, "ts": "2026-10-01 14:50:45", "at": "14:50:45", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1217, "ts": "2026-10-01 14:50:51", "at": "14:50:51", "kind": "signal", "msg": "CGPOWER 840 PE 27 Oct crossed EMA 144 at 13.95 - not taken: under EMA 55, momentum -10.3%"}
+{"id": 1218, "ts": "2026-10-01 14:51:15", "at": "14:51:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1219, "ts": "2026-10-01 14:51:42", "at": "14:51:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1220, "ts": "2026-10-01 14:52:09", "at": "14:52:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1221, "ts": "2026-10-01 14:52:37", "at": "14:52:37", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1222, "ts": "2026-10-01 14:52:46", "at": "14:52:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1223, "ts": "2026-10-01 14:53:04", "at": "14:53:04", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1224, "ts": "2026-10-01 14:53:51", "at": "14:53:51", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
