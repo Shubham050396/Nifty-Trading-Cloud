@@ -307,3 +307,19 @@
 {"id": 307, "ts": "2026-10-01 14:34:27", "at": "14:34:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 308, "ts": "2026-10-01 14:35:39", "at": "14:35:39", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 309, "ts": "2026-10-01 14:36:51", "at": "14:36:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 310, "ts": "2026-10-01 14:39:31", "at": "14:39:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 311, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "signal", "msg": "2026-10-27 22000 CE MACD crossed UP (bar close 636.10, hist -0.07 -> +1.45)"}
+{"id": 312, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "exit", "msg": "SHORT 2026-10-27 22000 CE MACD_UP @ 640.80  P&L Rs 3523.00"}
+{"id": 313, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "entry", "msg": "BUY 2026-10-27 22000 CE @ 640.80  (bar close 636.10, MACD hist +1.45, VIX 13.49)"}
+{"id": 314, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "signal", "msg": "2026-10-27 21000 CE MACD crossed UP (bar close 1517.50, hist -1.08 -> +1.74)"}
+{"id": 315, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "exit", "msg": "SHORT 2026-10-27 21000 CE MACD_UP @ 1506.05  P&L Rs 4875.00"}
+{"id": 316, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "entry", "msg": "BUY 2026-10-27 21000 CE @ 1506.05  (bar close 1517.50, MACD hist +1.74, VIX 13.49)"}
+{"id": 317, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "signal", "msg": "2026-10-27 25000 PE MACD crossed DOWN (bar close 2506.00, hist +2.51 -> -0.33)"}
+{"id": 318, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "skip", "msg": "short 2026-10-27 25000 PE ignored - premium 2506.00 is outside 144 - 1600"}
+{"id": 319, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "signal", "msg": "2026-10-27 26000 PE MACD crossed DOWN (bar close 3516.70, hist +2.15 -> -0.10)"}
+{"id": 320, "ts": "2026-10-01 14:40:02", "at": "14:40:02", "kind": "skip", "msg": "short 2026-10-27 26000 PE ignored - premium 3516.70 is outside 144 - 1600"}
+{"id": 321, "ts": "2026-10-01 14:41:20", "at": "14:41:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 322, "ts": "2026-10-01 14:42:45", "at": "14:42:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 323, "ts": "2026-10-01 14:43:00", "at": "14:43:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 324, "ts": "2026-10-01 14:43:59", "at": "14:43:59", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 325, "ts": "2026-10-01 14:44:14", "at": "14:44:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

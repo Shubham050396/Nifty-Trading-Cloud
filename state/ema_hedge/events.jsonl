@@ -815,3 +815,7 @@
 {"id": 815, "ts": "2026-10-01 14:37:31", "at": "14:37:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 816, "ts": "2026-10-01 14:37:55", "at": "14:37:55", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
 {"id": 817, "ts": "2026-10-01 14:38:52", "at": "14:38:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 818, "ts": "2026-10-01 14:40:13", "at": "14:40:13", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 819, "ts": "2026-10-01 14:41:35", "at": "14:41:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 820, "ts": "2026-10-01 14:42:56", "at": "14:42:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 821, "ts": "2026-10-01 14:43:36", "at": "14:43:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
