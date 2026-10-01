@@ -157,6 +157,32 @@
       "max_open": 5,
       "max_per_stock": 1,
       "max_trades_per_day": 20
+    },
+    "macd_monthly": {
+      "expiries": [
+        "2026-10-27",
+        "2026-11-23",
+        "2026-12-29",
+        "2027-03-30"
+      ],
+      "opt_types": [
+        "CE",
+        "PE"
+      ],
+      "strike_mode": "atm",
+      "strikes_each_side": 1,
+      "strike_list": [],
+      "fast": 30,
+      "slow": 60,
+      "signal": 15,
+      "bar_minutes": 5,
+      "min_premium": 144.0,
+      "max_premium": 1600.0,
+      "vix_max": 15.0,
+      "direction": "long_short",
+      "lots": 1,
+      "max_trades_per_day": 30,
+      "max_open": 10
     }
   }
 }
