@@ -1252,3 +1252,17 @@
 {"id": 1252, "ts": "2026-10-01 15:06:55", "at": "15:06:55", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
 {"id": 1253, "ts": "2026-10-01 15:07:18", "at": "15:07:18", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1254, "ts": "2026-10-01 15:08:18", "at": "15:08:18", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1255, "ts": "2026-10-01 15:09:53", "at": "15:09:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1256, "ts": "2026-10-01 15:10:13", "at": "15:10:13", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1257, "ts": "2026-10-01 15:10:20", "at": "15:10:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1258, "ts": "2026-10-01 15:10:20", "at": "15:10:20", "kind": "signal", "msg": "DRREDDY 1200 CE 27 Oct crossed EMA 144 at 38.80 - not taken: under EMA 55"}
+{"id": 1259, "ts": "2026-10-01 15:10:20", "at": "15:10:20", "kind": "signal", "msg": "DRREDDY 1240 CE 27 Oct crossed EMA 144 at 21.25 - not taken: under EMA 55"}
+{"id": 1260, "ts": "2026-10-01 15:10:29", "at": "15:10:29", "kind": "entry", "msg": "BUY INFY 1020 CE 27 Oct x400 @ 46.15 (signal close 46.50, EMA 144 45.85, momentum 25.5%)  quick 53.07 till 15:40, target 78.45, stop below EMA 55"}
+{"id": 1261, "ts": "2026-10-01 15:10:29", "at": "15:10:29", "kind": "skip", "msg": "INFY 1040 CE 27 Oct signal at 36.70 skipped - 5 positions already open"}
+{"id": 1262, "ts": "2026-10-01 15:10:29", "at": "15:10:29", "kind": "skip", "msg": "INFY 1000 CE 27 Oct signal at 57.70 skipped - 5 positions already open"}
+{"id": 1263, "ts": "2026-10-01 15:10:29", "at": "15:10:29", "kind": "skip", "msg": "INFY 960 CE 27 Oct signal at 85.30 skipped - 5 positions already open"}
+{"id": 1264, "ts": "2026-10-01 15:11:12", "at": "15:11:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1265, "ts": "2026-10-01 15:12:06", "at": "15:12:06", "kind": "warm", "msg": "bar history loaded for all 1582 contracts"}
+{"id": 1266, "ts": "2026-10-01 15:12:27", "at": "15:12:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1267, "ts": "2026-10-01 15:12:54", "at": "15:12:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1268, "ts": "2026-10-01 15:13:54", "at": "15:13:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
