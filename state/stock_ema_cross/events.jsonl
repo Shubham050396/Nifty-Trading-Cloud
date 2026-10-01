@@ -1004,3 +1004,5 @@
 {"id": 1004, "ts": "2026-10-01 13:25:03", "at": "13:25:03", "kind": "signal", "msg": "CGPOWER 840 PE 27 Oct crossed EMA 144 at 13.50 - not taken: under EMA 55"}
 {"id": 1005, "ts": "2026-10-01 13:25:04", "at": "13:25:04", "kind": "skip", "msg": "INDIGO 4800 PE 27 Oct signal at 95.85 skipped - 5 positions already open"}
 {"id": 1006, "ts": "2026-10-01 13:25:16", "at": "13:25:16", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
+{"id": 1007, "ts": "2026-10-01 13:30:01", "at": "13:30:01", "kind": "signal", "msg": "ADANIGREEN 1300 PE 27 Oct crossed EMA 144 at 54.15 - not taken: under EMA 55"}
+{"id": 1008, "ts": "2026-10-01 13:33:32", "at": "13:33:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
