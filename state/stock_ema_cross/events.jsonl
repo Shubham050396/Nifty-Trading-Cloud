@@ -1006,3 +1006,10 @@
 {"id": 1006, "ts": "2026-10-01 13:25:16", "at": "13:25:16", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
 {"id": 1007, "ts": "2026-10-01 13:30:01", "at": "13:30:01", "kind": "signal", "msg": "ADANIGREEN 1300 PE 27 Oct crossed EMA 144 at 54.15 - not taken: under EMA 55"}
 {"id": 1008, "ts": "2026-10-01 13:33:32", "at": "13:33:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1009, "ts": "2026-10-01 13:35:01", "at": "13:35:01", "kind": "signal", "msg": "HDFCLIFE 540 PE 27 Oct crossed EMA 144 at 19.00 - not taken: under EMA 55, momentum 3.0%"}
+{"id": 1010, "ts": "2026-10-01 13:35:33", "at": "13:35:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1011, "ts": "2026-10-01 13:35:54", "at": "13:35:54", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
+{"id": 1012, "ts": "2026-10-01 13:36:36", "at": "13:36:36", "kind": "warm", "msg": "bar history loaded for all 1576 contracts"}
+{"id": 1013, "ts": "2026-10-01 13:37:12", "at": "13:37:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1014, "ts": "2026-10-01 13:38:13", "at": "13:38:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1015, "ts": "2026-10-01 13:38:28", "at": "13:38:28", "kind": "warm", "msg": "bar history loaded for all 1578 contracts"}
