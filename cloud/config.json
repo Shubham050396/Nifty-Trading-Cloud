@@ -12,6 +12,8 @@
   "save_every_minutes": 5,
   "vix_limit": 13.5,
   "vix_limit_applies_to": {},
+  "vix_min": 13.5,
+  "vix_min_applies_to": {},
   "settings": {
     "stock_ema_cross": {
       "symbols": [

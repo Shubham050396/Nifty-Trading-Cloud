@@ -85,8 +85,34 @@ def load_config():
     cfg.setdefault("save_every_minutes", 5)
     cfg.setdefault("vix_limit", hub.DEFAULT_VIX_LIMIT)
     cfg.setdefault("vix_limit_applies_to", {})
+    # The second, opposite rule: these strategies trade only ABOVE vix_min.
+    cfg.setdefault("vix_min", hub.DEFAULT_VIX_MIN)
+    cfg.setdefault("vix_min_applies_to", {})
     cfg.setdefault("settings", {})
     return cfg
+
+
+def write_vix_rules(cfg, ctx=None):
+    """Put both VIX rules in hub/risk.json, the one file every strategy
+    re-reads each cycle.  hub.write_risk writes it exactly as the desktop app
+    does, and refuses a strategy listed under both rules at once - so a
+    config.json edited by hand into that state is settled here first (the
+    kill switch wins, as everywhere else) rather than stopping the run."""
+    kill = dict(cfg["vix_limit_applies_to"] or {})
+    floor = dict(cfg["vix_min_applies_to"] or {})
+    both = sorted(s for s in floor if floor[s] and kill.get(s))
+    for sid in both:
+        floor[sid] = False
+    if both:
+        msg = ("Settings: cloud/config.json lists %s under both VIX rules; using "
+               "the kill switch for %s." % (", ".join(both), "them" if len(both) > 1 else "it"))
+        log("WARNING: " + msg)
+        if ctx is not None:
+            ctx["notices"].append(msg)
+    hub.RISK_FILE = RISK_FILE
+    hub.HUB_DIR = os.path.dirname(RISK_FILE)
+    hub.write_risk({"vix_limit": cfg["vix_limit"], "apply": kill,
+                    "vix_min": cfg["vix_min"], "apply_min": floor})
 
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -440,11 +466,16 @@ def render(ctx):
     L.append("")
     vix = ctx.get("vix")
     limit = ctx.get("vix_limit") or 0
+    floor = ctx.get("vix_min") or 0
     vix_txt = "-" if vix is None else ("%.2f" % vix)
     if vix is not None and limit and vix > limit:
-        vix_txt += " 🔴 above the limit"
-    L.append("India VIX **%s** (limit %s) · Dhan token: %s · trading window: %s" % (
-        vix_txt, ("%.2f" % limit) if limit else "off", ctx["token_text"], ctx["window"]))
+        vix_txt += " 🔴 above the kill level"
+    elif vix is not None and floor and vix < floor:
+        vix_txt += " 🔴 below the trade-only-above level"
+    rules = ", ".join(([("kill above %.2f" % limit)] if limit else []) +
+                      ([("trade only above %.2f" % floor)] if floor else [])) or "off"
+    L.append("India VIX **%s** (%s) · Dhan token: %s · trading window: %s" % (
+        vix_txt, rules, ctx["token_text"], ctx["window"]))
     L.append("")
     for w in ctx["notices"]:
         L.append("> ⚠️ %s" % w)
@@ -492,7 +523,8 @@ def status_json(ctx):
     return {
         "updated": ist_now().isoformat(timespec="seconds"), "headline": ctx["headline"],
         "phase": ctx["phase"], "window": ctx["window"], "vix": ctx.get("vix"),
-        "vix_limit": ctx.get("vix_limit"), "run_url": ctx["run_url"], "notices": ctx["notices"],
+        "vix_limit": ctx.get("vix_limit"), "vix_min": ctx.get("vix_min"),
+        "run_url": ctx["run_url"], "notices": ctx["notices"],
         "token_text": ctx["token_text"], "token_expires": ctx.get("token_expires"),
         "stop_at": ctx.get("stop_at"),
         "strategies": {s.id: {"name": s.name, "icon": s.man.get("icon", ""),
@@ -606,6 +638,7 @@ def main():
     strategies = [Strategy(sid) for sid in sids]
     ctx = {"headline": "Starting", "phase": "starting", "run_url": run_url, "window": window,
            "notices": [], "strategies": strategies, "vix": None, "vix_limit": cfg["vix_limit"],
+           "vix_min": cfg["vix_min"],
            "token_text": "-", "token_expires": None, "stop_at": stop.isoformat(timespec="seconds")}
     warnings = set()
 
@@ -648,7 +681,7 @@ def main():
 
     # ── start ────────────────────────────────────────────────────────────────
     restore_state(sids)
-    hub._write_json_atomic(RISK_FILE, {"vix_limit": cfg["vix_limit"], "apply": cfg["vix_limit_applies_to"]})
+    write_vix_rules(cfg, ctx)
     env = {k: v for k, v in os.environ.items() if k not in ("HOST", "APP_ENV", "PORT", "APP_PASSWORD")}
     env.update(NIFTY_RISK_FILE=RISK_FILE, PYTHONIOENCODING="utf-8", DHAN_ACCESS_TOKEN=tok)
     if cid:

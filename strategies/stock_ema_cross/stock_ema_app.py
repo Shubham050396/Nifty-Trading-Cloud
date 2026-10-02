@@ -1505,7 +1505,7 @@ def take_entries(cands):
 
 def open_position(lane, sig, quote):
     if kill_blocks():
-        return None                   # VIX kill switch: no new trades
+        return None                   # a VIX rule says no new trades
     """Under STATE.lock."""
     cfg, bar = STATE.cfg, sig["bar"]
     qty = lane.lot * cfg["lots"]
@@ -2907,41 +2907,73 @@ def hub_summary():
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  VIX KILL SWITCH  (optional for this strategy - tick it in NIFTY Trader's
-#  "VIX limit" dialog).  When ticked and India VIX is ABOVE the limit: no new
-#  trades, and every open position is closed (market hours).  Trading resumes
-#  by itself once VIX is back at or below the limit.  Limit and tick live in
-#  hub/risk.json, re-read every check.  If VIX cannot be read, nothing changes.
+#  VIX RULES  (optional for this strategy - tick it in NIFTY Trader's
+#  "VIX rules" dialog).  Two opposite rules, and a strategy can be in at most
+#  one of them:
+#    KILL ABOVE        while India VIX is ABOVE the level: no new trades, and
+#                      every open position is closed (market hours).  Trading
+#                      resumes by itself once VIX is back at or below it.
+#    TRADE ONLY ABOVE  while India VIX is BELOW the level: no new trades.
+#                      Open positions are left alone - this rule only decides
+#                      whether a new trade may be taken.
+#  Both levels and both tick lists live in hub/risk.json, re-read every check.
+#  If VIX cannot be read, nothing changes.
 # ─────────────────────────────────────────────────────────────────────────────
 _KILL_DEFAULT_ON = ("credit_spreads", "ema_hedge")
 _KILL_RISK_FILE = _env("NIFTY_RISK_FILE") if "_env" in globals() else os.environ.get("NIFTY_RISK_FILE")
 _KILL_RISK_FILE = _KILL_RISK_FILE or os.path.join(os.path.dirname(os.path.dirname(APP_DIR)), "hub", "risk.json")
-KILL = {"value": None, "kill": False, "checked": 0.0, "note": "not checked yet"}
+KILL = {"value": None, "kill": False, "hold": False, "checked": 0.0, "note": "not checked yet"}
+
+
+def _risk_level(d, key):
+    try:
+        v = float(d.get(key, 13.5))
+    except (TypeError, ValueError):
+        return 13.5
+    return v if v == v and v >= 0 else 13.5
 
 
 def vix_kill_settings():
-    """(limit, applies to this strategy)."""
+    """(kill-above level, trade-only-above level) for THIS strategy.  Either
+    is 0 when that rule is not ticked here, so the caller needs no flags."""
     sid = os.path.basename(APP_DIR)
     try:
         with open(_KILL_RISK_FILE, encoding="utf-8") as f:
             d = json.load(f)
-        lim = float(d.get("vix_limit", 13.5))
-        apply = d.get("apply") or {}
-        on = bool(apply[sid]) if sid in apply else sid in _KILL_DEFAULT_ON
-        return (lim if lim == lim and lim >= 0 else 13.5), on
+        apply, apply_min = d.get("apply") or {}, d.get("apply_min") or {}
+        # NIFTY Trader never saves both rules for one strategy, but an older
+        # file or one edited by hand can hold both, so settle it the way the
+        # hub does (vix_rules_for): a tick someone actually wrote beats the
+        # default, and if both were written the kill switch wins - it is the
+        # rule that protects open positions, not the one that only waits.
+        stated = apply.get(sid) if sid in apply else None
+        floor_on = bool(apply_min.get(sid))
+        kill_on = (bool(stated) if stated is not None
+                   else (sid in _KILL_DEFAULT_ON and not floor_on))
+        return (_risk_level(d, "vix_limit") if kill_on else 0.0,
+                _risk_level(d, "vix_min") if (floor_on and not kill_on) else 0.0)
     except (OSError, ValueError, TypeError, AttributeError):
-        return 13.5, sid in _KILL_DEFAULT_ON
+        return (13.5 if sid in _KILL_DEFAULT_ON else 0.0), 0.0
 
 
 def kill_blocks():
-    lim, on = vix_kill_settings()
-    return on and lim > 0 and KILL["kill"]
+    """True while either VIX rule says this strategy may not open anything."""
+    return bool(KILL["kill"] or KILL["hold"])
+
+
+def _kill_note(v, lim, floor):
+    bits = []
+    if lim > 0:
+        bits.append("kill above %.2f" % lim)
+    if floor > 0:
+        bits.append("trade only above %.2f" % floor)
+    return "India VIX %.2f, %s" % (v, " and ".join(bits))
 
 
 def kill_step(market_open, close_all):
-    lim, on = vix_kill_settings()
-    if not on or lim <= 0:
-        KILL.update(kill=False, note="VIX kill switch not applied to this strategy")
+    lim, floor = vix_kill_settings()
+    if lim <= 0 and floor <= 0:
+        KILL.update(kill=False, hold=False, note="No VIX rule applies to this strategy")
         return
     if time.time() - KILL["checked"] < (60 if market_open else 900):
         return
@@ -2950,14 +2982,19 @@ def kill_step(market_open, close_all):
     node = (((res.get("data") or {}).get("IDX_I") or {}).get("21") or {}) if res.get("status") == "success" else {}
     v = _f(node.get("last_price") if isinstance(node, dict) else None)
     if v <= 0:
-        KILL["note"] = "India VIX unavailable - kill switch unchanged"
+        KILL["note"] = "India VIX unavailable - VIX rules unchanged"
         return
-    kill = v > lim
+    kill = lim > 0 and v > lim
+    hold = floor > 0 and v < floor
     if kill != KILL["kill"]:
         log_event("vix", ("India VIX %.2f crossed ABOVE the %.2f limit - KILL SWITCH ON: no new trades, "
                           "closing every open position" if kill else
                           "India VIX %.2f is back at or below the %.2f limit - new trades allowed again") % (v, lim))
-    KILL.update(value=v, kill=kill, note="India VIX %.2f, limit %.2f" % (v, lim))
+    if hold != KILL["hold"]:
+        log_event("vix", ("India VIX %.2f is BELOW %.2f - no new trades until it is above it; open "
+                          "positions are left alone" if hold else
+                          "India VIX %.2f is back above %.2f - new trades allowed again") % (v, floor))
+    KILL.update(value=v, kill=kill, hold=hold, note=_kill_note(v, lim, floor))
     if kill and market_open:
         close_all()
 

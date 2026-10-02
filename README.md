@@ -75,8 +75,10 @@ already match this PC's. Needs ☁ **Cloud → Set up sending** once.
 | `strategies` | Which strategies run in the cloud. Remove one to switch it off. |
 | `stop_at` | End of the trading day in IST (default `15:15`). |
 | `save_every_minutes` | How often trades and the report are saved (default 5). |
-| `vix_limit` | India VIX kill switch, as in the desktop app (default 13.5; 0 = off). |
+| `vix_limit` | **Kill above** this India VIX: no new trades, and every open trade is closed (default 13.5; 0 = off). |
 | `vix_limit_applies_to` | e.g. `{"scalper": true}`. Empty = the option-selling strategies only (credit spreads, EMA hedge), as in the desktop app. |
+| `vix_min` | **Trade only above** this India VIX: below it, no new trades, and open trades are left alone (default 13.5; 0 = off). |
+| `vix_min_applies_to` | e.g. `{"level_cross": true}`. Empty = no strategy waits for VIX. A strategy listed here is taken out of `vix_limit_applies_to`: the two rules are opposites, so one strategy never gets both. |
 | `settings` | Strategy settings, e.g. `{"scalper": {"max_trades": 4}}`. Sent to the strategy the way its own Save button sends them. Empty = each strategy's defaults. This is what **Send my settings** in the app writes. |
 
 Until you send settings, the strategies run with their **default settings**, not the ones on your laptop.

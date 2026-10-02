@@ -1223,33 +1223,55 @@ REASON_WORDS = {
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  VIX KILL SWITCH
-#  While India VIX is ABOVE the limit this hedged-selling strategy opens no
-#  spreads and closes every open one.  New spreads are allowed again once VIX
-#  is back at or below the limit (on the next signal or roll).
-#  The limit is set in ONE place: NIFTY Trader's "VIX limit" (hub/risk.json),
-#  re-read every check, so a change applies within a minute.  0 turns it off.
-#  If VIX cannot be read, no new spreads are opened; open ones are kept.
+#  VIX RULES
+#  Two opposite rules, and this strategy can be in at most one of them:
+#    KILL ABOVE        while India VIX is ABOVE the level, no new spreads and
+#                      every open one is closed.  New spreads are allowed
+#                      again once VIX is back at or below it.
+#    TRADE ONLY ABOVE  while India VIX is BELOW the level, no new spreads.
+#                      Open spreads are left alone - it only gates entries.
+#  Both are set in ONE place: NIFTY Trader's "VIX rules" (hub/risk.json),
+#  re-read every check, so a change applies within a minute.  0 turns a rule
+#  off.  If VIX cannot be read, no new spreads are opened; open ones are kept.
 # ─────────────────────────────────────────────────────────────────────────────
 VIX_SECURITY_ID, VIX_SEG = 21, "IDX_I"          # NSE "INDIA VIX"
 DEFAULT_VIX_LIMIT = 13.5
 RISK_FILE = _env("NIFTY_RISK_FILE") or os.path.join(
     os.path.dirname(os.path.dirname(APP_DIR)), "hub", "risk.json")
 VIX_EVERY_OPEN, VIX_EVERY_CLOSED = 60, 900
-VIX = {"value": None, "at": "", "kill": False, "blocked": True, "note": "not checked yet", "checked": 0.0}
+VIX = {"value": None, "at": "", "kill": False, "hold": False, "blocked": True,
+       "note": "not checked yet", "checked": 0.0}
 
 
-def vix_limit():
+def _risk_level(d, key):
+    try:
+        v = float(d.get(key, DEFAULT_VIX_LIMIT))
+    except (TypeError, ValueError):
+        return DEFAULT_VIX_LIMIT
+    return v if v == v and v >= 0 else DEFAULT_VIX_LIMIT
+
+
+def vix_levels():
+    """(kill-above level, trade-only-above level) for this strategy.  Either
+    is 0 when that rule is not ticked for it in the hub's VIX rules dialog."""
+    sid = os.path.basename(APP_DIR)
     try:
         with open(RISK_FILE, encoding="utf-8") as f:
             d = json.load(f)
-        v = float(d.get("vix_limit", DEFAULT_VIX_LIMIT))
-        # Unticked for this strategy in the hub's VIX limit dialog = switch off.
-        if not (d.get("apply") or {}).get(os.path.basename(APP_DIR), True):
-            return 0.0
-        return v if v == v and v >= 0 else DEFAULT_VIX_LIMIT
+        # NIFTY Trader never saves both rules for one strategy, but an older
+        # file or one edited by hand can hold both, so settle it the way the
+        # hub does (vix_rules_for): a tick someone actually wrote beats the
+        # default - and this strategy is kill-ticked by default - while if
+        # both were written the kill switch wins, being the rule that protects
+        # open spreads rather than the one that only waits.
+        apply, apply_min = d.get("apply") or {}, d.get("apply_min") or {}
+        stated = apply.get(sid) if sid in apply else None
+        floor_on = bool(apply_min.get(sid))
+        kill_on = bool(stated) if stated is not None else (not floor_on)
+        return (_risk_level(d, "vix_limit") if kill_on else 0.0,
+                _risk_level(d, "vix_min") if (floor_on and not kill_on) else 0.0)
     except (OSError, ValueError, TypeError, AttributeError):
-        return DEFAULT_VIX_LIMIT
+        return DEFAULT_VIX_LIMIT, 0.0
 
 
 def fetch_india_vix():
@@ -1264,9 +1286,10 @@ def fetch_india_vix():
 
 def vix_step(now_ts, market_open):
     """Throttled VIX check.  Closes everything only while the market is open."""
-    limit = vix_limit()
-    if limit <= 0:
-        VIX.update(kill=False, blocked=False, note="VIX kill switch is off (limit 0)")
+    limit, floor = vix_levels()
+    if limit <= 0 and floor <= 0:
+        VIX.update(kill=False, hold=False, blocked=False,
+                   note="No VIX rule applies to this strategy")
         return
     if now_ts - VIX["checked"] < (VIX_EVERY_OPEN if market_open else VIX_EVERY_CLOSED) \
             and VIX["value"] is not None:
@@ -1279,14 +1302,23 @@ def vix_step(now_ts, market_open):
             log_event("vix", note)
         VIX.update(blocked=True, note=note)
         return
-    kill = v > limit
+    kill = limit > 0 and v > limit
+    hold = floor > 0 and v < floor
     if kill != VIX["kill"]:
         log_event("vix", ("India VIX %.2f crossed ABOVE the %.2f limit - KILL SWITCH ON: no new "
                           "spreads, closing every open one" if kill else
                           "India VIX %.2f is back at or below the %.2f limit - new spreads allowed "
                           "again") % (v, limit))
-    VIX.update(value=v, at=now_ist().strftime("%H:%M:%S"), kill=kill, blocked=kill,
-               note="India VIX %.2f at %s, limit %.2f" % (v, now_ist().strftime("%H:%M:%S"), limit))
+    if hold != VIX["hold"]:
+        log_event("vix", ("India VIX %.2f is BELOW %.2f - no new spreads until it is above it; "
+                          "open spreads are left alone" if hold else
+                          "India VIX %.2f is back above %.2f - new spreads allowed "
+                          "again") % (v, floor))
+    rules = " and ".join(([("kill above %.2f" % limit)] if limit > 0 else []) +
+                         ([("trade only above %.2f" % floor)] if floor > 0 else []))
+    VIX.update(value=v, at=now_ist().strftime("%H:%M:%S"), kill=kill, hold=hold,
+               blocked=kill or hold,
+               note="India VIX %.2f at %s, %s" % (v, now_ist().strftime("%H:%M:%S"), rules))
     if kill and market_open:
         with STATE.lock:
             STATE.pending = None
@@ -1329,8 +1361,10 @@ PENDING_WINDOW = 600            # a spread that cannot open within 10 market min
 
 
 def open_spread(sig, slot, expiry, snap, kind):
-    if VIX["blocked"] and vix_limit() > 0:
-        return None, "VIX kill switch: %s" % VIX["note"]
+    lim, floor = vix_levels()
+    if VIX["blocked"] and (lim > 0 or floor > 0):
+        return None, ("waiting for India VIX above %.2f: %s" % (floor, VIX["note"])
+                      if VIX["hold"] else "VIX kill switch: %s" % VIX["note"])
     plan, err = spread_plan(sig["side"], expiry, snap)
     if not plan:
         return None, err
@@ -1816,8 +1850,9 @@ def api_state():
         "events": recent_events(15), "lot": lot_size(),
         "intervals": list(INTERVALS), "max_slots": MAX_SLOTS,
         "fresh_window": fresh_window(STATE.cfg["interval"]),
-        "vix": {"value": VIX["value"], "at": VIX["at"], "kill": VIX["kill"], "note": VIX["note"],
-                "limit": vix_limit()},
+        "vix": {"value": VIX["value"], "at": VIX["at"], "kill": VIX["kill"],
+                "hold": VIX["hold"], "note": VIX["note"],
+                "limit": vix_levels()[0], "min": vix_levels()[1]},
     })
 
 
@@ -2282,11 +2317,14 @@ function netCell(n){return n==null?'-':(n>=0?'credit ':'debit ')+num(Math.abs(n)
 let S=null,chT=null;
 async function poll(){
   try{S=await get('/api/state');}catch(e){$('#statusline').textContent='cannot reach the strategy: '+e.message;return;}
-  {const vx=S.vix||{},lim=vx.limit>0?vx.limit:null;let vh;
+  {const vx=S.vix||{},lim=vx.limit>0?vx.limit:null,fl=vx.min>0?vx.min:null;let vh;
    const box=(c,t)=>'<div class="note" style="border-left-color:'+c+';background:'+c+'1a">'+t+'</div>';
-   if(!lim)vh=box('#94a3b8','<b>VIX kill switch: OFF</b> (limit 0 in NIFTY Trader &rarr; VIX limit).');
+   const now=vx.value!=null?'Now: India VIX '+esc(vx.value)+' at '+esc(vx.at)+'.':'Current VIX: '+esc(vx.note==='not checked yet'?'checking...':vx.note)+'.';
+   if(!lim&&!fl)vh=box('#94a3b8','<b>VIX rules: OFF</b> for this strategy (NIFTY Trader &rarr; VIX rules).');
    else if(vx.kill)vh=box('#ef4444','<b>VIX KILL SWITCH ON</b> - India VIX '+esc(vx.value)+' is above the '+esc(lim)+' limit. No new spreads, and every open spread is closed during market hours. New spreads are allowed again once VIX is at or below '+esc(lim)+'.');
-   else vh=box('#22c55e','<b>VIX kill switch: ACTIVE</b> - limit India VIX '+esc(lim)+'. Above it: no new spreads and all open spreads are closed. '+(vx.value!=null?'Now: India VIX '+esc(vx.value)+' at '+esc(vx.at)+'.':'Current VIX: '+esc(vx.note==='not checked yet'?'checking...':vx.note)+'.')+' Change the limit in NIFTY Trader &rarr; VIX limit.');
+   else if(vx.hold)vh=box('#ef4444','<b>WAITING FOR VIX</b> - this strategy trades only above India VIX '+esc(fl)+', and VIX is '+esc(vx.value)+'. No new spreads for now; open spreads are left alone and still exit on their own rules.');
+   else if(fl)vh=box('#22c55e','<b>Trades only above India VIX '+esc(fl)+'</b>. Below it: no new spreads, open ones untouched. '+now+' Change it in NIFTY Trader &rarr; VIX rules.');
+   else vh=box('#22c55e','<b>VIX kill switch: ACTIVE</b> - limit India VIX '+esc(lim)+'. Above it: no new spreads and all open spreads are closed. '+now+' Change the limit in NIFTY Trader &rarr; VIX rules.');
    const vb=$('#vixbanner');if(vb&&vb.dataset.h!==vh){vb.innerHTML=vh;vb.dataset.h=vh;}}
   const s=S,c=s.cfg,g=s.sig||{},ind=s.ind||{};
   $('#p_mkt').textContent=s.market;

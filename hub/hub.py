@@ -48,9 +48,10 @@ HUB_SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 RES_DIR = getattr(sys, "_MEIPASS", HUB_SRC_DIR)      # bundled files when frozen
 APP_NAME = "NIFTY Trader"
 # Bump this, then push a matching tag (v1.2.3) to publish a GitHub release.
-APP_VERSION = "1.7.0"
+APP_VERSION = "1.8.0"
 DEFAULT_UPDATE_REPO = "Shubham050396/Nifty-Trading-Software"
 TOKEN_ENV = "NIFTY_HUB_TOKEN"
+VIEW_ONLY_ENV = "NIFTY_VIEW_ONLY"       # show a strategy's page without it trading
 LOG_MAX_BYTES = 5 * 1024 * 1024
 
 
@@ -116,48 +117,116 @@ def write_broker(access_token, client_id):
 
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  VIX LIMIT  -  the one place it is set
+#  VIX RULES  -  the one place they are set
 #
-#  Option-SELLING strategies (credit spreads) stop trading and close every open
-#  position while India VIX is above this.  Each such strategy re-reads this
-#  file every cycle, so a change applies within a minute without a restart.
-#  0 turns the kill switch off.
+#  Two opposite rules, both kept in hub/risk.json and re-read by every strategy
+#  each cycle, so a change applies within a minute without a restart:
+#
+#    KILL ABOVE        (vix_limit / apply)      while India VIX is ABOVE the
+#      level, the ticked strategies take no new trades AND close every open
+#      trade.  They trade again by themselves once VIX is back at or below it.
+#
+#    TRADE ONLY ABOVE  (vix_min / apply_min)    the ticked strategies take no
+#      new trades while India VIX is BELOW the level.  Open trades are left
+#      alone - it is a condition for entering, not a reason to exit.
+#
+#  The two contradict each other, so a strategy may be in at most ONE of them.
+#  That is enforced here, not only in the dialog.  0 turns a rule off for all.
 # ═════════════════════════════════════════════════════════════════════════════
 KILL_DEFAULT_ON = ("credit_spreads", "ema_hedge")     # the option-selling ones
+DEFAULT_VIX_MIN = 13.5
+_SID_RE = re.compile(r"^[A-Za-z0-9_][A-Za-z0-9_.-]*$")
+
+
+def _ticks(d, key):
+    """{strategy id: ticked} out of one of the two maps, ids checked."""
+    m = d.get(key) if isinstance(d, dict) else None
+    if not isinstance(m, dict):
+        return {}
+    return {sid: bool(on) for sid, on in m.items()
+            if isinstance(sid, str) and _SID_RE.match(sid)}
 
 
 def read_risk():
-    """{"vix_limit", "apply": {strategy id: ticked}}.  A strategy not saved
-    yet is ticked only if it is one of the option-selling ones."""
+    """{"vix_limit", "apply", "vix_min", "apply_min"} - "apply" holds the kill
+    switch's ticks, "apply_min" the trade-only-above ones.  A strategy never
+    saved is kill-ticked only if it is one of the option-selling ones, and is
+    never trade-only-above ticked."""
     try:
         with open(RISK_FILE, encoding="utf-8") as f:
             d = json.load(f)
         v = float(d.get("vix_limit", DEFAULT_VIX_LIMIT))
-        apply = {str(k): bool(x) for k, x in (d.get("apply") or {}).items()}
-        return {"vix_limit": v if v >= 0 else DEFAULT_VIX_LIMIT, "apply": apply}
+        mn = float(d.get("vix_min", DEFAULT_VIX_MIN))
+        apply, apply_min = _ticks(d, "apply"), _ticks(d, "apply_min")
+        return {"vix_limit": v if v >= 0 else DEFAULT_VIX_LIMIT, "apply": apply,
+                "vix_min": mn if mn >= 0 else DEFAULT_VIX_MIN, "apply_min": apply_min}
     except (OSError, ValueError, TypeError, AttributeError):
-        return {"vix_limit": DEFAULT_VIX_LIMIT, "apply": {}}
+        return {"vix_limit": DEFAULT_VIX_LIMIT, "apply": {},
+                "vix_min": DEFAULT_VIX_MIN, "apply_min": {}}
+
+
+def vix_rules_for(sid, risk=None):
+    """(kill switch ticked, trade-only-above ticked) for one strategy.
+
+    write_risk never stores both for one strategy, but a file written by an
+    older version or edited by hand can, so there is ONE rule for settling it,
+    and every strategy applies the same one:
+
+      * a tick someone actually wrote beats the default for this strategy;
+      * if both were written, the kill switch wins - it is the rule that
+        protects open positions, not the one that only waits.
+    """
+    r = risk or read_risk()
+    stated = r["apply"].get(sid) if sid in r["apply"] else None
+    floor_on = bool(r["apply_min"].get(sid))
+    kill_on = bool(stated) if stated is not None else (sid in KILL_DEFAULT_ON and not floor_on)
+    return kill_on, (floor_on and not kill_on)
 
 
 def kill_applies(sid, risk=None):
-    a = (risk or read_risk())["apply"]
-    return a[sid] if sid in a else sid in KILL_DEFAULT_ON
+    return vix_rules_for(sid, risk)[0]
+
+
+def floor_applies(sid, risk=None):
+    return vix_rules_for(sid, risk)[1]
+
+
+def _gate_level(body, key, current, label):
+    """One rule's VIX level out of the posted body, or the saved one if the
+    body did not mention it (so one rule can be saved without the other)."""
+    if key not in body:
+        return current
+    try:
+        v = round(float(body.get(key)), 2)
+    except (TypeError, ValueError):
+        raise ValueError("Enter %s as a number, e.g. 13.5 (0 turns it off)." % label.lower())
+    if not (0 <= v <= 100):
+        raise ValueError("%s must be between 0 and 100." % label)
+    return v
 
 
 def write_risk(body):
-    try:
-        v = round(float(body.get("vix_limit")), 2)
-    except (TypeError, ValueError):
-        raise ValueError("Enter the VIX limit as a number, e.g. 13.5 (0 turns it off).")
-    if not (0 <= v <= 100):
-        raise ValueError("The VIX limit must be between 0 and 100.")
-    apply = read_risk()["apply"]
-    if isinstance(body.get("apply"), dict):
-        for sid, on in body["apply"].items():
-            if isinstance(sid, str) and re.match(r"^[A-Za-z0-9_][A-Za-z0-9_.-]*$", sid):
-                apply[sid] = bool(on)
+    cur = read_risk()
+    v = _gate_level(body, "vix_limit", cur["vix_limit"], "The kill-above level")
+    mn = _gate_level(body, "vix_min", cur["vix_min"], "The trade-only-above level")
+    apply, apply_min = dict(cur["apply"]), dict(cur["apply_min"])
+    sent, sent_min = _ticks(body, "apply"), _ticks(body, "apply_min")
+    both = sorted(set(k for k, on in sent.items() if on)
+                  & set(k for k, on in sent_min.items() if on))
+    if both:
+        raise ValueError("A strategy cannot be in both VIX rules at once: %s."
+                         % ", ".join(both))
+    apply.update(sent)
+    apply_min.update(sent_min)
+    for sid, on in sent.items():           # ticking one rule unticks the other
+        if on:
+            apply_min[sid] = False
+    for sid, on in sent_min.items():
+        if on:
+            apply[sid] = False
     os.makedirs(HUB_DIR, exist_ok=True)
     _write_json_atomic(RISK_FILE, {"vix_limit": v, "apply": apply,
+                                   "vix_min": mn, "apply_min": apply_min,
                                    "saved_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")})
     return read_risk()
 
@@ -441,11 +510,55 @@ class _HubMiddleware:
         return self._json(start_response, "404 Not Found", {"error": "unknown"})
 
 
+def _load_view_only(spec, mod):
+    """Import a strategy so its dashboard works but it cannot trade.
+
+    Every strategy starts its engine from the module body - that is how
+    "launched = trading" works.  To show the CLOUD's trade book on this PC we
+    want the same page with none of that, so the threads are refused while the
+    module is imported.  Nothing else of the strategy changes: its state is
+    loaded in the normal way, so the Positions, Trade Report and Activity tabs
+    read exactly what the cloud saved.
+
+    The Dhan token is withheld from this process as well (see Runner.start), so
+    even if a strategy ever found another way to start, it could not reach the
+    broker."""
+    started = []
+    real_start = threading.Thread.start
+
+    def refuse(self, *a, **kw):
+        started.append(getattr(self, "name", "?"))
+
+    threading.Thread.start = refuse
+    try:
+        spec.loader.exec_module(mod)
+    finally:
+        threading.Thread.start = real_start
+    print("view-only: the engine was not started (%s)"
+          % (", ".join(sorted(set(started))) or "no background threads"), flush=True)
+    st = getattr(mod, "STATE", None)
+    for attr, value in (("scanner_owner", False), ("owner", False),
+                        ("autostart", False), ("running", False), ("scanning_active", False)):
+        try:
+            if hasattr(st, attr):
+                setattr(st, attr, value)
+        except Exception:
+            pass
+    for attr in ("status_message", "status"):
+        try:
+            if hasattr(st, attr):
+                setattr(st, attr, "Read-only: the cloud's trade book, saved on GitHub.")
+        except Exception:
+            pass
+    return started
+
+
 def run_strategy_child():
     sdir = os.path.abspath(_arg("--run-strategy"))
     port = int(_arg("--port"))
     ppid = int(_arg("--parent-pid", "0") or 0)
     token = os.environ.pop(TOKEN_ENV, "")
+    view_only = os.environ.pop(VIEW_ONLY_ENV, "") == "1"
 
     logs = os.path.join(sdir, "logs")
     os.makedirs(logs, exist_ok=True)
@@ -471,7 +584,10 @@ def run_strategy_child():
         spec = importlib.util.spec_from_file_location(modname, entry)
         mod = importlib.util.module_from_spec(spec)
         sys.modules[modname] = mod
-        spec.loader.exec_module(mod)
+        if view_only:
+            _load_view_only(spec, mod)
+        else:
+            spec.loader.exec_module(mod)
         app = getattr(mod, man["app_object"], None)
         if app is None or not callable(app):
             raise RuntimeError("%s has no Flask object called '%s'" % (man["entry"], man["app_object"]))
@@ -552,9 +668,13 @@ def _tail(path, n=400):
 
 
 class Runner:
-    def __init__(self, sid):
+    def __init__(self, sid, data_dir=None, view_only=False):
         self.id = sid
         self.dir = os.path.join(STRATEGIES_DIR, sid)
+        # view_only + cloud_data is how the ☁ Cloud screen shows the cloud's
+        # trade book in the strategy's own dashboard without trading.
+        self.data_dir = data_dir or os.path.join(self.dir, "data")
+        self.view_only = view_only
         self.proc = None
         self.port = None
         self.token = None
@@ -603,7 +723,7 @@ class Runner:
             for k in ("HOST", "APP_ENV", "PORT"):       # never let a desktop strategy think it is hosted
                 env.pop(k, None)
             if m.get("data_env"):
-                env[m["data_env"]] = os.path.join(self.dir, "data")
+                env[m["data_env"]] = self.data_dir
             env[TOKEN_ENV] = self.token
             env["NIFTY_RISK_FILE"] = RISK_FILE
             env["PYTHONIOENCODING"] = "utf-8"
@@ -617,6 +737,13 @@ class Runner:
             cid = cred["client_id"] or _jwt_client_id(cred["access_token"])
             if cid:
                 env["DHAN_CLIENT_ID"] = cid
+            if self.view_only:
+                # No credentials at all: a page that only shows what the cloud
+                # saved has no reason to reach the broker, and without them it
+                # could not trade even if its engine somehow started.
+                env[VIEW_ONLY_ENV] = "1"
+                env.pop("DHAN_ACCESS_TOKEN", None)
+                env.pop("DHAN_CLIENT_ID", None)
             flags = 0x08000000 if os.name == "nt" else 0          # CREATE_NO_WINDOW
             self.state, self.error, self.owner, self.pid = "starting", "", None, None
             self.started_at = time.time()
@@ -940,7 +1067,7 @@ def write_github(body):
     if body.get("clear_token"):
         token = ""
     elif (body.get("token") or "").strip():
-        token = body["token"].strip()
+        token = check_github_token(body["token"])
     os.makedirs(HUB_DIR, exist_ok=True)
     _write_json_atomic(GITHUB_FILE, {"repo": repo, "branch": branch, "token": token})
     try:
@@ -959,6 +1086,11 @@ def _gh(cfg, path, raw=False, accept=None, timeout=30):
                  "X-GitHub-Api-Version": "2022-11-28",
                  "User-Agent": "NIFTY-Trader/" + APP_VERSION})
     if cfg["token"]:
+        try:
+            check_github_token(cfg["token"])
+        except ValueError as e:
+            raise UpdateError("The saved GitHub token is not usable. %s Open Update settings "
+                              "below and paste it again." % e)
         # Unredirected: if GitHub ever redirects to another host, the token stays behind.
         req.add_unredirected_header("Authorization", "Bearer " + cfg["token"])
     try:
@@ -1078,6 +1210,8 @@ def _latest_release(cfg):
         r = _gh(cfg, "/releases/latest")
     except UpdateError as e:
         return {"error": None if e.code == 404 else str(e)}      # 404: nothing released yet
+    except (OSError, ValueError) as e:      # never let looking for an update break the screen
+        return {"error": "Could not read the latest release (%s)." % e}
     tag = r.get("tag_name") or ""
     url = r.get("html_url") or ""
     zips = [a for a in (r.get("assets") or [])
@@ -1320,6 +1454,26 @@ def read_cloud():
             "token_sent_at": (d.get("token_sent_at") or "").strip()}
 
 
+def check_github_token(raw):
+    """A GitHub token is plain ASCII with no spaces.  Checked here because
+    anything else only fails later, deep inside an HTTP request, as an
+    unreadable codec error - which is exactly what someone who pasted the
+    wrong thing does not need to see."""
+    token = (raw or "").strip()
+    if not token:
+        raise ValueError("Paste the GitHub token, or press Forget token to remove the saved one.")
+    odd = next((c for c in token if not (33 <= ord(c) <= 126)), "")
+    if odd:
+        raise ValueError(
+            "That does not look like a GitHub token: it contains %s, which a token never has. "
+            "Copy only the token itself - it looks like github_pat_… or ghp_… with no spaces."
+            % ("a space" if odd.isspace() else "the character %r" % odd))
+    if len(token) < 20:
+        raise ValueError("That is too short to be a GitHub token. A fine-grained token looks like "
+                         "github_pat_… and is about 90 characters long.")
+    return token
+
+
 def write_cloud(body):
     cur = read_cloud()
     repo = (body.get("repo") or cur["repo"]).strip()
@@ -1334,7 +1488,7 @@ def write_cloud(body):
     if body.get("clear_token"):
         token = ""
     elif (body.get("token") or "").strip():
-        token = body["token"].strip()
+        token = check_github_token(body["token"])
     os.makedirs(HUB_DIR, exist_ok=True)
     _write_json_atomic(CLOUD_FILE, {"repo": repo, "token": token,
                                     "enabled": bool(body.get("enabled", cur["enabled"])),
@@ -1422,10 +1576,122 @@ def local_settings(sid):
     return None
 
 
+def _plain_get(url, timeout=60):
+    """A GET that needs no credentials: the cloud repository is public."""
+    req = urllib.request.Request(url, headers={"User-Agent": "NIFTY-Trader/" + APP_VERSION,
+                                               "Cache-Control": "no-cache"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read()
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            raise UpdateError("The cloud has not saved that yet.", 404)
+        if e.code in (403, 429):
+            raise UpdateError("GitHub asked us to wait before reading more. Try again in a minute.", e.code)
+        raise UpdateError("GitHub answered HTTP %d." % e.code, e.code)
+    except (urllib.error.URLError, OSError) as e:
+        raise UpdateError("Could not reach GitHub: %s" % getattr(e, "reason", e))
+
+
+MAX_CLOUD_STATE_BYTES = 60 * 1024 * 1024
+CLOUD_INDEX = "index.json"
+
+
+def cloud_data_dir(sid=None):
+    """cloud_data/ sits beside NIFTY Trader.exe, one folder per strategy, so
+    the cloud's trade books are in one obvious place and are kept between
+    runs - which is what makes opening a cloud dashboard quick the second
+    time."""
+    d = os.path.join(BASE_DIR, "cloud_data")
+    return os.path.join(d, sid) if sid else d
+
+
+def _cloud_index():
+    try:
+        with open(os.path.join(cloud_data_dir(), CLOUD_INDEX), encoding="utf-8") as f:
+            d = json.load(f)
+        return d if isinstance(d, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
+def _save_cloud_index(idx):
+    os.makedirs(cloud_data_dir(), exist_ok=True)
+    _write_json_atomic(os.path.join(cloud_data_dir(), CLOUD_INDEX), idx)
+
+
+def download_cloud_state(sid, force=False):
+    """Copy the cloud's saved trade book for one strategy into
+    cloud_data/<sid>.  Each file carries git's id for its contents, so a file
+    that has not changed since last time is not downloaded again: after the
+    first time this is usually one request and nothing else.  The PC's own
+    data/ folder is never read or written here.
+
+    Returns (files on disk, how many were downloaded now)."""
+    if not re.match(r"^[A-Za-z0-9_][A-Za-z0-9_.-]*$", sid or ""):
+        raise UpdateError("Unknown strategy.")
+    cfg = read_cloud()
+    dest = cloud_data_dir(sid)
+    idx = _cloud_index()
+    have = (idx.get("files") or {}).get(sid) or {}
+    listing = json.loads(_plain_get(
+        "https://api.github.com/repos/%s/contents/state/%s?ref=%s&t=%d"
+        % (cfg["repo"], sid, CLOUD_DATA_BRANCH, int(time.time()))).decode("utf-8"))
+    if not isinstance(listing, list):
+        raise UpdateError("The cloud has saved nothing for %s yet." % sid)
+    # The .bak copies are only there in case the main file is damaged; the
+    # strategy reads them only then, and skipping them halves the download.
+    files = [f for f in listing
+             if f.get("type") == "file" and f.get("download_url")
+             and not re.search(r"\.bak(\.\d+)?$", f.get("name", ""))]
+    if sum(int(f.get("size") or 0) for f in files) > MAX_CLOUD_STATE_BYTES:
+        raise UpdateError("The cloud's saved files for %s are unusually large; not downloading them." % sid)
+    os.makedirs(dest, exist_ok=True)
+    got, fetched, now = {}, 0, time.time()
+    for f in files:
+        name = os.path.basename(f["name"])
+        url, sha = f["download_url"], f.get("sha") or ""
+        if not url.startswith("https://raw.githubusercontent.com/"):
+            continue
+        path = os.path.join(dest, name)
+        if not force and sha and have.get(name) == sha and os.path.exists(path):
+            got[name] = sha                 # same contents as last time; leave it alone
+            continue
+        data = _plain_get(url)
+        tmp = path + ".part"
+        with open(tmp, "wb") as fh:
+            fh.write(data)
+        os.replace(tmp, path)
+        got[name] = sha
+        fetched += 1
+    for name in os.listdir(dest):           # drop anything the cloud no longer has
+        if name not in got and not name.endswith((".lock", ".pid", ".bak", "secret_key")):
+            try:
+                os.remove(os.path.join(dest, name))
+            except OSError:
+                pass
+    idx.setdefault("files", {})[sid] = got
+    idx.setdefault("at", {})[sid] = datetime.fromtimestamp(now).strftime("%Y-%m-%d %H:%M:%S")
+    _save_cloud_index(idx)
+    return sorted(got), fetched
+
+
+def cloud_downloaded_at(sid):
+    return (_cloud_index().get("at") or {}).get(sid)
+
+
 def _cloud_api(cfg, path, method="GET", body=None, timeout=30):
     if not cfg["token"]:
         raise UpdateError("Add a GitHub token in ☁ Cloud → Set up sending, so this PC may "
                           "change the cloud's settings.")
+    try:
+        # A token saved before this was checked, or edited by hand in
+        # hub/cloud.json, would otherwise fail as a codec error from inside
+        # urllib that says nothing about what to do.
+        check_github_token(cfg["token"])
+    except ValueError as e:
+        raise UpdateError("The saved GitHub token is not usable. %s Open ☁ Cloud → Set up "
+                          "sending and paste it again." % e)
     data = json.dumps(body).encode() if body is not None else None
     req = urllib.request.Request(
         "https://api.github.com/repos/%s%s" % (cfg["repo"], path), data=data, method=method,
@@ -1630,6 +1896,57 @@ def push_cloud_settings(ids):
     return {"sent": sorted(sending), "missing": missing, "unchanged": unchanged}
 
 
+def push_cloud_risk(risk):
+    """Copy the two VIX rules into the cloud's cloud/config.json, so the one
+    dialog sets them here and on GitHub.  The cloud's next run writes them
+    into its own hub/risk.json exactly as this PC does."""
+    import base64
+    cfg = read_cloud()
+    cur = _cloud_api(cfg, "/contents/%s" % CLOUD_CONFIG_PATH)
+    try:
+        conf = json.loads(base64.b64decode(cur.get("content") or "").decode("utf-8"))
+        if not isinstance(conf, dict):
+            raise ValueError
+    except (ValueError, TypeError):
+        raise UpdateError("The cloud's %s could not be read. Fix it on GitHub first."
+                          % CLOUD_CONFIG_PATH)
+    want = {"vix_limit": risk["vix_limit"], "vix_limit_applies_to": risk["apply"],
+            "vix_min": risk["vix_min"], "vix_min_applies_to": risk["apply_min"]}
+    if all(conf.get(k) == v for k, v in want.items()):
+        return {"changed": False}
+    conf.update(want)
+    body = json.dumps(conf, indent=2, sort_keys=False) + "\n"
+    _cloud_api(cfg, "/contents/%s" % CLOUD_CONFIG_PATH, "PUT", {
+        "message": "VIX rules from NIFTY Trader",
+        "content": base64.b64encode(body.encode("utf-8")).decode(),
+        "sha": cur.get("sha"),
+    })
+    return {"changed": True}
+
+
+def check_cloud_access():
+    """Ask GitHub whether the saved token really can do what this PC needs:
+    read the repository, write its settings file, and write its secrets.
+    Returns a sentence to show, and raises UpdateError if it cannot."""
+    cfg = read_cloud()
+    repo = _cloud_api(cfg, "")
+    perms = repo.get("permissions") or {}
+    if not perms.get("push"):
+        raise UpdateError("That token can read %s but not write to it. It needs "
+                          "Contents: Read and write." % cfg["repo"])
+    # The public key is only served to a token that may write secrets, so this
+    # is the honest test of it - and it changes nothing.
+    try:
+        _cloud_api(cfg, "/actions/secrets/public-key")
+    except UpdateError as e:
+        if getattr(e, "code", None) in (403, 404):
+            raise UpdateError("That token can change the cloud's settings, but not its secrets, "
+                              "so the Dhan token cannot be sent. Add Secrets: Read and write to "
+                              "it on GitHub.")
+        raise
+    return "Token accepted: this PC can change %s and send your Dhan token to it." % cfg["repo"]
+
+
 def push_cloud_token(access_token, client_id=""):
     """Put the Dhan token into the cloud repository's DHAN_ACCESS_TOKEN secret,
     so it is pasted in one place and both this PC and the cloud have it.
@@ -1653,8 +1970,19 @@ def push_cloud_token(access_token, client_id=""):
     rec = read_cloud()
     rec["token_sent_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     _write_json_atomic(CLOUD_FILE, rec)
-    return {"repo": cfg["repo"], "sent_at": rec["token_sent_at"],
-            "expires_at": _jwt_expiry(access_token)}
+    # Deliberately no "repo" here: cloud_view already reports it, and a screen
+    # that merged the two would hit "two values for the same keyword".
+    return {"sent_at": rec["token_sent_at"], "expires_at": _jwt_expiry(access_token)}
+
+
+def _cloud_problem(e):
+    """What to show when something on the Cloud screen fails.  An UpdateError
+    already says what to do; anything else is a fault here, and naming it beats
+    the bare HTTP 500 the page used to show, which says nothing at all."""
+    if isinstance(e, UpdateError):
+        return str(e)
+    traceback.print_exc()
+    return "%s: %s. This is a fault in NIFTY Trader, not something you did." % (e.__class__.__name__, e)
 
 
 def cloud_view(mgr=None):
@@ -1726,11 +2054,17 @@ def build_hub_app(mgr, port_holder):
         runners = mgr.scan()
         for r in runners:
             r.refresh_summary()
-        lim = read_risk()["vix_limit"]
+        risk = read_risk()
+        lim, mn = risk["vix_limit"], risk["vix_min"]
+        # The floor is only worth showing once a strategy actually uses it.
+        floored = any(floor_applies(r.id, risk) for r in runners)
+        v = HUB_VIX["value"]
         return ok(strategies=[r.info() for r in runners], base=BASE_DIR,
                   frozen=FROZEN, system_python=bool(_system_python()),
-                  vix={"value": HUB_VIX["value"], "at": HUB_VIX["at"], "error": HUB_VIX["error"],
-                       "limit": lim, "above": bool(lim > 0 and HUB_VIX["value"] and HUB_VIX["value"] > lim)})
+                  vix={"value": v, "at": HUB_VIX["at"], "error": HUB_VIX["error"],
+                       "limit": lim, "above": bool(lim > 0 and v and v > lim),
+                       "min": mn if floored else 0,
+                       "below": bool(floored and mn > 0 and v and v < mn)})
 
     @hub.route("/api/broker", methods=["GET"])
     def broker_get():
@@ -1832,12 +2166,96 @@ def build_hub_app(mgr, port_holder):
             kind = ("sells options - recommended" if x.id in KILL_DEFAULT_ON else
                     "buys, and sells short on a down-cross" if x.id == "macd_monthly" else "buys options")
             strategies.append({"id": x.id, "name": m["name"], "icon": m["icon"],
-                               "on": kill_applies(x.id, r), "kind": kind})
-        return {"vix_limit": r["vix_limit"], "strategies": strategies}
+                               "on": kill_applies(x.id, r),
+                               "min_on": floor_applies(x.id, r), "kind": kind})
+        return {"vix_limit": r["vix_limit"], "vix_min": r["vix_min"],
+                "strategies": strategies, "cloud": bool(read_cloud()["token"])}
 
     @hub.route("/api/cloud", methods=["GET"])
     def cloud_get():
         return ok(**cloud_view(mgr))
+
+    # One view-only process per strategy, started on demand by ☁ Cloud →
+    # Open dashboard and kept alive so switching tabs does not reload it.
+    viewers = {}
+
+    def _viewer_view(sid, v):
+        out = {"id": sid, "state": v.state, "error": v.error,
+               "url": v.url() if v.state == "running" else None,
+               "saved_at": cloud_downloaded_at(sid), "folder": cloud_data_dir(sid)}
+        if v.state == "crashed":
+            # Put the reason on the screen rather than sending someone to a log.
+            tail = [ln for ln in _tail(os.path.join(v.dir, "logs", "output.log"), 40) if ln.strip()]
+            out["log"] = tail[-12:]
+        return out
+
+    @hub.route("/api/cloud/dashboard/<sid>", methods=["POST"])
+    def cloud_dashboard(sid):
+        body = request.get_json(force=True, silent=True) or {}
+        try:
+            r = mgr.get(sid)
+        except KeyError:
+            return fail("%s is not on this PC, so its dashboard cannot be shown here." % sid)
+        v = viewers.get(sid)
+        if v and v.state in ("running", "starting") and not body.get("refresh"):
+            return ok(**_viewer_view(sid, v))       # already open: nothing to wait for
+        have = os.path.isdir(cloud_data_dir(sid)) and os.listdir(cloud_data_dir(sid))
+        # Open what is already downloaded straight away. Only go to GitHub when
+        # there is nothing yet, or Refresh was pressed.
+        if body.get("refresh") or not have:
+            try:
+                files, _fetched = download_cloud_state(sid, force=bool(body.get("refresh")))
+            except UpdateError as e:
+                if not have:
+                    return fail(e)
+                files = sorted(os.listdir(cloud_data_dir(sid)))
+            if not files:
+                return fail("The cloud has saved no trades for %s yet." % r.manifest()["name"])
+        # Start it and answer at once. Waiting here used to time the start out
+        # after 30 seconds, which the installed .exe can exceed on its own:
+        # being one file, it unpacks itself again for every strategy it
+        # launches. The page asks how it is getting on instead.
+        v = viewers[sid] = Runner(sid, data_dir=cloud_data_dir(sid), view_only=True)
+        v.start()
+        for _ in range(6):                        # often it is up before we answer
+            if v.state in ("running", "crashed"):
+                break
+            time.sleep(0.5)
+        return ok(**_viewer_view(sid, v))
+
+    @hub.route("/api/cloud/dashboard/<sid>", methods=["GET"])
+    def cloud_dashboard_state(sid):
+        v = viewers.get(sid)
+        if not v:
+            return ok(id=sid, state="stopped", error="", url=None,
+                      saved_at=cloud_downloaded_at(sid), folder=cloud_data_dir(sid))
+        return ok(**_viewer_view(sid, v))
+
+    @hub.route("/api/cloud/download", methods=["POST"])
+    def cloud_download():
+        """Fetch every strategy's cloud trade book into cloud_data/ in one go,
+        so opening any of their dashboards afterwards is immediate."""
+        body = request.get_json(force=True, silent=True) or {}
+        force = bool(body.get("force"))
+        done, failed, fetched = [], [], 0
+        for r in mgr.scan():
+            try:
+                files, n = download_cloud_state(r.id, force=force)
+                fetched += n
+                if files:
+                    done.append({"id": r.id, "files": len(files), "new": n})
+            except Exception as e:
+                failed.append({"id": r.id, "error": _cloud_problem(e)})
+        view = cloud_view(mgr)
+        view.update(downloaded=done, failed=failed, fetched=fetched, folder=cloud_data_dir())
+        return ok(**view)
+
+    @hub.route("/api/cloud/dashboard/<sid>/stop", methods=["POST"])
+    def cloud_dashboard_stop(sid):
+        v = viewers.pop(sid, None)
+        if v:
+            v.stop()
+        return ok(id=sid)
 
     @hub.route("/api/cloud/open", methods=["POST"])
     def cloud_open():
@@ -1858,11 +2276,20 @@ def build_hub_app(mgr, port_holder):
 
     @hub.route("/api/cloud/settings", methods=["POST"])
     def cloud_settings():
+        body = request.get_json(force=True, silent=True) or {}
         try:
-            write_cloud(request.get_json(force=True, silent=True) or {})
+            write_cloud(body)
         except ValueError as e:
             return fail(e)
-        return ok(**cloud_view(mgr))
+        # Check a newly pasted token straight away, so a wrong one is caught
+        # here rather than the next time a Dhan token is saved.
+        checked = None
+        if (body.get("token") or "").strip():
+            try:
+                checked = {"ok": True, "message": check_cloud_access()}
+            except (UpdateError, OSError, ValueError) as e:
+                checked = {"ok": False, "message": str(e)}
+        return ok(checked=checked, **cloud_view(mgr))
 
     @hub.route("/api/cloud/push", methods=["POST"])
     def cloud_push():
@@ -1872,9 +2299,14 @@ def build_hub_app(mgr, port_holder):
             return fail("Pick at least one strategy whose settings should go to the cloud.")
         try:
             res = push_cloud_settings(ids)
-        except UpdateError as e:
-            return fail(e)
-        return ok(**res, **cloud_view(mgr))
+        except Exception as e:
+            return fail(_cloud_problem(e))
+        # The screen's own fields go on top of the view, never spread beside
+        # it: cloud_view already has a "repo", and two of the same keyword is
+        # a TypeError, which is how this answered HTTP 500 before.
+        view = cloud_view(mgr)
+        view.update(sent=res["sent"], missing=res["missing"], unchanged=res["unchanged"])
+        return ok(**view)
 
     @hub.route("/api/cloud/send-token", methods=["POST"])
     def cloud_send_token():
@@ -1884,21 +2316,35 @@ def build_hub_app(mgr, port_holder):
         try:
             res = push_cloud_token(cred["access_token"],
                                    cred["client_id"] or _jwt_client_id(cred["access_token"]))
-        except UpdateError as e:
-            return fail(e)
-        return ok(**res, **cloud_view(mgr))
+        except Exception as e:
+            return fail(_cloud_problem(e))
+        view = cloud_view(mgr)
+        view["sent_token"] = res
+        return ok(**view)
 
     @hub.route("/api/risk", methods=["GET"])
     def risk_get():
-        return ok(**_risk_view(), default=DEFAULT_VIX_LIMIT)
+        return ok(**_risk_view(), default=DEFAULT_VIX_LIMIT,
+                  default_min=DEFAULT_VIX_MIN)
 
     @hub.route("/api/risk", methods=["POST"])
     def risk_set():
+        body = request.get_json(force=True, silent=True) or {}
         try:
-            write_risk(request.get_json(force=True, silent=True) or {})
+            risk = write_risk(body)
         except ValueError as e:
             return fail(e)
-        return ok(**_risk_view())
+        # Saving on this PC always works; passing the rules on to the cloud
+        # needs GitHub, so it is reported beside the saved rules instead of
+        # throwing the save away when the network is down.
+        cloud = ""
+        if body.get("to_cloud") and read_cloud()["token"]:
+            try:
+                cloud = ("sent to the cloud too" if push_cloud_risk(risk)["changed"]
+                         else "the cloud already had them")
+            except Exception as e:
+                cloud = "but the cloud did not get them - " + _cloud_problem(e)
+        return ok(**_risk_view(), cloud_note=cloud)
 
     @hub.route("/api/strategies/all/<action>", methods=["POST"])
     def act_all(action):
