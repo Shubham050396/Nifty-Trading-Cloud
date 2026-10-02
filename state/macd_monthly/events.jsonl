@@ -373,3 +373,10 @@
 {"id": 373, "ts": "2026-10-01 21:11:48", "at": "21:11:48", "kind": "control", "msg": "started automatically on launch"}
 {"id": 374, "ts": "2026-10-01 21:11:51", "at": "21:11:51", "kind": "boot", "msg": "ready - 14 monthly expiries, 4064 contracts in the scrip master"}
 {"id": 375, "ts": "2026-10-01 21:11:51", "at": "21:11:51", "kind": "vix", "msg": "India VIX prev close 13.49 - entries allowed"}
+{"id": 376, "ts": "2026-10-02 15:31:10", "at": "15:31:10", "kind": "boot", "msg": "engine thread started"}
+{"id": 377, "ts": "2026-10-02 15:31:10", "at": "15:31:10", "kind": "boot", "msg": "macd app up (pid 2348, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/macd_monthly/data)"}
+{"id": 378, "ts": "2026-10-02 15:31:12", "at": "15:31:12", "kind": "control", "msg": "started automatically on launch"}
+{"id": 379, "ts": "2026-10-02 15:31:12", "at": "15:31:12", "kind": "day", "msg": "new session 2026-10-02 - counters reset"}
+{"id": 380, "ts": "2026-10-02 15:31:16", "at": "15:31:16", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
+{"id": 381, "ts": "2026-10-02 15:31:16", "at": "15:31:16", "kind": "vix", "msg": "India VIX prev close 14.46 - entries allowed"}
+{"id": 382, "ts": "2026-10-02 15:31:20", "at": "15:31:20", "kind": "config", "msg": "settings saved - 4 monthly expiries x CE/PE, ATM +/- 1 strikes, 5 min bars, MACD 30/60/15, long and short"}

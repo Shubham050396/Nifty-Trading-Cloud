@@ -856,3 +856,9 @@
 {"id": 856, "ts": "2026-10-01 21:11:47", "at": "21:11:47", "kind": "control", "msg": "started automatically on launch"}
 {"id": 857, "ts": "2026-10-01 21:11:47", "at": "21:11:47", "kind": "vix", "msg": "India VIX 14.46 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
 {"id": 858, "ts": "2026-10-01 21:11:51", "at": "21:11:51", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
+{"id": 859, "ts": "2026-10-02 15:31:10", "at": "15:31:10", "kind": "boot", "msg": "engine thread started"}
+{"id": 860, "ts": "2026-10-02 15:31:10", "at": "15:31:10", "kind": "boot", "msg": "ema-hedge app up (pid 2346, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/ema_hedge/data)"}
+{"id": 861, "ts": "2026-10-02 15:31:11", "at": "15:31:11", "kind": "control", "msg": "started automatically on launch"}
+{"id": 862, "ts": "2026-10-02 15:31:11", "at": "15:31:11", "kind": "day", "msg": "new session 2026-10-02"}
+{"id": 863, "ts": "2026-10-02 15:31:12", "at": "15:31:12", "kind": "vix", "msg": "India VIX 14.46 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
+{"id": 864, "ts": "2026-10-02 15:31:16", "at": "15:31:16", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}

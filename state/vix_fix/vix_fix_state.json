@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "saved_at": "2026-10-02 15:31:16",
+  "cfg": {
+    "expiries": [
+      "2026-10-27"
+    ],
+    "opt_types": [
+      "CE",
+      "PE"
+    ],
+    "strike_mode": "atm",
+    "strikes_each_side": 3,
+    "strike_list": [],
+    "lookback": 22,
+    "smoothing": 3,
+    "threshold": 10.0,
+    "target_pct": 50.0,
+    "exit_on": "touch",
+    "bar_minutes": 5,
+    "min_premium": 0.0,
+    "max_premium": 1000.0,
+    "capital_per_strike": 100000.0,
+    "max_adds": 10,
+    "lots": 1,
+    "max_trades_per_day": 30,
+    "max_open": 10
+  },
+  "lanes": {},
+  "unflushed_trades": [],
+  "trades_today": 0,
+  "day": "2026-10-02"
+}

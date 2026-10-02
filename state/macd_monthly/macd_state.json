@@ -1,16 +1,19 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-01 21:16:47",
+  "saved_at": "2026-10-02 15:31:20",
   "cfg": {
     "expiries": [
-      "2026-10-27"
+      "2026-10-27",
+      "2026-11-23",
+      "2026-12-29",
+      "2027-03-30"
     ],
     "opt_types": [
       "CE",
       "PE"
     ],
     "strike_mode": "atm",
-    "strikes_each_side": 3,
+    "strikes_each_side": 1,
     "strike_list": [],
     "fast": 30,
     "slow": 60,
@@ -167,6 +170,6 @@
     }
   },
   "unflushed_trades": [],
-  "trades_today": 9,
-  "day": "2026-10-01"
+  "trades_today": 0,
+  "day": "2026-10-02"
 }
