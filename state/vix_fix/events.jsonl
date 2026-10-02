@@ -4,3 +4,8 @@
 {"id": 4, "ts": "2026-10-02 15:31:16", "at": "15:31:16", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
 {"id": 5, "ts": "2026-10-02 15:31:16", "at": "15:31:16", "kind": "vix", "msg": "India VIX prev close 14.46"}
 {"id": 6, "ts": "2026-10-02 15:31:16", "at": "15:31:16", "kind": "control", "msg": "started automatically on launch"}
+{"id": 7, "ts": "2026-10-02 22:40:36", "at": "22:40:36", "kind": "boot", "msg": "engine thread started"}
+{"id": 8, "ts": "2026-10-02 22:40:36", "at": "22:40:36", "kind": "boot", "msg": "VIX Fix app up (pid 2196, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/vix_fix/data)"}
+{"id": 9, "ts": "2026-10-02 22:40:38", "at": "22:40:38", "kind": "control", "msg": "started automatically on launch"}
+{"id": 10, "ts": "2026-10-02 22:40:41", "at": "22:40:41", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
+{"id": 11, "ts": "2026-10-02 22:40:41", "at": "22:40:41", "kind": "vix", "msg": "India VIX prev close 14.46"}
