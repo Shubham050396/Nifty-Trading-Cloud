@@ -122,8 +122,8 @@
         "CE",
         "PE"
       ],
-      "strikes_each_side": 3,
-      "roll_days": 3,
+      "strikes_each_side": 1,
+      "roll_days": 7,
       "bar_minutes": 5,
       "ema_minutes": 30,
       "ema_sl_len": 55,
@@ -157,7 +157,7 @@
       "ema_stop_on_tick": false,
       "max_spread_pct": 5.0,
       "lots": 1,
-      "max_open": 5,
+      "max_open": 10,
       "max_per_stock": 1,
       "max_trades_per_day": 20
     },
