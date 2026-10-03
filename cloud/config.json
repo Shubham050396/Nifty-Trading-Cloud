@@ -186,6 +186,28 @@
       "lots": 1,
       "max_trades_per_day": 30,
       "max_open": 10
+    },
+    "ema_hedge": {
+      "interval": 5,
+      "ema_entry": 500,
+      "ema_stop": 200,
+      "lookback": 25,
+      "stop_pct": 10.0,
+      "target_pct": 100.0,
+      "slots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "spread": "credit",
+      "strike_step": 100,
+      "hedge_strikes": 4,
+      "lots": 1,
+      "expiry_exit": "15:15",
+      "roll": true,
+      "spread_tp_pct": 0,
+      "spread_sl_pct": 0
     }
   }
 }
