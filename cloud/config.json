@@ -208,6 +208,51 @@
       "roll": true,
       "spread_tp_pct": 0,
       "spread_sl_pct": 0
+    },
+    "level_cross": {
+      "expiries": [
+        "2026-10-06",
+        "2026-10-13",
+        "2026-10-19",
+        "2026-10-27"
+      ],
+      "opt_types": [
+        "CE",
+        "PE"
+      ],
+      "strike_mode": "atm",
+      "strikes_each_side": 10,
+      "strike_list": [],
+      "level2": 233.0,
+      "level3": 344.0,
+      "mom_length": 14,
+      "mom_threshold": 20.0,
+      "trail_l2_pct": 15.0,
+      "trail_l3_pct": 10.0,
+      "move_rupees": 20.0,
+      "confirm_minutes": 5.0,
+      "bar_seconds": 60,
+      "lots": 1,
+      "vix_targets": [
+        [
+          12.0,
+          800
+        ],
+        [
+          15.0,
+          1000
+        ],
+        [
+          20.0,
+          1200
+        ],
+        [
+          null,
+          1400
+        ]
+      ],
+      "max_trades_per_day": 6,
+      "max_open": 10
     }
   }
 }
