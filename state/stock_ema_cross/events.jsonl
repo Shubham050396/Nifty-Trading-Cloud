@@ -1322,3 +1322,5 @@
 {"id": 1322, "ts": "2026-10-04 23:49:02", "at": "23:49:02", "kind": "control", "msg": "started automatically on launch - 99 stocks"}
 {"id": 1323, "ts": "2026-10-04 23:49:02", "at": "23:49:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 1324, "ts": "2026-10-04 23:49:02", "at": "23:49:02", "kind": "api", "msg": "share prices unavailable: HTTP 429"}
+{"id": 1325, "ts": "2026-10-04 23:49:06", "at": "23:49:06", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 2.8 s"}
+{"id": 1326, "ts": "2026-10-04 23:49:38", "at": "23:49:38", "kind": "warm", "msg": "bar history loaded for all 5 contracts"}
