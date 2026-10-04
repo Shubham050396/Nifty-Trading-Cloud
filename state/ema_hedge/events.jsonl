@@ -875,3 +875,8 @@
 {"id": 875, "ts": "2026-10-04 17:27:36", "at": "17:27:36", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
 {"id": 876, "ts": "2026-10-04 17:27:40", "at": "17:27:40", "kind": "config", "msg": "settings saved - 5-min candles, EMA 500/200, lookback 25; credit spreads, hedge 4 strikes (400 pts), expiries 1,2,3,4 - signal restarts from history"}
 {"id": 877, "ts": "2026-10-04 17:27:41", "at": "17:27:41", "kind": "candles", "msg": "loaded 2399 NIFTY 5-minute candles. The script's position right now: FLAT"}
+{"id": 878, "ts": "2026-10-04 23:48:56", "at": "23:48:56", "kind": "boot", "msg": "engine thread started"}
+{"id": 879, "ts": "2026-10-04 23:48:56", "at": "23:48:56", "kind": "boot", "msg": "ema-hedge app up (pid 2358, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/ema_hedge/data)"}
+{"id": 880, "ts": "2026-10-04 23:48:57", "at": "23:48:57", "kind": "control", "msg": "started automatically on launch"}
+{"id": 881, "ts": "2026-10-04 23:48:57", "at": "23:48:57", "kind": "vix", "msg": "India VIX 14.46 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
+{"id": 882, "ts": "2026-10-04 23:49:01", "at": "23:49:01", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}

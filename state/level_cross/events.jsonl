@@ -1682,3 +1682,8 @@
 {"id": 1682, "ts": "2026-10-04 17:27:36", "at": "17:27:36", "kind": "boot", "msg": "ready - 18 expiries, 4120 contracts in the scrip master"}
 {"id": 1683, "ts": "2026-10-04 17:27:37", "at": "17:27:37", "kind": "vix", "msg": "India VIX prev close 14.46 -> target 1000 ticks (Rs 50.00)"}
 {"id": 1684, "ts": "2026-10-04 17:27:40", "at": "17:27:40", "kind": "config", "msg": "settings saved - 4 expiries x CE/PE, ATM +/- 10 strikes"}
+{"id": 1685, "ts": "2026-10-04 23:48:56", "at": "23:48:56", "kind": "boot", "msg": "engine thread started"}
+{"id": 1686, "ts": "2026-10-04 23:48:56", "at": "23:48:56", "kind": "boot", "msg": "level-cross app up (pid 2359, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/level_cross/data)"}
+{"id": 1687, "ts": "2026-10-04 23:48:58", "at": "23:48:58", "kind": "control", "msg": "started automatically on launch"}
+{"id": 1688, "ts": "2026-10-04 23:49:01", "at": "23:49:01", "kind": "boot", "msg": "ready - 18 expiries, 4120 contracts in the scrip master"}
+{"id": 1689, "ts": "2026-10-04 23:49:01", "at": "23:49:01", "kind": "vix", "msg": "India VIX prev close 14.46 -> target 1000 ticks (Rs 50.00)"}

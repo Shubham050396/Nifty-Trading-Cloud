@@ -392,3 +392,9 @@
 {"id": 392, "ts": "2026-10-04 17:27:32", "at": "17:27:32", "kind": "day", "msg": "new session 2026-10-04 - counters reset"}
 {"id": 393, "ts": "2026-10-04 17:27:36", "at": "17:27:36", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
 {"id": 394, "ts": "2026-10-04 17:27:37", "at": "17:27:37", "kind": "vix", "msg": "India VIX prev close 14.46 - entries allowed"}
+{"id": 395, "ts": "2026-10-04 23:48:56", "at": "23:48:56", "kind": "boot", "msg": "engine thread started"}
+{"id": 396, "ts": "2026-10-04 23:48:56", "at": "23:48:56", "kind": "boot", "msg": "macd app up (pid 2360, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/macd_monthly/data)"}
+{"id": 397, "ts": "2026-10-04 23:48:56", "at": "23:48:56", "kind": "history", "msg": "2026-10-27 21000 CE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the MACD needs 75 of them. Retried every 10 min."}
+{"id": 398, "ts": "2026-10-04 23:48:58", "at": "23:48:58", "kind": "control", "msg": "started automatically on launch"}
+{"id": 399, "ts": "2026-10-04 23:49:01", "at": "23:49:01", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
+{"id": 400, "ts": "2026-10-04 23:49:01", "at": "23:49:01", "kind": "vix", "msg": "India VIX prev close 14.46 - entries allowed"}
