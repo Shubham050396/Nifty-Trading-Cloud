@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-02 22:45:37",
-  "day": "2026-10-02",
+  "saved_at": "2026-10-04 17:27:40",
+  "day": "2026-10-04",
   "cfg": {
-    "target_rupees": 3000.0,
+    "target_rupees": 10000.0,
     "stop_rupees": 1000.0,
-    "lots": 1,
+    "lots": 3,
     "poll_interval": 4.0,
     "fast_window": 15,
     "slow_window": 75,
@@ -35,8 +35,8 @@
     "allow_zero_dte": false,
     "dte_min": 1,
     "dte_max": 7,
-    "daily_loss_cap": 3000.0,
-    "daily_profit_stop": 6000.0,
+    "daily_loss_cap": 30000.0,
+    "daily_profit_stop": 60000.0,
     "max_trades": 6,
     "cooldown_stop_1": 300,
     "cooldown_stop_2": 900,
@@ -130,7 +130,7 @@
       "held_min": 1.8
     }
   ],
-  "running": false,
+  "running": true,
   "kill": false,
   "halted": true,
   "halt_reason": "session over (15:25)",
