@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-04 17:27:40",
+  "saved_at": "2026-10-04 17:32:31",
   "cfg": {
     "interval": 5,
     "ema_entry": 500,
@@ -26,8 +26,81 @@
   "sig": {
     "side": null
   },
-  "last_bar_t": 0,
-  "signals": [],
+  "last_bar_t": 1790848500,
+  "signals": [
+    {
+      "kind": "SHORT",
+      "t": 1787802900,
+      "at": "2026-08-27 09:25",
+      "close": 24201.1,
+      "reason": null,
+      "side": null,
+      "note": "before this app was watching - not traded"
+    },
+    {
+      "kind": "EXIT",
+      "t": 1787910900,
+      "at": "2026-08-28 15:25",
+      "close": 24175.65,
+      "reason": "EMA_STOP",
+      "side": "SHORT",
+      "note": "before this app was watching"
+    },
+    {
+      "kind": "LONG",
+      "t": 1789962300,
+      "at": "2026-09-21 09:15",
+      "close": 23385.85,
+      "reason": null,
+      "side": null,
+      "note": "before this app was watching - not traded"
+    },
+    {
+      "kind": "EXIT",
+      "t": 1790054100,
+      "at": "2026-09-22 10:45",
+      "close": 23376.75,
+      "reason": "EMA_STOP",
+      "side": "LONG",
+      "note": "before this app was watching"
+    },
+    {
+      "kind": "LONG",
+      "t": 1790067300,
+      "at": "2026-09-22 14:25",
+      "close": 23389.8,
+      "reason": null,
+      "side": null,
+      "note": "before this app was watching - not traded"
+    },
+    {
+      "kind": "EXIT",
+      "t": 1790068200,
+      "at": "2026-09-22 14:40",
+      "close": 23369.0,
+      "reason": "EMA_STOP",
+      "side": "LONG",
+      "note": "before this app was watching"
+    },
+    {
+      "kind": "SHORT",
+      "t": 1790221500,
+      "at": "2026-09-24 09:15",
+      "close": 23227.0,
+      "reason": null,
+      "side": null,
+      "note": "before this app was watching - not traded"
+    },
+    {
+      "kind": "EXIT",
+      "t": 1790752500,
+      "at": "2026-09-30 12:45",
+      "close": 22795.75,
+      "reason": "EMA_STOP",
+      "side": "SHORT",
+      "note": "before this app was watching"
+    }
+  ],
   "positions": [],
   "pending": null,
   "unflushed_trades": [],

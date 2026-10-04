@@ -1311,3 +1311,5 @@
 {"id": 1311, "ts": "2026-10-04 17:27:36", "at": "17:27:36", "kind": "api", "msg": "share prices unavailable: HTTP 429"}
 {"id": 1312, "ts": "2026-10-04 17:27:38", "at": "17:27:38", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 3.8 s"}
 {"id": 1313, "ts": "2026-10-04 17:27:40", "at": "17:27:40", "kind": "config", "msg": "settings saved - 100 stocks (99 with options), ATM +/- 1, CE/PE, 5-min bars, EMA 55/144 on 30 min"}
+{"id": 1314, "ts": "2026-10-04 17:27:40", "at": "17:27:40", "kind": "contract", "msg": "watching 594 contracts on 99 stocks (ATM +/- 1, CE/PE): 589 added, 0 dropped"}
+{"id": 1315, "ts": "2026-10-04 17:30:43", "at": "17:30:43", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
