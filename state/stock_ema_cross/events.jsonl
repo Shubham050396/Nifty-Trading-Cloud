@@ -1713,3 +1713,14 @@
 {"id": 1713, "ts": "2026-10-05 11:21:23", "at": "11:21:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1714, "ts": "2026-10-05 11:22:23", "at": "11:22:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1715, "ts": "2026-10-05 11:23:23", "at": "11:23:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1716, "ts": "2026-10-05 11:23:53", "at": "11:23:53", "kind": "warm", "msg": "bar history loaded for all 756 contracts"}
+{"id": 1717, "ts": "2026-10-05 11:24:24", "at": "11:24:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1718, "ts": "2026-10-05 11:24:51", "at": "11:24:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1719, "ts": "2026-10-05 11:25:10", "at": "11:25:10", "kind": "signal", "msg": "AXISBANK 1220 PE 27 Oct crossed EMA 144 at 28.40 - not taken: under EMA 55"}
+{"id": 1720, "ts": "2026-10-05 11:25:10", "at": "11:25:10", "kind": "signal", "msg": "AXISBANK 1240 PE 27 Oct crossed EMA 144 at 38.25 - not taken: under EMA 55"}
+{"id": 1721, "ts": "2026-10-05 11:25:10", "at": "11:25:10", "kind": "signal", "msg": "INFY 1060 PE 27 Oct crossed EMA 144 at 61.15 - not taken: under EMA 55"}
+{"id": 1722, "ts": "2026-10-05 11:25:10", "at": "11:25:10", "kind": "signal", "msg": "HDFCLIFE 520 PE 27 Oct crossed EMA 144 at 11.00 - not taken: under EMA 55"}
+{"id": 1723, "ts": "2026-10-05 11:25:27", "at": "11:25:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1724, "ts": "2026-10-05 11:25:45", "at": "11:25:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1725, "ts": "2026-10-05 11:27:14", "at": "11:27:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1726, "ts": "2026-10-05 11:28:49", "at": "11:28:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
