@@ -2034,3 +2034,12 @@
 {"id": 2034, "ts": "2026-10-05 14:12:36", "at": "14:12:36", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
 {"id": 2035, "ts": "2026-10-05 14:12:52", "at": "14:12:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2036, "ts": "2026-10-05 14:14:51", "at": "14:14:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2037, "ts": "2026-10-05 14:15:18", "at": "14:15:18", "kind": "skip", "msg": "KOTAKBANK 425 CE 27 Oct signal at 6.90 skipped - 20 trades already today"}
+{"id": 2038, "ts": "2026-10-05 14:15:30", "at": "14:15:30", "kind": "warm", "msg": "bar history loaded for all 789 contracts"}
+{"id": 2039, "ts": "2026-10-05 14:15:45", "at": "14:15:45", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
+{"id": 2040, "ts": "2026-10-05 14:15:51", "at": "14:15:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2041, "ts": "2026-10-05 14:16:51", "at": "14:16:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2042, "ts": "2026-10-05 14:17:51", "at": "14:17:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2043, "ts": "2026-10-05 14:18:51", "at": "14:18:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2044, "ts": "2026-10-05 14:19:01", "at": "14:19:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2045, "ts": "2026-10-05 14:19:30", "at": "14:19:30", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
