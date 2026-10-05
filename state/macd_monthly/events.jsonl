@@ -495,3 +495,12 @@
 {"id": 495, "ts": "2026-10-05 10:46:43", "at": "10:46:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 496, "ts": "2026-10-05 10:47:55", "at": "10:47:55", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 497, "ts": "2026-10-05 10:48:10", "at": "10:48:10", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 498, "ts": "2026-10-05 10:49:08", "at": "10:49:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 499, "ts": "2026-10-05 10:49:24", "at": "10:49:24", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 500, "ts": "2026-10-05 10:49:54", "at": "10:49:54", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 501, "ts": "2026-10-05 10:50:09", "at": "10:50:09", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 502, "ts": "2026-10-05 10:50:25", "at": "10:50:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 503, "ts": "2026-10-05 10:50:55", "at": "10:50:55", "kind": "signal", "msg": "2026-11-23 24000 CE MACD crossed DOWN (bar close 68.85, hist +0.07 -> -0.01)"}
+{"id": 504, "ts": "2026-10-05 10:50:55", "at": "10:50:55", "kind": "skip", "msg": "short 2026-11-23 24000 CE ignored - premium 68.85 is outside 144 - 1600"}
+{"id": 505, "ts": "2026-10-05 10:52:02", "at": "10:52:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 506, "ts": "2026-10-05 10:53:26", "at": "10:53:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
