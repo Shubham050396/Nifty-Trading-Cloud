@@ -1783,3 +1783,19 @@
 {"id": 1783, "ts": "2026-10-05 11:56:52", "at": "11:56:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1784, "ts": "2026-10-05 11:58:27", "at": "11:58:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1785, "ts": "2026-10-05 11:58:56", "at": "11:58:56", "kind": "warm", "msg": "bar history loaded for all 762 contracts"}
+{"id": 1786, "ts": "2026-10-05 11:59:44", "at": "11:59:44", "kind": "warm", "msg": "bar history loaded for all 764 contracts"}
+{"id": 1787, "ts": "2026-10-05 11:59:49", "at": "11:59:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1788, "ts": "2026-10-05 12:00:21", "at": "12:00:21", "kind": "warm", "msg": "bar history loaded for all 764 contracts"}
+{"id": 1789, "ts": "2026-10-05 12:00:25", "at": "12:00:25", "kind": "signal", "msg": "INDIGO 5000 PE 27 Oct crossed EMA 144 at 172.00 - not taken: momentum 2.6%"}
+{"id": 1790, "ts": "2026-10-05 12:00:25", "at": "12:00:25", "kind": "signal", "msg": "INFY 1060 PE 27 Oct crossed EMA 144 at 60.85 - not taken: under EMA 55, momentum 1.2%"}
+{"id": 1791, "ts": "2026-10-05 12:00:25", "at": "12:00:25", "kind": "signal", "msg": "ITC 260 PE 27 Oct crossed EMA 144 at 3.40 - not taken: under EMA 55, momentum -10.5%, premium under Rs 5"}
+{"id": 1792, "ts": "2026-10-05 12:00:25", "at": "12:00:25", "kind": "signal", "msg": "WIPRO 160 CE 27 Oct crossed EMA 144 at 7.18 - not taken: momentum 3.3%"}
+{"id": 1793, "ts": "2026-10-05 12:00:25", "at": "12:00:25", "kind": "signal", "msg": "ITC 265 PE 27 Oct crossed EMA 144 at 5.50 - not taken: under EMA 55, momentum -10.6%"}
+{"id": 1794, "ts": "2026-10-05 12:00:25", "at": "12:00:25", "kind": "signal", "msg": "ITC 267.5 PE 27 Oct crossed EMA 144 at 6.90 - not taken: under EMA 55, momentum -10.4%"}
+{"id": 1795, "ts": "2026-10-05 12:00:33", "at": "12:00:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1796, "ts": "2026-10-05 12:00:33", "at": "12:00:33", "kind": "entry", "msg": "BUY INDIGO 4900 PE 27 Oct x150 @ 122.65 (signal close 123.65, EMA 144 121.95, momentum 3.9%)  quick 141.05 till 12:30, target 208.50, stop below EMA 55"}
+{"id": 1797, "ts": "2026-10-05 12:00:47", "at": "12:00:47", "kind": "warm", "msg": "bar history loaded for all 768 contracts"}
+{"id": 1798, "ts": "2026-10-05 12:01:33", "at": "12:01:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1799, "ts": "2026-10-05 12:02:33", "at": "12:02:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1800, "ts": "2026-10-05 12:03:35", "at": "12:03:35", "kind": "warm", "msg": "bar history loaded for all 770 contracts"}
+{"id": 1801, "ts": "2026-10-05 12:04:04", "at": "12:04:04", "kind": "warm", "msg": "bar history loaded for all 772 contracts"}
