@@ -1766,3 +1766,14 @@
 {"id": 1766, "ts": "2026-10-05 11:48:39", "at": "11:48:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1767, "ts": "2026-10-05 11:48:49", "at": "11:48:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1768, "ts": "2026-10-05 11:48:58", "at": "11:48:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1769, "ts": "2026-10-05 11:50:20", "at": "11:50:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1770, "ts": "2026-10-05 11:50:20", "at": "11:50:20", "kind": "exit", "msg": "SELL VBL 440 CE 27 Oct EMA_STOP @ 9.05  -14.6%  P&L Rs -1976.25"}
+{"id": 1771, "ts": "2026-10-05 11:50:20", "at": "11:50:20", "kind": "signal", "msg": "TMPV 290 PE 27 Oct crossed EMA 144 at 10.05 - not taken: under EMA 55, momentum 2.6%"}
+{"id": 1772, "ts": "2026-10-05 11:50:20", "at": "11:50:20", "kind": "signal", "msg": "ITC 267.5 PE 27 Oct crossed EMA 144 at 6.40 - not taken: under EMA 55, momentum -11.1%"}
+{"id": 1773, "ts": "2026-10-05 11:50:29", "at": "11:50:29", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1774, "ts": "2026-10-05 11:50:29", "at": "11:50:29", "kind": "entry", "msg": "BUY ADANIGREEN 1300 PE 27 Oct x600 @ 55.95 (signal close 55.95, EMA 144 54.17, momentum 11.8%)  quick 64.34 till 12:20, target 95.12, stop below EMA 55"}
+{"id": 1775, "ts": "2026-10-05 11:50:43", "at": "11:50:43", "kind": "warm", "msg": "bar history loaded for all 760 contracts"}
+{"id": 1776, "ts": "2026-10-05 11:51:29", "at": "11:51:29", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1777, "ts": "2026-10-05 11:52:15", "at": "11:52:15", "kind": "warm", "msg": "bar history loaded for all 762 contracts"}
+{"id": 1778, "ts": "2026-10-05 11:52:29", "at": "11:52:29", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1779, "ts": "2026-10-05 11:52:40", "at": "11:52:40", "kind": "warm", "msg": "bar history loaded for all 762 contracts"}
