@@ -1952,3 +1952,11 @@
 {"id": 1952, "ts": "2026-10-05 10:02:35", "at": "10:02:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1953, "ts": "2026-10-05 10:02:50", "at": "10:02:50", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1954, "ts": "2026-10-05 10:03:05", "at": "10:03:05", "kind": "entry", "msg": "L3 BUY 2026-10-13 22900 PE @ 346.70  target 416.70  trail 312.03 (10%)"}
+{"id": 1955, "ts": "2026-10-05 10:03:20", "at": "10:03:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1956, "ts": "2026-10-05 10:03:35", "at": "10:03:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1957, "ts": "2026-10-05 10:03:51", "at": "10:03:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1958, "ts": "2026-10-05 10:04:49", "at": "10:04:49", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1959, "ts": "2026-10-05 10:05:48", "at": "10:05:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1960, "ts": "2026-10-05 10:06:03", "at": "10:06:03", "kind": "entry", "msg": "L2 BUY 2026-10-13 22700 PE @ 244.35  target 314.35  trail 207.70 (15%)"}
+{"id": 1961, "ts": "2026-10-05 10:06:46", "at": "10:06:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1962, "ts": "2026-10-05 10:07:45", "at": "10:07:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

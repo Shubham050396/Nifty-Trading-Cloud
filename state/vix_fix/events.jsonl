@@ -66,3 +66,5 @@
 {"id": 66, "ts": "2026-10-05 10:00:18", "at": "10:00:18", "kind": "entry", "msg": "BUY 2026-10-27 25000 CE @ 4.90 x 65  (Rs 318) - buy 1 of 10, average 4.90, target 7.35"}
 {"id": 67, "ts": "2026-10-05 10:01:52", "at": "10:01:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 68, "ts": "2026-10-05 10:02:36", "at": "10:02:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 69, "ts": "2026-10-05 10:04:26", "at": "10:04:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 70, "ts": "2026-10-05 10:05:24", "at": "10:05:24", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
