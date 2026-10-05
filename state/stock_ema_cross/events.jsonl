@@ -1401,3 +1401,36 @@
 {"id": 1401, "ts": "2026-10-05 09:47:44", "at": "09:47:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1402, "ts": "2026-10-05 09:47:53", "at": "09:47:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1403, "ts": "2026-10-05 09:48:03", "at": "09:48:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1404, "ts": "2026-10-05 09:48:12", "at": "09:48:12", "kind": "contract", "msg": "watching 646 contracts on 99 stocks (ATM +/- 1, CE/PE): 10 added, 0 dropped"}
+{"id": 1405, "ts": "2026-10-05 09:48:21", "at": "09:48:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1406, "ts": "2026-10-05 09:48:30", "at": "09:48:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1407, "ts": "2026-10-05 09:48:40", "at": "09:48:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1408, "ts": "2026-10-05 09:48:49", "at": "09:48:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1409, "ts": "2026-10-05 09:48:58", "at": "09:48:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1410, "ts": "2026-10-05 09:49:17", "at": "09:49:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1411, "ts": "2026-10-05 09:49:24", "at": "09:49:24", "kind": "warm", "msg": "bar history loaded for all 648 contracts"}
+{"id": 1412, "ts": "2026-10-05 09:49:26", "at": "09:49:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1413, "ts": "2026-10-05 09:49:35", "at": "09:49:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1414, "ts": "2026-10-05 09:49:45", "at": "09:49:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1415, "ts": "2026-10-05 09:49:54", "at": "09:49:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1416, "ts": "2026-10-05 09:50:03", "at": "09:50:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1417, "ts": "2026-10-05 09:50:13", "at": "09:50:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1418, "ts": "2026-10-05 09:50:22", "at": "09:50:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1419, "ts": "2026-10-05 09:50:31", "at": "09:50:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1420, "ts": "2026-10-05 09:50:41", "at": "09:50:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1421, "ts": "2026-10-05 09:50:50", "at": "09:50:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1422, "ts": "2026-10-05 09:50:59", "at": "09:50:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1423, "ts": "2026-10-05 09:51:08", "at": "09:51:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1424, "ts": "2026-10-05 09:51:18", "at": "09:51:18", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1425, "ts": "2026-10-05 09:51:27", "at": "09:51:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1426, "ts": "2026-10-05 09:51:36", "at": "09:51:36", "kind": "contract", "msg": "watching 658 contracts on 99 stocks (ATM +/- 1, CE/PE): 10 added, 0 dropped"}
+{"id": 1427, "ts": "2026-10-05 09:51:45", "at": "09:51:45", "kind": "signal", "msg": "INFY 1060 CE 27 Oct crossed EMA 144 at 28.75 - not taken: momentum -4.2%"}
+{"id": 1428, "ts": "2026-10-05 09:51:47", "at": "09:51:47", "kind": "warm", "msg": "bar history loaded for all 658 contracts"}
+{"id": 1429, "ts": "2026-10-05 09:51:54", "at": "09:51:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1430, "ts": "2026-10-05 09:51:54", "at": "09:51:54", "kind": "entry", "msg": "BUY CGPOWER 880 CE 27 Oct x850 @ 34.90 (signal close 34.70, EMA 144 34.22, momentum 13.0%)  quick 40.13 till 10:20, target 59.33, stop below EMA 55"}
+{"id": 1431, "ts": "2026-10-05 09:52:04", "at": "09:52:04", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1432, "ts": "2026-10-05 09:52:17", "at": "09:52:17", "kind": "warm", "msg": "bar history loaded for all 660 contracts"}
+{"id": 1433, "ts": "2026-10-05 09:52:22", "at": "09:52:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1434, "ts": "2026-10-05 09:52:31", "at": "09:52:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1435, "ts": "2026-10-05 09:52:50", "at": "09:52:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1436, "ts": "2026-10-05 09:52:59", "at": "09:52:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
