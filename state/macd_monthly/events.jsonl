@@ -590,3 +590,19 @@
 {"id": 590, "ts": "2026-10-05 11:42:14", "at": "11:42:14", "kind": "skip", "msg": "short 2027-03-30 21000 CE ignored - premium 2316.00 is outside 144 - 1600"}
 {"id": 591, "ts": "2026-10-05 11:42:14", "at": "11:42:14", "kind": "signal", "msg": "2027-03-30 21000 PE MACD crossed UP (bar close 207.00, hist -0.12 -> +0.07)"}
 {"id": 592, "ts": "2026-10-05 11:42:14", "at": "11:42:14", "kind": "entry", "msg": "BUY 2027-03-30 21000 PE @ 205.80  (bar close 207.00, MACD hist +0.07, VIX 14.46)"}
+{"id": 593, "ts": "2026-10-05 11:43:56", "at": "11:43:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 594, "ts": "2026-10-05 11:45:08", "at": "11:45:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 595, "ts": "2026-10-05 11:45:24", "at": "11:45:24", "kind": "signal", "msg": "2026-12-29 23000 CE MACD crossed DOWN (bar close 472.60, hist +0.10 -> -0.07)"}
+{"id": 596, "ts": "2026-10-05 11:45:24", "at": "11:45:24", "kind": "entry", "msg": "SELL SHORT 2026-12-29 23000 CE @ 468.55  (bar close 472.60, MACD hist -0.07, VIX 14.46)"}
+{"id": 597, "ts": "2026-10-05 11:45:24", "at": "11:45:24", "kind": "signal", "msg": "2026-12-29 22000 PE MACD crossed UP (bar close 272.70, hist -0.11 -> +0.10)"}
+{"id": 598, "ts": "2026-10-05 11:45:24", "at": "11:45:24", "kind": "entry", "msg": "BUY 2026-12-29 22000 PE @ 277.75  (bar close 272.70, MACD hist +0.10, VIX 14.46)"}
+{"id": 599, "ts": "2026-10-05 11:45:24", "at": "11:45:24", "kind": "signal", "msg": "2026-12-29 24000 PE MACD crossed UP (bar close 1289.95, hist -0.50 -> +0.18)"}
+{"id": 600, "ts": "2026-10-05 11:45:24", "at": "11:45:24", "kind": "skip", "msg": "buy 2026-12-29 24000 PE ignored - open-position cap"}
+{"id": 601, "ts": "2026-10-05 11:45:53", "at": "11:45:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 602, "ts": "2026-10-05 11:46:08", "at": "11:46:08", "kind": "signal", "msg": "2026-11-23 23000 CE MACD crossed DOWN (bar close 303.00, hist +0.04 -> -0.07)"}
+{"id": 603, "ts": "2026-10-05 11:46:08", "at": "11:46:08", "kind": "skip", "msg": "short 2026-11-23 23000 CE ignored - open-position cap"}
+{"id": 604, "ts": "2026-10-05 11:46:08", "at": "11:46:08", "kind": "signal", "msg": "2026-11-23 24000 PE MACD crossed UP (bar close 1343.00, hist -0.22 -> +0.31)"}
+{"id": 605, "ts": "2026-10-05 11:46:08", "at": "11:46:08", "kind": "skip", "msg": "buy 2026-11-23 24000 PE ignored - open-position cap"}
+{"id": 606, "ts": "2026-10-05 11:46:51", "at": "11:46:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 607, "ts": "2026-10-05 11:47:07", "at": "11:47:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 608, "ts": "2026-10-05 11:48:31", "at": "11:48:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
