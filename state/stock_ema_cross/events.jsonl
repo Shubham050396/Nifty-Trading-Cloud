@@ -1593,3 +1593,17 @@
 {"id": 1593, "ts": "2026-10-05 10:22:39", "at": "10:22:39", "kind": "warm", "msg": "bar history loaded for all 715 contracts"}
 {"id": 1594, "ts": "2026-10-05 10:22:54", "at": "10:22:54", "kind": "warm", "msg": "bar history loaded for all 717 contracts"}
 {"id": 1595, "ts": "2026-10-05 10:23:08", "at": "10:23:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1596, "ts": "2026-10-05 10:25:07", "at": "10:25:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1597, "ts": "2026-10-05 10:25:07", "at": "10:25:07", "kind": "exit", "msg": "SELL HDFCLIFE 530 CE 27 Oct EMA_STOP @ 14.60  -19.1%  P&L Rs -3795.00"}
+{"id": 1598, "ts": "2026-10-05 10:25:07", "at": "10:25:07", "kind": "signal", "msg": "BPCL 295 PE 27 Oct crossed EMA 144 at 5.00 - not taken: premium under Rs 5"}
+{"id": 1599, "ts": "2026-10-05 10:25:08", "at": "10:25:08", "kind": "warm", "msg": "bar history loaded for all 723 contracts"}
+{"id": 1600, "ts": "2026-10-05 10:25:28", "at": "10:25:28", "kind": "warm", "msg": "bar history loaded for all 723 contracts"}
+{"id": 1601, "ts": "2026-10-05 10:25:34", "at": "10:25:34", "kind": "exit", "msg": "SELL BPCL 305 PE 27 Oct QUICK_TARGET @ 9.80  +18.1%  P&L Rs 2962.50"}
+{"id": 1602, "ts": "2026-10-05 10:25:45", "at": "10:25:45", "kind": "warm", "msg": "bar history loaded for all 725 contracts"}
+{"id": 1603, "ts": "2026-10-05 10:26:22", "at": "10:26:22", "kind": "warm", "msg": "bar history loaded for all 728 contracts"}
+{"id": 1604, "ts": "2026-10-05 10:26:31", "at": "10:26:31", "kind": "warm", "msg": "bar history loaded for all 730 contracts"}
+{"id": 1605, "ts": "2026-10-05 10:26:44", "at": "10:26:44", "kind": "warm", "msg": "bar history loaded for all 732 contracts"}
+{"id": 1606, "ts": "2026-10-05 10:26:57", "at": "10:26:57", "kind": "warm", "msg": "bar history loaded for all 732 contracts"}
+{"id": 1607, "ts": "2026-10-05 10:27:06", "at": "10:27:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1608, "ts": "2026-10-05 10:27:37", "at": "10:27:37", "kind": "warm", "msg": "bar history loaded for all 736 contracts"}
+{"id": 1609, "ts": "2026-10-05 10:28:06", "at": "10:28:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
