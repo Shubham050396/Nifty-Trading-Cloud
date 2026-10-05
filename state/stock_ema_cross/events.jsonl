@@ -1676,3 +1676,11 @@
 {"id": 1676, "ts": "2026-10-05 11:02:11", "at": "11:02:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1677, "ts": "2026-10-05 11:02:47", "at": "11:02:47", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1678, "ts": "2026-10-05 11:03:17", "at": "11:03:17", "kind": "warm", "msg": "bar history loaded for all 750 contracts"}
+{"id": 1679, "ts": "2026-10-05 11:03:39", "at": "11:03:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1680, "ts": "2026-10-05 11:04:55", "at": "11:04:55", "kind": "warm", "msg": "bar history loaded for all 752 contracts"}
+{"id": 1681, "ts": "2026-10-05 11:05:14", "at": "11:05:14", "kind": "signal", "msg": "BAJFINANCE 1000 PE 27 Oct crossed EMA 144 at 34.60 - not taken: under EMA 55"}
+{"id": 1682, "ts": "2026-10-05 11:05:14", "at": "11:05:14", "kind": "signal", "msg": "COALINDIA 435 CE 27 Oct crossed EMA 144 at 6.00 - not taken: momentum -9.8%"}
+{"id": 1683, "ts": "2026-10-05 11:05:46", "at": "11:05:46", "kind": "warm", "msg": "bar history loaded for all 752 contracts"}
+{"id": 1684, "ts": "2026-10-05 11:05:53", "at": "11:05:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.1 s"}
+{"id": 1685, "ts": "2026-10-05 11:06:53", "at": "11:06:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1686, "ts": "2026-10-05 11:07:53", "at": "11:07:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
