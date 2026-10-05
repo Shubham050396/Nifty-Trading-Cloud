@@ -1995,3 +1995,15 @@
 {"id": 1995, "ts": "2026-10-05 13:58:58", "at": "13:58:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1996, "ts": "2026-10-05 13:59:42", "at": "13:59:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1997, "ts": "2026-10-05 13:59:51", "at": "13:59:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1998, "ts": "2026-10-05 14:00:10", "at": "14:00:10", "kind": "signal", "msg": "ADANIENT 2900 PE 27 Oct crossed EMA 144 at 88.55 - not taken: under EMA 55, momentum -18.9%"}
+{"id": 1999, "ts": "2026-10-05 14:00:10", "at": "14:00:10", "kind": "exit", "msg": "SELL COALINDIA 425 CE 27 Oct EMA_STOP @ 9.25  -7.5%  P&L Rs -1012.50"}
+{"id": 2000, "ts": "2026-10-05 14:00:10", "at": "14:00:10", "kind": "signal", "msg": "ITC 262.5 PE 27 Oct crossed EMA 144 at 3.95 - not taken: under EMA 55, momentum -21.8%, premium under Rs 5"}
+{"id": 2001, "ts": "2026-10-05 14:00:10", "at": "14:00:10", "kind": "signal", "msg": "TMPV 285 PE 27 Oct crossed EMA 144 at 7.10 - not taken: under EMA 55, momentum 1.4%"}
+{"id": 2002, "ts": "2026-10-05 14:00:10", "at": "14:00:10", "kind": "signal", "msg": "HDFCLIFE 520 PE 27 Oct crossed EMA 144 at 10.10 - not taken: under EMA 55, momentum 1.0%"}
+{"id": 2003, "ts": "2026-10-05 14:00:10", "at": "14:00:10", "kind": "signal", "msg": "NTPC 325 PE 27 Oct crossed EMA 144 at 6.95 - not taken: under EMA 55, momentum -13.1%"}
+{"id": 2004, "ts": "2026-10-05 14:00:43", "at": "14:00:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2005, "ts": "2026-10-05 14:02:31", "at": "14:02:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2006, "ts": "2026-10-05 14:02:49", "at": "14:02:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2007, "ts": "2026-10-05 14:03:49", "at": "14:03:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2008, "ts": "2026-10-05 14:04:35", "at": "14:04:35", "kind": "warm", "msg": "bar history loaded for all 784 contracts"}
+{"id": 2009, "ts": "2026-10-05 14:04:49", "at": "14:04:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
