@@ -1909,3 +1909,7 @@
 {"id": 1909, "ts": "2026-10-05 13:20:04", "at": "13:20:04", "kind": "skip", "msg": "KOTAKBANK 420 CE 27 Oct signal at 8.90 skipped - already 1 open on KOTAKBANK"}
 {"id": 1910, "ts": "2026-10-05 13:20:04", "at": "13:20:04", "kind": "skip", "msg": "KOTAKBANK 410 CE 27 Oct signal at 14.30 skipped - already 1 open on KOTAKBANK"}
 {"id": 1911, "ts": "2026-10-05 13:21:41", "at": "13:21:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1912, "ts": "2026-10-05 13:25:53", "at": "13:25:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1913, "ts": "2026-10-05 13:26:42", "at": "13:26:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1914, "ts": "2026-10-05 13:27:54", "at": "13:27:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1915, "ts": "2026-10-05 13:28:54", "at": "13:28:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
