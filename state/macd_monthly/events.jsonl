@@ -530,3 +530,7 @@
 {"id": 530, "ts": "2026-10-05 11:16:28", "at": "11:16:28", "kind": "entry", "msg": "SELL SHORT 2026-12-29 24000 CE @ 158.25  (bar close 160.00, MACD hist -0.00, VIX 14.46)"}
 {"id": 531, "ts": "2026-10-05 11:17:22", "at": "11:17:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 532, "ts": "2026-10-05 11:17:53", "at": "11:17:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 533, "ts": "2026-10-05 11:19:42", "at": "11:19:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 534, "ts": "2026-10-05 11:20:40", "at": "11:20:40", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 535, "ts": "2026-10-05 11:21:39", "at": "11:21:39", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 536, "ts": "2026-10-05 11:23:28", "at": "11:23:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
