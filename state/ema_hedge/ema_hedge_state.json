@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-05 10:50:02",
+  "saved_at": "2026-10-05 10:55:03",
   "cfg": {
     "interval": 5,
     "ema_entry": 500,
@@ -26,7 +26,7 @@
   "sig": {
     "side": null
   },
-  "last_bar_t": 1791177300,
+  "last_bar_t": 1791177600,
   "signals": [
     {
       "kind": "SHORT",
