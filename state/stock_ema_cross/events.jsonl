@@ -1915,3 +1915,9 @@
 {"id": 1915, "ts": "2026-10-05 13:28:54", "at": "13:28:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 1916, "ts": "2026-10-05 13:30:02", "at": "13:30:02", "kind": "signal", "msg": "TMPV 290 PE 27 Oct crossed EMA 144 at 10.30 - not taken: under EMA 55"}
 {"id": 1917, "ts": "2026-10-05 13:31:55", "at": "13:31:55", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1918, "ts": "2026-10-05 13:35:03", "at": "13:35:03", "kind": "signal", "msg": "COALINDIA 430 PE 27 Oct crossed EMA 144 at 11.45 - not taken: momentum -5.0%"}
+{"id": 1919, "ts": "2026-10-05 13:37:56", "at": "13:37:56", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1920, "ts": "2026-10-05 13:38:21", "at": "13:38:21", "kind": "warm", "msg": "bar history loaded for all 774 contracts"}
+{"id": 1921, "ts": "2026-10-05 13:38:26", "at": "13:38:26", "kind": "warm", "msg": "bar history loaded for all 774 contracts"}
+{"id": 1922, "ts": "2026-10-05 13:38:45", "at": "13:38:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1923, "ts": "2026-10-05 13:38:57", "at": "13:38:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
