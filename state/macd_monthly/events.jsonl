@@ -808,3 +808,6 @@
 {"id": 808, "ts": "2026-10-05 13:50:01", "at": "13:50:01", "kind": "skip", "msg": "buy 2026-11-23 21000 CE ignored - premium 1815.20 is outside 144 - 1600"}
 {"id": 809, "ts": "2026-10-05 13:52:18", "at": "13:52:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 810, "ts": "2026-10-05 13:54:07", "at": "13:54:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 811, "ts": "2026-10-05 13:55:56", "at": "13:55:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 812, "ts": "2026-10-05 13:58:28", "at": "13:58:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 813, "ts": "2026-10-05 13:59:26", "at": "13:59:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
