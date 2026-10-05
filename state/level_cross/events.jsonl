@@ -2716,3 +2716,8 @@
 {"id": 2716, "ts": "2026-10-05 12:03:56", "at": "12:03:56", "kind": "gap", "msg": "2026-10-06 23500 CE: no prices for 4 min - bar history restarts"}
 {"id": 2717, "ts": "2026-10-05 12:03:56", "at": "12:03:56", "kind": "gap", "msg": "2026-10-06 23600 PE: no prices for 4 min - bar history restarts"}
 {"id": 2718, "ts": "2026-10-05 12:03:56", "at": "12:03:56", "kind": "gap", "msg": "2026-10-06 23500 PE: no prices for 4 min - bar history restarts"}
+{"id": 2719, "ts": "2026-10-05 12:04:40", "at": "12:04:40", "kind": "skip", "msg": "L3 2026-10-27 22600 PE cross ignored - daily cap"}
+{"id": 2720, "ts": "2026-10-05 12:04:53", "at": "12:04:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2721, "ts": "2026-10-05 12:06:42", "at": "12:06:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2722, "ts": "2026-10-05 12:07:40", "at": "12:07:40", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2723, "ts": "2026-10-05 12:08:25", "at": "12:08:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

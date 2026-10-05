@@ -1799,3 +1799,12 @@
 {"id": 1799, "ts": "2026-10-05 12:02:33", "at": "12:02:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1800, "ts": "2026-10-05 12:03:35", "at": "12:03:35", "kind": "warm", "msg": "bar history loaded for all 770 contracts"}
 {"id": 1801, "ts": "2026-10-05 12:04:04", "at": "12:04:04", "kind": "warm", "msg": "bar history loaded for all 772 contracts"}
+{"id": 1802, "ts": "2026-10-05 12:04:14", "at": "12:04:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1803, "ts": "2026-10-05 12:05:22", "at": "12:05:22", "kind": "exit", "msg": "SELL INDIGO 4900 PE 27 Oct EMA_STOP @ 118.85  -3.1%  P&L Rs -570.00"}
+{"id": 1804, "ts": "2026-10-05 12:05:29", "at": "12:05:29", "kind": "skip", "msg": "COALINDIA 430 PE 27 Oct signal at 11.60 skipped - already 1 open on COALINDIA"}
+{"id": 1805, "ts": "2026-10-05 12:07:03", "at": "12:07:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}
+{"id": 1806, "ts": "2026-10-05 12:07:14", "at": "12:07:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.5 s"}
+{"id": 1807, "ts": "2026-10-05 12:07:31", "at": "12:07:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 4.0 s"}
+{"id": 1808, "ts": "2026-10-05 12:07:50", "at": "12:07:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.0 s"}
+{"id": 1809, "ts": "2026-10-05 12:08:35", "at": "12:08:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 4.0 s"}
+{"id": 1810, "ts": "2026-10-05 12:08:54", "at": "12:08:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.0 s"}
