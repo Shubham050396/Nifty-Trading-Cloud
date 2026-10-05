@@ -1904,3 +1904,8 @@
 {"id": 1904, "ts": "2026-10-05 13:14:40", "at": "13:14:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 1905, "ts": "2026-10-05 13:15:04", "at": "13:15:04", "kind": "signal", "msg": "HDFCLIFE 520 PE 27 Oct crossed EMA 144 at 10.50 - not taken: under EMA 55, momentum -3.7%"}
 {"id": 1906, "ts": "2026-10-05 13:17:51", "at": "13:17:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1907, "ts": "2026-10-05 13:20:03", "at": "13:20:03", "kind": "signal", "msg": "TMPV 285 PE 27 Oct crossed EMA 144 at 7.10 - not taken: under EMA 55"}
+{"id": 1908, "ts": "2026-10-05 13:20:04", "at": "13:20:04", "kind": "entry", "msg": "BUY KOTAKBANK 415 CE 27 Oct x2000 @ 11.60 (signal close 11.50, EMA 144 11.33, momentum 5.5%)  quick 13.34 till 13:50, target 19.72, stop below EMA 55"}
+{"id": 1909, "ts": "2026-10-05 13:20:04", "at": "13:20:04", "kind": "skip", "msg": "KOTAKBANK 420 CE 27 Oct signal at 8.90 skipped - already 1 open on KOTAKBANK"}
+{"id": 1910, "ts": "2026-10-05 13:20:04", "at": "13:20:04", "kind": "skip", "msg": "KOTAKBANK 410 CE 27 Oct signal at 14.30 skipped - already 1 open on KOTAKBANK"}
+{"id": 1911, "ts": "2026-10-05 13:21:41", "at": "13:21:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
