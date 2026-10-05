@@ -480,3 +480,8 @@
 {"id": 480, "ts": "2026-10-05 10:37:26", "at": "10:37:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 481, "ts": "2026-10-05 10:37:56", "at": "10:37:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 482, "ts": "2026-10-05 10:38:12", "at": "10:38:12", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 483, "ts": "2026-10-05 10:38:45", "at": "10:38:45", "kind": "vix", "msg": "India VIX prev close 14.46 - entries allowed"}
+{"id": 484, "ts": "2026-10-05 10:39:24", "at": "10:39:24", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 485, "ts": "2026-10-05 10:40:48", "at": "10:40:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 486, "ts": "2026-10-05 10:41:47", "at": "10:41:47", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 487, "ts": "2026-10-05 10:42:45", "at": "10:42:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
