@@ -1822,3 +1822,8 @@
 {"id": 1822, "ts": "2026-10-05 12:11:03", "at": "12:11:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1823, "ts": "2026-10-05 12:12:03", "at": "12:12:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1824, "ts": "2026-10-05 12:13:03", "at": "12:13:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1825, "ts": "2026-10-05 12:14:32", "at": "12:14:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1826, "ts": "2026-10-05 12:15:32", "at": "12:15:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1827, "ts": "2026-10-05 12:15:32", "at": "12:15:32", "kind": "skip", "msg": "COALINDIA 415 PE 27 Oct signal at 5.15 skipped - already 1 open on COALINDIA"}
+{"id": 1828, "ts": "2026-10-05 12:16:32", "at": "12:16:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1829, "ts": "2026-10-05 12:18:07", "at": "12:18:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
