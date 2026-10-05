@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-05 10:25:22",
+  "saved_at": "2026-10-05 10:30:22",
   "cfg": {
     "expiries": [
       "2026-10-27"
@@ -60,8 +60,8 @@
         ],
         "entry_wvf": 10.394,
         "vix": null,
-        "mark": 15.65,
-        "pnl": -39.0,
+        "mark": 15.8,
+        "pnl": -29.25,
         "status": "OPEN",
         "target": 24.38
       }
@@ -99,8 +99,8 @@
         ],
         "entry_wvf": 10.119,
         "vix": null,
-        "mark": 4.75,
-        "pnl": -9.75,
+        "mark": 4.8,
+        "pnl": -6.5,
         "status": "OPEN",
         "target": 7.35
       }
@@ -138,8 +138,8 @@
         ],
         "entry_wvf": 10.943,
         "vix": null,
-        "mark": 141.2,
-        "pnl": -760.5,
+        "mark": 147.05,
+        "pnl": -380.25,
         "status": "OPEN",
         "target": 229.35
       }

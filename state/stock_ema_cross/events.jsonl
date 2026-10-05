@@ -1607,3 +1607,10 @@
 {"id": 1607, "ts": "2026-10-05 10:27:06", "at": "10:27:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1608, "ts": "2026-10-05 10:27:37", "at": "10:27:37", "kind": "warm", "msg": "bar history loaded for all 736 contracts"}
 {"id": 1609, "ts": "2026-10-05 10:28:06", "at": "10:28:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1610, "ts": "2026-10-05 10:28:58", "at": "10:28:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1611, "ts": "2026-10-05 10:29:10", "at": "10:29:10", "kind": "warm", "msg": "bar history loaded for all 736 contracts"}
+{"id": 1612, "ts": "2026-10-05 10:29:42", "at": "10:29:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1613, "ts": "2026-10-05 10:30:26", "at": "10:30:26", "kind": "entry", "msg": "BUY SBILIFE 1700 PE 27 Oct x375 @ 33.05 (signal close 35.00, EMA 144 33.48, momentum 22.0%)  quick 38.01 till 11:00, target 56.18, stop below EMA 55"}
+{"id": 1614, "ts": "2026-10-05 10:32:13", "at": "10:32:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 6.0 s"}
+{"id": 1615, "ts": "2026-10-05 10:32:34", "at": "10:32:34", "kind": "warm", "msg": "bar history loaded for all 736 contracts"}
+{"id": 1616, "ts": "2026-10-05 10:33:12", "at": "10:33:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.5 s"}

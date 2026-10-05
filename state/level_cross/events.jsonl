@@ -2125,3 +2125,11 @@
 {"id": 2125, "ts": "2026-10-05 10:27:22", "at": "10:27:22", "kind": "gap", "msg": "2026-10-06 23600 PE: no prices for 6 min - bar history restarts"}
 {"id": 2126, "ts": "2026-10-05 10:27:22", "at": "10:27:22", "kind": "gap", "msg": "2026-10-06 23500 PE: no prices for 6 min - bar history restarts"}
 {"id": 2127, "ts": "2026-10-05 10:28:18", "at": "10:28:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2128, "ts": "2026-10-05 10:28:34", "at": "10:28:34", "kind": "entry", "msg": "L3 BUY 2026-10-13 22800 PE @ 318.60  target 388.60  trail 286.74 (10%)"}
+{"id": 2129, "ts": "2026-10-05 10:29:17", "at": "10:29:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2130, "ts": "2026-10-05 10:29:32", "at": "10:29:32", "kind": "signal", "msg": "2026-10-13 22900 PE held above 366.70 for 5 min - fall-back exit is armed"}
+{"id": 2131, "ts": "2026-10-05 10:30:16", "at": "10:30:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2132, "ts": "2026-10-05 10:31:14", "at": "10:31:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2133, "ts": "2026-10-05 10:31:44", "at": "10:31:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2134, "ts": "2026-10-05 10:32:29", "at": "10:32:29", "kind": "exit", "msg": "L3 2026-10-13 22900 PE TRAIL_STOP @ 366.90  P&L Rs 1313.00"}
+{"id": 2135, "ts": "2026-10-05 10:33:09", "at": "10:33:09", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
