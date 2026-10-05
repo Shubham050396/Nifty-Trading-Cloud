@@ -2496,3 +2496,57 @@
 {"id": 2496, "ts": "2026-10-05 11:37:25", "at": "11:37:25", "kind": "gap", "msg": "2026-10-27 21500 PE: no prices for 4 min - bar history restarts"}
 {"id": 2497, "ts": "2026-10-05 11:37:39", "at": "11:37:39", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 2498, "ts": "2026-10-05 11:38:38", "at": "11:38:38", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2499, "ts": "2026-10-05 11:39:25", "at": "11:39:25", "kind": "vix", "msg": "India VIX prev close 14.46 -> target 1000 ticks (Rs 50.00)"}
+{"id": 2500, "ts": "2026-10-05 11:39:36", "at": "11:39:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2501, "ts": "2026-10-05 11:40:34", "at": "11:40:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2502, "ts": "2026-10-05 11:41:33", "at": "11:41:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2503, "ts": "2026-10-05 11:42:03", "at": "11:42:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2504, "ts": "2026-10-05 11:42:19", "at": "11:42:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2505, "ts": "2026-10-05 11:42:34", "at": "11:42:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2506, "ts": "2026-10-05 11:43:18", "at": "11:43:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2507, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22400 CE: no prices for 16 min - bar history restarts"}
+{"id": 2508, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23300 CE: no prices for 16 min - bar history restarts"}
+{"id": 2509, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21900 CE: no prices for 16 min - bar history restarts"}
+{"id": 2510, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22800 CE: no prices for 16 min - bar history restarts"}
+{"id": 2511, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22300 CE: no prices for 16 min - bar history restarts"}
+{"id": 2512, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23200 CE: no prices for 16 min - bar history restarts"}
+{"id": 2513, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21800 CE: no prices for 16 min - bar history restarts"}
+{"id": 2514, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22700 CE: no prices for 16 min - bar history restarts"}
+{"id": 2515, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22200 CE: no prices for 16 min - bar history restarts"}
+{"id": 2516, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23100 CE: no prices for 16 min - bar history restarts"}
+{"id": 2517, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21700 CE: no prices for 16 min - bar history restarts"}
+{"id": 2518, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22600 CE: no prices for 16 min - bar history restarts"}
+{"id": 2519, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22100 CE: no prices for 16 min - bar history restarts"}
+{"id": 2520, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23000 CE: no prices for 16 min - bar history restarts"}
+{"id": 2521, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22500 CE: no prices for 16 min - bar history restarts"}
+{"id": 2522, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23400 CE: no prices for 16 min - bar history restarts"}
+{"id": 2523, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22000 CE: no prices for 16 min - bar history restarts"}
+{"id": 2524, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22900 CE: no prices for 16 min - bar history restarts"}
+{"id": 2525, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22400 PE: no prices for 16 min - bar history restarts"}
+{"id": 2526, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23300 PE: no prices for 16 min - bar history restarts"}
+{"id": 2527, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21900 PE: no prices for 16 min - bar history restarts"}
+{"id": 2528, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22800 PE: no prices for 16 min - bar history restarts"}
+{"id": 2529, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22300 PE: no prices for 16 min - bar history restarts"}
+{"id": 2530, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23200 PE: no prices for 16 min - bar history restarts"}
+{"id": 2531, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21800 PE: no prices for 16 min - bar history restarts"}
+{"id": 2532, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22700 PE: no prices for 16 min - bar history restarts"}
+{"id": 2533, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22200 PE: no prices for 16 min - bar history restarts"}
+{"id": 2534, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23100 PE: no prices for 16 min - bar history restarts"}
+{"id": 2535, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21700 PE: no prices for 16 min - bar history restarts"}
+{"id": 2536, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22600 PE: no prices for 16 min - bar history restarts"}
+{"id": 2537, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22100 PE: no prices for 16 min - bar history restarts"}
+{"id": 2538, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23000 PE: no prices for 16 min - bar history restarts"}
+{"id": 2539, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22500 PE: no prices for 16 min - bar history restarts"}
+{"id": 2540, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23400 PE: no prices for 16 min - bar history restarts"}
+{"id": 2541, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22000 PE: no prices for 16 min - bar history restarts"}
+{"id": 2542, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 22900 PE: no prices for 16 min - bar history restarts"}
+{"id": 2543, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21600 CE: no prices for 16 min - bar history restarts"}
+{"id": 2544, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21600 PE: no prices for 16 min - bar history restarts"}
+{"id": 2545, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21500 CE: no prices for 16 min - bar history restarts"}
+{"id": 2546, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21500 PE: no prices for 16 min - bar history restarts"}
+{"id": 2547, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21400 CE: no prices for 16 min - bar history restarts"}
+{"id": 2548, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 21400 PE: no prices for 16 min - bar history restarts"}
+{"id": 2549, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23600 CE: no prices for 16 min - bar history restarts"}
+{"id": 2550, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23500 CE: no prices for 16 min - bar history restarts"}
+{"id": 2551, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23600 PE: no prices for 16 min - bar history restarts"}
+{"id": 2552, "ts": "2026-10-05 11:43:34", "at": "11:43:34", "kind": "gap", "msg": "2026-10-06 23500 PE: no prices for 16 min - bar history restarts"}

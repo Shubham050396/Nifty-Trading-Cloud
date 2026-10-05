@@ -1742,3 +1742,18 @@
 {"id": 1742, "ts": "2026-10-05 11:36:28", "at": "11:36:28", "kind": "warm", "msg": "bar history loaded for all 756 contracts"}
 {"id": 1743, "ts": "2026-10-05 11:37:08", "at": "11:37:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1744, "ts": "2026-10-05 11:37:20", "at": "11:37:20", "kind": "warm", "msg": "bar history loaded for all 758 contracts"}
+{"id": 1745, "ts": "2026-10-05 11:39:07", "at": "11:39:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1746, "ts": "2026-10-05 11:39:51", "at": "11:39:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1747, "ts": "2026-10-05 11:40:09", "at": "11:40:09", "kind": "exit", "msg": "SELL INFY 1020 CE 27 Oct EMA_STOP @ 36.35  -21.2%  P&L Rs -3920.00"}
+{"id": 1748, "ts": "2026-10-05 11:40:09", "at": "11:40:09", "kind": "signal", "msg": "INDIGO 5000 PE 27 Oct crossed EMA 144 at 172.45 - not taken: momentum 1.1%"}
+{"id": 1749, "ts": "2026-10-05 11:40:09", "at": "11:40:09", "kind": "signal", "msg": "INFY 1040 PE 27 Oct crossed EMA 144 at 48.55 - not taken: under EMA 55"}
+{"id": 1750, "ts": "2026-10-05 11:40:09", "at": "11:40:09", "kind": "signal", "msg": "INFY 1060 PE 27 Oct crossed EMA 144 at 60.45 - not taken: under EMA 55, momentum 3.4%"}
+{"id": 1751, "ts": "2026-10-05 11:40:09", "at": "11:40:09", "kind": "signal", "msg": "ICICIBANK 1300 PE 27 Oct crossed EMA 144 at 17.25 - not taken: under EMA 55, momentum -6.8%"}
+{"id": 1752, "ts": "2026-10-05 11:40:18", "at": "11:40:18", "kind": "entry", "msg": "BUY COALINDIA 425 PE 27 Oct x1350 @ 8.65 (signal close 8.60, EMA 144 8.57, momentum 8.9%)  quick 9.95 till 12:10, target 14.71, stop below EMA 55"}
+{"id": 1753, "ts": "2026-10-05 11:40:50", "at": "11:40:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1754, "ts": "2026-10-05 11:41:03", "at": "11:41:03", "kind": "warm", "msg": "bar history loaded for all 758 contracts"}
+{"id": 1755, "ts": "2026-10-05 11:41:50", "at": "11:41:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1756, "ts": "2026-10-05 11:42:20", "at": "11:42:20", "kind": "warm", "msg": "bar history loaded for all 758 contracts"}
+{"id": 1757, "ts": "2026-10-05 11:42:50", "at": "11:42:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1758, "ts": "2026-10-05 11:43:02", "at": "11:43:02", "kind": "warm", "msg": "bar history loaded for all 758 contracts"}
+{"id": 1759, "ts": "2026-10-05 11:43:51", "at": "11:43:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
