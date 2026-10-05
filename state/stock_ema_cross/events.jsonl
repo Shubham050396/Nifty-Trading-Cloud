@@ -1833,3 +1833,15 @@
 {"id": 1833, "ts": "2026-10-05 12:21:17", "at": "12:21:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1834, "ts": "2026-10-05 12:22:19", "at": "12:22:19", "kind": "warm", "msg": "bar history loaded for all 772 contracts"}
 {"id": 1835, "ts": "2026-10-05 12:22:52", "at": "12:22:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1836, "ts": "2026-10-05 12:24:14", "at": "12:24:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1837, "ts": "2026-10-05 12:24:33", "at": "12:24:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1838, "ts": "2026-10-05 12:24:42", "at": "12:24:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1839, "ts": "2026-10-05 12:24:51", "at": "12:24:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1840, "ts": "2026-10-05 12:25:10", "at": "12:25:10", "kind": "exit", "msg": "SELL INDIGO 4900 PE 27 Oct EMA_STOP @ 119.85  -7.3%  P&L Rs -1417.50"}
+{"id": 1841, "ts": "2026-10-05 12:25:10", "at": "12:25:10", "kind": "signal", "msg": "DLF 680 CE 27 Oct crossed EMA 144 at 15.40 - not taken: momentum -4.6%"}
+{"id": 1842, "ts": "2026-10-05 12:25:10", "at": "12:25:10", "kind": "signal", "msg": "INFY 1000 PE 27 Oct crossed EMA 144 at 29.10 - not taken: under EMA 55"}
+{"id": 1843, "ts": "2026-10-05 12:26:33", "at": "12:26:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1844, "ts": "2026-10-05 12:27:19", "at": "12:27:19", "kind": "warm", "msg": "bar history loaded for all 772 contracts"}
+{"id": 1845, "ts": "2026-10-05 12:27:41", "at": "12:27:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1846, "ts": "2026-10-05 12:28:43", "at": "12:28:43", "kind": "warm", "msg": "bar history loaded for all 774 contracts"}
+{"id": 1847, "ts": "2026-10-05 12:29:16", "at": "12:29:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
