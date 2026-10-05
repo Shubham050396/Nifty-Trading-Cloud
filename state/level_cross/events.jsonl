@@ -1960,3 +1960,58 @@
 {"id": 1960, "ts": "2026-10-05 10:06:03", "at": "10:06:03", "kind": "entry", "msg": "L2 BUY 2026-10-13 22700 PE @ 244.35  target 314.35  trail 207.70 (15%)"}
 {"id": 1961, "ts": "2026-10-05 10:06:46", "at": "10:06:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1962, "ts": "2026-10-05 10:07:45", "at": "10:07:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1963, "ts": "2026-10-05 10:08:43", "at": "10:08:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1964, "ts": "2026-10-05 10:09:28", "at": "10:09:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1965, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22400 CE: no prices for 11 min - bar history restarts"}
+{"id": 1966, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23300 CE: no prices for 11 min - bar history restarts"}
+{"id": 1967, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21900 CE: no prices for 11 min - bar history restarts"}
+{"id": 1968, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22800 CE: no prices for 11 min - bar history restarts"}
+{"id": 1969, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22300 CE: no prices for 11 min - bar history restarts"}
+{"id": 1970, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23200 CE: no prices for 11 min - bar history restarts"}
+{"id": 1971, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21800 CE: no prices for 11 min - bar history restarts"}
+{"id": 1972, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22700 CE: no prices for 11 min - bar history restarts"}
+{"id": 1973, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22200 CE: no prices for 11 min - bar history restarts"}
+{"id": 1974, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23100 CE: no prices for 11 min - bar history restarts"}
+{"id": 1975, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21700 CE: no prices for 11 min - bar history restarts"}
+{"id": 1976, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22600 CE: no prices for 11 min - bar history restarts"}
+{"id": 1977, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22100 CE: no prices for 11 min - bar history restarts"}
+{"id": 1978, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23000 CE: no prices for 11 min - bar history restarts"}
+{"id": 1979, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22500 CE: no prices for 11 min - bar history restarts"}
+{"id": 1980, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23400 CE: no prices for 11 min - bar history restarts"}
+{"id": 1981, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22000 CE: no prices for 11 min - bar history restarts"}
+{"id": 1982, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22900 CE: no prices for 11 min - bar history restarts"}
+{"id": 1983, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22400 PE: no prices for 11 min - bar history restarts"}
+{"id": 1984, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23300 PE: no prices for 11 min - bar history restarts"}
+{"id": 1985, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21900 PE: no prices for 11 min - bar history restarts"}
+{"id": 1986, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22800 PE: no prices for 11 min - bar history restarts"}
+{"id": 1987, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22300 PE: no prices for 11 min - bar history restarts"}
+{"id": 1988, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23200 PE: no prices for 11 min - bar history restarts"}
+{"id": 1989, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21800 PE: no prices for 11 min - bar history restarts"}
+{"id": 1990, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22700 PE: no prices for 11 min - bar history restarts"}
+{"id": 1991, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22200 PE: no prices for 11 min - bar history restarts"}
+{"id": 1992, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23100 PE: no prices for 11 min - bar history restarts"}
+{"id": 1993, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21700 PE: no prices for 11 min - bar history restarts"}
+{"id": 1994, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22600 PE: no prices for 11 min - bar history restarts"}
+{"id": 1995, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22100 PE: no prices for 11 min - bar history restarts"}
+{"id": 1996, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23000 PE: no prices for 11 min - bar history restarts"}
+{"id": 1997, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22500 PE: no prices for 11 min - bar history restarts"}
+{"id": 1998, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23400 PE: no prices for 11 min - bar history restarts"}
+{"id": 1999, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22000 PE: no prices for 11 min - bar history restarts"}
+{"id": 2000, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 22900 PE: no prices for 11 min - bar history restarts"}
+{"id": 2001, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21600 CE: no prices for 11 min - bar history restarts"}
+{"id": 2002, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21600 PE: no prices for 11 min - bar history restarts"}
+{"id": 2003, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21500 CE: no prices for 11 min - bar history restarts"}
+{"id": 2004, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21500 PE: no prices for 11 min - bar history restarts"}
+{"id": 2005, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21400 CE: no prices for 11 min - bar history restarts"}
+{"id": 2006, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 21400 PE: no prices for 11 min - bar history restarts"}
+{"id": 2007, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23600 CE: no prices for 11 min - bar history restarts"}
+{"id": 2008, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23500 CE: no prices for 11 min - bar history restarts"}
+{"id": 2009, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23600 PE: no prices for 11 min - bar history restarts"}
+{"id": 2010, "ts": "2026-10-05 10:09:43", "at": "10:09:43", "kind": "gap", "msg": "2026-10-06 23500 PE: no prices for 11 min - bar history restarts"}
+{"id": 2011, "ts": "2026-10-05 10:10:26", "at": "10:10:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2012, "ts": "2026-10-05 10:10:42", "at": "10:10:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2013, "ts": "2026-10-05 10:11:12", "at": "10:11:12", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2014, "ts": "2026-10-05 10:11:27", "at": "10:11:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2015, "ts": "2026-10-05 10:11:43", "at": "10:11:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2016, "ts": "2026-10-05 10:12:27", "at": "10:12:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2017, "ts": "2026-10-05 10:12:42", "at": "10:12:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

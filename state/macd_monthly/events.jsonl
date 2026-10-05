@@ -441,3 +441,6 @@
 {"id": 441, "ts": "2026-10-05 10:05:00", "at": "10:05:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 13.1 s"}
 {"id": 442, "ts": "2026-10-05 10:06:13", "at": "10:06:13", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 443, "ts": "2026-10-05 10:07:11", "at": "10:07:11", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 444, "ts": "2026-10-05 10:08:23", "at": "10:08:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 445, "ts": "2026-10-05 10:11:43", "at": "10:11:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 10.1 s"}
+{"id": 446, "ts": "2026-10-05 10:12:13", "at": "10:12:13", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
