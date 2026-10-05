@@ -1874,3 +1874,10 @@
 {"id": 1874, "ts": "2026-10-05 12:47:08", "at": "12:47:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1875, "ts": "2026-10-05 12:47:44", "at": "12:47:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1876, "ts": "2026-10-05 12:48:11", "at": "12:48:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1877, "ts": "2026-10-05 12:49:59", "at": "12:49:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1878, "ts": "2026-10-05 12:50:17", "at": "12:50:17", "kind": "signal", "msg": "HDFCLIFE 520 PE 27 Oct crossed EMA 144 at 10.20 - not taken: under EMA 55, momentum -11.7%"}
+{"id": 1879, "ts": "2026-10-05 12:50:59", "at": "12:50:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1880, "ts": "2026-10-05 12:51:58", "at": "12:51:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1881, "ts": "2026-10-05 12:53:42", "at": "12:53:42", "kind": "warm", "msg": "bar history loaded for all 774 contracts"}
+{"id": 1882, "ts": "2026-10-05 12:53:46", "at": "12:53:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1883, "ts": "2026-10-05 12:53:55", "at": "12:53:55", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
