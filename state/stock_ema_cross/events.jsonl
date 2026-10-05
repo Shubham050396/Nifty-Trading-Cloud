@@ -1913,3 +1913,5 @@
 {"id": 1913, "ts": "2026-10-05 13:26:42", "at": "13:26:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 1914, "ts": "2026-10-05 13:27:54", "at": "13:27:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 1915, "ts": "2026-10-05 13:28:54", "at": "13:28:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1916, "ts": "2026-10-05 13:30:02", "at": "13:30:02", "kind": "signal", "msg": "TMPV 290 PE 27 Oct crossed EMA 144 at 10.30 - not taken: under EMA 55"}
+{"id": 1917, "ts": "2026-10-05 13:31:55", "at": "13:31:55", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}

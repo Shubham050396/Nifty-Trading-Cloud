@@ -737,3 +737,8 @@
 {"id": 737, "ts": "2026-10-05 13:25:31", "at": "13:25:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 738, "ts": "2026-10-05 13:25:50", "at": "13:25:50", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 739, "ts": "2026-10-05 13:27:16", "at": "13:27:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 740, "ts": "2026-10-05 13:30:07", "at": "13:30:07", "kind": "signal", "msg": "2026-11-23 22000 CE MACD crossed UP (bar close 901.00, hist -0.04 -> +0.29)"}
+{"id": 741, "ts": "2026-10-05 13:30:07", "at": "13:30:07", "kind": "exit", "msg": "SHORT 2026-11-23 22000 CE MACD_UP @ 892.20  P&L Rs 16.25"}
+{"id": 742, "ts": "2026-10-05 13:30:07", "at": "13:30:07", "kind": "entry", "msg": "BUY 2026-11-23 22000 CE @ 892.20  (bar close 901.00, MACD hist +0.29, VIX 14.46)"}
+{"id": 743, "ts": "2026-10-05 13:31:11", "at": "13:31:11", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 744, "ts": "2026-10-05 13:34:26", "at": "13:34:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
