@@ -3054,3 +3054,9 @@
 {"id": 3054, "ts": "2026-10-05 12:42:34", "at": "12:42:34", "kind": "gap", "msg": "2026-10-06 23600 PE: no prices for 5 min - bar history restarts"}
 {"id": 3055, "ts": "2026-10-05 12:42:34", "at": "12:42:34", "kind": "gap", "msg": "2026-10-06 23500 PE: no prices for 5 min - bar history restarts"}
 {"id": 3056, "ts": "2026-10-05 12:43:29", "at": "12:43:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3057, "ts": "2026-10-05 12:44:27", "at": "12:44:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3058, "ts": "2026-10-05 12:45:26", "at": "12:45:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3059, "ts": "2026-10-05 12:46:24", "at": "12:46:24", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3060, "ts": "2026-10-05 12:48:13", "at": "12:48:13", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3061, "ts": "2026-10-05 12:48:43", "at": "12:48:43", "kind": "exit", "msg": "L2 2026-10-19 22500 PE TRAIL_STOP @ 226.00  P&L Rs -1062.75"}
+{"id": 3062, "ts": "2026-10-05 12:49:12", "at": "12:49:12", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
