@@ -1692,3 +1692,12 @@
 {"id": 1692, "ts": "2026-10-05 11:12:14", "at": "11:12:14", "kind": "warm", "msg": "bar history loaded for all 752 contracts"}
 {"id": 1693, "ts": "2026-10-05 11:12:20", "at": "11:12:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1694, "ts": "2026-10-05 11:13:20", "at": "11:13:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1695, "ts": "2026-10-05 11:15:02", "at": "11:15:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1696, "ts": "2026-10-05 11:15:20", "at": "11:15:20", "kind": "signal", "msg": "AXISBANK 1240 PE 27 Oct crossed EMA 144 at 38.10 - not taken: under EMA 55"}
+{"id": 1697, "ts": "2026-10-05 11:15:20", "at": "11:15:20", "kind": "signal", "msg": "BAJFINANCE 980 PE 27 Oct crossed EMA 144 at 25.20 - not taken: under EMA 55"}
+{"id": 1698, "ts": "2026-10-05 11:15:20", "at": "11:15:20", "kind": "signal", "msg": "TMPV 290 PE 27 Oct crossed EMA 144 at 10.35 - not taken: under EMA 55, momentum -11.2%"}
+{"id": 1699, "ts": "2026-10-05 11:15:29", "at": "11:15:29", "kind": "entry", "msg": "BUY INDHOTEL 720 PE 27 Oct x1000 @ 15.10 (signal close 14.90, EMA 144 14.43, momentum 7.6%)  quick 17.36 till 11:45, target 25.67, stop below EMA 55"}
+{"id": 1700, "ts": "2026-10-05 11:15:46", "at": "11:15:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1701, "ts": "2026-10-05 11:15:55", "at": "11:15:55", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1702, "ts": "2026-10-05 11:17:26", "at": "11:17:26", "kind": "warm", "msg": "bar history loaded for all 754 contracts"}
+{"id": 1703, "ts": "2026-10-05 11:17:54", "at": "11:17:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

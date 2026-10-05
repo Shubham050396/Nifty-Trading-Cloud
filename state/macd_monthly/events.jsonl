@@ -524,3 +524,9 @@
 {"id": 524, "ts": "2026-10-05 11:09:56", "at": "11:09:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 525, "ts": "2026-10-05 11:13:17", "at": "11:13:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 10.1 s"}
 {"id": 526, "ts": "2026-10-05 11:13:27", "at": "11:13:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 527, "ts": "2026-10-05 11:15:27", "at": "11:15:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 528, "ts": "2026-10-05 11:15:58", "at": "11:15:58", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 529, "ts": "2026-10-05 11:16:28", "at": "11:16:28", "kind": "signal", "msg": "2026-12-29 24000 CE MACD crossed DOWN (bar close 160.00, hist +0.03 -> -0.00)"}
+{"id": 530, "ts": "2026-10-05 11:16:28", "at": "11:16:28", "kind": "entry", "msg": "SELL SHORT 2026-12-29 24000 CE @ 158.25  (bar close 160.00, MACD hist -0.00, VIX 14.46)"}
+{"id": 531, "ts": "2026-10-05 11:17:22", "at": "11:17:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 532, "ts": "2026-10-05 11:17:53", "at": "11:17:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
