@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-05 14:15:17",
+  "saved_at": "2026-10-05 14:23:43",
   "cfg": {
     "expiries": [
       "2026-10-27",
@@ -51,8 +51,8 @@
         "entry_macd": -0.248,
         "entry_hist": 0.814,
         "vix": 14.46,
-        "mark": 760.4,
-        "pnl": 208.0,
+        "mark": 769.0,
+        "pnl": 767.0,
         "status": "OPEN"
       }
     },
@@ -79,8 +79,8 @@
         "entry_macd": -1.084,
         "entry_hist": -1.043,
         "vix": 14.46,
-        "mark": 1356.65,
-        "pnl": -91.0,
+        "mark": 1347.55,
+        "pnl": 500.5,
         "status": "OPEN"
       }
     },
@@ -107,8 +107,8 @@
         "entry_macd": -1.158,
         "entry_hist": -0.376,
         "vix": 14.46,
-        "mark": 505.85,
-        "pnl": -117.0,
+        "mark": 501.8,
+        "pnl": 146.25,
         "status": "OPEN"
       }
     },
@@ -135,8 +135,8 @@
         "entry_macd": -1.206,
         "entry_hist": 0.293,
         "vix": 14.46,
-        "mark": 928.45,
-        "pnl": 2356.25,
+        "mark": 938.05,
+        "pnl": 2980.25,
         "status": "OPEN"
       }
     },
@@ -163,8 +163,8 @@
         "entry_macd": 0.727,
         "entry_hist": -0.071,
         "vix": 14.46,
-        "mark": 201.5,
-        "pnl": -162.5,
+        "mark": 199.9,
+        "pnl": -58.5,
         "status": "OPEN"
       }
     },
@@ -191,8 +191,8 @@
         "entry_macd": 1.449,
         "entry_hist": -0.033,
         "vix": 14.46,
-        "mark": 577.1,
-        "pnl": -572.0,
+        "mark": 572.6,
+        "pnl": -279.5,
         "status": "OPEN"
       }
     },
@@ -219,8 +219,8 @@
         "entry_macd": -2.306,
         "entry_hist": 0.058,
         "vix": 14.46,
-        "mark": 485.45,
-        "pnl": 783.25,
+        "mark": 493.0,
+        "pnl": 1274.0,
         "status": "OPEN"
       }
     },
@@ -247,8 +247,8 @@
         "entry_macd": -0.9,
         "entry_hist": 0.127,
         "vix": 14.46,
-        "mark": 163.5,
-        "pnl": 42.25,
+        "mark": 166.8,
+        "pnl": 256.75,
         "status": "OPEN"
       }
     },
@@ -275,8 +275,8 @@
         "entry_macd": 1.411,
         "entry_hist": -0.027,
         "vix": 14.46,
-        "mark": 262.95,
-        "pnl": -22.75,
+        "mark": 262.3,
+        "pnl": 19.5,
         "status": "OPEN"
       }
     },
@@ -303,8 +303,8 @@
         "entry_macd": 1.556,
         "entry_hist": -0.903,
         "vix": 14.46,
-        "mark": 1169.45,
-        "pnl": -2028.0,
+        "mark": 1161.15,
+        "pnl": -1488.5,
         "status": "OPEN"
       }
     }
