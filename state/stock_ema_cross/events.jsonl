@@ -1724,3 +1724,14 @@
 {"id": 1724, "ts": "2026-10-05 11:25:45", "at": "11:25:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1725, "ts": "2026-10-05 11:27:14", "at": "11:27:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1726, "ts": "2026-10-05 11:28:49", "at": "11:28:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1727, "ts": "2026-10-05 11:29:25", "at": "11:29:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1728, "ts": "2026-10-05 11:29:34", "at": "11:29:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1729, "ts": "2026-10-05 11:30:10", "at": "11:30:10", "kind": "signal", "msg": "KOTAKBANK 415 CE 27 Oct crossed EMA 144 at 11.60 - not taken: momentum -3.7%"}
+{"id": 1730, "ts": "2026-10-05 11:30:10", "at": "11:30:10", "kind": "signal", "msg": "KOTAKBANK 420 CE 27 Oct crossed EMA 144 at 8.95 - not taken: momentum -4.3%"}
+{"id": 1731, "ts": "2026-10-05 11:30:10", "at": "11:30:10", "kind": "signal", "msg": "WIPRO 160 CE 27 Oct crossed EMA 144 at 7.11 - not taken: momentum -1.8%"}
+{"id": 1732, "ts": "2026-10-05 11:30:10", "at": "11:30:10", "kind": "signal", "msg": "DLF 680 CE 27 Oct crossed EMA 144 at 15.90 - not taken: momentum 2.9%"}
+{"id": 1733, "ts": "2026-10-05 11:30:10", "at": "11:30:10", "kind": "signal", "msg": "KOTAKBANK 410 CE 27 Oct crossed EMA 144 at 14.45 - not taken: momentum -4.9%"}
+{"id": 1734, "ts": "2026-10-05 11:30:26", "at": "11:30:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1735, "ts": "2026-10-05 11:31:26", "at": "11:31:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1736, "ts": "2026-10-05 11:32:26", "at": "11:32:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1737, "ts": "2026-10-05 11:33:26", "at": "11:33:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
