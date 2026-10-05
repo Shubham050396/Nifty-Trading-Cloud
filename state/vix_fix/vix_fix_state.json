@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-05 12:25:12",
+  "saved_at": "2026-10-05 12:30:26",
   "cfg": {
     "expiries": [
       "2026-10-27"
@@ -60,8 +60,8 @@
         ],
         "entry_wvf": 10.394,
         "vix": null,
-        "mark": 15.7,
-        "pnl": -35.75,
+        "mark": 15.85,
+        "pnl": -26.0,
         "status": "OPEN",
         "target": 24.38
       }
@@ -108,8 +108,8 @@
         ],
         "entry_wvf": 10.119,
         "vix": null,
-        "mark": 4.7,
-        "pnl": -13.0,
+        "mark": 4.65,
+        "pnl": -19.5,
         "status": "OPEN",
         "target": 7.2
       }
@@ -147,8 +147,8 @@
         ],
         "entry_wvf": 10.121,
         "vix": null,
-        "mark": 697.15,
-        "pnl": -3685.5,
+        "mark": 707.65,
+        "pnl": -3003.0,
         "status": "OPEN",
         "target": 1130.78
       }
@@ -186,14 +186,92 @@
         ],
         "entry_wvf": 10.943,
         "vix": null,
-        "mark": 135.2,
-        "pnl": -1150.5,
+        "mark": 137.85,
+        "pnl": -978.25,
         "status": "OPEN",
         "target": 229.35
+      }
+    },
+    "2026-10-27|PE|21000": {
+      "expiry": "2026-10-27",
+      "opt_type": "PE",
+      "strike": 21000.0,
+      "sid": "51261",
+      "position": {
+        "id": "2026-10-27-PE-21000-1791183626098",
+        "lane": "2026-10-27|PE|21000",
+        "contract": "2026-10-27 21000 PE",
+        "dir": "LONG",
+        "opened": "2026-10-05 12:30:26",
+        "opened_ts": 1791183626.09864,
+        "expiry": "2026-10-27",
+        "opt_type": "PE",
+        "strike": 21000.0,
+        "entry": 31.4,
+        "qty": 65,
+        "lot": 65,
+        "lots": 1,
+        "cost": 2041.0,
+        "adds": [
+          {
+            "at": "2026-10-05 12:30:26",
+            "at_ts": 1791183626.09864,
+            "price": 31.4,
+            "qty": 65,
+            "cost": 2041.0,
+            "wvf": 10.464,
+            "signal_close": 31.15
+          }
+        ],
+        "entry_wvf": 10.464,
+        "vix": 14.46,
+        "mark": 31.4,
+        "pnl": 0.0,
+        "status": "OPEN",
+        "target": 47.1
+      }
+    },
+    "2026-10-27|PE|22000": {
+      "expiry": "2026-10-27",
+      "opt_type": "PE",
+      "strike": 22000.0,
+      "sid": "51309",
+      "position": {
+        "id": "2026-10-27-PE-22000-1791183626101",
+        "lane": "2026-10-27|PE|22000",
+        "contract": "2026-10-27 22000 PE",
+        "dir": "LONG",
+        "opened": "2026-10-05 12:30:26",
+        "opened_ts": 1791183626.1019156,
+        "expiry": "2026-10-27",
+        "opt_type": "PE",
+        "strike": 22000.0,
+        "entry": 133.2,
+        "qty": 65,
+        "lot": 65,
+        "lots": 1,
+        "cost": 8658.0,
+        "adds": [
+          {
+            "at": "2026-10-05 12:30:26",
+            "at_ts": 1791183626.1019156,
+            "price": 133.2,
+            "qty": 65,
+            "cost": 8658.0,
+            "wvf": 11.506,
+            "signal_close": 132.6
+          }
+        ],
+        "entry_wvf": 11.506,
+        "vix": 14.46,
+        "mark": 133.2,
+        "pnl": 0.0,
+        "status": "OPEN",
+        "target": 199.8
       }
     }
   },
   "unflushed_trades": [],
-  "trades_today": 5,
+  "trades_today": 7,
   "day": "2026-10-05"
 }

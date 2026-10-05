@@ -1845,3 +1845,15 @@
 {"id": 1845, "ts": "2026-10-05 12:27:41", "at": "12:27:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1846, "ts": "2026-10-05 12:28:43", "at": "12:28:43", "kind": "warm", "msg": "bar history loaded for all 774 contracts"}
 {"id": 1847, "ts": "2026-10-05 12:29:16", "at": "12:29:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1848, "ts": "2026-10-05 12:29:52", "at": "12:29:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1849, "ts": "2026-10-05 12:30:10", "at": "12:30:10", "kind": "signal", "msg": "TCS 2140 PE 27 Oct crossed EMA 144 at 93.50 - not taken: under EMA 55, momentum 0.9%"}
+{"id": 1850, "ts": "2026-10-05 12:30:10", "at": "12:30:10", "kind": "exit", "msg": "SELL ADANIGREEN 1300 PE 27 Oct EMA_STOP @ 55.35  -1.1%  P&L Rs -360.00"}
+{"id": 1851, "ts": "2026-10-05 12:30:10", "at": "12:30:10", "kind": "exit", "msg": "SELL INDHOTEL 720 PE 27 Oct EMA_STOP @ 13.60  -9.9%  P&L Rs -1500.00"}
+{"id": 1852, "ts": "2026-10-05 12:30:19", "at": "12:30:19", "kind": "skip", "msg": "COALINDIA 420 PE 27 Oct signal at 7.05 skipped - already 1 open on COALINDIA"}
+{"id": 1853, "ts": "2026-10-05 12:30:19", "at": "12:30:19", "kind": "entry", "msg": "BUY VBL 440 CE 27 Oct x1275 @ 9.80 (signal close 9.80, EMA 144 9.64, momentum 3.7%)  quick 11.27 till 13:00, target 16.66, stop below EMA 55"}
+{"id": 1854, "ts": "2026-10-05 12:31:06", "at": "12:31:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1855, "ts": "2026-10-05 12:31:16", "at": "12:31:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1856, "ts": "2026-10-05 12:31:34", "at": "12:31:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1857, "ts": "2026-10-05 12:32:34", "at": "12:32:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1858, "ts": "2026-10-05 12:33:01", "at": "12:33:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1859, "ts": "2026-10-05 12:33:20", "at": "12:33:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

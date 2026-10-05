@@ -245,3 +245,15 @@
 {"id": 245, "ts": "2026-10-05 12:27:27", "at": "12:27:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 246, "ts": "2026-10-05 12:27:43", "at": "12:27:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 247, "ts": "2026-10-05 12:28:41", "at": "12:28:41", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 248, "ts": "2026-10-05 12:29:40", "at": "12:29:40", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 249, "ts": "2026-10-05 12:30:10", "at": "12:30:10", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 250, "ts": "2026-10-05 12:30:26", "at": "12:30:26", "kind": "signal", "msg": "2026-10-27 21000 PE VIX Fix crossed above 10.00 (8.24 -> 10.46, bar close 31.15)"}
+{"id": 251, "ts": "2026-10-05 12:30:26", "at": "12:30:26", "kind": "entry", "msg": "BUY 2026-10-27 21000 PE @ 31.40 x 65  (Rs 2,041) - buy 1 of 10, average 31.40, target 47.10"}
+{"id": 252, "ts": "2026-10-05 12:30:26", "at": "12:30:26", "kind": "signal", "msg": "2026-10-27 22000 PE VIX Fix crossed above 10.00 (8.80 -> 11.51, bar close 132.60)"}
+{"id": 253, "ts": "2026-10-05 12:30:26", "at": "12:30:26", "kind": "entry", "msg": "BUY 2026-10-27 22000 PE @ 133.20 x 65  (Rs 8,658) - buy 1 of 10, average 133.20, target 199.80"}
+{"id": 254, "ts": "2026-10-05 12:30:40", "at": "12:30:40", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 255, "ts": "2026-10-05 12:30:56", "at": "12:30:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 256, "ts": "2026-10-05 12:32:33", "at": "12:32:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 257, "ts": "2026-10-05 12:33:17", "at": "12:33:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 258, "ts": "2026-10-05 12:33:33", "at": "12:33:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 259, "ts": "2026-10-05 12:33:48", "at": "12:33:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
