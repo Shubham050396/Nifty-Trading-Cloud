@@ -1944,3 +1944,30 @@
 {"id": 1944, "ts": "2026-10-05 13:43:54", "at": "13:43:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 1945, "ts": "2026-10-05 13:43:58", "at": "13:43:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
 {"id": 1946, "ts": "2026-10-05 13:44:47", "at": "13:44:47", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1947, "ts": "2026-10-05 13:44:51", "at": "13:44:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 1948, "ts": "2026-10-05 13:44:56", "at": "13:44:56", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.5 s"}
+{"id": 1949, "ts": "2026-10-05 13:45:03", "at": "13:45:03", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 1950, "ts": "2026-10-05 13:45:04", "at": "13:45:04", "kind": "exit", "msg": "SELL COALINDIA 425 PE 27 Oct EMA_STOP @ 7.85  -9.2%  P&L Rs -1080.00"}
+{"id": 1951, "ts": "2026-10-05 13:45:04", "at": "13:45:04", "kind": "signal", "msg": "INDIGO 4900 CE 27 Oct crossed EMA 144 at 181.60 - not taken: momentum 3.1%"}
+{"id": 1952, "ts": "2026-10-05 13:45:04", "at": "13:45:04", "kind": "signal", "msg": "WIPRO 160 CE 27 Oct crossed EMA 144 at 7.13 - not taken: momentum 2.1%"}
+{"id": 1953, "ts": "2026-10-05 13:45:07", "at": "13:45:07", "kind": "entry", "msg": "BUY COALINDIA 425 CE 27 Oct x1350 @ 10.00 (signal close 10.00, EMA 144 9.82, momentum 14.9%)  quick 11.50 till 14:15, target 17.00, stop below EMA 55"}
+{"id": 1954, "ts": "2026-10-05 13:45:07", "at": "13:45:07", "kind": "skip", "msg": "COALINDIA 430 CE 27 Oct signal at 7.55 skipped - already 1 open on COALINDIA"}
+{"id": 1955, "ts": "2026-10-05 13:45:07", "at": "13:45:07", "kind": "skip", "msg": "COALINDIA 420 CE 27 Oct signal at 12.85 skipped - already 1 open on COALINDIA"}
+{"id": 1956, "ts": "2026-10-05 13:45:13", "at": "13:45:13", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 1957, "ts": "2026-10-05 13:45:18", "at": "13:45:18", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 1958, "ts": "2026-10-05 13:45:32", "at": "13:45:32", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 1959, "ts": "2026-10-05 13:45:41", "at": "13:45:41", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 1960, "ts": "2026-10-05 13:45:46", "at": "13:45:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1961, "ts": "2026-10-05 13:45:50", "at": "13:45:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 1962, "ts": "2026-10-05 13:46:04", "at": "13:46:04", "kind": "warm", "msg": "bar history loaded for all 784 contracts"}
+{"id": 1963, "ts": "2026-10-05 13:46:59", "at": "13:46:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1964, "ts": "2026-10-05 13:47:03", "at": "13:47:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 1965, "ts": "2026-10-05 13:47:46", "at": "13:47:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1966, "ts": "2026-10-05 13:48:35", "at": "13:48:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1967, "ts": "2026-10-05 13:48:44", "at": "13:48:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1968, "ts": "2026-10-05 13:48:48", "at": "13:48:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 1969, "ts": "2026-10-05 13:48:59", "at": "13:48:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1970, "ts": "2026-10-05 13:49:08", "at": "13:49:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1971, "ts": "2026-10-05 13:49:16", "at": "13:49:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1972, "ts": "2026-10-05 13:49:24", "at": "13:49:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1973, "ts": "2026-10-05 13:49:32", "at": "13:49:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}

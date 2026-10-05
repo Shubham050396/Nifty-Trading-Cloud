@@ -785,3 +785,22 @@
 {"id": 785, "ts": "2026-10-05 13:43:39", "at": "13:43:39", "kind": "api", "msg": "rate limited by Dhan - now one call every 7.1 s"}
 {"id": 786, "ts": "2026-10-05 13:44:20", "at": "13:44:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 787, "ts": "2026-10-05 13:44:46", "at": "13:44:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 788, "ts": "2026-10-05 13:45:00", "at": "13:45:00", "kind": "signal", "msg": "2026-11-23 24000 PE MACD crossed DOWN (bar close 1284.05, hist +0.21 -> -2.00)"}
+{"id": 789, "ts": "2026-10-05 13:45:00", "at": "13:45:00", "kind": "skip", "msg": "short 2026-11-23 24000 PE ignored - open-position cap"}
+{"id": 790, "ts": "2026-10-05 13:45:04", "at": "13:45:04", "kind": "signal", "msg": "2026-12-29 21000 CE MACD crossed UP (bar close 1970.00, hist -0.60 -> +1.67)"}
+{"id": 791, "ts": "2026-10-05 13:45:04", "at": "13:45:04", "kind": "skip", "msg": "buy 2026-12-29 21000 CE ignored - premium 1970.00 is outside 144 - 1600"}
+{"id": 792, "ts": "2026-10-05 13:45:04", "at": "13:45:04", "kind": "signal", "msg": "2026-12-29 21000 PE MACD crossed DOWN (bar close 112.95, hist +0.05 -> -0.25)"}
+{"id": 793, "ts": "2026-10-05 13:45:04", "at": "13:45:04", "kind": "skip", "msg": "short 2026-12-29 21000 PE ignored - premium 112.95 is outside 144 - 1600"}
+{"id": 794, "ts": "2026-10-05 13:45:08", "at": "13:45:08", "kind": "signal", "msg": "2027-03-30 21000 PE MACD crossed DOWN (bar close 199.90, hist +0.39 -> -0.06)"}
+{"id": 795, "ts": "2026-10-05 13:45:08", "at": "13:45:08", "kind": "exit", "msg": "LONG 2027-03-30 21000 PE MACD_DOWN @ 197.55  P&L Rs -536.25"}
+{"id": 796, "ts": "2026-10-05 13:45:08", "at": "13:45:08", "kind": "signal", "msg": "2027-03-30 24000 PE MACD crossed DOWN (bar close 1145.40, hist +0.75 -> -0.90)"}
+{"id": 797, "ts": "2026-10-05 13:45:08", "at": "13:45:08", "kind": "entry", "msg": "SELL SHORT 2027-03-30 24000 PE @ 1138.25  (bar close 1145.40, MACD hist -0.90, VIX 14.46)"}
+{"id": 798, "ts": "2026-10-05 13:45:24", "at": "13:45:24", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 799, "ts": "2026-10-05 13:46:10", "at": "13:46:10", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 800, "ts": "2026-10-05 13:47:09", "at": "13:47:09", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 801, "ts": "2026-10-05 13:47:28", "at": "13:47:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 802, "ts": "2026-10-05 13:47:38", "at": "13:47:38", "kind": "api", "msg": "rate limited by Dhan - now one call every 6.1 s"}
+{"id": 803, "ts": "2026-10-05 13:47:50", "at": "13:47:50", "kind": "api", "msg": "rate limited by Dhan - now one call every 8.1 s"}
+{"id": 804, "ts": "2026-10-05 13:48:20", "at": "13:48:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 10.1 s"}
+{"id": 805, "ts": "2026-10-05 13:49:07", "at": "13:49:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 13.1 s"}
+{"id": 806, "ts": "2026-10-05 13:49:46", "at": "13:49:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

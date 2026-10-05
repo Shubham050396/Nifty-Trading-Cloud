@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-05 13:40:46",
+  "saved_at": "2026-10-05 13:45:08",
   "cfg": {
     "expiries": [
       "2026-10-27",
@@ -51,8 +51,8 @@
         "entry_macd": -0.248,
         "entry_hist": 0.814,
         "vix": 14.46,
-        "mark": 772.8,
-        "pnl": 1014.0,
+        "mark": 781.7,
+        "pnl": 1592.5,
         "status": "OPEN"
       }
     },
@@ -79,8 +79,8 @@
         "entry_macd": -1.084,
         "entry_hist": -1.043,
         "vix": 14.46,
-        "mark": 1335.3,
-        "pnl": 1296.75,
+        "mark": 1327.1,
+        "pnl": 1829.75,
         "status": "OPEN"
       }
     },
@@ -107,8 +107,8 @@
         "entry_macd": -1.158,
         "entry_hist": -0.376,
         "vix": 14.46,
-        "mark": 486.8,
-        "pnl": 1121.25,
+        "mark": 480.1,
+        "pnl": 1556.75,
         "status": "OPEN"
       }
     },
@@ -135,8 +135,8 @@
         "entry_macd": -1.206,
         "entry_hist": 0.293,
         "vix": 14.46,
-        "mark": 945.55,
-        "pnl": 3467.75,
+        "mark": 954.5,
+        "pnl": 4049.5,
         "status": "OPEN"
       }
     },
@@ -163,8 +163,8 @@
         "entry_macd": 0.727,
         "entry_hist": -0.071,
         "vix": 14.46,
-        "mark": 193.4,
-        "pnl": 364.0,
+        "mark": 190.7,
+        "pnl": 539.5,
         "status": "OPEN"
       }
     },
@@ -191,8 +191,8 @@
         "entry_macd": 1.449,
         "entry_hist": -0.033,
         "vix": 14.46,
-        "mark": 558.8,
-        "pnl": 617.5,
+        "mark": 551.35,
+        "pnl": 1101.75,
         "status": "OPEN"
       }
     },
@@ -219,8 +219,8 @@
         "entry_macd": -2.306,
         "entry_hist": 0.058,
         "vix": 14.46,
-        "mark": 497.0,
-        "pnl": 1534.0,
+        "mark": 500.2,
+        "pnl": 1742.0,
         "status": "OPEN"
       }
     },
@@ -247,8 +247,8 @@
         "entry_macd": -0.9,
         "entry_hist": 0.127,
         "vix": 14.46,
-        "mark": 165.1,
-        "pnl": 146.25,
+        "mark": 168.65,
+        "pnl": 377.0,
         "status": "OPEN"
       }
     },
@@ -275,41 +275,41 @@
         "entry_macd": 1.411,
         "entry_hist": -0.027,
         "vix": 14.46,
-        "mark": 255.55,
-        "pnl": 458.25,
+        "mark": 252.45,
+        "pnl": 659.75,
         "status": "OPEN"
       }
     },
-    "2027-03-30|PE|21000": {
+    "2027-03-30|PE|24000": {
       "expiry": "2027-03-30",
       "opt_type": "PE",
-      "strike": 21000.0,
-      "sid": "80269",
+      "strike": 24000.0,
+      "sid": "80273",
       "position": {
-        "id": "2027-03-30-PE-21000-LONG-1791180734439",
-        "lane": "2027-03-30|PE|21000",
-        "contract": "2027-03-30 21000 PE",
-        "dir": "LONG",
-        "opened": "2026-10-05 11:42:14",
-        "opened_ts": 1791180734.4390347,
+        "id": "2027-03-30-PE-24000-SHORT-1791188108158",
+        "lane": "2027-03-30|PE|24000",
+        "contract": "2027-03-30 24000 PE",
+        "dir": "SHORT",
+        "opened": "2026-10-05 13:45:08",
+        "opened_ts": 1791188108.1583233,
         "expiry": "2027-03-30",
         "opt_type": "PE",
-        "strike": 21000.0,
-        "entry": 205.8,
+        "strike": 24000.0,
+        "entry": 1138.25,
         "qty": 65,
         "lot": 65,
         "lots": 1,
-        "signal_close": 207.0,
-        "entry_macd": -0.825,
-        "entry_hist": 0.071,
+        "signal_close": 1145.4,
+        "entry_macd": 1.556,
+        "entry_hist": -0.903,
         "vix": 14.46,
-        "mark": 198.7,
-        "pnl": -461.5,
+        "mark": 1138.25,
+        "pnl": 0.0,
         "status": "OPEN"
       }
     }
   },
   "unflushed_trades": [],
-  "trades_today": 21,
+  "trades_today": 22,
   "day": "2026-10-05"
 }
