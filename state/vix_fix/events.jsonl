@@ -29,3 +29,16 @@
 {"id": 29, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
 {"id": 30, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "vix", "msg": "India VIX unavailable (Too many requests on server from single user breaching rate limits. Try throttling API calls.)"}
 {"id": 31, "ts": "2026-10-05 09:37:59", "at": "09:37:59", "kind": "api", "msg": "rate limited by Dhan - now one call every 7.1 s"}
+{"id": 32, "ts": "2026-10-05 09:38:06", "at": "09:38:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 11.1 s"}
+{"id": 33, "ts": "2026-10-05 09:38:18", "at": "09:38:18", "kind": "contract", "msg": "2026-10-27: watching ATM 23000 +/- 3 strikes of 1000 (CE/PE)"}
+{"id": 34, "ts": "2026-10-05 09:38:18", "at": "09:38:18", "kind": "history", "msg": "2026-10-27 23000 CE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the VIX Fix needs 25 of them. Retried every 10 min."}
+{"id": 35, "ts": "2026-10-05 09:38:26", "at": "09:38:26", "kind": "history", "msg": "2026-10-27 21000 CE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the VIX Fix needs 25 of them. Retried every 10 min."}
+{"id": 36, "ts": "2026-10-05 09:38:29", "at": "09:38:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 37, "ts": "2026-10-05 09:38:44", "at": "09:38:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 38, "ts": "2026-10-05 09:39:14", "at": "09:39:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 39, "ts": "2026-10-05 09:39:30", "at": "09:39:30", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 40, "ts": "2026-10-05 09:39:45", "at": "09:39:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 41, "ts": "2026-10-05 09:40:00", "at": "09:40:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 42, "ts": "2026-10-05 09:40:16", "at": "09:40:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 43, "ts": "2026-10-05 09:40:31", "at": "09:40:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 44, "ts": "2026-10-05 09:42:09", "at": "09:42:09", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

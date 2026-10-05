@@ -1738,3 +1738,16 @@
 {"id": 1738, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "boot", "msg": "ready - 18 expiries, 4120 contracts in the scrip master"}
 {"id": 1739, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "vix", "msg": "India VIX unavailable (Too many requests on server from single user breaching rate limits. Try throttling API calls.) - using the widest target -> target 1400 ticks (Rs 70.00)"}
 {"id": 1740, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "contract", "msg": "2026-10-13: watching ATM 22600 +/- 10 strikes (CE/PE)"}
+{"id": 1741, "ts": "2026-10-05 09:38:01", "at": "09:38:01", "kind": "contract", "msg": "2026-10-19: watching ATM 22600 +/- 10 strikes (CE/PE)"}
+{"id": 1742, "ts": "2026-10-05 09:38:04", "at": "09:38:04", "kind": "contract", "msg": "2026-10-27: watching ATM 22600 +/- 10 strikes (CE/PE)"}
+{"id": 1743, "ts": "2026-10-05 09:38:07", "at": "09:38:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 1744, "ts": "2026-10-05 09:38:26", "at": "09:38:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 1745, "ts": "2026-10-05 09:38:36", "at": "09:38:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 6.1 s"}
+{"id": 1746, "ts": "2026-10-05 09:38:42", "at": "09:38:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1747, "ts": "2026-10-05 09:39:17", "at": "09:39:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 12.1 s"}
+{"id": 1748, "ts": "2026-10-05 09:39:29", "at": "09:39:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1749, "ts": "2026-10-05 09:40:14", "at": "09:40:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1750, "ts": "2026-10-05 09:40:29", "at": "09:40:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1751, "ts": "2026-10-05 09:41:14", "at": "09:41:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1752, "ts": "2026-10-05 09:41:29", "at": "09:41:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1753, "ts": "2026-10-05 09:42:28", "at": "09:42:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
