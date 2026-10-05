@@ -433,3 +433,10 @@
 {"id": 433, "ts": "2026-10-05 15:03:53", "at": "15:03:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 434, "ts": "2026-10-05 15:05:05", "at": "15:05:05", "kind": "signal", "msg": "2026-10-27 23000 CE VIX Fix crossed above 10.00 (9.62 -> 10.92, bar close 145.10)"}
 {"id": 435, "ts": "2026-10-05 15:05:05", "at": "15:05:05", "kind": "entry", "msg": "BUY 2026-10-27 23000 CE @ 145.40 x 65  (Rs 9,451) - buy 2 of 10, average 149.15, target 223.73"}
+{"id": 436, "ts": "2026-10-05 15:05:54", "at": "15:05:54", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 437, "ts": "2026-10-05 15:06:38", "at": "15:06:38", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 438, "ts": "2026-10-05 15:07:23", "at": "15:07:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 439, "ts": "2026-10-05 15:09:12", "at": "15:09:12", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 440, "ts": "2026-10-05 15:09:27", "at": "15:09:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 441, "ts": "2026-10-05 15:09:58", "at": "15:09:58", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 442, "ts": "2026-10-05 15:10:13", "at": "15:10:13", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
