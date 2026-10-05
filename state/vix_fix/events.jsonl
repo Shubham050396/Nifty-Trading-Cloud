@@ -105,3 +105,13 @@
 {"id": 105, "ts": "2026-10-05 10:31:05", "at": "10:31:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 106, "ts": "2026-10-05 10:32:04", "at": "10:32:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 107, "ts": "2026-10-05 10:33:02", "at": "10:33:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 108, "ts": "2026-10-05 10:33:32", "at": "10:33:32", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 109, "ts": "2026-10-05 10:33:48", "at": "10:33:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 110, "ts": "2026-10-05 10:34:03", "at": "10:34:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 111, "ts": "2026-10-05 10:35:02", "at": "10:35:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 112, "ts": "2026-10-05 10:35:17", "at": "10:35:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 113, "ts": "2026-10-05 10:35:32", "at": "10:35:32", "kind": "signal", "msg": "2026-10-27 22000 CE VIX Fix crossed above 10.00 (9.61 -> 10.12, bar close 762.15)"}
+{"id": 114, "ts": "2026-10-05 10:35:32", "at": "10:35:32", "kind": "entry", "msg": "BUY 2026-10-27 22000 CE @ 753.85 x 65  (Rs 49,000) - buy 1 of 10, average 753.85, target 1130.78"}
+{"id": 115, "ts": "2026-10-05 10:37:18", "at": "10:37:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 116, "ts": "2026-10-05 10:37:48", "at": "10:37:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 117, "ts": "2026-10-05 10:38:06", "at": "10:38:06", "kind": "vix", "msg": "India VIX prev close 14.46"}

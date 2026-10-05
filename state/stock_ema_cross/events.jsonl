@@ -1614,3 +1614,13 @@
 {"id": 1614, "ts": "2026-10-05 10:32:13", "at": "10:32:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 6.0 s"}
 {"id": 1615, "ts": "2026-10-05 10:32:34", "at": "10:32:34", "kind": "warm", "msg": "bar history loaded for all 736 contracts"}
 {"id": 1616, "ts": "2026-10-05 10:33:12", "at": "10:33:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.5 s"}
+{"id": 1617, "ts": "2026-10-05 10:33:59", "at": "10:33:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.5 s"}
+{"id": 1618, "ts": "2026-10-05 10:34:30", "at": "10:34:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 7.5 s"}
+{"id": 1619, "ts": "2026-10-05 10:35:13", "at": "10:35:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1620, "ts": "2026-10-05 10:35:13", "at": "10:35:13", "kind": "signal", "msg": "TCS 2140 CE 27 Oct crossed EMA 144 at 61.10 - not taken: momentum -2.6%"}
+{"id": 1621, "ts": "2026-10-05 10:35:13", "at": "10:35:13", "kind": "signal", "msg": "WIPRO 165 CE 27 Oct crossed EMA 144 at 4.66 - not taken: momentum -7.5%, premium under Rs 5"}
+{"id": 1622, "ts": "2026-10-05 10:35:13", "at": "10:35:13", "kind": "exit", "msg": "SELL SBILIFE 1700 PE 27 Oct EMA_STOP @ 31.30  -5.3%  P&L Rs -656.25"}
+{"id": 1623, "ts": "2026-10-05 10:35:40", "at": "10:35:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1624, "ts": "2026-10-05 10:36:07", "at": "10:36:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1625, "ts": "2026-10-05 10:37:49", "at": "10:37:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1626, "ts": "2026-10-05 10:38:01", "at": "10:38:01", "kind": "warm", "msg": "bar history loaded for all 736 contracts"}

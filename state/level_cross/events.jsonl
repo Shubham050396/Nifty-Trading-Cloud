@@ -2133,3 +2133,9 @@
 {"id": 2133, "ts": "2026-10-05 10:31:44", "at": "10:31:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 2134, "ts": "2026-10-05 10:32:29", "at": "10:32:29", "kind": "exit", "msg": "L3 2026-10-13 22900 PE TRAIL_STOP @ 366.90  P&L Rs 1313.00"}
 {"id": 2135, "ts": "2026-10-05 10:33:09", "at": "10:33:09", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2136, "ts": "2026-10-05 10:33:40", "at": "10:33:40", "kind": "exit", "msg": "L3 2026-10-19 22800 PE TRAIL_STOP @ 337.30  P&L Rs -1946.75"}
+{"id": 2137, "ts": "2026-10-05 10:34:08", "at": "10:34:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2138, "ts": "2026-10-05 10:35:06", "at": "10:35:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2139, "ts": "2026-10-05 10:36:05", "at": "10:36:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2140, "ts": "2026-10-05 10:37:03", "at": "10:37:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2141, "ts": "2026-10-05 10:38:02", "at": "10:38:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
