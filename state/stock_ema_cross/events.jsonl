@@ -1735,3 +1735,10 @@
 {"id": 1735, "ts": "2026-10-05 11:31:26", "at": "11:31:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1736, "ts": "2026-10-05 11:32:26", "at": "11:32:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1737, "ts": "2026-10-05 11:33:26", "at": "11:33:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1738, "ts": "2026-10-05 11:34:26", "at": "11:34:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1739, "ts": "2026-10-05 11:35:18", "at": "11:35:18", "kind": "signal", "msg": "VBL 430 CE 27 Oct crossed EMA 144 at 14.35 - not taken: momentum -6.5%"}
+{"id": 1740, "ts": "2026-10-05 11:35:26", "at": "11:35:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1741, "ts": "2026-10-05 11:35:56", "at": "11:35:56", "kind": "warm", "msg": "bar history loaded for all 756 contracts"}
+{"id": 1742, "ts": "2026-10-05 11:36:28", "at": "11:36:28", "kind": "warm", "msg": "bar history loaded for all 756 contracts"}
+{"id": 1743, "ts": "2026-10-05 11:37:08", "at": "11:37:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1744, "ts": "2026-10-05 11:37:20", "at": "11:37:20", "kind": "warm", "msg": "bar history loaded for all 758 contracts"}
