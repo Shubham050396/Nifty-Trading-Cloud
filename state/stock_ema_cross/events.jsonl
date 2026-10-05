@@ -2087,3 +2087,12 @@
 {"id": 2087, "ts": "2026-10-05 14:48:00", "at": "14:48:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2088, "ts": "2026-10-05 14:49:00", "at": "14:49:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2089, "ts": "2026-10-05 14:49:29", "at": "14:49:29", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
+{"id": 2090, "ts": "2026-10-05 14:50:21", "at": "14:50:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2091, "ts": "2026-10-05 14:50:51", "at": "14:50:51", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
+{"id": 2092, "ts": "2026-10-05 14:50:57", "at": "14:50:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2093, "ts": "2026-10-05 14:51:16", "at": "14:51:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2094, "ts": "2026-10-05 14:52:15", "at": "14:52:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2095, "ts": "2026-10-05 14:53:15", "at": "14:53:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2096, "ts": "2026-10-05 14:54:57", "at": "14:54:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2097, "ts": "2026-10-05 14:55:11", "at": "14:55:11", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
+{"id": 2098, "ts": "2026-10-05 14:55:15", "at": "14:55:15", "kind": "exit", "msg": "SELL KOTAKBANK 415 CE 27 Oct EMA_STOP @ 11.55  -0.4%  P&L Rs -100.00"}
