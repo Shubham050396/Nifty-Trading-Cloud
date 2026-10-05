@@ -444,3 +444,9 @@
 {"id": 444, "ts": "2026-10-05 15:11:56", "at": "15:11:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 445, "ts": "2026-10-05 15:13:56", "at": "15:13:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 446, "ts": "2026-10-05 15:14:27", "at": "15:14:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 447, "ts": "2026-10-05 16:18:29", "at": "16:18:29", "kind": "boot", "msg": "engine thread started"}
+{"id": 448, "ts": "2026-10-05 16:18:29", "at": "16:18:29", "kind": "boot", "msg": "VIX Fix app up (pid 2425, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/vix_fix/data)"}
+{"id": 449, "ts": "2026-10-05 16:18:31", "at": "16:18:31", "kind": "control", "msg": "started automatically on launch"}
+{"id": 450, "ts": "2026-10-05 16:18:35", "at": "16:18:35", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
+{"id": 451, "ts": "2026-10-05 16:18:35", "at": "16:18:35", "kind": "history", "msg": "2026-10-27 25000 CE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the VIX Fix needs 25 of them. Retried every 10 min."}
+{"id": 452, "ts": "2026-10-05 16:18:35", "at": "16:18:35", "kind": "vix", "msg": "India VIX prev close 14.46"}

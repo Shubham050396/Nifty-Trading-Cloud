@@ -3861,3 +3861,8 @@
 {"id": 3861, "ts": "2026-10-05 15:13:04", "at": "15:13:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 3862, "ts": "2026-10-05 15:14:02", "at": "15:14:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 3863, "ts": "2026-10-05 15:14:18", "at": "15:14:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3864, "ts": "2026-10-05 16:18:29", "at": "16:18:29", "kind": "boot", "msg": "engine thread started"}
+{"id": 3865, "ts": "2026-10-05 16:18:29", "at": "16:18:29", "kind": "boot", "msg": "level-cross app up (pid 2421, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/level_cross/data)"}
+{"id": 3866, "ts": "2026-10-05 16:18:31", "at": "16:18:31", "kind": "control", "msg": "started automatically on launch"}
+{"id": 3867, "ts": "2026-10-05 16:18:35", "at": "16:18:35", "kind": "boot", "msg": "ready - 18 expiries, 4120 contracts in the scrip master"}
+{"id": 3868, "ts": "2026-10-05 16:18:35", "at": "16:18:35", "kind": "vix", "msg": "India VIX prev close 14.46 -> target 1000 ticks (Rs 50.00)"}
