@@ -3443,3 +3443,14 @@
 {"id": 3443, "ts": "2026-10-05 14:03:20", "at": "14:03:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 3444, "ts": "2026-10-05 14:03:36", "at": "14:03:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 3445, "ts": "2026-10-05 14:04:34", "at": "14:04:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3446, "ts": "2026-10-05 14:05:19", "at": "14:05:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3447, "ts": "2026-10-05 14:06:03", "at": "14:06:03", "kind": "skip", "msg": "L3 2026-10-19 22800 PE cross ignored - daily cap"}
+{"id": 3448, "ts": "2026-10-05 14:06:17", "at": "14:06:17", "kind": "skip", "msg": "L3 2026-10-27 22700 PE cross ignored - daily cap"}
+{"id": 3449, "ts": "2026-10-05 14:06:31", "at": "14:06:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3450, "ts": "2026-10-05 14:07:15", "at": "14:07:15", "kind": "skip", "msg": "L2 2026-10-27 22400 PE cross ignored - daily cap"}
+{"id": 3451, "ts": "2026-10-05 14:07:29", "at": "14:07:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3452, "ts": "2026-10-05 14:07:44", "at": "14:07:44", "kind": "skip", "msg": "L3 2026-10-13 22800 PE cross ignored - daily cap"}
+{"id": 3453, "ts": "2026-10-05 14:08:27", "at": "14:08:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3454, "ts": "2026-10-05 14:08:43", "at": "14:08:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3455, "ts": "2026-10-05 14:09:27", "at": "14:09:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3456, "ts": "2026-10-05 14:09:43", "at": "14:09:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
