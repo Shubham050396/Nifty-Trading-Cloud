@@ -711,3 +711,7 @@
 {"id": 711, "ts": "2026-10-05 12:58:48", "at": "12:58:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 712, "ts": "2026-10-05 13:03:37", "at": "13:03:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 713, "ts": "2026-10-05 13:03:56", "at": "13:03:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 714, "ts": "2026-10-05 13:05:08", "at": "13:05:08", "kind": "signal", "msg": "2026-10-27 23000 CE MACD crossed UP (bar close 141.80, hist -0.11 -> +0.05)"}
+{"id": 715, "ts": "2026-10-05 13:05:08", "at": "13:05:08", "kind": "skip", "msg": "buy 2026-10-27 23000 CE ignored - premium 141.80 is outside 144 - 1600"}
+{"id": 716, "ts": "2026-10-05 13:06:30", "at": "13:06:30", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 717, "ts": "2026-10-05 13:08:23", "at": "13:08:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}

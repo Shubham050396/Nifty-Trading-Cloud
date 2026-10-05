@@ -1888,3 +1888,8 @@
 {"id": 1888, "ts": "2026-10-05 13:00:02", "at": "13:00:02", "kind": "signal", "msg": "INDIGO 5000 PE 27 Oct crossed EMA 144 at 175.00 - not taken: momentum -3.1%"}
 {"id": 1889, "ts": "2026-10-05 13:00:03", "at": "13:00:03", "kind": "entry", "msg": "BUY DLF 680 CE 27 Oct x950 @ 15.45 (signal close 15.60, EMA 144 15.23, momentum 7.6%)  quick 17.77 till 13:30, target 26.26, stop below EMA 55"}
 {"id": 1890, "ts": "2026-10-05 13:03:48", "at": "13:03:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1891, "ts": "2026-10-05 13:05:01", "at": "13:05:01", "kind": "signal", "msg": "TCS 2140 PE 27 Oct crossed EMA 144 at 93.80 - not taken: under EMA 55, momentum 0.1%"}
+{"id": 1892, "ts": "2026-10-05 13:05:48", "at": "13:05:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1893, "ts": "2026-10-05 13:07:39", "at": "13:07:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1894, "ts": "2026-10-05 13:07:49", "at": "13:07:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1895, "ts": "2026-10-05 13:08:49", "at": "13:08:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}

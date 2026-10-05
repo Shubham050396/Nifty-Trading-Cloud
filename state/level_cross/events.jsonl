@@ -3173,3 +3173,8 @@
 {"id": 3173, "ts": "2026-10-05 13:03:51", "at": "13:03:51", "kind": "gap", "msg": "2026-10-06 23600 PE: no prices for 6 min - bar history restarts"}
 {"id": 3174, "ts": "2026-10-05 13:03:51", "at": "13:03:51", "kind": "gap", "msg": "2026-10-06 23500 PE: no prices for 6 min - bar history restarts"}
 {"id": 3175, "ts": "2026-10-05 13:04:29", "at": "13:04:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3176, "ts": "2026-10-05 13:04:45", "at": "13:04:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3177, "ts": "2026-10-05 13:05:43", "at": "13:05:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3178, "ts": "2026-10-05 13:07:20", "at": "13:07:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3179, "ts": "2026-10-05 13:07:36", "at": "13:07:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 3180, "ts": "2026-10-05 13:08:34", "at": "13:08:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
