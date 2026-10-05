@@ -1808,3 +1808,17 @@
 {"id": 1808, "ts": "2026-10-05 12:07:50", "at": "12:07:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.0 s"}
 {"id": 1809, "ts": "2026-10-05 12:08:35", "at": "12:08:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 4.0 s"}
 {"id": 1810, "ts": "2026-10-05 12:08:54", "at": "12:08:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.0 s"}
+{"id": 1811, "ts": "2026-10-05 12:09:09", "at": "12:09:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.1 s"}
+{"id": 1812, "ts": "2026-10-05 12:10:08", "at": "12:10:08", "kind": "signal", "msg": "INFY 1020 PE 27 Oct crossed EMA 144 at 38.75 - not taken: under EMA 55"}
+{"id": 1813, "ts": "2026-10-05 12:10:08", "at": "12:10:08", "kind": "signal", "msg": "INFY 1040 PE 27 Oct crossed EMA 144 at 49.60 - not taken: under EMA 55"}
+{"id": 1814, "ts": "2026-10-05 12:10:08", "at": "12:10:08", "kind": "signal", "msg": "TCS 2120 PE 27 Oct crossed EMA 144 at 82.05 - not taken: under EMA 55"}
+{"id": 1815, "ts": "2026-10-05 12:10:08", "at": "12:10:08", "kind": "signal", "msg": "TCS 2140 PE 27 Oct crossed EMA 144 at 94.30 - not taken: under EMA 55"}
+{"id": 1816, "ts": "2026-10-05 12:10:09", "at": "12:10:09", "kind": "signal", "msg": "INFY 1000 PE 27 Oct crossed EMA 144 at 29.20 - not taken: under EMA 55"}
+{"id": 1817, "ts": "2026-10-05 12:10:09", "at": "12:10:09", "kind": "signal", "msg": "BANKBARODA 230 PE 27 Oct crossed EMA 144 at 4.59 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 1818, "ts": "2026-10-05 12:10:15", "at": "12:10:15", "kind": "skip", "msg": "COALINDIA 420 PE 27 Oct signal at 7.10 skipped - already 1 open on COALINDIA"}
+{"id": 1819, "ts": "2026-10-05 12:10:15", "at": "12:10:15", "kind": "entry", "msg": "BUY INDIGO 4900 PE 27 Oct x150 @ 129.30 (signal close 129.50, EMA 144 122.03, momentum 6.5%)  quick 148.69 till 12:40, target 219.81, stop below EMA 55"}
+{"id": 1820, "ts": "2026-10-05 12:10:27", "at": "12:10:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1821, "ts": "2026-10-05 12:10:45", "at": "12:10:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1822, "ts": "2026-10-05 12:11:03", "at": "12:11:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1823, "ts": "2026-10-05 12:12:03", "at": "12:12:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1824, "ts": "2026-10-05 12:13:03", "at": "12:13:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

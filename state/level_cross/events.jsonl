@@ -2721,3 +2721,14 @@
 {"id": 2721, "ts": "2026-10-05 12:06:42", "at": "12:06:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 2722, "ts": "2026-10-05 12:07:40", "at": "12:07:40", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 2723, "ts": "2026-10-05 12:08:25", "at": "12:08:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2724, "ts": "2026-10-05 12:09:10", "at": "12:09:10", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2725, "ts": "2026-10-05 12:09:25", "at": "12:09:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2726, "ts": "2026-10-05 12:09:40", "at": "12:09:40", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2727, "ts": "2026-10-05 12:10:25", "at": "12:10:25", "kind": "skip", "msg": "L2 2026-10-27 22300 PE cross ignored - daily cap"}
+{"id": 2728, "ts": "2026-10-05 12:10:25", "at": "12:10:25", "kind": "skip", "msg": "L3 2026-10-27 22600 PE cross ignored - daily cap"}
+{"id": 2729, "ts": "2026-10-05 12:10:39", "at": "12:10:39", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2730, "ts": "2026-10-05 12:11:37", "at": "12:11:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2731, "ts": "2026-10-05 12:12:36", "at": "12:12:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2732, "ts": "2026-10-05 12:12:51", "at": "12:12:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2733, "ts": "2026-10-05 12:13:36", "at": "12:13:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 2734, "ts": "2026-10-05 12:13:51", "at": "12:13:51", "kind": "signal", "msg": "2026-10-13 22600 PE held above 253.75 for 5 min - fall-back exit is armed"}
