@@ -2062,3 +2062,9 @@
 {"id": 2062, "ts": "2026-10-05 14:26:59", "at": "14:26:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2063, "ts": "2026-10-05 14:27:58", "at": "14:27:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2064, "ts": "2026-10-05 14:29:46", "at": "14:29:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2065, "ts": "2026-10-05 14:30:22", "at": "14:30:22", "kind": "signal", "msg": "BANKBARODA 230 PE 27 Oct crossed EMA 144 at 4.57 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2066, "ts": "2026-10-05 14:30:46", "at": "14:30:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2067, "ts": "2026-10-05 14:31:38", "at": "14:31:38", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2068, "ts": "2026-10-05 14:31:56", "at": "14:31:56", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2069, "ts": "2026-10-05 14:33:11", "at": "14:33:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2070, "ts": "2026-10-05 14:33:20", "at": "14:33:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
