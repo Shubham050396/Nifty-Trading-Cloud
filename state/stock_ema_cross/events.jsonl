@@ -1324,3 +1324,12 @@
 {"id": 1324, "ts": "2026-10-04 23:49:02", "at": "23:49:02", "kind": "api", "msg": "share prices unavailable: HTTP 429"}
 {"id": 1325, "ts": "2026-10-04 23:49:06", "at": "23:49:06", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 2.8 s"}
 {"id": 1326, "ts": "2026-10-04 23:49:38", "at": "23:49:38", "kind": "warm", "msg": "bar history loaded for all 5 contracts"}
+{"id": 1327, "ts": "2026-10-05 09:37:51", "at": "09:37:51", "kind": "boot", "msg": "engine thread started"}
+{"id": 1328, "ts": "2026-10-05 09:37:51", "at": "09:37:51", "kind": "boot", "msg": "stock-options EMA app up (pid 2452, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/stock_ema_cross/data)"}
+{"id": 1329, "ts": "2026-10-05 09:37:51", "at": "09:37:51", "kind": "day", "msg": "new day 2026-10-05 - counters reset"}
+{"id": 1330, "ts": "2026-10-05 09:37:52", "at": "09:37:52", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 1331, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "boot", "msg": "scrip master downloaded in 6s: 213 stocks with options"}
+{"id": 1332, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "boot", "msg": "99 of 100 listed stocks have options - skipped: LTIM"}
+{"id": 1333, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "control", "msg": "started automatically on launch - 99 stocks"}
+{"id": 1334, "ts": "2026-10-05 09:37:58", "at": "09:37:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 1335, "ts": "2026-10-05 09:38:00", "at": "09:38:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}

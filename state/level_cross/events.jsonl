@@ -1687,3 +1687,54 @@
 {"id": 1687, "ts": "2026-10-04 23:48:58", "at": "23:48:58", "kind": "control", "msg": "started automatically on launch"}
 {"id": 1688, "ts": "2026-10-04 23:49:01", "at": "23:49:01", "kind": "boot", "msg": "ready - 18 expiries, 4120 contracts in the scrip master"}
 {"id": 1689, "ts": "2026-10-04 23:49:01", "at": "23:49:01", "kind": "vix", "msg": "India VIX prev close 14.46 -> target 1000 ticks (Rs 50.00)"}
+{"id": 1690, "ts": "2026-10-05 09:37:51", "at": "09:37:51", "kind": "boot", "msg": "engine thread started"}
+{"id": 1691, "ts": "2026-10-05 09:37:51", "at": "09:37:51", "kind": "boot", "msg": "level-cross app up (pid 2449, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/level_cross/data)"}
+{"id": 1692, "ts": "2026-10-05 09:37:53", "at": "09:37:53", "kind": "control", "msg": "started automatically on launch"}
+{"id": 1693, "ts": "2026-10-05 09:37:53", "at": "09:37:53", "kind": "day", "msg": "new session 2026-10-05 - counters reset"}
+{"id": 1694, "ts": "2026-10-05 09:37:53", "at": "09:37:53", "kind": "vix", "msg": "India VIX unavailable (Too many requests on server from single user breaching rate limits. Try throttling API calls.) - using the widest target -> target 1400 ticks (Rs 70.00)"}
+{"id": 1695, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "contract", "msg": "2026-10-06: watching ATM 22600 +/- 10 strikes (CE/PE)"}
+{"id": 1696, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22400 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1697, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23300 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1698, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21900 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1699, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22800 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1700, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22300 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1701, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23200 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1702, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21800 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1703, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22700 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1704, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22200 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1705, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23100 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1706, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21700 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1707, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22600 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1708, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22100 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1709, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23000 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1710, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22500 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1711, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23400 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1712, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22000 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1713, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22900 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1714, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22400 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1715, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23300 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1716, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21900 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1717, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22800 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1718, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22300 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1719, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23200 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1720, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21800 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1721, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22700 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1722, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22200 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1723, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23100 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1724, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21700 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1725, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22600 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1726, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22100 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1727, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23000 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1728, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22500 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1729, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 23400 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1730, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22000 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1731, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 22900 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1732, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21600 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1733, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21600 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1734, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21500 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1735, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21500 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1736, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21400 CE: no prices for 5423 min - bar history restarts"}
+{"id": 1737, "ts": "2026-10-05 09:37:54", "at": "09:37:54", "kind": "gap", "msg": "2026-10-06 21400 PE: no prices for 5423 min - bar history restarts"}
+{"id": 1738, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "boot", "msg": "ready - 18 expiries, 4120 contracts in the scrip master"}
+{"id": 1739, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "vix", "msg": "India VIX unavailable (Too many requests on server from single user breaching rate limits. Try throttling API calls.) - using the widest target -> target 1400 ticks (Rs 70.00)"}
+{"id": 1740, "ts": "2026-10-05 09:37:57", "at": "09:37:57", "kind": "contract", "msg": "2026-10-13: watching ATM 22600 +/- 10 strikes (CE/PE)"}

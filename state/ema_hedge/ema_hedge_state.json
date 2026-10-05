@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-04 23:53:56",
+  "saved_at": "2026-10-05 09:37:53",
   "cfg": {
     "interval": 5,
     "ema_entry": 500,
@@ -26,7 +26,7 @@
   "sig": {
     "side": null
   },
-  "last_bar_t": 1790848500,
+  "last_bar_t": 1791172800,
   "signals": [
     {
       "kind": "SHORT",
@@ -104,5 +104,5 @@
   "positions": [],
   "pending": null,
   "unflushed_trades": [],
-  "day": "2026-10-04"
+  "day": "2026-10-05"
 }
