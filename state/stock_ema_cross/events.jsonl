@@ -2055,3 +2055,10 @@
 {"id": 2055, "ts": "2026-10-05 14:23:03", "at": "14:23:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2056, "ts": "2026-10-05 14:23:31", "at": "14:23:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2057, "ts": "2026-10-05 14:24:52", "at": "14:24:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2058, "ts": "2026-10-05 14:25:20", "at": "14:25:20", "kind": "skip", "msg": "COALINDIA 430 CE 27 Oct signal at 7.55 skipped - 20 trades already today"}
+{"id": 2059, "ts": "2026-10-05 14:25:46", "at": "14:25:46", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
+{"id": 2060, "ts": "2026-10-05 14:26:40", "at": "14:26:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2061, "ts": "2026-10-05 14:26:49", "at": "14:26:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2062, "ts": "2026-10-05 14:26:59", "at": "14:26:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2063, "ts": "2026-10-05 14:27:58", "at": "14:27:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2064, "ts": "2026-10-05 14:29:46", "at": "14:29:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
