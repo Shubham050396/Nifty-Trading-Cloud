@@ -693,3 +693,9 @@
 {"id": 693, "ts": "2026-10-05 12:37:47", "at": "12:37:47", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 694, "ts": "2026-10-05 12:38:02", "at": "12:38:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 695, "ts": "2026-10-05 12:38:17", "at": "12:38:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 696, "ts": "2026-10-05 12:39:44", "at": "12:39:44", "kind": "vix", "msg": "India VIX prev close 14.46 - entries allowed"}
+{"id": 697, "ts": "2026-10-05 12:40:29", "at": "12:40:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 698, "ts": "2026-10-05 12:40:44", "at": "12:40:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 699, "ts": "2026-10-05 12:40:59", "at": "12:40:59", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 700, "ts": "2026-10-05 12:41:15", "at": "12:41:15", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 701, "ts": "2026-10-05 12:44:04", "at": "12:44:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 14.1 s"}

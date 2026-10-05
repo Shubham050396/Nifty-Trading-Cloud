@@ -1863,3 +1863,10 @@
 {"id": 1863, "ts": "2026-10-05 12:37:11", "at": "12:37:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.6 s"}
 {"id": 1864, "ts": "2026-10-05 12:38:07", "at": "12:38:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 1865, "ts": "2026-10-05 12:39:07", "at": "12:39:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1866, "ts": "2026-10-05 12:40:15", "at": "12:40:15", "kind": "signal", "msg": "TCS 2120 PE 27 Oct crossed EMA 144 at 82.55 - not taken: under EMA 55, momentum 3.1%"}
+{"id": 1867, "ts": "2026-10-05 12:40:15", "at": "12:40:15", "kind": "signal", "msg": "DLF 680 CE 27 Oct crossed EMA 144 at 15.40 - not taken: momentum 1.7%"}
+{"id": 1868, "ts": "2026-10-05 12:40:43", "at": "12:40:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1869, "ts": "2026-10-05 12:40:52", "at": "12:40:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1870, "ts": "2026-10-05 12:41:01", "at": "12:41:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1871, "ts": "2026-10-05 12:42:43", "at": "12:42:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 1872, "ts": "2026-10-05 12:44:11", "at": "12:44:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
