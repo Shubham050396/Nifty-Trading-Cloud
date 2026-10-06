@@ -466,3 +466,10 @@
 {"id": 466, "ts": "2026-10-06 14:35:23", "at": "14:35:23", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
 {"id": 467, "ts": "2026-10-06 14:35:23", "at": "14:35:23", "kind": "vix", "msg": "India VIX prev close 14.78"}
 {"id": 468, "ts": "2026-10-06 14:35:25", "at": "14:35:25", "kind": "contract", "msg": "2026-10-27: watching ATM 23000 +/- 3 strikes of 1000 (CE/PE)"}
+{"id": 469, "ts": "2026-10-06 14:35:30", "at": "14:35:30", "kind": "api", "msg": "rate limited by Dhan - now one call every 6.1 s"}
+{"id": 470, "ts": "2026-10-06 14:35:36", "at": "14:35:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 9.1 s"}
+{"id": 471, "ts": "2026-10-06 14:36:11", "at": "14:36:11", "kind": "api", "msg": "rate limited by Dhan - now one call every 12.1 s"}
+{"id": 472, "ts": "2026-10-06 14:36:23", "at": "14:36:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 473, "ts": "2026-10-06 14:37:07", "at": "14:37:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 474, "ts": "2026-10-06 14:39:07", "at": "14:39:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 475, "ts": "2026-10-06 14:40:05", "at": "14:40:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

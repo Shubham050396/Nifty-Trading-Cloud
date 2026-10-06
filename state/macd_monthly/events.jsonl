@@ -923,3 +923,19 @@
 {"id": 923, "ts": "2026-10-06 14:35:25", "at": "14:35:25", "kind": "contract", "msg": "2026-11-23: watching ATM 23000 +/- 1 strikes of 1000 (CE/PE)"}
 {"id": 924, "ts": "2026-10-06 14:35:25", "at": "14:35:25", "kind": "signal", "msg": "2026-11-23 22000 PE: MACD crossed UP while prices were not being watched"}
 {"id": 925, "ts": "2026-10-06 14:35:25", "at": "14:35:25", "kind": "exit", "msg": "SHORT 2026-11-23 22000 PE MACD_UP_MISSED @ 155.25  P&L Rs 2843.75"}
+{"id": 926, "ts": "2026-10-06 14:35:30", "at": "14:35:30", "kind": "contract", "msg": "2026-12-29: watching ATM 23000 +/- 1 strikes of 1000 (CE/PE)"}
+{"id": 927, "ts": "2026-10-06 14:35:30", "at": "14:35:30", "kind": "signal", "msg": "2026-12-29 22000 PE: MACD crossed UP while prices were not being watched"}
+{"id": 928, "ts": "2026-10-06 14:35:30", "at": "14:35:30", "kind": "exit", "msg": "SHORT 2026-12-29 22000 PE MACD_UP_MISSED @ 216.70  P&L Rs 2983.50"}
+{"id": 929, "ts": "2026-10-06 14:35:34", "at": "14:35:34", "kind": "contract", "msg": "2027-03-30: watching ATM 24000 +/- 1 strikes of 1000 (CE/PE)"}
+{"id": 930, "ts": "2026-10-06 14:35:38", "at": "14:35:38", "kind": "contract", "msg": "2026-10-27: watching ATM 23000 +/- 1 strikes of 1000 (CE/PE)"}
+{"id": 931, "ts": "2026-10-06 14:35:38", "at": "14:35:38", "kind": "signal", "msg": "2026-10-27 24000 PE: MACD crossed UP while prices were not being watched"}
+{"id": 932, "ts": "2026-10-06 14:35:38", "at": "14:35:38", "kind": "exit", "msg": "SHORT 2026-10-27 24000 PE MACD_UP_MISSED @ 1232.20  P&L Rs 7998.25"}
+{"id": 933, "ts": "2026-10-06 14:35:41", "at": "14:35:41", "kind": "signal", "msg": "2026-11-23 23000 PE: MACD crossed UP while prices were not being watched"}
+{"id": 934, "ts": "2026-10-06 14:35:41", "at": "14:35:41", "kind": "exit", "msg": "SHORT 2026-11-23 23000 PE MACD_UP_MISSED @ 475.35  P&L Rs 6041.75"}
+{"id": 935, "ts": "2026-10-06 14:35:44", "at": "14:35:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 936, "ts": "2026-10-06 14:35:55", "at": "14:35:55", "kind": "api", "msg": "rate limited by Dhan - now one call every 6.1 s"}
+{"id": 937, "ts": "2026-10-06 14:36:42", "at": "14:36:42", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 938, "ts": "2026-10-06 14:36:47", "at": "14:36:47", "kind": "api", "msg": "rate limited by Dhan - now one call every 7.1 s"}
+{"id": 939, "ts": "2026-10-06 14:36:54", "at": "14:36:54", "kind": "api", "msg": "rate limited by Dhan - now one call every 11.1 s"}
+{"id": 940, "ts": "2026-10-06 14:37:16", "at": "14:37:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 941, "ts": "2026-10-06 14:38:28", "at": "14:38:28", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
