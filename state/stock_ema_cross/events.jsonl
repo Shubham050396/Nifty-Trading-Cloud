@@ -2150,3 +2150,11 @@
 {"id": 2150, "ts": "2026-10-06 08:28:05", "at": "08:28:05", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 2151, "ts": "2026-10-06 08:28:36", "at": "08:28:36", "kind": "warm", "msg": "bar history loaded for all 6 contracts"}
 {"id": 2152, "ts": "2026-10-06 08:30:00", "at": "08:30:00", "kind": "contract", "msg": "watching 596 contracts on 99 stocks (ATM +/- 1, CE/PE): 590 added, 0 dropped"}
+{"id": 2153, "ts": "2026-10-06 14:35:17", "at": "14:35:17", "kind": "boot", "msg": "engine thread started"}
+{"id": 2154, "ts": "2026-10-06 14:35:17", "at": "14:35:17", "kind": "boot", "msg": "stock-options EMA app up (pid 2342, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/stock_ema_cross/data)"}
+{"id": 2155, "ts": "2026-10-06 14:35:19", "at": "14:35:19", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 2156, "ts": "2026-10-06 14:35:23", "at": "14:35:23", "kind": "boot", "msg": "scrip master downloaded in 6s: 213 stocks with options"}
+{"id": 2157, "ts": "2026-10-06 14:35:23", "at": "14:35:23", "kind": "boot", "msg": "99 of 100 listed stocks have options - skipped: LTIM"}
+{"id": 2158, "ts": "2026-10-06 14:35:23", "at": "14:35:23", "kind": "control", "msg": "started automatically on launch - 99 stocks"}
+{"id": 2159, "ts": "2026-10-06 14:35:23", "at": "14:35:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2160, "ts": "2026-10-06 14:35:26", "at": "14:35:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}
