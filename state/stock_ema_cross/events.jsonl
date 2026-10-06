@@ -2218,3 +2218,14 @@
 {"id": 2218, "ts": "2026-10-06 14:44:19", "at": "14:44:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2219, "ts": "2026-10-06 14:45:10", "at": "14:45:10", "kind": "signal", "msg": "ABB 7100 CE 27 Oct crossed EMA 144 at 225.35 - not taken: momentum -2.9%"}
 {"id": 2220, "ts": "2026-10-06 14:45:18", "at": "14:45:18", "kind": "skip", "msg": "DIVISLAB 9600 CE 27 Oct signal at 200.60 skipped - already 1 open on DIVISLAB"}
+{"id": 2221, "ts": "2026-10-06 14:45:47", "at": "14:45:47", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2222, "ts": "2026-10-06 14:46:22", "at": "14:46:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2223, "ts": "2026-10-06 14:46:23", "at": "14:46:23", "kind": "warm", "msg": "bar history loaded for all 626 contracts"}
+{"id": 2224, "ts": "2026-10-06 14:46:41", "at": "14:46:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2225, "ts": "2026-10-06 14:48:09", "at": "14:48:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2226, "ts": "2026-10-06 14:48:36", "at": "14:48:36", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2227, "ts": "2026-10-06 14:48:54", "at": "14:48:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2228, "ts": "2026-10-06 14:50:15", "at": "14:50:15", "kind": "signal", "msg": "ADANIPORTS 1800 CE 27 Oct crossed EMA 144 at 31.70 - not taken: momentum -3.1%"}
+{"id": 2229, "ts": "2026-10-06 14:50:15", "at": "14:50:15", "kind": "signal", "msg": "BEL 390 PE 27 Oct crossed EMA 144 at 9.95 - not taken: under EMA 55, momentum -1.0%"}
+{"id": 2230, "ts": "2026-10-06 14:50:15", "at": "14:50:15", "kind": "signal", "msg": "NTPC 320 PE 27 Oct crossed EMA 144 at 4.75 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2231, "ts": "2026-10-06 14:50:22", "at": "14:50:22", "kind": "entry", "msg": "BUY ETERNAL 325 CE 27 Oct x2425 @ 12.55 (signal close 12.55, EMA 144 12.42, momentum 4.6%)  quick 14.43 till 15:20, target 21.34, stop below EMA 55"}
