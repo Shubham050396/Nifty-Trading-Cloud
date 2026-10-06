@@ -2229,3 +2229,16 @@
 {"id": 2229, "ts": "2026-10-06 14:50:15", "at": "14:50:15", "kind": "signal", "msg": "BEL 390 PE 27 Oct crossed EMA 144 at 9.95 - not taken: under EMA 55, momentum -1.0%"}
 {"id": 2230, "ts": "2026-10-06 14:50:15", "at": "14:50:15", "kind": "signal", "msg": "NTPC 320 PE 27 Oct crossed EMA 144 at 4.75 - not taken: under EMA 55, premium under Rs 5"}
 {"id": 2231, "ts": "2026-10-06 14:50:22", "at": "14:50:22", "kind": "entry", "msg": "BUY ETERNAL 325 CE 27 Oct x2425 @ 12.55 (signal close 12.55, EMA 144 12.42, momentum 4.6%)  quick 14.43 till 15:20, target 21.34, stop below EMA 55"}
+{"id": 2232, "ts": "2026-10-06 14:50:35", "at": "14:50:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2233, "ts": "2026-10-06 14:50:44", "at": "14:50:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2234, "ts": "2026-10-06 14:50:56", "at": "14:50:56", "kind": "warm", "msg": "bar history loaded for all 628 contracts"}
+{"id": 2235, "ts": "2026-10-06 14:51:14", "at": "14:51:14", "kind": "warm", "msg": "bar history loaded for all 630 contracts"}
+{"id": 2236, "ts": "2026-10-06 14:51:20", "at": "14:51:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2237, "ts": "2026-10-06 14:52:19", "at": "14:52:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2238, "ts": "2026-10-06 14:52:31", "at": "14:52:31", "kind": "warm", "msg": "bar history loaded for all 632 contracts"}
+{"id": 2239, "ts": "2026-10-06 14:53:21", "at": "14:53:21", "kind": "warm", "msg": "bar history loaded for all 634 contracts"}
+{"id": 2240, "ts": "2026-10-06 14:53:27", "at": "14:53:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2241, "ts": "2026-10-06 14:55:08", "at": "14:55:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2242, "ts": "2026-10-06 14:55:19", "at": "14:55:19", "kind": "warm", "msg": "bar history loaded for all 636 contracts"}
+{"id": 2243, "ts": "2026-10-06 14:55:26", "at": "14:55:26", "kind": "signal", "msg": "ABB 7200 CE 27 Oct crossed EMA 144 at 183.35 - not taken: momentum 3.3%"}
+{"id": 2244, "ts": "2026-10-06 14:55:26", "at": "14:55:26", "kind": "signal", "msg": "TATAPOWER 355 PE 27 Oct crossed EMA 144 at 6.10 - not taken: under EMA 55"}
