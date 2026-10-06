@@ -450,3 +450,10 @@
 {"id": 450, "ts": "2026-10-05 16:18:35", "at": "16:18:35", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
 {"id": 451, "ts": "2026-10-05 16:18:35", "at": "16:18:35", "kind": "history", "msg": "2026-10-27 25000 CE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the VIX Fix needs 25 of them. Retried every 10 min."}
 {"id": 452, "ts": "2026-10-05 16:18:35", "at": "16:18:35", "kind": "vix", "msg": "India VIX prev close 14.46"}
+{"id": 453, "ts": "2026-10-06 08:27:58", "at": "08:27:58", "kind": "boot", "msg": "engine thread started"}
+{"id": 454, "ts": "2026-10-06 08:27:58", "at": "08:27:58", "kind": "boot", "msg": "VIX Fix app up (pid 2418, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/vix_fix/data)"}
+{"id": 455, "ts": "2026-10-06 08:28:00", "at": "08:28:00", "kind": "control", "msg": "started automatically on launch"}
+{"id": 456, "ts": "2026-10-06 08:28:00", "at": "08:28:00", "kind": "day", "msg": "new session 2026-10-06 - counters reset"}
+{"id": 457, "ts": "2026-10-06 08:28:04", "at": "08:28:04", "kind": "boot", "msg": "ready - 14 monthly expiries, 4120 contracts in the scrip master"}
+{"id": 458, "ts": "2026-10-06 08:28:04", "at": "08:28:04", "kind": "vix", "msg": "India VIX prev close 14.78"}
+{"id": 459, "ts": "2026-10-06 08:28:05", "at": "08:28:05", "kind": "history", "msg": "2026-10-27 26000 CE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the VIX Fix needs 25 of them. Retried every 10 min."}

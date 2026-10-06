@@ -1266,3 +1266,10 @@
 {"id": 1266, "ts": "2026-10-05 16:18:30", "at": "16:18:30", "kind": "vix", "msg": "India VIX 14.78 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
 {"id": 1267, "ts": "2026-10-05 16:18:30", "at": "16:18:30", "kind": "candles", "msg": "NIFTY candles unavailable: Too many requests on server from single user breaching rate limits. Try throttling API calls. - retrying"}
 {"id": 1268, "ts": "2026-10-05 16:18:35", "at": "16:18:35", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
+{"id": 1269, "ts": "2026-10-06 08:27:58", "at": "08:27:58", "kind": "boot", "msg": "engine thread started"}
+{"id": 1270, "ts": "2026-10-06 08:27:58", "at": "08:27:58", "kind": "boot", "msg": "ema-hedge app up (pid 2413, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/ema_hedge/data)"}
+{"id": 1271, "ts": "2026-10-06 08:27:59", "at": "08:27:59", "kind": "control", "msg": "started automatically on launch"}
+{"id": 1272, "ts": "2026-10-06 08:27:59", "at": "08:27:59", "kind": "day", "msg": "new session 2026-10-06"}
+{"id": 1273, "ts": "2026-10-06 08:28:00", "at": "08:28:00", "kind": "vix", "msg": "India VIX 14.78 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
+{"id": 1274, "ts": "2026-10-06 08:28:00", "at": "08:28:00", "kind": "candles", "msg": "NIFTY candles unavailable: Too many requests on server from single user breaching rate limits. Try throttling API calls. - retrying"}
+{"id": 1275, "ts": "2026-10-06 08:28:04", "at": "08:28:04", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
