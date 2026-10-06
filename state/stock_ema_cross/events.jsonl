@@ -2193,3 +2193,28 @@
 {"id": 2193, "ts": "2026-10-06 14:40:02", "at": "14:40:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2194, "ts": "2026-10-06 14:40:11", "at": "14:40:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2195, "ts": "2026-10-06 14:40:20", "at": "14:40:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2196, "ts": "2026-10-06 14:40:38", "at": "14:40:38", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2197, "ts": "2026-10-06 14:40:38", "at": "14:40:38", "kind": "exit", "msg": "SELL DRREDDY 1200 PE 27 Oct EMA_STOP @ 26.05  -19.0%  P&L Rs -3812.50"}
+{"id": 2198, "ts": "2026-10-06 14:40:38", "at": "14:40:38", "kind": "exit", "msg": "SELL DLF 680 CE 27 Oct EMA_STOP @ 13.10  -15.2%  P&L Rs -2232.50"}
+{"id": 2199, "ts": "2026-10-06 14:40:48", "at": "14:40:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2200, "ts": "2026-10-06 14:40:48", "at": "14:40:48", "kind": "entry", "msg": "BUY DIVISLAB 9500 CE 27 Oct x100 @ 239.95 (signal close 241.65, EMA 144 237.31, momentum 10.3%)  quick 275.94 till 15:10, target 407.91, stop below EMA 55"}
+{"id": 2201, "ts": "2026-10-06 14:40:57", "at": "14:40:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2202, "ts": "2026-10-06 14:41:06", "at": "14:41:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2203, "ts": "2026-10-06 14:41:15", "at": "14:41:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2204, "ts": "2026-10-06 14:41:25", "at": "14:41:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2205, "ts": "2026-10-06 14:41:34", "at": "14:41:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2206, "ts": "2026-10-06 14:41:43", "at": "14:41:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2207, "ts": "2026-10-06 14:41:53", "at": "14:41:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2208, "ts": "2026-10-06 14:42:02", "at": "14:42:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2209, "ts": "2026-10-06 14:42:11", "at": "14:42:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2210, "ts": "2026-10-06 14:42:20", "at": "14:42:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2211, "ts": "2026-10-06 14:42:30", "at": "14:42:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2212, "ts": "2026-10-06 14:42:39", "at": "14:42:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2213, "ts": "2026-10-06 14:42:48", "at": "14:42:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2214, "ts": "2026-10-06 14:42:57", "at": "14:42:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2215, "ts": "2026-10-06 14:43:07", "at": "14:43:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2216, "ts": "2026-10-06 14:43:16", "at": "14:43:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2217, "ts": "2026-10-06 14:43:43", "at": "14:43:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2218, "ts": "2026-10-06 14:44:19", "at": "14:44:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2219, "ts": "2026-10-06 14:45:10", "at": "14:45:10", "kind": "signal", "msg": "ABB 7100 CE 27 Oct crossed EMA 144 at 225.35 - not taken: momentum -2.9%"}
+{"id": 2220, "ts": "2026-10-06 14:45:18", "at": "14:45:18", "kind": "skip", "msg": "DIVISLAB 9600 CE 27 Oct signal at 200.60 skipped - already 1 open on DIVISLAB"}
