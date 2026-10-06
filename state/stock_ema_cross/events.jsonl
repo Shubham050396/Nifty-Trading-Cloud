@@ -2254,3 +2254,13 @@
 {"id": 2254, "ts": "2026-10-06 15:00:28", "at": "15:00:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2255, "ts": "2026-10-06 15:00:28", "at": "15:00:28", "kind": "entry", "msg": "BUY INDHOTEL 730 CE 27 Oct x1000 @ 19.85 (signal close 19.85, EMA 144 19.72, momentum 4.7%)  quick 22.83 till 15:30, target 33.75, stop below EMA 55"}
 {"id": 2256, "ts": "2026-10-06 15:00:28", "at": "15:00:28", "kind": "entry", "msg": "BUY GODREJCP 860 CE 27 Oct x500 @ 25.80 (signal close 25.80, EMA 144 25.70, momentum 4.9%)  quick 29.67 till 15:30, target 43.86, stop below EMA 55"}
+{"id": 2257, "ts": "2026-10-06 15:00:37", "at": "15:00:37", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2258, "ts": "2026-10-06 15:00:46", "at": "15:00:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2259, "ts": "2026-10-06 15:02:21", "at": "15:02:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2260, "ts": "2026-10-06 15:03:07", "at": "15:03:07", "kind": "warm", "msg": "bar history loaded for all 644 contracts"}
+{"id": 2261, "ts": "2026-10-06 15:03:21", "at": "15:03:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2262, "ts": "2026-10-06 15:03:48", "at": "15:03:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2263, "ts": "2026-10-06 15:04:15", "at": "15:04:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2264, "ts": "2026-10-06 15:04:26", "at": "15:04:26", "kind": "warm", "msg": "bar history loaded for all 646 contracts"}
+{"id": 2265, "ts": "2026-10-06 15:05:22", "at": "15:05:22", "kind": "signal", "msg": "HAVELLS 1040 PE 27 Oct crossed EMA 144 at 20.90 - not taken: under EMA 55"}
+{"id": 2266, "ts": "2026-10-06 15:05:29", "at": "15:05:29", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
