@@ -2148,3 +2148,5 @@
 {"id": 2148, "ts": "2026-10-06 08:28:05", "at": "08:28:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 2149, "ts": "2026-10-06 08:28:05", "at": "08:28:05", "kind": "api", "msg": "share prices unavailable: HTTP 429"}
 {"id": 2150, "ts": "2026-10-06 08:28:05", "at": "08:28:05", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 2151, "ts": "2026-10-06 08:28:36", "at": "08:28:36", "kind": "warm", "msg": "bar history loaded for all 6 contracts"}
+{"id": 2152, "ts": "2026-10-06 08:30:00", "at": "08:30:00", "kind": "contract", "msg": "watching 596 contracts on 99 stocks (ATM +/- 1, CE/PE): 590 added, 0 dropped"}
