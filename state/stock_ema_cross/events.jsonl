@@ -2276,3 +2276,16 @@
 {"id": 2276, "ts": "2026-10-06 15:10:24", "at": "15:10:24", "kind": "signal", "msg": "JIOFIN 215 PE 27 Oct crossed EMA 144 at 4.55 - not taken: under EMA 55, momentum 0.4%, premium under Rs 5"}
 {"id": 2277, "ts": "2026-10-06 15:10:24", "at": "15:10:24", "kind": "signal", "msg": "TATAPOWER 350 PE 27 Oct crossed EMA 144 at 4.50 - not taken: under EMA 55, premium under Rs 5"}
 {"id": 2278, "ts": "2026-10-06 15:10:33", "at": "15:10:33", "kind": "entry", "msg": "BUY VEDL 270 CE 27 Oct x1150 @ 6.50 (signal close 6.25, EMA 144 6.06, momentum 14.7%)  quick 7.47 till 15:40, target 11.05, stop below EMA 55"}
+{"id": 2279, "ts": "2026-10-06 15:11:00", "at": "15:11:00", "kind": "warm", "msg": "bar history loaded for all 656 contracts"}
+{"id": 2280, "ts": "2026-10-06 15:11:13", "at": "15:11:13", "kind": "warm", "msg": "bar history loaded for all 658 contracts"}
+{"id": 2281, "ts": "2026-10-06 15:11:24", "at": "15:11:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2282, "ts": "2026-10-06 15:11:35", "at": "15:11:35", "kind": "warm", "msg": "bar history loaded for all 660 contracts"}
+{"id": 2283, "ts": "2026-10-06 15:12:26", "at": "15:12:26", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 2284, "ts": "2026-10-06 15:12:31", "at": "15:12:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2285, "ts": "2026-10-06 15:12:49", "at": "15:12:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2286, "ts": "2026-10-06 15:12:57", "at": "15:12:57", "kind": "warm", "msg": "bar history loaded for all 666 contracts"}
+{"id": 2287, "ts": "2026-10-06 15:14:06", "at": "15:14:06", "kind": "warm", "msg": "bar history loaded for all 668 contracts"}
+{"id": 2288, "ts": "2026-10-06 15:14:19", "at": "15:14:19", "kind": "warm", "msg": "bar history loaded for all 670 contracts"}
+{"id": 2289, "ts": "2026-10-06 15:14:32", "at": "15:14:32", "kind": "warm", "msg": "bar history loaded for all 672 contracts"}
+{"id": 2290, "ts": "2026-10-06 15:14:47", "at": "15:14:47", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2291, "ts": "2026-10-06 15:14:59", "at": "15:14:59", "kind": "warm", "msg": "bar history loaded for all 674 contracts"}
