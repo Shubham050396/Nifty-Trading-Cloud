@@ -2242,3 +2242,15 @@
 {"id": 2242, "ts": "2026-10-06 14:55:19", "at": "14:55:19", "kind": "warm", "msg": "bar history loaded for all 636 contracts"}
 {"id": 2243, "ts": "2026-10-06 14:55:26", "at": "14:55:26", "kind": "signal", "msg": "ABB 7200 CE 27 Oct crossed EMA 144 at 183.35 - not taken: momentum 3.3%"}
 {"id": 2244, "ts": "2026-10-06 14:55:26", "at": "14:55:26", "kind": "signal", "msg": "TATAPOWER 355 PE 27 Oct crossed EMA 144 at 6.10 - not taken: under EMA 55"}
+{"id": 2245, "ts": "2026-10-06 14:55:35", "at": "14:55:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2246, "ts": "2026-10-06 14:55:48", "at": "14:55:48", "kind": "warm", "msg": "bar history loaded for all 640 contracts"}
+{"id": 2247, "ts": "2026-10-06 14:56:10", "at": "14:56:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2248, "ts": "2026-10-06 14:57:10", "at": "14:57:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2249, "ts": "2026-10-06 14:57:28", "at": "14:57:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2250, "ts": "2026-10-06 14:57:37", "at": "14:57:37", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2251, "ts": "2026-10-06 14:59:46", "at": "14:59:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.6 s"}
+{"id": 2252, "ts": "2026-10-06 15:00:14", "at": "15:00:14", "kind": "warm", "msg": "bar history loaded for all 642 contracts"}
+{"id": 2253, "ts": "2026-10-06 15:00:20", "at": "15:00:20", "kind": "signal", "msg": "NTPC 320 PE 27 Oct crossed EMA 144 at 4.75 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2254, "ts": "2026-10-06 15:00:28", "at": "15:00:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2255, "ts": "2026-10-06 15:00:28", "at": "15:00:28", "kind": "entry", "msg": "BUY INDHOTEL 730 CE 27 Oct x1000 @ 19.85 (signal close 19.85, EMA 144 19.72, momentum 4.7%)  quick 22.83 till 15:30, target 33.75, stop below EMA 55"}
+{"id": 2256, "ts": "2026-10-06 15:00:28", "at": "15:00:28", "kind": "entry", "msg": "BUY GODREJCP 860 CE 27 Oct x500 @ 25.80 (signal close 25.80, EMA 144 25.70, momentum 4.9%)  quick 29.67 till 15:30, target 43.86, stop below EMA 55"}
