@@ -1,103 +1,103 @@
 # NIFTY Cloud report
 
-**Finished for the day at 15:15 IST** · updated 06 Oct 2026 15:15 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37406688397)
+**Running until 16:18 IST** · updated 06 Oct 2026 16:14 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37451687112)
 
-India VIX **13.67 🔴 above the kill level** (kill above 13.50, trade only above 13.50) · Dhan token: valid until 06 Oct 21:29 IST · trading window: 14:35 → 15:15 IST (trading day)
+India VIX **13.61 🔴 above the kill level** (kill above 13.50, trade only above 13.50) · Dhan token: valid until 06 Oct 21:29 IST · trading window: 16:13 → 16:18 IST (check run (after the trading day))
 
 | Strategy | State | P&L today | Open P&L | All-time P&L | Trades today | Open | Margin blocked |
 |---|---|--:|--:|--:|--:|--:|--:|
-| ⚖️ NIFTY Credit Spreads | ✅ saved | ₹0 | ₹0 | +₹3,266 (+0.59%) | 0 | 0 | ₹0 |
-| 🛡️ NIFTY EMA Breakout Hedge | ✅ saved | ₹0 | ₹0 | −₹1,635 (-0.91%) | 0 | 0 | ₹0 |
-| 🎯 NIFTY 2-Level Cross | ✅ saved | ₹0 | ₹0 | +₹21,548 (+6.41%) | 0 | 0 | ₹0 |
-| 📈 NIFTY MACD - Monthly 1000s | ✅ saved | +₹19,867 (+3.47%) | −₹41,652 (-6.09%) | +₹72,306 (+1.54%) | 4 | 6 | ₹6,84,452 |
-| ⚡ NIFTY Scalper - IVX-G | ✅ saved | ₹0 | ₹0 | +₹464 (+1.59%) | 0 | 0 | ₹0 |
-| 📊 Stock Options EMA Cross | ✅ saved | −₹10,790 (-12.22%) | +₹6,980 (+5.68%) | −₹38,165 (-4.76%) | 4 | 7 | ₹1,22,921 |
-| 🌊 NIFTY VIX Fix - Monthly 1000s | ✅ saved | ₹0 | −₹19,087 (-12.27%) | ₹0 | 0 | 8 | ₹1,55,606 |
-| **Total** | | **+₹9,077** | **−₹53,759** | **+₹57,784** | **8** | **21** | **₹9,62,979** |
+| ⚖️ NIFTY Credit Spreads | 🟢 running | ₹0 | ₹0 | +₹3,266 (+0.59%) | 0 | 0 | ₹0 |
+| 🛡️ NIFTY EMA Breakout Hedge | 🟢 running | ₹0 | ₹0 | −₹1,635 (-0.91%) | 0 | 0 | ₹0 |
+| 🎯 NIFTY 2-Level Cross | 🟢 running | ₹0 | ₹0 | +₹21,548 (+6.41%) | 0 | 0 | ₹0 |
+| 📈 NIFTY MACD - Monthly 1000s | 🟢 running | +₹19,867 (+3.47%) | −₹41,652 (-6.08%) | +₹72,306 (+1.54%) | 4 | 6 | ₹6,85,266 |
+| ⚡ NIFTY Scalper - IVX-G | 🟢 running | ₹0 | ₹0 | +₹464 (+1.59%) | 0 | 0 | ₹0 |
+| 📊 Stock Options EMA Cross | 🟢 running | −₹10,790 (-12.22%) | +₹6,980 (+5.68%) | −₹38,165 (-4.76%) | 4 | 7 | ₹1,22,921 |
+| 🌊 NIFTY VIX Fix - Monthly 1000s | 🟢 running | ₹0 | −₹19,087 (-12.27%) | ₹0 | 0 | 8 | ₹1,55,606 |
+| **Total** | | **+₹9,077** | **−₹53,759** | **+₹57,784** | **8** | **21** | **₹9,63,793** |
 
 Paper trading only. Margin figures are estimates, as in the desktop app. Trades and state for each strategy are in the [state](state) folder.
 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-10-06 14:55:27] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-10-06 15:01:28] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-10-06 15:01:28] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
-[2026-10-06 15:14:31] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-10-06 15:14:31] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
-cloud: shutdown requested - saving state
+serving NIFTY Credit Spreads on http://127.0.0.1:46471
+[2026-10-06 16:13:51] SCAN      scanner started automatically on launch
+[2026-10-06 16:13:56] VIX       India VIX 13.61 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new trades, closing every open spread
+[2026-10-06 16:13:56] BOOT      scrip master downloaded: 4120 NIFTY contracts in 5.7s
+[2026-10-06 16:13:56] BOOT      Ready - 18 expiries, 4120 NIFTY contracts
+127.0.0.1 - - [06/Oct/2026 10:44:00] "GET /api/status HTTP/1.1" 200 -
 ```
 </details>
 
 <details><summary>NIFTY EMA Breakout Hedge - last log lines</summary>
 
 ```text
-[15:08:11] API       rate limited by Dhan - now one call every 15.1 s
-[15:09:32] API       rate limited by Dhan - now one call every 15.1 s
-[15:11:48] VIX       India VIX unavailable (HTTP 429) - no new spreads until it can be read
-[15:11:55] API       rate limited by Dhan - now one call every 15.1 s
-[15:13:49] VIX       India VIX unavailable (HTTP 429) - no new spreads until it can be read
-cloud: shutdown requested - saving state
+serving NIFTY EMA Breakout Hedge on http://127.0.0.1:57493
+[16:13:52] CONTROL   started automatically on launch
+[16:13:52] VIX       India VIX 13.61 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one
+[16:13:52] CANDLES   NIFTY candles unavailable: Too many requests on server from single user breaching rate limits. Try throttling API calls. - retrying
+[16:13:57] BOOT      ready - 18 expiries listed, NIFTY lot 65
+127.0.0.1 - - [06/Oct/2026 10:44:00] "GET /api/state HTTP/1.1" 200 -
 ```
 </details>
 
 <details><summary>NIFTY 2-Level Cross - last log lines</summary>
 
 ```text
-[15:14:37] GAP       2026-10-13 22900 PE: no prices for 5 min - bar history restarts
-[15:14:37] GAP       2026-10-13 21500 CE: no prices for 5 min - bar history restarts
-[15:14:37] GAP       2026-10-13 21500 PE: no prices for 5 min - bar history restarts
-[15:14:37] GAP       2026-10-13 23700 CE: no prices for 5 min - bar history restarts
-[15:14:37] GAP       2026-10-13 23700 PE: no prices for 5 min - bar history restarts
-cloud: shutdown requested - saving state
+[16:13:51] BOOT      level-cross app up (pid 2370, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/level_cross/data)
+serving NIFTY 2-Level Cross on http://127.0.0.1:58801
+[16:13:53] CONTROL   started automatically on launch
+[16:13:56] BOOT      ready - 18 expiries, 4120 contracts in the scrip master
+[16:13:56] VIX       India VIX prev close 14.78 -> target 1000 ticks (Rs 50.00)
+127.0.0.1 - - [06/Oct/2026 10:44:00] "GET /api/state HTTP/1.1" 200 -
 ```
 </details>
 
 <details><summary>NIFTY MACD - Monthly 1000s - last log lines</summary>
 
 ```text
-[15:11:54] API       rate limited by Dhan - now one call every 5.1 s
-[15:13:19] API       rate limited by Dhan - now one call every 5.1 s
-[15:13:50] API       rate limited by Dhan - now one call every 5.1 s
-[15:14:09] API       rate limited by Dhan - now one call every 5.1 s
-[15:14:37] API       rate limited by Dhan - now one call every 5.1 s
-cloud: shutdown requested - saving state
+serving NIFTY MACD - Monthly 1000s on http://127.0.0.1:45121
+[16:13:52] HISTORY   2026-10-27 23000 PE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the MACD needs 75 of them. Retried every 10 min.
+[16:13:53] CONTROL   started automatically on launch
+[16:13:56] BOOT      ready - 14 monthly expiries, 4120 contracts in the scrip master
+[16:13:57] VIX       India VIX prev close 14.78 - entries allowed
+127.0.0.1 - - [06/Oct/2026 10:44:00] "GET /api/state HTTP/1.1" 200 -
 ```
 </details>
 
 <details><summary>NIFTY Scalper - IVX-G - last log lines</summary>
 
 ```text
-[2026-10-06 15:07:19] DATA      buffer gap > 15s - cleared, re-warming
-[2026-10-06 15:09:01] DATA      buffer gap > 15s - cleared, re-warming
-[2026-10-06 15:10:50] DATA      buffer gap > 15s - cleared, re-warming
-[2026-10-06 15:12:18] DATA      buffer gap > 15s - cleared, re-warming
-[2026-10-06 15:14:17] DATA      buffer gap > 15s - cleared, re-warming
-cloud: shutdown requested - saving state
+[2026-10-06 16:13:51] BOOT      scalper up (pid 2372, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/scalper/data, auth=off)
+serving NIFTY Scalper - IVX-G on http://127.0.0.1:42483
+[2026-10-06 16:13:55] RUN       scalper armed - started automatically on launch
+[2026-10-06 16:13:56] BOOT      scrip master: 4120 NIFTY contracts
+[2026-10-06 16:13:56] BOOT      Ready - lot 65, 18 expiries, trading 2026-10-13
+127.0.0.1 - - [06/Oct/2026 10:44:00] "GET /api/state HTTP/1.1" 200 -
 ```
 </details>
 
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[15:14:06] WARM      bar history loaded for all 668 contracts
-[15:14:19] WARM      bar history loaded for all 670 contracts
-[15:14:32] WARM      bar history loaded for all 672 contracts
-[15:14:47] API       market quote: rate limited by Dhan - now one call every 9.1 s
-[15:14:59] WARM      bar history loaded for all 674 contracts
-cloud: shutdown requested - saving state
+[16:13:56] BOOT      99 of 100 listed stocks have options - skipped: LTIM
+[16:13:57] CONTROL   started automatically on launch - 99 stocks
+[16:13:57] API       chart history: rate limited by Dhan - now one call every 1.2 s
+[16:13:57] API       market quote: rate limited by Dhan - now one call every 2.0 s
+[16:13:57] API       share prices unavailable: HTTP 429
+127.0.0.1 - - [06/Oct/2026 10:44:00] "GET /api/state HTTP/1.1" 200 -
 ```
 </details>
 
 <details><summary>NIFTY VIX Fix - Monthly 1000s - last log lines</summary>
 
 ```text
-[15:12:14] API       rate limited by Dhan - now one call every 15.1 s
-[15:13:38] API       rate limited by Dhan - now one call every 15.1 s
-[15:14:08] API       rate limited by Dhan - now one call every 15.1 s
-[15:14:38] API       rate limited by Dhan - now one call every 15.1 s
-[15:14:54] API       rate limited by Dhan - now one call every 15.1 s
-cloud: shutdown requested - saving state
+[16:13:51] BOOT      VIX Fix app up (pid 2374, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/vix_fix/data)
+serving NIFTY VIX Fix - Monthly 1000s on http://127.0.0.1:49861
+[16:13:53] CONTROL   started automatically on launch
+[16:13:56] BOOT      ready - 14 monthly expiries, 4120 contracts in the scrip master
+[16:13:57] VIX       India VIX prev close 14.78
+127.0.0.1 - - [06/Oct/2026 10:44:00] "GET /api/state HTTP/1.1" 200 -
 ```
 </details>
 

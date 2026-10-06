@@ -4439,3 +4439,8 @@
 {"id": 4439, "ts": "2026-10-06 15:14:37", "at": "15:14:37", "kind": "gap", "msg": "2026-10-13 21500 PE: no prices for 5 min - bar history restarts"}
 {"id": 4440, "ts": "2026-10-06 15:14:37", "at": "15:14:37", "kind": "gap", "msg": "2026-10-13 23700 CE: no prices for 5 min - bar history restarts"}
 {"id": 4441, "ts": "2026-10-06 15:14:37", "at": "15:14:37", "kind": "gap", "msg": "2026-10-13 23700 PE: no prices for 5 min - bar history restarts"}
+{"id": 4442, "ts": "2026-10-06 16:13:51", "at": "16:13:51", "kind": "boot", "msg": "engine thread started"}
+{"id": 4443, "ts": "2026-10-06 16:13:51", "at": "16:13:51", "kind": "boot", "msg": "level-cross app up (pid 2370, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/level_cross/data)"}
+{"id": 4444, "ts": "2026-10-06 16:13:53", "at": "16:13:53", "kind": "control", "msg": "started automatically on launch"}
+{"id": 4445, "ts": "2026-10-06 16:13:56", "at": "16:13:56", "kind": "boot", "msg": "ready - 18 expiries, 4120 contracts in the scrip master"}
+{"id": 4446, "ts": "2026-10-06 16:13:56", "at": "16:13:56", "kind": "vix", "msg": "India VIX prev close 14.78 -> target 1000 ticks (Rs 50.00)"}
