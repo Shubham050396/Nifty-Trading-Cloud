@@ -2298,3 +2298,4 @@
 {"id": 2298, "ts": "2026-10-06 16:13:57", "at": "16:13:57", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 2299, "ts": "2026-10-06 16:13:57", "at": "16:13:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 2300, "ts": "2026-10-06 16:13:57", "at": "16:13:57", "kind": "api", "msg": "share prices unavailable: HTTP 429"}
+{"id": 2301, "ts": "2026-10-06 16:14:28", "at": "16:14:28", "kind": "warm", "msg": "bar history loaded for all 7 contracts"}
