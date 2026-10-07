@@ -3117,3 +3117,11 @@
 {"id": 3117, "ts": "2026-10-07 13:41:17", "at": "13:41:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3118, "ts": "2026-10-07 13:41:27", "at": "13:41:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3119, "ts": "2026-10-07 13:41:38", "at": "13:41:38", "kind": "warm", "msg": "bar history loaded for all 790 contracts"}
+{"id": 3120, "ts": "2026-10-07 13:44:03", "at": "13:44:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.0 s"}
+{"id": 3121, "ts": "2026-10-07 13:44:18", "at": "13:44:18", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.1 s"}
+{"id": 3122, "ts": "2026-10-07 13:45:18", "at": "13:45:18", "kind": "signal", "msg": "SOLARINDS 20250 CE 27 Oct crossed EMA 144 at 535.00 - not taken: momentum -8.8%"}
+{"id": 3123, "ts": "2026-10-07 13:45:18", "at": "13:45:18", "kind": "signal", "msg": "ITC 260 PE 27 Oct crossed EMA 144 at 3.10 - not taken: premium under Rs 5"}
+{"id": 3124, "ts": "2026-10-07 13:45:51", "at": "13:45:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.6 s"}
+{"id": 3125, "ts": "2026-10-07 13:46:09", "at": "13:46:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3126, "ts": "2026-10-07 13:46:18", "at": "13:46:18", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3127, "ts": "2026-10-07 13:47:32", "at": "13:47:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
