@@ -1509,3 +1509,11 @@
 {"id": 1509, "ts": "2026-10-07 14:40:28", "at": "14:40:28", "kind": "skip", "msg": "short 2026-12-29 24000 PE ignored - open-position cap"}
 {"id": 1510, "ts": "2026-10-07 14:41:37", "at": "14:41:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1511, "ts": "2026-10-07 14:41:53", "at": "14:41:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1512, "ts": "2026-10-07 14:44:23", "at": "14:44:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1513, "ts": "2026-10-07 14:45:08", "at": "14:45:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1514, "ts": "2026-10-07 14:45:52", "at": "14:45:52", "kind": "signal", "msg": "2027-03-30 24000 PE MACD crossed DOWN (bar close 1112.75, hist +0.30 -> -0.39)"}
+{"id": 1515, "ts": "2026-10-07 14:45:52", "at": "14:45:52", "kind": "exit", "msg": "LONG 2027-03-30 24000 PE MACD_DOWN @ 1102.65  P&L Rs 692.25"}
+{"id": 1516, "ts": "2026-10-07 14:45:52", "at": "14:45:52", "kind": "entry", "msg": "SELL SHORT 2027-03-30 24000 PE @ 1102.65  (bar close 1112.75, MACD hist -0.39, VIX 13.61)"}
+{"id": 1517, "ts": "2026-10-07 14:46:20", "at": "14:46:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1518, "ts": "2026-10-07 14:48:08", "at": "14:48:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1519, "ts": "2026-10-07 14:48:38", "at": "14:48:38", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
