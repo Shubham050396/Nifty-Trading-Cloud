@@ -2381,3 +2381,10 @@
 {"id": 2381, "ts": "2026-10-07 09:25:03", "at": "09:25:03", "kind": "signal", "msg": "ABB 7000 PE 27 Oct crossed EMA 144 at 193.00 - not taken: under EMA 55"}
 {"id": 2382, "ts": "2026-10-07 09:25:04", "at": "09:25:04", "kind": "skip", "msg": "DLF 660 PE 27 Oct signal at 16.95 skipped - 10 positions already open"}
 {"id": 2383, "ts": "2026-10-07 09:25:41", "at": "09:25:41", "kind": "warm", "msg": "bar history loaded for all 772 contracts"}
+{"id": 2384, "ts": "2026-10-07 09:28:28", "at": "09:28:28", "kind": "warm", "msg": "bar history loaded for all 772 contracts"}
+{"id": 2385, "ts": "2026-10-07 09:28:59", "at": "09:28:59", "kind": "warm", "msg": "bar history loaded for all 772 contracts"}
+{"id": 2386, "ts": "2026-10-07 09:30:01", "at": "09:30:01", "kind": "signal", "msg": "ABB 7200 PE 27 Oct crossed EMA 144 at 304.80 - not taken: under EMA 55"}
+{"id": 2387, "ts": "2026-10-07 09:30:01", "at": "09:30:01", "kind": "signal", "msg": "JSWENERGY 480 PE 27 Oct crossed EMA 144 at 7.90 - not taken: under EMA 55"}
+{"id": 2388, "ts": "2026-10-07 09:30:01", "at": "09:30:01", "kind": "exit", "msg": "SELL BRITANNIA 4800 PE 27 Oct EMA_STOP @ 73.30  -16.7%  P&L Rs -1831.25"}
+{"id": 2389, "ts": "2026-10-07 09:30:02", "at": "09:30:02", "kind": "entry", "msg": "BUY RECLTD 310 CE 27 Oct x1575 @ 6.75 (signal close 6.70, EMA 144 6.30, momentum 61.4%)  quick 7.76 till 10:00, target 11.47, stop below EMA 55"}
+{"id": 2390, "ts": "2026-10-07 09:30:02", "at": "09:30:02", "kind": "skip", "msg": "RECLTD 300 CE 27 Oct signal at 12.05 skipped - 10 positions already open"}

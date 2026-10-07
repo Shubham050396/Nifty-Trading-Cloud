@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 14:55 IST** · updated 07 Oct 2026 09:26 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37567149099)
+**Running until 14:55 IST** · updated 07 Oct 2026 09:32 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37567149099)
 
 India VIX **14.10 🔴 above the kill level** (kill above 13.50, trade only above 13.50) · Dhan token: valid until 07 Oct 21:50 IST · trading window: 09:01 → 14:55 IST (trading day)
 
@@ -10,59 +10,59 @@ India VIX **14.10 🔴 above the kill level** (kill above 13.50, trade only abov
 | 🛡️ NIFTY EMA Breakout Hedge | 🟢 running | ₹0 | ₹0 | −₹1,635 (-0.91%) | 0 | 0 | ₹0 |
 | 🎯 NIFTY 2-Level Cross | 🟢 running ⚠️ cloud/config.json was refused: {"error":"No longer listed (expired?): 2026-10-06. Untick it."}
  | ₹0 | ₹0 | +₹21,548 (+6.41%) | 0 | 0 | ₹0 |
-| 📈 NIFTY MACD - Monthly 1000s | 🟢 running | ₹0 | −₹12,922 (-1.90%) | +₹72,306 (+1.54%) | 0 | 6 | ₹6,81,731 |
+| 📈 NIFTY MACD - Monthly 1000s | 🟢 running | ₹0 | −₹16,676 (-2.44%) | +₹72,306 (+1.54%) | 0 | 6 | ₹6,82,289 |
 | ⚡ NIFTY Scalper - IVX-G | 🟢 running | ₹0 | ₹0 | +₹464 (+1.59%) | 0 | 0 | ₹0 |
-| 📊 Stock Options EMA Cross | 🟢 running | +₹14,290 (+35.93%) | +₹1,981 (+1.32%) | −₹23,875 (-2.83%) | 2 | 10 | ₹1,49,724 |
-| 🌊 NIFTY VIX Fix - Monthly 1000s | 🟢 running | ₹0 | −₹17,977 (-8.39%) | ₹0 | 0 | 8 | ₹2,14,378 |
-| **Total** | | **+₹14,290** | **−₹28,918** | **+₹72,074** | **2** | **24** | **₹10,45,833** |
+| 📊 Stock Options EMA Cross | 🟢 running | +₹12,459 (+24.54%) | +₹3,966 (+2.66%) | −₹25,706 (-3.01%) | 3 | 10 | ₹1,49,361 |
+| 🌊 NIFTY VIX Fix - Monthly 1000s | 🟢 running | ₹0 | −₹17,522 (-8.17%) | ₹0 | 0 | 8 | ₹2,14,378 |
+| **Total** | | **+₹12,459** | **−₹30,232** | **+₹70,243** | **3** | **24** | **₹10,46,028** |
 
 Paper trading only. Margin figures are estimates, as in the desktop app. Trades and state for each strategy are in the [state](state) folder.
 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-10-07 09:21:02] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
-[2026-10-07 09:22:02] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-10-07 09:23:03] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-10-07 09:24:03] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-10-07 09:25:03] API_ERROR marketfeed/ltp: HTTP 429 rate limited
 [2026-10-07 09:26:03] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-10-07 09:27:03] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-10-07 09:28:04] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-10-07 09:29:04] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-10-07 09:30:04] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-10-07 09:31:04] API_ERROR marketfeed/ltp: HTTP 429 rate limited
 ```
 </details>
 
 <details><summary>NIFTY EMA Breakout Hedge - last log lines</summary>
 
 ```text
-[09:22:28] API       rate limited by Dhan - now one call every 15.1 s
-[09:23:49] API       rate limited by Dhan - now one call every 15.1 s
-[09:25:07] VIX       India VIX unavailable (HTTP 429) - no new spreads until it can be read
-[09:25:11] API       rate limited by Dhan - now one call every 15.1 s
-[09:25:51] API       rate limited by Dhan - now one call every 15.1 s
-[09:26:32] API       rate limited by Dhan - now one call every 15.1 s
+[09:27:53] API       rate limited by Dhan - now one call every 15.1 s
+[09:28:33] API       rate limited by Dhan - now one call every 15.1 s
+[09:29:14] API       rate limited by Dhan - now one call every 15.1 s
+[09:29:55] API       rate limited by Dhan - now one call every 15.1 s
+[09:30:35] API       rate limited by Dhan - now one call every 15.1 s
+[09:31:57] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
 <details><summary>NIFTY 2-Level Cross - last log lines</summary>
 
 ```text
-[09:24:32] GAP       2026-10-27 23700 CE: no prices for 1090 min - bar history restarts
-[09:24:32] GAP       2026-10-27 23700 PE: no prices for 1090 min - bar history restarts
-[09:24:58] API       rate limited by Dhan - now one call every 15.1 s
-[09:25:28] API       rate limited by Dhan - now one call every 15.1 s
-[09:26:13] API       rate limited by Dhan - now one call every 15.1 s
-[09:26:28] API       rate limited by Dhan - now one call every 15.1 s
+[09:28:26] API       rate limited by Dhan - now one call every 15.1 s
+[09:29:25] API       rate limited by Dhan - now one call every 15.1 s
+[09:30:23] API       rate limited by Dhan - now one call every 15.1 s
+[09:30:53] API       rate limited by Dhan - now one call every 15.1 s
+[09:31:23] API       rate limited by Dhan - now one call every 15.1 s
+[09:31:54] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
 <details><summary>NIFTY MACD - Monthly 1000s - last log lines</summary>
 
 ```text
-[09:25:14] API       rate limited by Dhan - now one call every 5.1 s
-[09:25:32] API       rate limited by Dhan - now one call every 5.1 s
-[09:25:50] API       rate limited by Dhan - now one call every 5.1 s
-[09:26:08] API       rate limited by Dhan - now one call every 5.1 s
-[09:26:27] API       rate limited by Dhan - now one call every 5.1 s
-[09:26:45] API       rate limited by Dhan - now one call every 5.1 s
+[09:30:25] API       rate limited by Dhan - now one call every 5.1 s
+[09:30:43] API       rate limited by Dhan - now one call every 5.1 s
+[09:31:01] API       rate limited by Dhan - now one call every 5.1 s
+[09:31:19] API       rate limited by Dhan - now one call every 5.1 s
+[09:31:38] API       rate limited by Dhan - now one call every 5.1 s
+[09:31:56] API       rate limited by Dhan - now one call every 5.1 s
 ```
 </details>
 
@@ -81,12 +81,12 @@ Paper trading only. Margin figures are estimates, as in the desktop app. Trades 
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[09:25:03] SIGNAL    HINDUNILVR 1880 PE 27 Oct crossed EMA 144 at 36.20 - not taken: under EMA 55
-[09:25:03] SIGNAL    TATACONSUM 980 PE 27 Oct crossed EMA 144 at 25.30 - not taken: under EMA 55
-[09:25:03] SIGNAL    WIPRO 162.5 PE 27 Oct crossed EMA 144 at 5.50 - not taken: under EMA 55, momentum 1.3%
-[09:25:03] SIGNAL    ABB 7000 PE 27 Oct crossed EMA 144 at 193.00 - not taken: under EMA 55
-[09:25:04] SKIP      DLF 660 PE 27 Oct signal at 16.95 skipped - 10 positions already open
-[09:25:41] WARM      bar history loaded for all 772 contracts
+[09:28:59] WARM      bar history loaded for all 772 contracts
+[09:30:01] SIGNAL    ABB 7200 PE 27 Oct crossed EMA 144 at 304.80 - not taken: under EMA 55
+[09:30:01] SIGNAL    JSWENERGY 480 PE 27 Oct crossed EMA 144 at 7.90 - not taken: under EMA 55
+[09:30:01] EXIT      SELL BRITANNIA 4800 PE 27 Oct EMA_STOP @ 73.30  -16.7%  P&L Rs -1831.25
+[09:30:02] ENTRY     BUY RECLTD 310 CE 27 Oct x1575 @ 6.75 (signal close 6.70, EMA 144 6.30, momentum 61.4%)  quick 7.76 till 10:00, target 11.47, stop below EMA 55
+[09:30:02] SKIP      RECLTD 300 CE 27 Oct signal at 12.05 skipped - 10 positions already open
 ```
 </details>
 
