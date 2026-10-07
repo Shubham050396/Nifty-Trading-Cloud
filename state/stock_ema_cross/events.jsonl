@@ -2612,3 +2612,22 @@
 {"id": 2612, "ts": "2026-10-07 10:15:42", "at": "10:15:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2613, "ts": "2026-10-07 10:15:53", "at": "10:15:53", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
 {"id": 2614, "ts": "2026-10-07 10:17:10", "at": "10:17:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2615, "ts": "2026-10-07 10:18:10", "at": "10:18:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2616, "ts": "2026-10-07 10:18:24", "at": "10:18:24", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2617, "ts": "2026-10-07 10:18:56", "at": "10:18:56", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2618, "ts": "2026-10-07 10:19:10", "at": "10:19:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2619, "ts": "2026-10-07 10:19:21", "at": "10:19:21", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2620, "ts": "2026-10-07 10:19:45", "at": "10:19:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2621, "ts": "2026-10-07 10:20:21", "at": "10:20:21", "kind": "exit", "msg": "SELL ADANIPORTS 1760 PE 27 Oct EMA_STOP @ 29.80  -12.3%  P&L Rs -1995.00"}
+{"id": 2622, "ts": "2026-10-07 10:20:21", "at": "10:20:21", "kind": "signal", "msg": "DRREDDY 1200 CE 27 Oct crossed EMA 144 at 37.35 - not taken: momentum -11.5%"}
+{"id": 2623, "ts": "2026-10-07 10:20:21", "at": "10:20:21", "kind": "signal", "msg": "ETERNAL 330 CE 27 Oct crossed EMA 144 at 10.60 - not taken: momentum 2.9%"}
+{"id": 2624, "ts": "2026-10-07 10:20:21", "at": "10:20:21", "kind": "exit", "msg": "SELL ADANIPOWER 200 PE 27 Oct EMA_STOP @ 5.59  -8.2%  P&L Rs -1775.00"}
+{"id": 2625, "ts": "2026-10-07 10:20:21", "at": "10:20:21", "kind": "exit", "msg": "SELL DLF 650 PE 27 Oct EMA_STOP @ 10.90  -19.9%  P&L Rs -2565.00"}
+{"id": 2626, "ts": "2026-10-07 10:20:21", "at": "10:20:21", "kind": "signal", "msg": "DABUR 380 CE 27 Oct crossed EMA 144 at 11.60 - not taken: momentum -1.7%"}
+{"id": 2627, "ts": "2026-10-07 10:20:21", "at": "10:20:21", "kind": "signal", "msg": "ETERNAL 320 CE 27 Oct crossed EMA 144 at 16.45 - not taken: momentum 2.2%"}
+{"id": 2628, "ts": "2026-10-07 10:20:29", "at": "10:20:29", "kind": "entry", "msg": "BUY ICICIBANK 1330 CE 27 Oct x700 @ 36.25 (signal close 36.00, EMA 144 35.76, momentum 18.6%)  quick 41.69 till 10:50, target 61.62, stop below EMA 55"}
+{"id": 2629, "ts": "2026-10-07 10:20:57", "at": "10:20:57", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2630, "ts": "2026-10-07 10:21:20", "at": "10:21:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2631, "ts": "2026-10-07 10:21:31", "at": "10:21:31", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2632, "ts": "2026-10-07 10:21:47", "at": "10:21:47", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2633, "ts": "2026-10-07 10:21:59", "at": "10:21:59", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
