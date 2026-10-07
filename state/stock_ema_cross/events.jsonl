@@ -2719,3 +2719,13 @@
 {"id": 2719, "ts": "2026-10-07 10:50:05", "at": "10:50:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2720, "ts": "2026-10-07 10:50:32", "at": "10:50:32", "kind": "entry", "msg": "BUY DRREDDY 1220 CE 27 Oct x625 @ 28.60 (signal close 28.65, EMA 144 28.04, momentum 6.1%)  quick 32.89 till 11:20, target 48.62, stop below EMA 55"}
 {"id": 2721, "ts": "2026-10-07 10:50:32", "at": "10:50:32", "kind": "entry", "msg": "BUY ADANIPORTS 1760 CE 27 Oct x475 @ 54.45 (signal close 52.20, EMA 144 51.96, momentum 8.8%)  quick 62.62 till 11:20, target 92.56, stop below EMA 55"}
+{"id": 2722, "ts": "2026-10-07 10:52:42", "at": "10:52:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.0 s"}
+{"id": 2723, "ts": "2026-10-07 10:52:49", "at": "10:52:49", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2724, "ts": "2026-10-07 10:53:14", "at": "10:53:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 6.0 s"}
+{"id": 2725, "ts": "2026-10-07 10:53:48", "at": "10:53:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.6 s"}
+{"id": 2726, "ts": "2026-10-07 10:53:56", "at": "10:53:56", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2727, "ts": "2026-10-07 10:54:06", "at": "10:54:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2728, "ts": "2026-10-07 10:54:17", "at": "10:54:17", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2729, "ts": "2026-10-07 10:55:13", "at": "10:55:13", "kind": "signal", "msg": "WIPRO 165 PE 27 Oct crossed EMA 144 at 7.02 - not taken: under EMA 55, momentum 2.0%"}
+{"id": 2730, "ts": "2026-10-07 10:55:20", "at": "10:55:20", "kind": "skip", "msg": "ETERNAL 330 CE 27 Oct signal at 10.60 skipped - 10 positions already open"}
+{"id": 2731, "ts": "2026-10-07 10:55:58", "at": "10:55:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
