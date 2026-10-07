@@ -905,3 +905,13 @@
 {"id": 905, "ts": "2026-10-07 14:26:31", "at": "14:26:31", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 906, "ts": "2026-10-07 14:27:01", "at": "14:27:01", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 907, "ts": "2026-10-07 14:28:37", "at": "14:28:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 908, "ts": "2026-10-07 14:29:49", "at": "14:29:49", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 909, "ts": "2026-10-07 14:30:05", "at": "14:30:05", "kind": "signal", "msg": "2026-10-27 21000 PE VIX Fix crossed above 10.00 (8.58 -> 13.70, bar close 14.65)"}
+{"id": 910, "ts": "2026-10-07 14:30:05", "at": "14:30:05", "kind": "entry", "msg": "BUY 2026-10-27 21000 PE @ 14.85 x 65  (Rs 965) - buy 4 of 10, average 19.61, target 29.41"}
+{"id": 911, "ts": "2026-10-07 14:30:05", "at": "14:30:05", "kind": "signal", "msg": "2026-10-27 22000 PE VIX Fix crossed above 10.00 (8.70 -> 15.87, bar close 72.35)"}
+{"id": 912, "ts": "2026-10-07 14:30:05", "at": "14:30:05", "kind": "entry", "msg": "BUY 2026-10-27 22000 PE @ 73.45 x 65  (Rs 4,774) - buy 4 of 10, average 92.64, target 138.96"}
+{"id": 913, "ts": "2026-10-07 14:31:01", "at": "14:31:01", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 914, "ts": "2026-10-07 14:31:16", "at": "14:31:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 915, "ts": "2026-10-07 14:31:32", "at": "14:31:32", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 916, "ts": "2026-10-07 14:32:56", "at": "14:32:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 917, "ts": "2026-10-07 14:34:08", "at": "14:34:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

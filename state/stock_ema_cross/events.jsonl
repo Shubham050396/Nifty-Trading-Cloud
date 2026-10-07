@@ -3217,3 +3217,17 @@
 {"id": 3217, "ts": "2026-10-07 14:29:01", "at": "14:29:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 3218, "ts": "2026-10-07 14:29:01", "at": "14:29:01", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
 {"id": 3219, "ts": "2026-10-07 14:29:05", "at": "14:29:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 3220, "ts": "2026-10-07 14:29:13", "at": "14:29:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}
+{"id": 3221, "ts": "2026-10-07 14:29:19", "at": "14:29:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 4.5 s"}
+{"id": 3222, "ts": "2026-10-07 14:29:28", "at": "14:29:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 7.5 s"}
+{"id": 3223, "ts": "2026-10-07 14:29:36", "at": "14:29:36", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3224, "ts": "2026-10-07 14:30:12", "at": "14:30:12", "kind": "signal", "msg": "SOLARINDS 20000 CE 27 Oct crossed EMA 144 at 670.00 - not taken: momentum 3.2%"}
+{"id": 3225, "ts": "2026-10-07 14:30:20", "at": "14:30:20", "kind": "skip", "msg": "BANKBARODA 235 CE 27 Oct signal at 6.45 skipped - 20 trades already today"}
+{"id": 3226, "ts": "2026-10-07 14:30:20", "at": "14:30:20", "kind": "skip", "msg": "INDIGO 5100 CE 27 Oct signal at 96.35 skipped - 20 trades already today"}
+{"id": 3227, "ts": "2026-10-07 14:30:20", "at": "14:30:20", "kind": "skip", "msg": "AXISBANK 1260 CE 27 Oct signal at 25.50 skipped - 20 trades already today"}
+{"id": 3228, "ts": "2026-10-07 14:30:43", "at": "14:30:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3229, "ts": "2026-10-07 14:31:10", "at": "14:31:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3230, "ts": "2026-10-07 14:31:21", "at": "14:31:21", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
+{"id": 3231, "ts": "2026-10-07 14:31:40", "at": "14:31:40", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
+{"id": 3232, "ts": "2026-10-07 14:32:10", "at": "14:32:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3233, "ts": "2026-10-07 14:33:38", "at": "14:33:38", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

@@ -1457,3 +1457,8 @@
 {"id": 1457, "ts": "2026-10-07 14:27:44", "at": "14:27:44", "kind": "signal", "msg": "2026-11-23 24000 CE MACD crossed UP (bar close 60.70, hist -0.04 -> +0.02)"}
 {"id": 1458, "ts": "2026-10-07 14:27:44", "at": "14:27:44", "kind": "skip", "msg": "buy 2026-11-23 24000 CE ignored - premium 60.70 is outside 144 - 1600"}
 {"id": 1459, "ts": "2026-10-07 14:28:27", "at": "14:28:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1460, "ts": "2026-10-07 14:30:38", "at": "14:30:38", "kind": "signal", "msg": "2026-12-29 24000 CE MACD crossed UP (bar close 157.65, hist -0.22 -> +0.09)"}
+{"id": 1461, "ts": "2026-10-07 14:30:38", "at": "14:30:38", "kind": "exit", "msg": "SHORT 2026-12-29 24000 CE MACD_UP @ 157.55  P&L Rs -328.25"}
+{"id": 1462, "ts": "2026-10-07 14:30:38", "at": "14:30:38", "kind": "entry", "msg": "BUY 2026-12-29 24000 CE @ 157.55  (bar close 157.65, MACD hist +0.09, VIX 13.61)"}
+{"id": 1463, "ts": "2026-10-07 14:31:32", "at": "14:31:32", "kind": "api", "msg": "rate limited by Dhan - now one call every 12.1 s"}
+{"id": 1464, "ts": "2026-10-07 14:32:19", "at": "14:32:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
