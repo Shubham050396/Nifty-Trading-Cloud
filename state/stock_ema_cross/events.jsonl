@@ -2900,3 +2900,12 @@
 {"id": 2900, "ts": "2026-10-07 12:00:48", "at": "12:00:48", "kind": "warm", "msg": "bar history loaded for all 784 contracts"}
 {"id": 2901, "ts": "2026-10-07 12:01:26", "at": "12:01:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2902, "ts": "2026-10-07 12:02:01", "at": "12:02:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2903, "ts": "2026-10-07 12:04:10", "at": "12:04:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.6 s"}
+{"id": 2904, "ts": "2026-10-07 12:04:19", "at": "12:04:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2905, "ts": "2026-10-07 12:05:03", "at": "12:05:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2906, "ts": "2026-10-07 12:05:22", "at": "12:05:22", "kind": "signal", "msg": "INDIGO 5100 CE 27 Oct crossed EMA 144 at 96.50 - not taken: momentum -5.0%"}
+{"id": 2907, "ts": "2026-10-07 12:05:22", "at": "12:05:22", "kind": "exit", "msg": "SELL LODHA 1120 PE 27 Oct EMA_STOP @ 33.75  -6.8%  P&L Rs -1531.25"}
+{"id": 2908, "ts": "2026-10-07 12:05:22", "at": "12:05:22", "kind": "signal", "msg": "MOTHERSON 155 PE 27 Oct crossed EMA 144 at 2.49 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2909, "ts": "2026-10-07 12:05:22", "at": "12:05:22", "kind": "signal", "msg": "CANBK 120 PE 27 Oct crossed EMA 144 at 3.07 - not taken: under EMA 55, momentum -2.5%, premium under Rs 5"}
+{"id": 2910, "ts": "2026-10-07 12:05:22", "at": "12:05:22", "kind": "signal", "msg": "SBILIFE 1760 PE 27 Oct crossed EMA 144 at 56.00 - not taken: under EMA 55"}
+{"id": 2911, "ts": "2026-10-07 12:06:50", "at": "12:06:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
