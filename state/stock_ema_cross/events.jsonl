@@ -2974,3 +2974,13 @@
 {"id": 2974, "ts": "2026-10-07 12:30:24", "at": "12:30:24", "kind": "signal", "msg": "NAUKRI 1200 PE 27 Oct crossed EMA 144 at 24.00 - not taken: under EMA 55"}
 {"id": 2975, "ts": "2026-10-07 12:31:53", "at": "12:31:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2976, "ts": "2026-10-07 12:32:45", "at": "12:32:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2977, "ts": "2026-10-07 12:33:44", "at": "12:33:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2978, "ts": "2026-10-07 12:33:53", "at": "12:33:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2979, "ts": "2026-10-07 12:34:53", "at": "12:34:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2980, "ts": "2026-10-07 12:35:11", "at": "12:35:11", "kind": "signal", "msg": "BANKBARODA 230 CE 27 Oct crossed EMA 144 at 9.09 - not taken: momentum 0.6%"}
+{"id": 2981, "ts": "2026-10-07 12:35:11", "at": "12:35:11", "kind": "signal", "msg": "RECLTD 305 PE 27 Oct crossed EMA 144 at 10.15 - not taken: under EMA 55, momentum 3.0%"}
+{"id": 2982, "ts": "2026-10-07 12:35:11", "at": "12:35:11", "kind": "signal", "msg": "INDHOTEL 720 CE 27 Oct crossed EMA 144 at 25.00 - not taken: momentum -9.1%"}
+{"id": 2983, "ts": "2026-10-07 12:35:20", "at": "12:35:20", "kind": "skip", "msg": "DLF 640 PE 27 Oct signal at 11.60 skipped - 10 positions already open"}
+{"id": 2984, "ts": "2026-10-07 12:35:45", "at": "12:35:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2985, "ts": "2026-10-07 12:37:01", "at": "12:37:01", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 2986, "ts": "2026-10-07 12:37:53", "at": "12:37:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.6 s"}
