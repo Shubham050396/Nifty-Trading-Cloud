@@ -2850,3 +2850,19 @@
 {"id": 2850, "ts": "2026-10-07 11:40:33", "at": "11:40:33", "kind": "skip", "msg": "BHARTIARTL 1840 CE 27 Oct signal at 19.40 skipped - 10 positions already open"}
 {"id": 2851, "ts": "2026-10-07 11:42:14", "at": "11:42:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2852, "ts": "2026-10-07 11:42:50", "at": "11:42:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2853, "ts": "2026-10-07 11:43:33", "at": "11:43:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2854, "ts": "2026-10-07 11:44:02", "at": "11:44:02", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2855, "ts": "2026-10-07 11:44:35", "at": "11:44:35", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2856, "ts": "2026-10-07 11:45:08", "at": "11:45:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2857, "ts": "2026-10-07 11:45:08", "at": "11:45:08", "kind": "signal", "msg": "JIOFIN 220 PE 27 Oct crossed EMA 144 at 6.84 - not taken: under EMA 55, momentum -4.1%"}
+{"id": 2858, "ts": "2026-10-07 11:45:08", "at": "11:45:08", "kind": "signal", "msg": "SBIN 950 PE 27 Oct crossed EMA 144 at 12.25 - not taken: under EMA 55, momentum -9.3%"}
+{"id": 2859, "ts": "2026-10-07 11:45:08", "at": "11:45:08", "kind": "signal", "msg": "GODREJCP 870 PE 27 Oct crossed EMA 144 at 24.45 - not taken: under EMA 55, momentum 3.4%"}
+{"id": 2860, "ts": "2026-10-07 11:45:08", "at": "11:45:08", "kind": "signal", "msg": "GODREJCP 880 PE 27 Oct crossed EMA 144 at 31.15 - not taken: under EMA 55"}
+{"id": 2861, "ts": "2026-10-07 11:45:08", "at": "11:45:08", "kind": "signal", "msg": "LODHA 1140 PE 27 Oct crossed EMA 144 at 45.15 - not taken: under EMA 55"}
+{"id": 2862, "ts": "2026-10-07 11:45:08", "at": "11:45:08", "kind": "signal", "msg": "MOTHERSON 160 PE 27 Oct crossed EMA 144 at 4.23 - not taken: under EMA 55, momentum -1.6%, premium under Rs 5"}
+{"id": 2863, "ts": "2026-10-07 11:45:08", "at": "11:45:08", "kind": "signal", "msg": "PFC 320 PE 27 Oct crossed EMA 144 at 5.00 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2864, "ts": "2026-10-07 11:45:08", "at": "11:45:08", "kind": "exit", "msg": "SELL ITC 262.5 CE 27 Oct EMA_STOP @ 6.60  -10.2%  P&L Rs -1293.75"}
+{"id": 2865, "ts": "2026-10-07 11:45:18", "at": "11:45:18", "kind": "entry", "msg": "BUY LODHA 1120 PE 27 Oct x625 @ 36.20 (signal close 36.10, EMA 144 35.13, momentum 13.9%)  quick 41.63 till 12:15, target 61.54, stop below EMA 55"}
+{"id": 2866, "ts": "2026-10-07 11:45:18", "at": "11:45:18", "kind": "skip", "msg": "DLF 670 PE 27 Oct signal at 24.70 skipped - 10 positions already open"}
+{"id": 2867, "ts": "2026-10-07 11:46:43", "at": "11:46:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2868, "ts": "2026-10-07 11:47:50", "at": "11:47:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

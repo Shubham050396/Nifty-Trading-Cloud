@@ -1259,3 +1259,6 @@
 {"id": 1259, "ts": "2026-10-07 11:39:22", "at": "11:39:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1260, "ts": "2026-10-07 11:39:52", "at": "11:39:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1261, "ts": "2026-10-07 11:41:17", "at": "11:41:17", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1262, "ts": "2026-10-07 11:44:22", "at": "11:44:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 12.1 s"}
+{"id": 1263, "ts": "2026-10-07 11:45:47", "at": "11:45:47", "kind": "api", "msg": "rate limited by Dhan - now one call every 14.1 s"}
+{"id": 1264, "ts": "2026-10-07 11:47:57", "at": "11:47:57", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
