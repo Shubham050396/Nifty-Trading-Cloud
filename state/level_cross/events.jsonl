@@ -5342,3 +5342,9 @@
 {"id": 5342, "ts": "2026-10-07 11:27:40", "at": "11:27:40", "kind": "gap", "msg": "2026-10-27 21500 PE: no prices for 4 min - bar history restarts"}
 {"id": 5343, "ts": "2026-10-07 11:27:40", "at": "11:27:40", "kind": "gap", "msg": "2026-10-27 23700 CE: no prices for 4 min - bar history restarts"}
 {"id": 5344, "ts": "2026-10-07 11:27:40", "at": "11:27:40", "kind": "gap", "msg": "2026-10-27 23700 PE: no prices for 4 min - bar history restarts"}
+{"id": 5345, "ts": "2026-10-07 11:28:34", "at": "11:28:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5346, "ts": "2026-10-07 11:29:19", "at": "11:29:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5347, "ts": "2026-10-07 11:30:03", "at": "11:30:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5348, "ts": "2026-10-07 11:31:01", "at": "11:31:01", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5349, "ts": "2026-10-07 11:32:00", "at": "11:32:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5350, "ts": "2026-10-07 11:32:30", "at": "11:32:30", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

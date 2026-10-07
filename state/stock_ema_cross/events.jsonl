@@ -2822,3 +2822,14 @@
 {"id": 2822, "ts": "2026-10-07 11:26:58", "at": "11:26:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2823, "ts": "2026-10-07 11:27:25", "at": "11:27:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2824, "ts": "2026-10-07 11:27:43", "at": "11:27:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2825, "ts": "2026-10-07 11:29:05", "at": "11:29:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2826, "ts": "2026-10-07 11:29:14", "at": "11:29:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2827, "ts": "2026-10-07 11:30:06", "at": "11:30:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2828, "ts": "2026-10-07 11:30:25", "at": "11:30:25", "kind": "signal", "msg": "JIOFIN 220 PE 27 Oct crossed EMA 144 at 6.60 - not taken: under EMA 55, momentum -7.9%"}
+{"id": 2829, "ts": "2026-10-07 11:30:25", "at": "11:30:25", "kind": "signal", "msg": "INDHOTEL 740 CE 27 Oct crossed EMA 144 at 15.90 - not taken: momentum -5.6%"}
+{"id": 2830, "ts": "2026-10-07 11:30:25", "at": "11:30:25", "kind": "signal", "msg": "SOLARINDS 20000 CE 27 Oct crossed EMA 144 at 642.25 - not taken: momentum -1.2%"}
+{"id": 2831, "ts": "2026-10-07 11:30:25", "at": "11:30:25", "kind": "signal", "msg": "SBILIFE 1760 PE 27 Oct crossed EMA 144 at 56.00 - not taken: under EMA 55, momentum -7.4%"}
+{"id": 2832, "ts": "2026-10-07 11:30:33", "at": "11:30:33", "kind": "entry", "msg": "BUY DLF 650 PE 27 Oct x950 @ 13.65 (signal close 13.60, EMA 144 13.36, momentum 11.0%)  quick 15.70 till 12:00, target 23.20, stop below EMA 55"}
+{"id": 2833, "ts": "2026-10-07 11:31:47", "at": "11:31:47", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2834, "ts": "2026-10-07 11:31:57", "at": "11:31:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2835, "ts": "2026-10-07 11:32:06", "at": "11:32:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
