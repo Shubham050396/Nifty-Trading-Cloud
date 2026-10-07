@@ -2681,3 +2681,17 @@
 {"id": 2681, "ts": "2026-10-07 10:36:44", "at": "10:36:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2682, "ts": "2026-10-07 10:37:14", "at": "10:37:14", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
 {"id": 2683, "ts": "2026-10-07 10:37:20", "at": "10:37:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2684, "ts": "2026-10-07 10:37:45", "at": "10:37:45", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2685, "ts": "2026-10-07 10:38:12", "at": "10:38:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2686, "ts": "2026-10-07 10:39:33", "at": "10:39:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2687, "ts": "2026-10-07 10:40:09", "at": "10:40:09", "kind": "signal", "msg": "HINDUNILVR 1880 PE 27 Oct crossed EMA 144 at 36.10 - not taken: under EMA 55"}
+{"id": 2688, "ts": "2026-10-07 10:40:09", "at": "10:40:09", "kind": "signal", "msg": "HINDUNILVR 1900 PE 27 Oct crossed EMA 144 at 47.00 - not taken: under EMA 55"}
+{"id": 2689, "ts": "2026-10-07 10:40:09", "at": "10:40:09", "kind": "signal", "msg": "LODHA 1140 PE 27 Oct crossed EMA 144 at 44.80 - not taken: under EMA 55"}
+{"id": 2690, "ts": "2026-10-07 10:40:09", "at": "10:40:09", "kind": "signal", "msg": "SHREECEM 22000 PE 27 Oct crossed EMA 144 at 550.45 - not taken: under EMA 55, momentum 1.9%"}
+{"id": 2691, "ts": "2026-10-07 10:40:09", "at": "10:40:09", "kind": "signal", "msg": "VEDL 270 PE 27 Oct crossed EMA 144 at 14.45 - not taken: under EMA 55"}
+{"id": 2692, "ts": "2026-10-07 10:40:09", "at": "10:40:09", "kind": "signal", "msg": "WIPRO 157.5 PE 27 Oct crossed EMA 144 at 3.48 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2693, "ts": "2026-10-07 10:40:09", "at": "10:40:09", "kind": "signal", "msg": "RECLTD 310 PE 27 Oct crossed EMA 144 at 14.35 - not taken: under EMA 55"}
+{"id": 2694, "ts": "2026-10-07 10:40:17", "at": "10:40:17", "kind": "entry", "msg": "BUY ADANIPOWER 200 PE 27 Oct x3550 @ 6.25 (signal close 6.18, EMA 144 5.68, momentum 18.8%)  quick 7.19 till 11:10, target 10.62, stop below EMA 55"}
+{"id": 2695, "ts": "2026-10-07 10:41:20", "at": "10:41:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2696, "ts": "2026-10-07 10:42:12", "at": "10:42:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2697, "ts": "2026-10-07 10:42:30", "at": "10:42:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
