@@ -1731,3 +1731,8 @@
 {"id": 1731, "ts": "2026-10-07 14:54:00", "at": "14:54:00", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
 {"id": 1732, "ts": "2026-10-07 14:54:35", "at": "14:54:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1733, "ts": "2026-10-07 14:55:16", "at": "14:55:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1734, "ts": "2026-10-07 16:02:24", "at": "16:02:24", "kind": "boot", "msg": "engine thread started"}
+{"id": 1735, "ts": "2026-10-07 16:02:24", "at": "16:02:24", "kind": "boot", "msg": "ema-hedge app up (pid 2128, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/ema_hedge/data)"}
+{"id": 1736, "ts": "2026-10-07 16:02:25", "at": "16:02:25", "kind": "control", "msg": "started automatically on launch"}
+{"id": 1737, "ts": "2026-10-07 16:02:25", "at": "16:02:25", "kind": "vix", "msg": "India VIX 13.89 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
+{"id": 1738, "ts": "2026-10-07 16:02:29", "at": "16:02:29", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}

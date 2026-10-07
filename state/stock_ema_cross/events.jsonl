@@ -3283,3 +3283,11 @@
 {"id": 3283, "ts": "2026-10-07 14:55:27", "at": "14:55:27", "kind": "signal", "msg": "TCS 2060 PE 27 Oct crossed EMA 144 at 55.20 - not taken: under EMA 55, momentum -0.1%"}
 {"id": 3284, "ts": "2026-10-07 14:55:27", "at": "14:55:27", "kind": "signal", "msg": "HDFCBANK 690 PE 27 Oct crossed EMA 144 at 7.75 - not taken: under EMA 55, momentum -13.4%"}
 {"id": 3285, "ts": "2026-10-07 14:55:45", "at": "14:55:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3286, "ts": "2026-10-07 16:02:24", "at": "16:02:24", "kind": "boot", "msg": "engine thread started"}
+{"id": 3287, "ts": "2026-10-07 16:02:24", "at": "16:02:24", "kind": "boot", "msg": "stock-options EMA app up (pid 2132, DATA_DIR=/home/runner/work/Nifty-Trading-Cloud/Nifty-Trading-Cloud/strategies/stock_ema_cross/data)"}
+{"id": 3288, "ts": "2026-10-07 16:02:29", "at": "16:02:29", "kind": "boot", "msg": "scrip master downloaded in 6s: 213 stocks with options"}
+{"id": 3289, "ts": "2026-10-07 16:02:29", "at": "16:02:29", "kind": "boot", "msg": "99 of 100 listed stocks have options - skipped: LTIM"}
+{"id": 3290, "ts": "2026-10-07 16:02:30", "at": "16:02:30", "kind": "control", "msg": "started automatically on launch - 99 stocks"}
+{"id": 3291, "ts": "2026-10-07 16:02:30", "at": "16:02:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 3292, "ts": "2026-10-07 16:02:30", "at": "16:02:30", "kind": "api", "msg": "share prices unavailable: HTTP 429"}
+{"id": 3293, "ts": "2026-10-07 16:02:33", "at": "16:02:33", "kind": "warm", "msg": "bar history loaded for all 8 contracts"}
