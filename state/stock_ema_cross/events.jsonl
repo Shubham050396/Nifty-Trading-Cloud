@@ -2388,3 +2388,26 @@
 {"id": 2388, "ts": "2026-10-07 09:30:01", "at": "09:30:01", "kind": "exit", "msg": "SELL BRITANNIA 4800 PE 27 Oct EMA_STOP @ 73.30  -16.7%  P&L Rs -1831.25"}
 {"id": 2389, "ts": "2026-10-07 09:30:02", "at": "09:30:02", "kind": "entry", "msg": "BUY RECLTD 310 CE 27 Oct x1575 @ 6.75 (signal close 6.70, EMA 144 6.30, momentum 61.4%)  quick 7.76 till 10:00, target 11.47, stop below EMA 55"}
 {"id": 2390, "ts": "2026-10-07 09:30:02", "at": "09:30:02", "kind": "skip", "msg": "RECLTD 300 CE 27 Oct signal at 12.05 skipped - 10 positions already open"}
+{"id": 2391, "ts": "2026-10-07 09:32:13", "at": "09:32:13", "kind": "warm", "msg": "bar history loaded for all 772 contracts"}
+{"id": 2392, "ts": "2026-10-07 09:33:13", "at": "09:33:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2393, "ts": "2026-10-07 09:33:58", "at": "09:33:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2394, "ts": "2026-10-07 09:34:00", "at": "09:34:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}
+{"id": 2395, "ts": "2026-10-07 09:34:03", "at": "09:34:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.0 s"}
+{"id": 2396, "ts": "2026-10-07 09:34:13", "at": "09:34:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.6 s"}
+{"id": 2397, "ts": "2026-10-07 09:34:39", "at": "09:34:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2398, "ts": "2026-10-07 09:34:48", "at": "09:34:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2399, "ts": "2026-10-07 09:34:58", "at": "09:34:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2400, "ts": "2026-10-07 09:35:07", "at": "09:35:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2401, "ts": "2026-10-07 09:35:16", "at": "09:35:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2402, "ts": "2026-10-07 09:35:25", "at": "09:35:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2403, "ts": "2026-10-07 09:35:35", "at": "09:35:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2404, "ts": "2026-10-07 09:35:44", "at": "09:35:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2405, "ts": "2026-10-07 09:35:53", "at": "09:35:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2406, "ts": "2026-10-07 09:36:12", "at": "09:36:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2407, "ts": "2026-10-07 09:36:12", "at": "09:36:12", "kind": "signal", "msg": "DABUR 385 CE 27 Oct crossed EMA 144 at 9.25 - not taken: momentum -12.7%"}
+{"id": 2408, "ts": "2026-10-07 09:36:12", "at": "09:36:12", "kind": "signal", "msg": "ZYDUSLIFE 1150 PE 27 Oct crossed EMA 144 at 25.70 - not taken: under EMA 55"}
+{"id": 2409, "ts": "2026-10-07 09:36:21", "at": "09:36:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2410, "ts": "2026-10-07 09:36:30", "at": "09:36:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2411, "ts": "2026-10-07 09:36:39", "at": "09:36:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2412, "ts": "2026-10-07 09:36:49", "at": "09:36:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2413, "ts": "2026-10-07 09:36:58", "at": "09:36:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
