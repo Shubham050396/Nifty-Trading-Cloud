@@ -6129,3 +6129,55 @@
 {"id": 6129, "ts": "2026-10-07 13:36:35", "at": "13:36:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 6130, "ts": "2026-10-07 13:37:33", "at": "13:37:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 6131, "ts": "2026-10-07 13:38:32", "at": "13:38:32", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6132, "ts": "2026-10-07 13:39:02", "at": "13:39:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6133, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22400 CE: no prices for 5 min - bar history restarts"}
+{"id": 6134, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23300 CE: no prices for 5 min - bar history restarts"}
+{"id": 6135, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21900 CE: no prices for 5 min - bar history restarts"}
+{"id": 6136, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22800 CE: no prices for 5 min - bar history restarts"}
+{"id": 6137, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22300 CE: no prices for 5 min - bar history restarts"}
+{"id": 6138, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23200 CE: no prices for 5 min - bar history restarts"}
+{"id": 6139, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21800 CE: no prices for 5 min - bar history restarts"}
+{"id": 6140, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22700 CE: no prices for 5 min - bar history restarts"}
+{"id": 6141, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23600 CE: no prices for 5 min - bar history restarts"}
+{"id": 6142, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22200 CE: no prices for 5 min - bar history restarts"}
+{"id": 6143, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23100 CE: no prices for 5 min - bar history restarts"}
+{"id": 6144, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21700 CE: no prices for 5 min - bar history restarts"}
+{"id": 6145, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22600 CE: no prices for 5 min - bar history restarts"}
+{"id": 6146, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23500 CE: no prices for 5 min - bar history restarts"}
+{"id": 6147, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22100 CE: no prices for 5 min - bar history restarts"}
+{"id": 6148, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23000 CE: no prices for 5 min - bar history restarts"}
+{"id": 6149, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21600 CE: no prices for 5 min - bar history restarts"}
+{"id": 6150, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22500 CE: no prices for 5 min - bar history restarts"}
+{"id": 6151, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23400 CE: no prices for 5 min - bar history restarts"}
+{"id": 6152, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22000 CE: no prices for 5 min - bar history restarts"}
+{"id": 6153, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22900 CE: no prices for 5 min - bar history restarts"}
+{"id": 6154, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22400 PE: no prices for 5 min - bar history restarts"}
+{"id": 6155, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23300 PE: no prices for 5 min - bar history restarts"}
+{"id": 6156, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21900 PE: no prices for 5 min - bar history restarts"}
+{"id": 6157, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22800 PE: no prices for 5 min - bar history restarts"}
+{"id": 6158, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22300 PE: no prices for 5 min - bar history restarts"}
+{"id": 6159, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23200 PE: no prices for 5 min - bar history restarts"}
+{"id": 6160, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21800 PE: no prices for 5 min - bar history restarts"}
+{"id": 6161, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22700 PE: no prices for 5 min - bar history restarts"}
+{"id": 6162, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23600 PE: no prices for 5 min - bar history restarts"}
+{"id": 6163, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22200 PE: no prices for 5 min - bar history restarts"}
+{"id": 6164, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23100 PE: no prices for 5 min - bar history restarts"}
+{"id": 6165, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21700 PE: no prices for 5 min - bar history restarts"}
+{"id": 6166, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22600 PE: no prices for 5 min - bar history restarts"}
+{"id": 6167, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23500 PE: no prices for 5 min - bar history restarts"}
+{"id": 6168, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22100 PE: no prices for 5 min - bar history restarts"}
+{"id": 6169, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23000 PE: no prices for 5 min - bar history restarts"}
+{"id": 6170, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21600 PE: no prices for 5 min - bar history restarts"}
+{"id": 6171, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22500 PE: no prices for 5 min - bar history restarts"}
+{"id": 6172, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23400 PE: no prices for 5 min - bar history restarts"}
+{"id": 6173, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22000 PE: no prices for 5 min - bar history restarts"}
+{"id": 6174, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 22900 PE: no prices for 5 min - bar history restarts"}
+{"id": 6175, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21500 CE: no prices for 5 min - bar history restarts"}
+{"id": 6176, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 21500 PE: no prices for 5 min - bar history restarts"}
+{"id": 6177, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23700 CE: no prices for 5 min - bar history restarts"}
+{"id": 6178, "ts": "2026-10-07 13:39:32", "at": "13:39:32", "kind": "gap", "msg": "2026-10-13 23700 PE: no prices for 5 min - bar history restarts"}
+{"id": 6179, "ts": "2026-10-07 13:40:00", "at": "13:40:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6180, "ts": "2026-10-07 13:40:30", "at": "13:40:30", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6181, "ts": "2026-10-07 13:41:29", "at": "13:41:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6182, "ts": "2026-10-07 13:42:53", "at": "13:42:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6183, "ts": "2026-10-07 13:43:08", "at": "13:43:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
