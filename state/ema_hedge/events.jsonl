@@ -1337,3 +1337,13 @@
 {"id": 1337, "ts": "2026-10-07 09:15:00", "at": "09:15:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 1338, "ts": "2026-10-07 09:15:41", "at": "09:15:41", "kind": "api", "msg": "rate limited by Dhan - now one call every 6.1 s"}
 {"id": 1339, "ts": "2026-10-07 09:16:21", "at": "09:16:21", "kind": "api", "msg": "rate limited by Dhan - now one call every 8.1 s"}
+{"id": 1340, "ts": "2026-10-07 09:17:02", "at": "09:17:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 12.1 s"}
+{"id": 1341, "ts": "2026-10-07 09:17:43", "at": "09:17:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1342, "ts": "2026-10-07 09:18:23", "at": "09:18:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1343, "ts": "2026-10-07 09:19:04", "at": "09:19:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1344, "ts": "2026-10-07 09:19:44", "at": "09:19:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1345, "ts": "2026-10-07 09:20:03", "at": "09:20:03", "kind": "signal", "msg": "EXIT LONG at 2026-10-07 09:15: NIFTY closed 22622.70 - closed through the stop EMA"}
+{"id": 1346, "ts": "2026-10-07 09:20:26", "at": "09:20:26", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1347, "ts": "2026-10-07 09:21:04", "at": "09:21:04", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 1348, "ts": "2026-10-07 09:21:07", "at": "09:21:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1349, "ts": "2026-10-07 09:21:47", "at": "09:21:47", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

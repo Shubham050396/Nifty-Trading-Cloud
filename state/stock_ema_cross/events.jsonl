@@ -2317,3 +2317,55 @@
 {"id": 2317, "ts": "2026-10-07 09:15:04", "at": "09:15:04", "kind": "contract", "msg": "watching 700 contracts on 99 stocks (ATM +/- 1, CE/PE): 32 added, 6 dropped"}
 {"id": 2318, "ts": "2026-10-07 09:16:44", "at": "09:16:44", "kind": "exit", "msg": "SELL ADANIGREEN 1300 CE 27 Oct PROFIT_TARGET @ 68.70  +50.2%  P&L Rs 13770.00"}
 {"id": 2319, "ts": "2026-10-07 09:16:49", "at": "09:16:49", "kind": "warm", "msg": "bar history loaded for all 756 contracts"}
+{"id": 2320, "ts": "2026-10-07 09:16:57", "at": "09:16:57", "kind": "warm", "msg": "bar history loaded for all 756 contracts"}
+{"id": 2321, "ts": "2026-10-07 09:17:04", "at": "09:17:04", "kind": "warm", "msg": "bar history loaded for all 758 contracts"}
+{"id": 2322, "ts": "2026-10-07 09:17:17", "at": "09:17:17", "kind": "warm", "msg": "bar history loaded for all 760 contracts"}
+{"id": 2323, "ts": "2026-10-07 09:17:37", "at": "09:17:37", "kind": "warm", "msg": "bar history loaded for all 760 contracts"}
+{"id": 2324, "ts": "2026-10-07 09:17:53", "at": "09:17:53", "kind": "warm", "msg": "bar history loaded for all 762 contracts"}
+{"id": 2325, "ts": "2026-10-07 09:18:05", "at": "09:18:05", "kind": "warm", "msg": "bar history loaded for all 764 contracts"}
+{"id": 2326, "ts": "2026-10-07 09:18:38", "at": "09:18:38", "kind": "warm", "msg": "bar history loaded for all 764 contracts"}
+{"id": 2327, "ts": "2026-10-07 09:19:22", "at": "09:19:22", "kind": "warm", "msg": "bar history loaded for all 764 contracts"}
+{"id": 2328, "ts": "2026-10-07 09:19:52", "at": "09:19:52", "kind": "warm", "msg": "bar history loaded for all 766 contracts"}
+{"id": 2329, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2330, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "HINDUNILVR 1900 PE 27 Oct crossed EMA 144 at 45.25 - not taken: under EMA 55"}
+{"id": 2331, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "HINDUNILVR 1920 PE 27 Oct crossed EMA 144 at 57.25 - not taken: under EMA 55"}
+{"id": 2332, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "INFY 1000 PE 27 Oct crossed EMA 144 at 31.55 - not taken: momentum -1.6%"}
+{"id": 2333, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "INFY 1020 PE 27 Oct crossed EMA 144 at 41.60 - not taken: momentum -1.8%"}
+{"id": 2334, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "INFY 1040 PE 27 Oct crossed EMA 144 at 53.25 - not taken: momentum -2.0%"}
+{"id": 2335, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "JIOFIN 215 PE 27 Oct crossed EMA 144 at 4.70 - not taken: under EMA 55, momentum 0.2%, premium under Rs 5"}
+{"id": 2336, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "LT 3700 PE 27 Oct crossed EMA 144 at 48.20 - not taken: under EMA 55"}
+{"id": 2337, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "TMPV 280 PE 27 Oct crossed EMA 144 at 6.05 - not taken: under EMA 55"}
+{"id": 2338, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "TCS 2080 PE 27 Oct crossed EMA 144 at 66.20 - not taken: under EMA 55, momentum 1.0%"}
+{"id": 2339, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "TCS 2100 PE 27 Oct crossed EMA 144 at 75.30 - not taken: under EMA 55, momentum -0.7%"}
+{"id": 2340, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "ABB 7200 PE 27 Oct crossed EMA 144 at 304.80 - not taken: under EMA 55"}
+{"id": 2341, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "GAIL 170 PE 27 Oct crossed EMA 144 at 3.59 - not taken: premium under Rs 5"}
+{"id": 2342, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "MOTHERSON 160 PE 27 Oct crossed EMA 144 at 4.70 - not taken: premium under Rs 5"}
+{"id": 2343, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "SHREECEM 22000 PE 27 Oct crossed EMA 144 at 541.55 - not taken: under EMA 55"}
+{"id": 2344, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "INFY 980 PE 27 Oct crossed EMA 144 at 23.05 - not taken: momentum -3.2%"}
+{"id": 2345, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "TCS 2060 PE 27 Oct crossed EMA 144 at 55.45 - not taken: under EMA 55, momentum 0.4%"}
+{"id": 2346, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "BPCL 290 PE 27 Oct crossed EMA 144 at 4.45 - not taken: momentum 1.1%, premium under Rs 5"}
+{"id": 2347, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "GAIL 167.5 PE 27 Oct crossed EMA 144 at 2.70 - not taken: premium under Rs 5"}
+{"id": 2348, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "MOTHERSON 155 PE 27 Oct crossed EMA 144 at 2.65 - not taken: premium under Rs 5"}
+{"id": 2349, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "HAVELLS 1040 PE 27 Oct crossed EMA 144 at 22.80 - not taken: under EMA 55"}
+{"id": 2350, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "NAUKRI 1200 PE 27 Oct crossed EMA 144 at 24.50 - not taken: under EMA 55, momentum 0.6%"}
+{"id": 2351, "ts": "2026-10-07 09:20:02", "at": "09:20:02", "kind": "signal", "msg": "TMPV 275 PE 27 Oct crossed EMA 144 at 4.15 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2352, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}
+{"id": 2353, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "entry", "msg": "BUY BRITANNIA 4800 PE 27 Oct x125 @ 87.95 (signal close 87.95, EMA 144 68.83, momentum 62.1%)  quick 101.14 till 09:50, target 149.52, stop below EMA 55"}
+{"id": 2354, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "entry", "msg": "BUY BHARTIARTL 1820 CE 27 Oct x475 @ 28.30 (signal close 27.95, EMA 144 27.08, momentum 40.8%)  quick 32.55 till 09:50, target 48.11, stop below EMA 55"}
+{"id": 2355, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "entry", "msg": "BUY BEL 380 PE 27 Oct x1425 @ 7.55 (signal close 7.55, EMA 144 5.80, momentum 36.0%)  quick 8.68 till 09:50, target 12.83, stop below EMA 55"}
+{"id": 2356, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "INDHOTEL 740 CE 27 Oct signal at 18.45 skipped - already 1 open on INDHOTEL"}
+{"id": 2357, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "entry", "msg": "BUY DRREDDY 1220 CE 27 Oct x625 @ 29.20 (signal close 29.20, EMA 144 28.04, momentum 20.4%)  quick 33.58 till 09:50, target 49.64, stop below EMA 55"}
+{"id": 2358, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "entry", "msg": "BUY SBILIFE 1700 PE 27 Oct x375 @ 35.00 (signal close 35.00, EMA 144 31.68, momentum 69.9%)  quick 40.25 till 09:50, target 59.50, stop below EMA 55"}
+{"id": 2359, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "BHARTIARTL 1840 CE 27 Oct signal at 19.00 skipped - 10 positions already open"}
+{"id": 2360, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "BEL 375 PE 27 Oct signal at 5.55 skipped - 10 positions already open"}
+{"id": 2361, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "BHARTIARTL 1800 CE 27 Oct signal at 40.25 skipped - 10 positions already open"}
+{"id": 2362, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "JSWSTEEL 1240 PE 27 Oct signal at 24.95 skipped - 10 positions already open"}
+{"id": 2363, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "BEL 385 PE 27 Oct signal at 9.65 skipped - 10 positions already open"}
+{"id": 2364, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "DRREDDY 1230 CE 27 Oct signal at 25.50 skipped - 10 positions already open"}
+{"id": 2365, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "JSWSTEEL 1260 PE 27 Oct signal at 34.60 skipped - 10 positions already open"}
+{"id": 2366, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "ASIANPAINT 2360 PE 27 Oct signal at 37.35 skipped - 10 positions already open"}
+{"id": 2367, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "TMPV 290 PE 27 Oct signal at 11.55 skipped - 10 positions already open"}
+{"id": 2368, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "ASIANPAINT 2400 PE 27 Oct signal at 55.15 skipped - 10 positions already open"}
+{"id": 2369, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "HDFCBANK 700 PE 27 Oct signal at 11.75 skipped - 10 positions already open"}
+{"id": 2370, "ts": "2026-10-07 09:20:10", "at": "09:20:10", "kind": "warm", "msg": "bar history loaded for all 766 contracts"}
+{"id": 2371, "ts": "2026-10-07 09:20:16", "at": "09:20:16", "kind": "warm", "msg": "bar history loaded for all 766 contracts"}

@@ -4506,3 +4506,13 @@
 {"id": 4506, "ts": "2026-10-07 09:15:40", "at": "09:15:40", "kind": "api", "msg": "rate limited by Dhan - now one call every 12.1 s"}
 {"id": 4507, "ts": "2026-10-07 09:16:04", "at": "09:16:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 4508, "ts": "2026-10-07 09:16:34", "at": "09:16:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 4509, "ts": "2026-10-07 09:17:04", "at": "09:17:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 4510, "ts": "2026-10-07 09:17:34", "at": "09:17:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 4511, "ts": "2026-10-07 09:18:04", "at": "09:18:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 4512, "ts": "2026-10-07 09:18:34", "at": "09:18:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 4513, "ts": "2026-10-07 09:19:05", "at": "09:19:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 4514, "ts": "2026-10-07 09:19:35", "at": "09:19:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 4515, "ts": "2026-10-07 09:20:05", "at": "09:20:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 4516, "ts": "2026-10-07 09:20:35", "at": "09:20:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 4517, "ts": "2026-10-07 09:21:05", "at": "09:21:05", "kind": "contract", "msg": "2026-10-13: watching ATM 22600 +/- 10 strikes (CE/PE)"}
+{"id": 4518, "ts": "2026-10-07 09:21:33", "at": "09:21:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

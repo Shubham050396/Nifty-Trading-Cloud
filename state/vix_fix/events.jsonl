@@ -541,3 +541,8 @@
 {"id": 541, "ts": "2026-10-07 09:01:46", "at": "09:01:46", "kind": "vix", "msg": "India VIX unavailable (Too many requests on server from single user breaching rate limits. Try throttling API calls.)"}
 {"id": 542, "ts": "2026-10-07 09:01:46", "at": "09:01:46", "kind": "history", "msg": "2026-10-27 25000 CE: could not load candles (Too many requests on server from single user breaching rate limits. Try throttling API calls. - building bars from live prices). Bars are built from live prices instead; the VIX Fix needs 25 of them. Retried every 10 min."}
 {"id": 543, "ts": "2026-10-07 09:15:01", "at": "09:15:01", "kind": "contract", "msg": "2026-10-27: watching ATM 23000 +/- 3 strikes of 1000 (CE/PE)"}
+{"id": 544, "ts": "2026-10-07 09:17:46", "at": "09:17:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 545, "ts": "2026-10-07 09:20:01", "at": "09:20:01", "kind": "signal", "msg": "2026-10-27 24000 CE VIX Fix crossed above 10.00 (7.70 -> 11.42, bar close 12.25)"}
+{"id": 546, "ts": "2026-10-07 09:20:01", "at": "09:20:01", "kind": "entry", "msg": "BUY 2026-10-27 24000 CE @ 12.20 x 65  (Rs 793) - buy 3 of 10, average 14.12, target 21.18"}
+{"id": 547, "ts": "2026-10-07 09:20:01", "at": "09:20:01", "kind": "signal", "msg": "2026-10-27 23000 CE VIX Fix crossed above 10.00 (5.93 -> 11.98, bar close 141.80)"}
+{"id": 548, "ts": "2026-10-07 09:20:01", "at": "09:20:01", "kind": "entry", "msg": "BUY 2026-10-27 23000 CE @ 141.40 x 65  (Rs 9,191) - buy 3 of 10, average 146.57, target 219.85"}
