@@ -3240,3 +3240,15 @@
 {"id": 3240, "ts": "2026-10-07 14:38:49", "at": "14:38:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3241, "ts": "2026-10-07 14:38:58", "at": "14:38:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3242, "ts": "2026-10-07 14:39:16", "at": "14:39:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3243, "ts": "2026-10-07 14:39:43", "at": "14:39:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3244, "ts": "2026-10-07 14:39:52", "at": "14:39:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3245, "ts": "2026-10-07 14:40:11", "at": "14:40:11", "kind": "signal", "msg": "TATACONSUM 980 PE 27 Oct crossed EMA 144 at 25.05 - not taken: under EMA 55, momentum -6.4%"}
+{"id": 3246, "ts": "2026-10-07 14:40:11", "at": "14:40:11", "kind": "signal", "msg": "DLF 670 PE 27 Oct crossed EMA 144 at 24.40 - not taken: momentum 1.9%"}
+{"id": 3247, "ts": "2026-10-07 14:40:11", "at": "14:40:11", "kind": "signal", "msg": "MOTHERSON 160 PE 27 Oct crossed EMA 144 at 4.22 - not taken: under EMA 55, momentum -8.7%, premium under Rs 5"}
+{"id": 3248, "ts": "2026-10-07 14:40:11", "at": "14:40:11", "kind": "signal", "msg": "HDFCBANK 690 PE 27 Oct crossed EMA 144 at 7.75 - not taken: under EMA 55, momentum -12.9%"}
+{"id": 3249, "ts": "2026-10-07 14:40:20", "at": "14:40:20", "kind": "skip", "msg": "INDIGO 5100 CE 27 Oct signal at 96.40 skipped - 20 trades already today"}
+{"id": 3250, "ts": "2026-10-07 14:40:28", "at": "14:40:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3251, "ts": "2026-10-07 14:41:12", "at": "14:41:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3252, "ts": "2026-10-07 14:41:21", "at": "14:41:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3253, "ts": "2026-10-07 14:41:30", "at": "14:41:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3254, "ts": "2026-10-07 14:42:52", "at": "14:42:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
