@@ -2909,3 +2909,11 @@
 {"id": 2909, "ts": "2026-10-07 12:05:22", "at": "12:05:22", "kind": "signal", "msg": "CANBK 120 PE 27 Oct crossed EMA 144 at 3.07 - not taken: under EMA 55, momentum -2.5%, premium under Rs 5"}
 {"id": 2910, "ts": "2026-10-07 12:05:22", "at": "12:05:22", "kind": "signal", "msg": "SBILIFE 1760 PE 27 Oct crossed EMA 144 at 56.00 - not taken: under EMA 55"}
 {"id": 2911, "ts": "2026-10-07 12:06:50", "at": "12:06:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2912, "ts": "2026-10-07 12:08:19", "at": "12:08:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2913, "ts": "2026-10-07 12:09:26", "at": "12:09:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2914, "ts": "2026-10-07 12:09:53", "at": "12:09:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2915, "ts": "2026-10-07 12:10:11", "at": "12:10:11", "kind": "signal", "msg": "JIOFIN 220 PE 27 Oct crossed EMA 144 at 6.65 - not taken: under EMA 55, momentum 0.2%"}
+{"id": 2916, "ts": "2026-10-07 12:10:20", "at": "12:10:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2917, "ts": "2026-10-07 12:11:27", "at": "12:11:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2918, "ts": "2026-10-07 12:11:38", "at": "12:11:38", "kind": "warm", "msg": "bar history loaded for all 786 contracts"}
+{"id": 2919, "ts": "2026-10-07 12:12:33", "at": "12:12:33", "kind": "warm", "msg": "bar history loaded for all 786 contracts"}
