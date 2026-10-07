@@ -2866,3 +2866,16 @@
 {"id": 2866, "ts": "2026-10-07 11:45:18", "at": "11:45:18", "kind": "skip", "msg": "DLF 670 PE 27 Oct signal at 24.70 skipped - 10 positions already open"}
 {"id": 2867, "ts": "2026-10-07 11:46:43", "at": "11:46:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2868, "ts": "2026-10-07 11:47:50", "at": "11:47:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2869, "ts": "2026-10-07 11:48:00", "at": "11:48:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2870, "ts": "2026-10-07 11:48:35", "at": "11:48:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2871, "ts": "2026-10-07 11:49:02", "at": "11:49:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2872, "ts": "2026-10-07 11:50:09", "at": "11:50:09", "kind": "signal", "msg": "ETERNAL 330 CE 27 Oct crossed EMA 144 at 10.65 - not taken: momentum -0.5%"}
+{"id": 2873, "ts": "2026-10-07 11:50:09", "at": "11:50:09", "kind": "signal", "msg": "TATACONSUM 980 PE 27 Oct crossed EMA 144 at 25.10 - not taken: under EMA 55"}
+{"id": 2874, "ts": "2026-10-07 11:50:09", "at": "11:50:09", "kind": "signal", "msg": "CANBK 120 PE 27 Oct crossed EMA 144 at 3.10 - not taken: under EMA 55, momentum -19.1%, premium under Rs 5"}
+{"id": 2875, "ts": "2026-10-07 11:50:17", "at": "11:50:17", "kind": "skip", "msg": "DABUR 385 PE 27 Oct signal at 9.55 skipped - 10 positions already open"}
+{"id": 2876, "ts": "2026-10-07 11:51:23", "at": "11:51:23", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2877, "ts": "2026-10-07 11:51:30", "at": "11:51:30", "kind": "warm", "msg": "bar history loaded for all 784 contracts"}
+{"id": 2878, "ts": "2026-10-07 11:51:36", "at": "11:51:36", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.5 s"}
+{"id": 2879, "ts": "2026-10-07 11:52:13", "at": "11:52:13", "kind": "warm", "msg": "bar history loaded for all 784 contracts"}
+{"id": 2880, "ts": "2026-10-07 11:52:22", "at": "11:52:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.5 s"}
+{"id": 2881, "ts": "2026-10-07 11:52:39", "at": "11:52:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
