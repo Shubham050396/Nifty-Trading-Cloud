@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-07 10:45:05",
+  "saved_at": "2026-10-07 10:50:13",
   "cfg": {
     "expiries": [
       "2026-10-27"
@@ -183,8 +183,8 @@
         ],
         "entry_wvf": 10.121,
         "vix": null,
-        "mark": 780.6,
-        "pnl": 3692.0,
+        "mark": 785.6,
+        "pnl": 4342.0,
         "status": "OPEN",
         "target": 1128.3
       }
@@ -288,8 +288,8 @@
         ],
         "entry_wvf": 10.943,
         "vix": null,
-        "mark": 145.5,
-        "pnl": -208.65,
+        "mark": 146.75,
+        "pnl": 35.1,
         "status": "OPEN",
         "target": 219.85
       }
@@ -345,8 +345,8 @@
         ],
         "entry_wvf": 10.464,
         "vix": 14.46,
-        "mark": 15.85,
-        "pnl": -1043.25,
+        "mark": 15.45,
+        "pnl": -1121.25,
         "status": "OPEN",
         "target": 31.8
       }
@@ -393,8 +393,8 @@
         ],
         "entry_wvf": 11.506,
         "vix": 14.46,
-        "mark": 76.45,
-        "pnl": -3653.0,
+        "mark": 75.4,
+        "pnl": -3789.5,
         "status": "OPEN",
         "target": 156.82
       }
@@ -441,8 +441,8 @@
         ],
         "entry_wvf": 10.406,
         "vix": 14.46,
-        "mark": 431.95,
-        "pnl": -16272.1,
+        "mark": 428.2,
+        "pnl": -16759.6,
         "status": "OPEN",
         "target": 835.68
       }

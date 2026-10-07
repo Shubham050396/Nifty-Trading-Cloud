@@ -2713,3 +2713,9 @@
 {"id": 2713, "ts": "2026-10-07 10:46:50", "at": "10:46:50", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
 {"id": 2714, "ts": "2026-10-07 10:47:13", "at": "10:47:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2715, "ts": "2026-10-07 10:47:22", "at": "10:47:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2716, "ts": "2026-10-07 10:48:22", "at": "10:48:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2717, "ts": "2026-10-07 10:48:33", "at": "10:48:33", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2718, "ts": "2026-10-07 10:49:06", "at": "10:49:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2719, "ts": "2026-10-07 10:50:05", "at": "10:50:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2720, "ts": "2026-10-07 10:50:32", "at": "10:50:32", "kind": "entry", "msg": "BUY DRREDDY 1220 CE 27 Oct x625 @ 28.60 (signal close 28.65, EMA 144 28.04, momentum 6.1%)  quick 32.89 till 11:20, target 48.62, stop below EMA 55"}
+{"id": 2721, "ts": "2026-10-07 10:50:32", "at": "10:50:32", "kind": "entry", "msg": "BUY ADANIPORTS 1760 CE 27 Oct x475 @ 54.45 (signal close 52.20, EMA 144 51.96, momentum 8.8%)  quick 62.62 till 11:20, target 92.56, stop below EMA 55"}
