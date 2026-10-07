@@ -2729,3 +2729,24 @@
 {"id": 2729, "ts": "2026-10-07 10:55:13", "at": "10:55:13", "kind": "signal", "msg": "WIPRO 165 PE 27 Oct crossed EMA 144 at 7.02 - not taken: under EMA 55, momentum 2.0%"}
 {"id": 2730, "ts": "2026-10-07 10:55:20", "at": "10:55:20", "kind": "skip", "msg": "ETERNAL 330 CE 27 Oct signal at 10.60 skipped - 10 positions already open"}
 {"id": 2731, "ts": "2026-10-07 10:55:58", "at": "10:55:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2732, "ts": "2026-10-07 10:58:52", "at": "10:58:52", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2733, "ts": "2026-10-07 10:59:24", "at": "10:59:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2734, "ts": "2026-10-07 10:59:33", "at": "10:59:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2735, "ts": "2026-10-07 10:59:51", "at": "10:59:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2736, "ts": "2026-10-07 11:00:00", "at": "11:00:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2737, "ts": "2026-10-07 11:00:05", "at": "11:00:05", "kind": "signal", "msg": "GODREJCP 870 PE 27 Oct crossed EMA 144 at 24.30 - not taken: under EMA 55"}
+{"id": 2738, "ts": "2026-10-07 11:00:05", "at": "11:00:05", "kind": "signal", "msg": "PFC 320 PE 27 Oct crossed EMA 144 at 4.85 - not taken: under EMA 55, momentum -10.2%, premium under Rs 5"}
+{"id": 2739, "ts": "2026-10-07 11:00:07", "at": "11:00:07", "kind": "skip", "msg": "ADANIPORTS 1780 CE 27 Oct signal at 43.45 skipped - 10 positions already open"}
+{"id": 2740, "ts": "2026-10-07 11:00:07", "at": "11:00:07", "kind": "skip", "msg": "ICICIBANK 1350 CE 27 Oct signal at 27.85 skipped - 10 positions already open"}
+{"id": 2741, "ts": "2026-10-07 11:00:07", "at": "11:00:07", "kind": "skip", "msg": "ITC 265 CE 27 Oct signal at 6.15 skipped - 10 positions already open"}
+{"id": 2742, "ts": "2026-10-07 11:00:07", "at": "11:00:07", "kind": "skip", "msg": "ADANIPORTS 1800 CE 27 Oct signal at 33.35 skipped - 10 positions already open"}
+{"id": 2743, "ts": "2026-10-07 11:00:07", "at": "11:00:07", "kind": "skip", "msg": "ICICIBANK 1360 CE 27 Oct signal at 23.00 skipped - 10 positions already open"}
+{"id": 2744, "ts": "2026-10-07 11:00:53", "at": "11:00:53", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2745, "ts": "2026-10-07 11:00:54", "at": "11:00:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2746, "ts": "2026-10-07 11:01:03", "at": "11:01:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2747, "ts": "2026-10-07 11:01:20", "at": "11:01:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2748, "ts": "2026-10-07 11:01:25", "at": "11:01:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 2749, "ts": "2026-10-07 11:01:30", "at": "11:01:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.5 s"}
+{"id": 2750, "ts": "2026-10-07 11:01:49", "at": "11:01:49", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2751, "ts": "2026-10-07 11:02:13", "at": "11:02:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2752, "ts": "2026-10-07 11:02:30", "at": "11:02:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}

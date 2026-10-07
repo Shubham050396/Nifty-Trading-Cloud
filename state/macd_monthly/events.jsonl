@@ -1171,3 +1171,15 @@
 {"id": 1171, "ts": "2026-10-07 10:56:51", "at": "10:56:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 1172, "ts": "2026-10-07 10:57:16", "at": "10:57:16", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
 {"id": 1173, "ts": "2026-10-07 10:57:22", "at": "10:57:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 7.1 s"}
+{"id": 1174, "ts": "2026-10-07 10:57:58", "at": "10:57:58", "kind": "api", "msg": "rate limited by Dhan - now one call every 6.1 s"}
+{"id": 1175, "ts": "2026-10-07 10:58:25", "at": "10:58:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 1176, "ts": "2026-10-07 10:58:30", "at": "10:58:30", "kind": "api", "msg": "rate limited by Dhan - now one call every 7.1 s"}
+{"id": 1177, "ts": "2026-10-07 10:58:38", "at": "10:58:38", "kind": "api", "msg": "rate limited by Dhan - now one call every 11.1 s"}
+{"id": 1178, "ts": "2026-10-07 10:58:49", "at": "10:58:49", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1179, "ts": "2026-10-07 10:59:34", "at": "10:59:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1180, "ts": "2026-10-07 11:00:04", "at": "11:00:04", "kind": "signal", "msg": "2027-03-30 24000 CE MACD crossed UP (bar close 481.90, hist -0.28 -> +0.21)"}
+{"id": 1181, "ts": "2026-10-07 11:00:04", "at": "11:00:04", "kind": "entry", "msg": "BUY 2027-03-30 24000 CE @ 484.90  (bar close 481.90, MACD hist +0.21, VIX 13.61)"}
+{"id": 1182, "ts": "2026-10-07 11:00:18", "at": "11:00:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1183, "ts": "2026-10-07 11:00:48", "at": "11:00:48", "kind": "signal", "msg": "2026-12-29 22000 PE MACD crossed DOWN (bar close 212.00, hist +0.37 -> -0.06)"}
+{"id": 1184, "ts": "2026-10-07 11:00:48", "at": "11:00:48", "kind": "entry", "msg": "SELL SHORT 2026-12-29 22000 PE @ 212.65  (bar close 212.00, MACD hist -0.06, VIX 13.61)"}
+{"id": 1185, "ts": "2026-10-07 11:01:43", "at": "11:01:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
