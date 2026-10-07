@@ -3100,3 +3100,11 @@
 {"id": 3100, "ts": "2026-10-07 13:32:01", "at": "13:32:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3101, "ts": "2026-10-07 13:32:10", "at": "13:32:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3102, "ts": "2026-10-07 13:33:02", "at": "13:33:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3103, "ts": "2026-10-07 13:33:46", "at": "13:33:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3104, "ts": "2026-10-07 13:35:08", "at": "13:35:08", "kind": "signal", "msg": "ABB 7200 PE 27 Oct crossed EMA 144 at 298.00 - not taken: under EMA 55, momentum 2.3%"}
+{"id": 3105, "ts": "2026-10-07 13:35:08", "at": "13:35:08", "kind": "signal", "msg": "SOLARINDS 20000 CE 27 Oct crossed EMA 144 at 647.60 - not taken: momentum -8.9%"}
+{"id": 3106, "ts": "2026-10-07 13:35:08", "at": "13:35:08", "kind": "signal", "msg": "ITC 262.5 PE 27 Oct crossed EMA 144 at 3.75 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 3107, "ts": "2026-10-07 13:36:34", "at": "13:36:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.0 s"}
+{"id": 3108, "ts": "2026-10-07 13:36:43", "at": "13:36:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 4.0 s"}
+{"id": 3109, "ts": "2026-10-07 13:36:51", "at": "13:36:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 6.5 s"}
+{"id": 3110, "ts": "2026-10-07 13:36:58", "at": "13:36:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
