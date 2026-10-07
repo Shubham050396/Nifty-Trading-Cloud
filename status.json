@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-06T16:18:52+05:30",
-  "headline": "Finished for the day at 16:18 IST",
-  "phase": "finished",
-  "window": "16:13 \u2192 16:18 IST (check run (after the trading day))",
+  "updated": "2026-10-07T09:01:50+05:30",
+  "headline": "Running until 14:55 IST",
+  "phase": "running",
+  "window": "09:01 \u2192 14:55 IST (trading day)",
   "vix": 13.61,
   "vix_limit": 13.5,
   "vix_min": 13.5,
-  "run_url": "https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37451687112",
+  "run_url": "https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37567149099",
   "notices": [],
-  "token_text": "valid until 06 Oct 21:29 IST",
-  "token_expires": 1791302356,
-  "stop_at": "2026-10-06T16:18:49+05:30",
+  "token_text": "valid until 07 Oct 21:50 IST",
+  "token_expires": 1791390053,
+  "stop_at": "2026-10-07T14:55:36+05:30",
   "strategies": {
     "credit_spreads": {
       "name": "NIFTY Credit Spreads",
       "icon": "\u2696\ufe0f",
       "color": "#38bdf8",
       "description": "Sells defined-risk credit spreads on the NIFTY option chain, with a screener, margin check and exit rules. VIX kill switch: above the VIX limit (default 13.5) it takes no new trades and closes all open spreads.",
-      "state": "saved",
+      "state": "running",
       "error": "",
       "summary": {
         "margin_used": 0,
@@ -59,7 +59,7 @@
       "icon": "\ud83d\udee1\ufe0f",
       "color": "#14b8a6",
       "description": "The Pine 100 EMA breakout (40 EMA stop) run on the NIFTY index, traded as hedged ATM option spreads - one leg sold, one bought - in the current 4 expiries. VIX kill switch: above the VIX limit (default 13.5) it opens no spreads and closes all open ones.",
-      "state": "saved",
+      "state": "running",
       "error": "",
       "summary": {
         "margin_used": 0,
@@ -105,7 +105,7 @@
       "icon": "\ud83c\udfaf",
       "color": "#a855f7",
       "description": "Buys one option when its premium crosses up through Level 2 or Level 3 with momentum. Exits on a VIX-based target, a trailing stop, or a failed push.",
-      "state": "saved",
+      "state": "running",
       "error": "",
       "summary": {
         "margin_used": 0,
@@ -126,10 +126,10 @@
         "bar_seconds": 60,
         "confirm_minutes": 5.0,
         "expiries": [
-          "2026-10-06",
           "2026-10-13",
           "2026-10-19",
-          "2026-10-27"
+          "2026-10-27",
+          "2026-11-03"
         ],
         "level2": 233.0,
         "level3": 344.0,
@@ -167,14 +167,14 @@
           ]
         ]
       },
-      "settings_error": ""
+      "settings_error": "cloud/config.json was refused: {\"error\":\"No longer listed (expired?): 2026-10-06. Untick it.\"}\n"
     },
     "macd_monthly": {
       "name": "NIFTY MACD - Monthly 1000s",
       "icon": "\ud83d\udcc8",
       "color": "#22c55e",
       "description": "MACD 30/60/15 cross on each option's own premium, on monthly-expiry strikes in multiples of 1000 (CE and PE). Enters only between Rs 144 and 1600 with yesterday's India VIX at 15 or below.",
-      "state": "saved",
+      "state": "running",
       "error": "",
       "summary": {
         "margin_used": 685266,
@@ -182,13 +182,13 @@
         "margin_next": null,
         "margin_next_max": null,
         "basis": "long: premium x quantity; short: naked-short margin estimate (~9.7% of notional)",
-        "pnl_today": 19867,
+        "pnl_today": 0,
         "pnl_all": 72306,
         "pnl_open": -41652,
-        "pct_today": 3.47,
+        "pct_today": null,
         "pct_all": 1.54,
         "pct_open": -6.08,
-        "trades_today": 4,
+        "trades_today": 0,
         "trades_all": 49
       },
       "settings": {
@@ -224,13 +224,13 @@
       "icon": "\u26a1",
       "color": "#f59e0b",
       "description": "Buys one ATM option when volatility is rising, with a per-day loss budget and a hard trade cap.",
-      "state": "saved",
+      "state": "running",
       "error": "",
       "summary": {
         "margin_used": 0,
         "open": 0,
-        "margin_next": 24160,
-        "margin_next_max": 35071,
+        "margin_next": 29474,
+        "margin_next_max": 30040,
         "basis": "option buying: ATM premium x quantity, paid in full",
         "pnl_today": 0,
         "pnl_all": 464,
@@ -293,7 +293,7 @@
       "icon": "\ud83d\udcca",
       "color": "#22c55e",
       "description": "Buys ATM +/- 3 strike options of the Nifty 100 stocks when the premium crosses up through its 30-minute EMA 144 with momentum. Exits on a quick 15%, a 70% target, a Rs profit target, a close under EMA 55, or before a holiday.",
-      "state": "saved",
+      "state": "running",
       "error": "",
       "summary": {
         "margin_used": 122921,
@@ -301,13 +301,13 @@
         "margin_next": null,
         "margin_next_max": null,
         "basis": "option buying: premium x quantity, paid in full",
-        "pnl_today": -10790,
+        "pnl_today": 0,
         "pnl_all": -38165,
         "pnl_open": 6980,
-        "pct_today": -12.22,
+        "pct_today": null,
         "pct_all": -4.76,
         "pct_open": 5.68,
-        "trades_today": 4,
+        "trades_today": 0,
         "trades_all": 40
       },
       "settings": {
@@ -463,7 +463,7 @@
       "icon": "\ud83c\udf0a",
       "color": "#06b6d4",
       "description": "Williams VIX Fix on each option's own premium, on monthly-expiry strikes in multiples of 1000 (CE and PE). Buys when the VIX Fix crosses above the threshold under the maximum premium, pyramids up to 10 buys while the strike stays inside its Rs 1,00,000 capital limit, and sells the whole strike at the average entry plus the target %.",
-      "state": "saved",
+      "state": "running",
       "error": "",
       "summary": {
         "margin_used": 155606,
