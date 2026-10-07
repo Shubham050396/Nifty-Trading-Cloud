@@ -2879,3 +2879,17 @@
 {"id": 2879, "ts": "2026-10-07 11:52:13", "at": "11:52:13", "kind": "warm", "msg": "bar history loaded for all 784 contracts"}
 {"id": 2880, "ts": "2026-10-07 11:52:22", "at": "11:52:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 5.5 s"}
 {"id": 2881, "ts": "2026-10-07 11:52:39", "at": "11:52:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2882, "ts": "2026-10-07 11:53:14", "at": "11:53:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2883, "ts": "2026-10-07 11:53:26", "at": "11:53:26", "kind": "warm", "msg": "bar history loaded for all 784 contracts"}
+{"id": 2884, "ts": "2026-10-07 11:53:32", "at": "11:53:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2885, "ts": "2026-10-07 11:53:51", "at": "11:53:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2886, "ts": "2026-10-07 11:54:58", "at": "11:54:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2887, "ts": "2026-10-07 11:55:16", "at": "11:55:16", "kind": "signal", "msg": "ITC 262.5 CE 27 Oct crossed EMA 144 at 7.25 - not taken: momentum -5.8%"}
+{"id": 2888, "ts": "2026-10-07 11:55:25", "at": "11:55:25", "kind": "skip", "msg": "BANKBARODA 235 CE 27 Oct signal at 6.20 skipped - 10 positions already open"}
+{"id": 2889, "ts": "2026-10-07 11:55:25", "at": "11:55:25", "kind": "skip", "msg": "BHARTIARTL 1860 CE 27 Oct signal at 16.60 skipped - 10 positions already open"}
+{"id": 2890, "ts": "2026-10-07 11:55:25", "at": "11:55:25", "kind": "skip", "msg": "SIEMENS 3800 CE 27 Oct signal at 122.50 skipped - 10 positions already open"}
+{"id": 2891, "ts": "2026-10-07 11:55:50", "at": "11:55:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2892, "ts": "2026-10-07 11:56:49", "at": "11:56:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2893, "ts": "2026-10-07 11:56:59", "at": "11:56:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2894, "ts": "2026-10-07 11:57:17", "at": "11:57:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2895, "ts": "2026-10-07 11:57:52", "at": "11:57:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
