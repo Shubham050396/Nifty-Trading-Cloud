@@ -2369,3 +2369,15 @@
 {"id": 2369, "ts": "2026-10-07 09:20:04", "at": "09:20:04", "kind": "skip", "msg": "HDFCBANK 700 PE 27 Oct signal at 11.75 skipped - 10 positions already open"}
 {"id": 2370, "ts": "2026-10-07 09:20:10", "at": "09:20:10", "kind": "warm", "msg": "bar history loaded for all 766 contracts"}
 {"id": 2371, "ts": "2026-10-07 09:20:16", "at": "09:20:16", "kind": "warm", "msg": "bar history loaded for all 766 contracts"}
+{"id": 2372, "ts": "2026-10-07 09:21:57", "at": "09:21:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2373, "ts": "2026-10-07 09:22:41", "at": "09:22:41", "kind": "warm", "msg": "bar history loaded for all 766 contracts"}
+{"id": 2374, "ts": "2026-10-07 09:22:46", "at": "09:22:46", "kind": "warm", "msg": "bar history loaded for all 768 contracts"}
+{"id": 2375, "ts": "2026-10-07 09:24:07", "at": "09:24:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2376, "ts": "2026-10-07 09:25:01", "at": "09:25:01", "kind": "warm", "msg": "bar history loaded for all 770 contracts"}
+{"id": 2377, "ts": "2026-10-07 09:25:03", "at": "09:25:03", "kind": "signal", "msg": "ADANIPORTS 1760 PE 27 Oct crossed EMA 144 at 32.05 - not taken: under EMA 55"}
+{"id": 2378, "ts": "2026-10-07 09:25:03", "at": "09:25:03", "kind": "signal", "msg": "HINDUNILVR 1880 PE 27 Oct crossed EMA 144 at 36.20 - not taken: under EMA 55"}
+{"id": 2379, "ts": "2026-10-07 09:25:03", "at": "09:25:03", "kind": "signal", "msg": "TATACONSUM 980 PE 27 Oct crossed EMA 144 at 25.30 - not taken: under EMA 55"}
+{"id": 2380, "ts": "2026-10-07 09:25:03", "at": "09:25:03", "kind": "signal", "msg": "WIPRO 162.5 PE 27 Oct crossed EMA 144 at 5.50 - not taken: under EMA 55, momentum 1.3%"}
+{"id": 2381, "ts": "2026-10-07 09:25:03", "at": "09:25:03", "kind": "signal", "msg": "ABB 7000 PE 27 Oct crossed EMA 144 at 193.00 - not taken: under EMA 55"}
+{"id": 2382, "ts": "2026-10-07 09:25:04", "at": "09:25:04", "kind": "skip", "msg": "DLF 660 PE 27 Oct signal at 16.95 skipped - 10 positions already open"}
+{"id": 2383, "ts": "2026-10-07 09:25:41", "at": "09:25:41", "kind": "warm", "msg": "bar history loaded for all 772 contracts"}

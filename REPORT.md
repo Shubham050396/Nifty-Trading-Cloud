@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 14:55 IST** · updated 07 Oct 2026 09:21 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37567149099)
+**Running until 14:55 IST** · updated 07 Oct 2026 09:26 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37567149099)
 
 India VIX **14.10 🔴 above the kill level** (kill above 13.50, trade only above 13.50) · Dhan token: valid until 07 Oct 21:50 IST · trading window: 09:01 → 14:55 IST (trading day)
 
@@ -10,59 +10,59 @@ India VIX **14.10 🔴 above the kill level** (kill above 13.50, trade only abov
 | 🛡️ NIFTY EMA Breakout Hedge | 🟢 running | ₹0 | ₹0 | −₹1,635 (-0.91%) | 0 | 0 | ₹0 |
 | 🎯 NIFTY 2-Level Cross | 🟢 running ⚠️ cloud/config.json was refused: {"error":"No longer listed (expired?): 2026-10-06. Untick it."}
  | ₹0 | ₹0 | +₹21,548 (+6.41%) | 0 | 0 | ₹0 |
-| 📈 NIFTY MACD - Monthly 1000s | 🟢 running | ₹0 | −₹12,223 (-1.79%) | +₹72,306 (+1.54%) | 0 | 6 | ₹6,81,917 |
+| 📈 NIFTY MACD - Monthly 1000s | 🟢 running | ₹0 | −₹12,922 (-1.90%) | +₹72,306 (+1.54%) | 0 | 6 | ₹6,81,731 |
 | ⚡ NIFTY Scalper - IVX-G | 🟢 running | ₹0 | ₹0 | +₹464 (+1.59%) | 0 | 0 | ₹0 |
-| 📊 Stock Options EMA Cross | 🟢 running | +₹14,290 (+35.93%) | +₹769 (+0.51%) | −₹23,875 (-2.83%) | 2 | 10 | ₹1,49,724 |
-| 🌊 NIFTY VIX Fix - Monthly 1000s | 🟢 running | ₹0 | −₹17,519 (-10.58%) | ₹0 | 0 | 8 | ₹1,65,592 |
-| **Total** | | **+₹14,290** | **−₹28,973** | **+₹72,074** | **2** | **24** | **₹9,97,233** |
+| 📊 Stock Options EMA Cross | 🟢 running | +₹14,290 (+35.93%) | +₹1,981 (+1.32%) | −₹23,875 (-2.83%) | 2 | 10 | ₹1,49,724 |
+| 🌊 NIFTY VIX Fix - Monthly 1000s | 🟢 running | ₹0 | −₹17,977 (-8.39%) | ₹0 | 0 | 8 | ₹2,14,378 |
+| **Total** | | **+₹14,290** | **−₹28,918** | **+₹72,074** | **2** | **24** | **₹10,45,833** |
 
 Paper trading only. Margin figures are estimates, as in the desktop app. Trades and state for each strategy are in the [state](state) folder.
 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-10-07 09:16:01] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
-[2026-10-07 09:17:01] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-10-07 09:18:02] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-10-07 09:19:02] API_ERROR marketfeed/ltp: HTTP 429 rate limited
-[2026-10-07 09:21:02] API_ERROR marketfeed/ltp: HTTP 429 rate limited
 [2026-10-07 09:21:02] VIX       India VIX unavailable (rate limited by Dhan) - no new trades until it can be read
+[2026-10-07 09:22:02] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-10-07 09:23:03] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-10-07 09:24:03] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-10-07 09:25:03] API_ERROR marketfeed/ltp: HTTP 429 rate limited
+[2026-10-07 09:26:03] API_ERROR marketfeed/ltp: HTTP 429 rate limited
 ```
 </details>
 
 <details><summary>NIFTY EMA Breakout Hedge - last log lines</summary>
 
 ```text
-[09:19:44] API       rate limited by Dhan - now one call every 15.1 s
-[09:20:03] SIGNAL    EXIT LONG at 2026-10-07 09:15: NIFTY closed 22622.70 - closed through the stop EMA
-[09:20:26] API       rate limited by Dhan - now one call every 15.1 s
-[09:21:04] VIX       India VIX unavailable (HTTP 429) - no new spreads until it can be read
-[09:21:07] API       rate limited by Dhan - now one call every 15.1 s
-[09:21:47] API       rate limited by Dhan - now one call every 15.1 s
+[09:22:28] API       rate limited by Dhan - now one call every 15.1 s
+[09:23:49] API       rate limited by Dhan - now one call every 15.1 s
+[09:25:07] VIX       India VIX unavailable (HTTP 429) - no new spreads until it can be read
+[09:25:11] API       rate limited by Dhan - now one call every 15.1 s
+[09:25:51] API       rate limited by Dhan - now one call every 15.1 s
+[09:26:32] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
 <details><summary>NIFTY 2-Level Cross - last log lines</summary>
 
 ```text
-[09:19:05] API       rate limited by Dhan - now one call every 15.1 s
-[09:19:35] API       rate limited by Dhan - now one call every 15.1 s
-[09:20:05] API       rate limited by Dhan - now one call every 15.1 s
-[09:20:35] API       rate limited by Dhan - now one call every 15.1 s
-[09:21:05] CONTRACT  2026-10-13: watching ATM 22600 +/- 10 strikes (CE/PE)
-[09:21:33] API       rate limited by Dhan - now one call every 15.1 s
+[09:24:32] GAP       2026-10-27 23700 CE: no prices for 1090 min - bar history restarts
+[09:24:32] GAP       2026-10-27 23700 PE: no prices for 1090 min - bar history restarts
+[09:24:58] API       rate limited by Dhan - now one call every 15.1 s
+[09:25:28] API       rate limited by Dhan - now one call every 15.1 s
+[09:26:13] API       rate limited by Dhan - now one call every 15.1 s
+[09:26:28] API       rate limited by Dhan - now one call every 15.1 s
 ```
 </details>
 
 <details><summary>NIFTY MACD - Monthly 1000s - last log lines</summary>
 
 ```text
-[09:20:26] API       rate limited by Dhan - now one call every 5.1 s
-[09:20:44] API       rate limited by Dhan - now one call every 5.1 s
-[09:21:02] API       rate limited by Dhan - now one call every 5.1 s
-[09:21:20] API       rate limited by Dhan - now one call every 5.1 s
-[09:21:39] API       rate limited by Dhan - now one call every 5.1 s
-[09:21:57] API       rate limited by Dhan - now one call every 5.1 s
+[09:25:14] API       rate limited by Dhan - now one call every 5.1 s
+[09:25:32] API       rate limited by Dhan - now one call every 5.1 s
+[09:25:50] API       rate limited by Dhan - now one call every 5.1 s
+[09:26:08] API       rate limited by Dhan - now one call every 5.1 s
+[09:26:27] API       rate limited by Dhan - now one call every 5.1 s
+[09:26:45] API       rate limited by Dhan - now one call every 5.1 s
 ```
 </details>
 
@@ -81,24 +81,24 @@ Paper trading only. Margin figures are estimates, as in the desktop app. Trades 
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[09:20:04] SKIP      ASIANPAINT 2360 PE 27 Oct signal at 37.35 skipped - 10 positions already open
-[09:20:04] SKIP      TMPV 290 PE 27 Oct signal at 11.55 skipped - 10 positions already open
-[09:20:04] SKIP      ASIANPAINT 2400 PE 27 Oct signal at 55.15 skipped - 10 positions already open
-[09:20:04] SKIP      HDFCBANK 700 PE 27 Oct signal at 11.75 skipped - 10 positions already open
-[09:20:10] WARM      bar history loaded for all 766 contracts
-[09:20:16] WARM      bar history loaded for all 766 contracts
+[09:25:03] SIGNAL    HINDUNILVR 1880 PE 27 Oct crossed EMA 144 at 36.20 - not taken: under EMA 55
+[09:25:03] SIGNAL    TATACONSUM 980 PE 27 Oct crossed EMA 144 at 25.30 - not taken: under EMA 55
+[09:25:03] SIGNAL    WIPRO 162.5 PE 27 Oct crossed EMA 144 at 5.50 - not taken: under EMA 55, momentum 1.3%
+[09:25:03] SIGNAL    ABB 7000 PE 27 Oct crossed EMA 144 at 193.00 - not taken: under EMA 55
+[09:25:04] SKIP      DLF 660 PE 27 Oct signal at 16.95 skipped - 10 positions already open
+[09:25:41] WARM      bar history loaded for all 772 contracts
 ```
 </details>
 
 <details><summary>NIFTY VIX Fix - Monthly 1000s - last log lines</summary>
 
 ```text
-[09:15:01] CONTRACT  2026-10-27: watching ATM 23000 +/- 3 strikes of 1000 (CE/PE)
-[09:17:46] API       rate limited by Dhan - now one call every 5.1 s
-[09:20:01] SIGNAL    2026-10-27 24000 CE VIX Fix crossed above 10.00 (7.70 -> 11.42, bar close 12.25)
-[09:20:01] ENTRY     BUY 2026-10-27 24000 CE @ 12.20 x 65  (Rs 793) - buy 3 of 10, average 14.12, target 21.18
 [09:20:01] SIGNAL    2026-10-27 23000 CE VIX Fix crossed above 10.00 (5.93 -> 11.98, bar close 141.80)
 [09:20:01] ENTRY     BUY 2026-10-27 23000 CE @ 141.40 x 65  (Rs 9,191) - buy 3 of 10, average 146.57, target 219.85
+[09:24:32] API       rate limited by Dhan - now one call every 5.1 s
+[09:24:42] API       rate limited by Dhan - now one call every 6.1 s
+[09:25:04] SIGNAL    2026-10-27 22000 CE VIX Fix crossed above 10.00 (7.21 -> 11.44, bar close 749.00)
+[09:25:04] ENTRY     BUY 2026-10-27 22000 CE @ 750.55 x 65  (Rs 48,786) - buy 2 of 10, average 752.20, target 1128.30
 ```
 </details>
 
