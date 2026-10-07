@@ -3131,3 +3131,14 @@
 {"id": 3131, "ts": "2026-10-07 13:51:56", "at": "13:51:56", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3132, "ts": "2026-10-07 13:52:05", "at": "13:52:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3133, "ts": "2026-10-07 13:53:34", "at": "13:53:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3134, "ts": "2026-10-07 13:54:01", "at": "13:54:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3135, "ts": "2026-10-07 13:54:10", "at": "13:54:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3136, "ts": "2026-10-07 13:54:19", "at": "13:54:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3137, "ts": "2026-10-07 13:54:31", "at": "13:54:31", "kind": "warm", "msg": "bar history loaded for all 790 contracts"}
+{"id": 3138, "ts": "2026-10-07 13:55:11", "at": "13:55:11", "kind": "signal", "msg": "ZYDUSLIFE 1150 PE 27 Oct crossed EMA 144 at 25.55 - not taken: under EMA 55"}
+{"id": 3139, "ts": "2026-10-07 13:55:19", "at": "13:55:19", "kind": "skip", "msg": "LODHA 1100 PE 27 Oct signal at 31.75 skipped - 20 trades already today"}
+{"id": 3140, "ts": "2026-10-07 13:56:00", "at": "13:56:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3141, "ts": "2026-10-07 13:57:02", "at": "13:57:02", "kind": "warm", "msg": "bar history loaded for all 790 contracts"}
+{"id": 3142, "ts": "2026-10-07 13:58:23", "at": "13:58:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 7.0 s"}
+{"id": 3143, "ts": "2026-10-07 13:58:46", "at": "13:58:46", "kind": "warm", "msg": "bar history loaded for all 790 contracts"}
+{"id": 3144, "ts": "2026-10-07 13:58:50", "at": "13:58:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
