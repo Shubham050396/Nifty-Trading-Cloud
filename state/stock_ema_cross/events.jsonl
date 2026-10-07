@@ -2487,3 +2487,38 @@
 {"id": 2487, "ts": "2026-10-07 09:46:51", "at": "09:46:51", "kind": "warm", "msg": "bar history loaded for all 776 contracts"}
 {"id": 2488, "ts": "2026-10-07 09:46:58", "at": "09:46:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2489, "ts": "2026-10-07 09:47:07", "at": "09:47:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2490, "ts": "2026-10-07 09:47:16", "at": "09:47:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2491, "ts": "2026-10-07 09:47:25", "at": "09:47:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2492, "ts": "2026-10-07 09:47:35", "at": "09:47:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2493, "ts": "2026-10-07 09:47:44", "at": "09:47:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2494, "ts": "2026-10-07 09:47:53", "at": "09:47:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2495, "ts": "2026-10-07 09:48:02", "at": "09:48:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2496, "ts": "2026-10-07 09:48:12", "at": "09:48:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2497, "ts": "2026-10-07 09:48:21", "at": "09:48:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2498, "ts": "2026-10-07 09:48:30", "at": "09:48:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2499, "ts": "2026-10-07 09:48:40", "at": "09:48:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2500, "ts": "2026-10-07 09:48:49", "at": "09:48:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2501, "ts": "2026-10-07 09:48:58", "at": "09:48:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2502, "ts": "2026-10-07 09:49:07", "at": "09:49:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2503, "ts": "2026-10-07 09:49:17", "at": "09:49:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2504, "ts": "2026-10-07 09:49:26", "at": "09:49:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2505, "ts": "2026-10-07 09:49:35", "at": "09:49:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2506, "ts": "2026-10-07 09:49:44", "at": "09:49:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2507, "ts": "2026-10-07 09:49:54", "at": "09:49:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2508, "ts": "2026-10-07 09:50:03", "at": "09:50:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2509, "ts": "2026-10-07 09:50:12", "at": "09:50:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2510, "ts": "2026-10-07 09:50:31", "at": "09:50:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2511, "ts": "2026-10-07 09:50:31", "at": "09:50:31", "kind": "signal", "msg": "SOLARINDS 20250 CE 27 Oct crossed EMA 144 at 530.00 - not taken: momentum -18.6%"}
+{"id": 2512, "ts": "2026-10-07 09:50:31", "at": "09:50:31", "kind": "exit", "msg": "SELL SBILIFE 1700 PE 27 Oct EMA_STOP @ 30.30  -13.4%  P&L Rs -1762.50"}
+{"id": 2513, "ts": "2026-10-07 09:50:31", "at": "09:50:31", "kind": "signal", "msg": "ETERNAL 320 CE 27 Oct crossed EMA 144 at 16.60 - not taken: momentum 3.4%"}
+{"id": 2514, "ts": "2026-10-07 09:50:40", "at": "09:50:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2515, "ts": "2026-10-07 09:50:40", "at": "09:50:40", "kind": "skip", "msg": "ETERNAL 330 CE 27 Oct signal at 10.55 skipped - already 1 open on ETERNAL"}
+{"id": 2516, "ts": "2026-10-07 09:50:49", "at": "09:50:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2517, "ts": "2026-10-07 09:50:58", "at": "09:50:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2518, "ts": "2026-10-07 09:51:08", "at": "09:51:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2519, "ts": "2026-10-07 09:51:17", "at": "09:51:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2520, "ts": "2026-10-07 09:51:26", "at": "09:51:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2521, "ts": "2026-10-07 09:51:38", "at": "09:51:38", "kind": "warm", "msg": "bar history loaded for all 776 contracts"}
+{"id": 2522, "ts": "2026-10-07 09:51:44", "at": "09:51:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2523, "ts": "2026-10-07 09:51:54", "at": "09:51:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2524, "ts": "2026-10-07 09:52:03", "at": "09:52:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
