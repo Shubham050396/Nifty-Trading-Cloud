@@ -2943,3 +2943,18 @@
 {"id": 2943, "ts": "2026-10-07 12:21:01", "at": "12:21:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2944, "ts": "2026-10-07 12:21:46", "at": "12:21:46", "kind": "warm", "msg": "bar history loaded for all 786 contracts"}
 {"id": 2945, "ts": "2026-10-07 12:22:42", "at": "12:22:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2946, "ts": "2026-10-07 12:23:28", "at": "12:23:28", "kind": "warm", "msg": "bar history loaded for all 786 contracts"}
+{"id": 2947, "ts": "2026-10-07 12:25:08", "at": "12:25:08", "kind": "signal", "msg": "NTPC 320 PE 27 Oct crossed EMA 144 at 4.80 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2948, "ts": "2026-10-07 12:25:08", "at": "12:25:08", "kind": "signal", "msg": "VEDL 265 PE 27 Oct crossed EMA 144 at 11.45 - not taken: under EMA 55"}
+{"id": 2949, "ts": "2026-10-07 12:25:08", "at": "12:25:08", "kind": "signal", "msg": "VEDL 270 PE 27 Oct crossed EMA 144 at 14.75 - not taken: under EMA 55"}
+{"id": 2950, "ts": "2026-10-07 12:25:08", "at": "12:25:08", "kind": "signal", "msg": "ITC 262.5 CE 27 Oct crossed EMA 144 at 7.15 - not taken: momentum 1.4%"}
+{"id": 2951, "ts": "2026-10-07 12:25:42", "at": "12:25:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2952, "ts": "2026-10-07 12:26:13", "at": "12:26:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2953, "ts": "2026-10-07 12:26:19", "at": "12:26:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2954, "ts": "2026-10-07 12:26:55", "at": "12:26:55", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2955, "ts": "2026-10-07 12:27:13", "at": "12:27:13", "kind": "warm", "msg": "bar history loaded for all 786 contracts"}
+{"id": 2956, "ts": "2026-10-07 12:27:16", "at": "12:27:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2957, "ts": "2026-10-07 12:27:25", "at": "12:27:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2958, "ts": "2026-10-07 12:27:43", "at": "12:27:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2959, "ts": "2026-10-07 12:27:52", "at": "12:27:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2960, "ts": "2026-10-07 12:28:00", "at": "12:28:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
