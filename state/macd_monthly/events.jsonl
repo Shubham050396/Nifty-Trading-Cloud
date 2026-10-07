@@ -1093,3 +1093,8 @@
 {"id": 1093, "ts": "2026-10-07 09:59:44", "at": "09:59:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1094, "ts": "2026-10-07 10:00:29", "at": "10:00:29", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1095, "ts": "2026-10-07 10:01:27", "at": "10:01:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1096, "ts": "2026-10-07 10:02:14", "at": "10:02:14", "kind": "vix", "msg": "India VIX prev close 13.61 - entries allowed"}
+{"id": 1097, "ts": "2026-10-07 10:04:33", "at": "10:04:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 12.1 s"}
+{"id": 1098, "ts": "2026-10-07 10:04:57", "at": "10:04:57", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1099, "ts": "2026-10-07 10:05:27", "at": "10:05:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1100, "ts": "2026-10-07 10:06:25", "at": "10:06:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
