@@ -2411,3 +2411,32 @@
 {"id": 2411, "ts": "2026-10-07 09:36:39", "at": "09:36:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2412, "ts": "2026-10-07 09:36:49", "at": "09:36:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2413, "ts": "2026-10-07 09:36:58", "at": "09:36:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2414, "ts": "2026-10-07 09:37:07", "at": "09:37:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2415, "ts": "2026-10-07 09:37:16", "at": "09:37:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2416, "ts": "2026-10-07 09:37:26", "at": "09:37:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2417, "ts": "2026-10-07 09:37:44", "at": "09:37:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2418, "ts": "2026-10-07 09:37:53", "at": "09:37:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2419, "ts": "2026-10-07 09:38:11", "at": "09:38:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2420, "ts": "2026-10-07 09:38:30", "at": "09:38:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2421, "ts": "2026-10-07 09:38:39", "at": "09:38:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2422, "ts": "2026-10-07 09:38:50", "at": "09:38:50", "kind": "warm", "msg": "bar history loaded for all 774 contracts"}
+{"id": 2423, "ts": "2026-10-07 09:39:06", "at": "09:39:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2424, "ts": "2026-10-07 09:39:15", "at": "09:39:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2425, "ts": "2026-10-07 09:39:25", "at": "09:39:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2426, "ts": "2026-10-07 09:39:34", "at": "09:39:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2427, "ts": "2026-10-07 09:39:43", "at": "09:39:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2428, "ts": "2026-10-07 09:39:55", "at": "09:39:55", "kind": "warm", "msg": "bar history loaded for all 774 contracts"}
+{"id": 2429, "ts": "2026-10-07 09:40:01", "at": "09:40:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2430, "ts": "2026-10-07 09:40:11", "at": "09:40:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2431, "ts": "2026-10-07 09:40:20", "at": "09:40:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2432, "ts": "2026-10-07 09:40:29", "at": "09:40:29", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2433, "ts": "2026-10-07 09:40:39", "at": "09:40:39", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2434, "ts": "2026-10-07 09:40:48", "at": "09:40:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2435, "ts": "2026-10-07 09:40:57", "at": "09:40:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2436, "ts": "2026-10-07 09:41:06", "at": "09:41:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2437, "ts": "2026-10-07 09:41:16", "at": "09:41:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2438, "ts": "2026-10-07 09:41:25", "at": "09:41:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2439, "ts": "2026-10-07 09:41:34", "at": "09:41:34", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2440, "ts": "2026-10-07 09:41:43", "at": "09:41:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2441, "ts": "2026-10-07 09:41:53", "at": "09:41:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2442, "ts": "2026-10-07 09:42:02", "at": "09:42:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
