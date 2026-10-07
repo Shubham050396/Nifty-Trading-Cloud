@@ -1335,3 +1335,19 @@
 {"id": 1335, "ts": "2026-10-07 12:36:32", "at": "12:36:32", "kind": "signal", "msg": "2026-10-27 23000 CE MACD crossed DOWN (bar close 142.85, hist +0.05 -> -0.16)"}
 {"id": 1336, "ts": "2026-10-07 12:36:32", "at": "12:36:32", "kind": "exit", "msg": "LONG 2026-10-27 23000 CE MACD_DOWN @ 141.50  P&L Rs -1202.50"}
 {"id": 1337, "ts": "2026-10-07 12:36:32", "at": "12:36:32", "kind": "skip", "msg": "short 2026-10-27 23000 CE ignored - premium 142.85 is outside 144 - 1600"}
+{"id": 1338, "ts": "2026-10-07 12:38:24", "at": "12:38:24", "kind": "api", "msg": "rate limited by Dhan - now one call every 14.1 s"}
+{"id": 1339, "ts": "2026-10-07 12:40:14", "at": "12:40:14", "kind": "signal", "msg": "2027-03-30 24000 CE MACD crossed DOWN (bar close 470.00, hist +0.05 -> -0.02)"}
+{"id": 1340, "ts": "2026-10-07 12:40:14", "at": "12:40:14", "kind": "exit", "msg": "LONG 2027-03-30 24000 CE MACD_DOWN @ 465.90  P&L Rs -1235.00"}
+{"id": 1341, "ts": "2026-10-07 12:40:14", "at": "12:40:14", "kind": "entry", "msg": "SELL SHORT 2027-03-30 24000 CE @ 465.90  (bar close 470.00, MACD hist -0.02, VIX 13.61)"}
+{"id": 1342, "ts": "2026-10-07 12:40:24", "at": "12:40:24", "kind": "signal", "msg": "2026-10-27 22000 CE MACD crossed DOWN (bar close 781.80, hist +0.28 -> -0.28)"}
+{"id": 1343, "ts": "2026-10-07 12:40:24", "at": "12:40:24", "kind": "exit", "msg": "LONG 2026-10-27 22000 CE MACD_DOWN @ 784.35  P&L Rs -2327.00"}
+{"id": 1344, "ts": "2026-10-07 12:40:24", "at": "12:40:24", "kind": "entry", "msg": "SELL SHORT 2026-10-27 22000 CE @ 784.35  (bar close 781.80, MACD hist -0.28, VIX 13.61)"}
+{"id": 1345, "ts": "2026-10-07 12:40:24", "at": "12:40:24", "kind": "signal", "msg": "2026-10-27 23000 PE MACD crossed UP (bar close 429.05, hist -0.04 -> +0.35)"}
+{"id": 1346, "ts": "2026-10-07 12:40:24", "at": "12:40:24", "kind": "exit", "msg": "SHORT 2026-10-27 23000 PE MACD_UP @ 425.00  P&L Rs -1430.00"}
+{"id": 1347, "ts": "2026-10-07 12:40:24", "at": "12:40:24", "kind": "entry", "msg": "BUY 2026-10-27 23000 PE @ 425.00  (bar close 429.05, MACD hist +0.35, VIX 13.61)"}
+{"id": 1348, "ts": "2026-10-07 12:40:24", "at": "12:40:24", "kind": "signal", "msg": "2026-10-27 24000 PE MACD crossed UP (bar close 1285.00, hist -0.19 -> +0.42)"}
+{"id": 1349, "ts": "2026-10-07 12:40:24", "at": "12:40:24", "kind": "exit", "msg": "SHORT 2026-10-27 24000 PE MACD_UP @ 1285.40  P&L Rs -2749.50"}
+{"id": 1350, "ts": "2026-10-07 12:40:24", "at": "12:40:24", "kind": "entry", "msg": "BUY 2026-10-27 24000 PE @ 1285.40  (bar close 1285.00, MACD hist +0.42, VIX 13.61)"}
+{"id": 1351, "ts": "2026-10-07 12:41:25", "at": "12:41:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 8.1 s"}
+{"id": 1352, "ts": "2026-10-07 12:41:33", "at": "12:41:33", "kind": "api", "msg": "rate limited by Dhan - now one call every 13.1 s"}
+{"id": 1353, "ts": "2026-10-07 12:41:46", "at": "12:41:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

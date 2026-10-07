@@ -2984,3 +2984,13 @@
 {"id": 2984, "ts": "2026-10-07 12:35:45", "at": "12:35:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2985, "ts": "2026-10-07 12:37:01", "at": "12:37:01", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
 {"id": 2986, "ts": "2026-10-07 12:37:53", "at": "12:37:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.6 s"}
+{"id": 2987, "ts": "2026-10-07 12:38:57", "at": "12:38:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2988, "ts": "2026-10-07 12:39:32", "at": "12:39:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2989, "ts": "2026-10-07 12:39:51", "at": "12:39:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2990, "ts": "2026-10-07 12:40:09", "at": "12:40:09", "kind": "signal", "msg": "ICICIBANK 1350 CE 27 Oct crossed EMA 144 at 27.20 - not taken: momentum 0.2%"}
+{"id": 2991, "ts": "2026-10-07 12:40:09", "at": "12:40:09", "kind": "signal", "msg": "SHREECEM 22000 PE 27 Oct crossed EMA 144 at 534.15 - not taken: under EMA 55"}
+{"id": 2992, "ts": "2026-10-07 12:40:09", "at": "12:40:09", "kind": "signal", "msg": "ICICIBANK 1360 CE 27 Oct crossed EMA 144 at 22.25 - not taken: momentum 0.2%"}
+{"id": 2993, "ts": "2026-10-07 12:41:12", "at": "12:41:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2994, "ts": "2026-10-07 12:41:21", "at": "12:41:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2995, "ts": "2026-10-07 12:41:57", "at": "12:41:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2996, "ts": "2026-10-07 12:42:57", "at": "12:42:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
