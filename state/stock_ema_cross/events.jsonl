@@ -3164,3 +3164,13 @@
 {"id": 3164, "ts": "2026-10-07 14:11:57", "at": "14:11:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3165, "ts": "2026-10-07 14:12:43", "at": "14:12:43", "kind": "warm", "msg": "bar history loaded for all 790 contracts"}
 {"id": 3166, "ts": "2026-10-07 14:13:32", "at": "14:13:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3167, "ts": "2026-10-07 14:15:06", "at": "14:15:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3168, "ts": "2026-10-07 14:15:06", "at": "14:15:06", "kind": "exit", "msg": "SELL INDHOTEL 730 CE 27 Oct EMA_STOP @ 17.80  -10.3%  P&L Rs -2050.00"}
+{"id": 3169, "ts": "2026-10-07 14:15:06", "at": "14:15:06", "kind": "signal", "msg": "SIEMENS 3800 PE 27 Oct crossed EMA 144 at 102.65 - not taken: under EMA 55, momentum 1.7%"}
+{"id": 3170, "ts": "2026-10-07 14:15:06", "at": "14:15:06", "kind": "signal", "msg": "TMPV 275 PE 27 Oct crossed EMA 144 at 3.85 - not taken: under EMA 55, momentum -16.3%, premium under Rs 5"}
+{"id": 3171, "ts": "2026-10-07 14:15:16", "at": "14:15:16", "kind": "skip", "msg": "ZYDUSLIFE 1150 PE 27 Oct signal at 27.55 skipped - 20 trades already today"}
+{"id": 3172, "ts": "2026-10-07 14:15:33", "at": "14:15:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3173, "ts": "2026-10-07 14:16:03", "at": "14:16:03", "kind": "warm", "msg": "bar history loaded for all 790 contracts"}
+{"id": 3174, "ts": "2026-10-07 14:16:09", "at": "14:16:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3175, "ts": "2026-10-07 14:17:09", "at": "14:17:09", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3176, "ts": "2026-10-07 14:19:07", "at": "14:19:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
