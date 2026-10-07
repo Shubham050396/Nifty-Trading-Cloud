@@ -2648,3 +2648,16 @@
 {"id": 2648, "ts": "2026-10-07 10:25:26", "at": "10:25:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2649, "ts": "2026-10-07 10:26:17", "at": "10:26:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2650, "ts": "2026-10-07 10:26:36", "at": "10:26:36", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2651, "ts": "2026-10-07 10:27:35", "at": "10:27:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2652, "ts": "2026-10-07 10:27:45", "at": "10:27:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2653, "ts": "2026-10-07 10:27:56", "at": "10:27:56", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2654, "ts": "2026-10-07 10:28:46", "at": "10:28:46", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2655, "ts": "2026-10-07 10:29:19", "at": "10:29:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2656, "ts": "2026-10-07 10:30:11", "at": "10:30:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2657, "ts": "2026-10-07 10:30:11", "at": "10:30:11", "kind": "signal", "msg": "ASIANPAINT 2400 PE 27 Oct crossed EMA 144 at 49.80 - not taken: under EMA 55, momentum -13.4%"}
+{"id": 2658, "ts": "2026-10-07 10:30:11", "at": "10:30:11", "kind": "signal", "msg": "HINDUNILVR 1880 PE 27 Oct crossed EMA 144 at 36.10 - not taken: under EMA 55, momentum 0.1%"}
+{"id": 2659, "ts": "2026-10-07 10:30:11", "at": "10:30:11", "kind": "signal", "msg": "ASIANPAINT 2360 PE 27 Oct crossed EMA 144 at 32.80 - not taken: under EMA 55, momentum -13.8%"}
+{"id": 2660, "ts": "2026-10-07 10:30:11", "at": "10:30:11", "kind": "signal", "msg": "HAL 4700 CE 27 Oct crossed EMA 144 at 164.05 - not taken: momentum 2.3%"}
+{"id": 2661, "ts": "2026-10-07 10:30:21", "at": "10:30:21", "kind": "skip", "msg": "ICICIBANK 1340 CE 27 Oct signal at 30.70 skipped - already 1 open on ICICIBANK"}
+{"id": 2662, "ts": "2026-10-07 10:30:21", "at": "10:30:21", "kind": "skip", "msg": "ETERNAL 330 CE 27 Oct signal at 10.65 skipped - already 1 open on ETERNAL"}
+{"id": 2663, "ts": "2026-10-07 10:31:11", "at": "10:31:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

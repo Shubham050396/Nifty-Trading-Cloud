@@ -623,3 +623,13 @@
 {"id": 623, "ts": "2026-10-07 10:25:06", "at": "10:25:06", "kind": "skip", "msg": "buy 2026-10-27 23000 PE ignored - Rs 72,426 in this strike already and this buy needs Rs 27,807 - over the Rs 100,000 limit"}
 {"id": 624, "ts": "2026-10-07 10:26:37", "at": "10:26:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 625, "ts": "2026-10-07 10:26:52", "at": "10:26:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 626, "ts": "2026-10-07 10:27:36", "at": "10:27:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 627, "ts": "2026-10-07 10:28:21", "at": "10:28:21", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 628, "ts": "2026-10-07 10:28:36", "at": "10:28:36", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 629, "ts": "2026-10-07 10:28:52", "at": "10:28:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 630, "ts": "2026-10-07 10:29:37", "at": "10:29:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 631, "ts": "2026-10-07 10:30:07", "at": "10:30:07", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 632, "ts": "2026-10-07 10:30:37", "at": "10:30:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 633, "ts": "2026-10-07 10:30:52", "at": "10:30:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 634, "ts": "2026-10-07 10:31:22", "at": "10:31:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 635, "ts": "2026-10-07 10:32:21", "at": "10:32:21", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
