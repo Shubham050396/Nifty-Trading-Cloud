@@ -2522,3 +2522,14 @@
 {"id": 2522, "ts": "2026-10-07 09:51:44", "at": "09:51:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2523, "ts": "2026-10-07 09:51:54", "at": "09:51:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2524, "ts": "2026-10-07 09:52:03", "at": "09:52:03", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2525, "ts": "2026-10-07 09:52:14", "at": "09:52:14", "kind": "warm", "msg": "bar history loaded for all 776 contracts"}
+{"id": 2526, "ts": "2026-10-07 09:53:10", "at": "09:53:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2527, "ts": "2026-10-07 09:53:28", "at": "09:53:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2528, "ts": "2026-10-07 09:53:40", "at": "09:53:40", "kind": "warm", "msg": "bar history loaded for all 776 contracts"}
+{"id": 2529, "ts": "2026-10-07 09:55:15", "at": "09:55:15", "kind": "exit", "msg": "SELL DRREDDY 1220 CE 27 Oct EMA_STOP @ 26.40  -9.6%  P&L Rs -1750.00"}
+{"id": 2530, "ts": "2026-10-07 09:55:15", "at": "09:55:15", "kind": "signal", "msg": "BRITANNIA 4800 PE 27 Oct crossed EMA 144 at 73.75 - not taken: under EMA 55"}
+{"id": 2531, "ts": "2026-10-07 09:55:24", "at": "09:55:24", "kind": "warm", "msg": "bar history loaded for all 776 contracts"}
+{"id": 2532, "ts": "2026-10-07 09:55:44", "at": "09:55:44", "kind": "warm", "msg": "bar history loaded for all 776 contracts"}
+{"id": 2533, "ts": "2026-10-07 09:56:27", "at": "09:56:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2534, "ts": "2026-10-07 09:56:36", "at": "09:56:36", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2535, "ts": "2026-10-07 09:56:54", "at": "09:56:54", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}

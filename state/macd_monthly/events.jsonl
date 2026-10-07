@@ -1083,3 +1083,6 @@
 {"id": 1083, "ts": "2026-10-07 09:49:12", "at": "09:49:12", "kind": "api", "msg": "rate limited by Dhan - now one call every 13.1 s"}
 {"id": 1084, "ts": "2026-10-07 09:49:25", "at": "09:49:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1085, "ts": "2026-10-07 09:51:46", "at": "09:51:46", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1086, "ts": "2026-10-07 09:54:52", "at": "09:54:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 12.1 s"}
+{"id": 1087, "ts": "2026-10-07 09:56:40", "at": "09:56:40", "kind": "api", "msg": "rate limited by Dhan - now one call every 11.1 s"}
+{"id": 1088, "ts": "2026-10-07 09:56:52", "at": "09:56:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
