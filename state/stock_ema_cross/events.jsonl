@@ -2578,3 +2578,21 @@
 {"id": 2578, "ts": "2026-10-07 10:05:22", "at": "10:05:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2579, "ts": "2026-10-07 10:05:22", "at": "10:05:22", "kind": "entry", "msg": "BUY ADANIPORTS 1760 PE 27 Oct x475 @ 34.00 (signal close 34.00, EMA 144 32.06, momentum 26.2%)  quick 39.10 till 10:35, target 57.80, stop below EMA 55"}
 {"id": 2580, "ts": "2026-10-07 10:05:22", "at": "10:05:22", "kind": "entry", "msg": "BUY ADANIPOWER 200 PE 27 Oct x3550 @ 6.09 (signal close 6.09, EMA 144 5.68, momentum 20.6%)  quick 7.00 till 10:35, target 10.35, stop below EMA 55"}
+{"id": 2581, "ts": "2026-10-07 10:07:38", "at": "10:07:38", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2582, "ts": "2026-10-07 10:07:40", "at": "10:07:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 7.5 s"}
+{"id": 2583, "ts": "2026-10-07 10:08:23", "at": "10:08:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2584, "ts": "2026-10-07 10:08:33", "at": "10:08:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2585, "ts": "2026-10-07 10:09:02", "at": "10:09:02", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2586, "ts": "2026-10-07 10:10:07", "at": "10:10:07", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2587, "ts": "2026-10-07 10:10:07", "at": "10:10:07", "kind": "signal", "msg": "HDFCLIFE 550 CE 27 Oct crossed EMA 144 at 11.00 - not taken: momentum -4.8%"}
+{"id": 2588, "ts": "2026-10-07 10:10:07", "at": "10:10:07", "kind": "signal", "msg": "WIPRO 160 PE 27 Oct crossed EMA 144 at 4.48 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2589, "ts": "2026-10-07 10:10:07", "at": "10:10:07", "kind": "signal", "msg": "DLF 660 PE 27 Oct crossed EMA 144 at 16.65 - not taken: momentum 0.9%"}
+{"id": 2590, "ts": "2026-10-07 10:10:07", "at": "10:10:07", "kind": "signal", "msg": "MOTHERSON 155 PE 27 Oct crossed EMA 144 at 2.60 - not taken: momentum -1.9%, premium under Rs 5"}
+{"id": 2591, "ts": "2026-10-07 10:10:17", "at": "10:10:17", "kind": "skip", "msg": "ICICIBANK 1340 CE 27 Oct signal at 31.70 skipped - 10 positions already open"}
+{"id": 2592, "ts": "2026-10-07 10:10:17", "at": "10:10:17", "kind": "skip", "msg": "AXISBANK 1240 CE 27 Oct signal at 34.50 skipped - 10 positions already open"}
+{"id": 2593, "ts": "2026-10-07 10:10:17", "at": "10:10:17", "kind": "skip", "msg": "ICICIBANK 1330 CE 27 Oct signal at 38.05 skipped - 10 positions already open"}
+{"id": 2594, "ts": "2026-10-07 10:10:45", "at": "10:10:45", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2595, "ts": "2026-10-07 10:11:01", "at": "10:11:01", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2596, "ts": "2026-10-07 10:11:14", "at": "10:11:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2597, "ts": "2026-10-07 10:11:24", "at": "10:11:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2598, "ts": "2026-10-07 10:11:53", "at": "10:11:53", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
