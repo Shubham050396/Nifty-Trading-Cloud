@@ -2631,3 +2631,20 @@
 {"id": 2631, "ts": "2026-10-07 10:21:31", "at": "10:21:31", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
 {"id": 2632, "ts": "2026-10-07 10:21:47", "at": "10:21:47", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2633, "ts": "2026-10-07 10:21:59", "at": "10:21:59", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2634, "ts": "2026-10-07 10:22:23", "at": "10:22:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2635, "ts": "2026-10-07 10:22:32", "at": "10:22:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2636, "ts": "2026-10-07 10:22:41", "at": "10:22:41", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2637, "ts": "2026-10-07 10:23:17", "at": "10:23:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2638, "ts": "2026-10-07 10:24:17", "at": "10:24:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2639, "ts": "2026-10-07 10:24:26", "at": "10:24:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2640, "ts": "2026-10-07 10:25:18", "at": "10:25:18", "kind": "signal", "msg": "SBIN 950 PE 27 Oct crossed EMA 144 at 12.75 - not taken: under EMA 55, momentum -21.5%"}
+{"id": 2641, "ts": "2026-10-07 10:25:18", "at": "10:25:18", "kind": "signal", "msg": "SBIN 960 PE 27 Oct crossed EMA 144 at 16.85 - not taken: under EMA 55, momentum -19.8%"}
+{"id": 2642, "ts": "2026-10-07 10:25:18", "at": "10:25:18", "kind": "signal", "msg": "WIPRO 160 PE 27 Oct crossed EMA 144 at 4.47 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2643, "ts": "2026-10-07 10:25:18", "at": "10:25:18", "kind": "signal", "msg": "PFC 320 PE 27 Oct crossed EMA 144 at 4.85 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2644, "ts": "2026-10-07 10:25:18", "at": "10:25:18", "kind": "signal", "msg": "SOLARINDS 20000 CE 27 Oct crossed EMA 144 at 643.10 - not taken: momentum -2.1%"}
+{"id": 2645, "ts": "2026-10-07 10:25:18", "at": "10:25:18", "kind": "signal", "msg": "SOLARINDS 20250 CE 27 Oct crossed EMA 144 at 540.00 - not taken: momentum 0.8%"}
+{"id": 2646, "ts": "2026-10-07 10:25:18", "at": "10:25:18", "kind": "signal", "msg": "ADANIENSOL 1400 CE 27 Oct crossed EMA 144 at 38.20 - not taken: momentum 3.2%"}
+{"id": 2647, "ts": "2026-10-07 10:25:18", "at": "10:25:18", "kind": "signal", "msg": "PNB 115 PE 27 Oct crossed EMA 144 at 4.22 - not taken: under EMA 55, momentum -17.6%, premium under Rs 5"}
+{"id": 2648, "ts": "2026-10-07 10:25:26", "at": "10:25:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2649, "ts": "2026-10-07 10:26:17", "at": "10:26:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2650, "ts": "2026-10-07 10:26:36", "at": "10:26:36", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

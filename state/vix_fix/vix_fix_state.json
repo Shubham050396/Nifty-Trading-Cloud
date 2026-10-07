@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "saved_at": "2026-10-07 10:20:23",
+  "saved_at": "2026-10-07 10:25:06",
   "cfg": {
     "expiries": [
       "2026-10-27"
@@ -78,8 +78,8 @@
         ],
         "entry_wvf": 10.394,
         "vix": null,
-        "mark": 11.6,
-        "pnl": -491.4,
+        "mark": 11.15,
+        "pnl": -579.15,
         "status": "OPEN",
         "target": 21.18
       }
@@ -135,8 +135,8 @@
         ],
         "entry_wvf": 10.119,
         "vix": null,
-        "mark": 2.7,
-        "pnl": -341.25,
+        "mark": 2.75,
+        "pnl": -331.5,
         "status": "OPEN",
         "target": 6.68
       }
@@ -183,8 +183,8 @@
         ],
         "entry_wvf": 10.121,
         "vix": null,
-        "mark": 796.3,
-        "pnl": 5733.0,
+        "mark": 789.1,
+        "pnl": 4797.0,
         "status": "OPEN",
         "target": 1128.3
       }
@@ -288,8 +288,8 @@
         ],
         "entry_wvf": 10.943,
         "vix": null,
-        "mark": 154.3,
-        "pnl": 1507.35,
+        "mark": 149.8,
+        "pnl": 629.85,
         "status": "OPEN",
         "target": 219.85
       }
@@ -345,8 +345,8 @@
         ],
         "entry_wvf": 10.464,
         "vix": 14.46,
-        "mark": 15.6,
-        "pnl": -1085.5,
+        "mark": 15.3,
+        "pnl": -1150.5,
         "status": "OPEN",
         "target": 31.8
       }
@@ -393,8 +393,8 @@
         ],
         "entry_wvf": 11.506,
         "vix": 14.46,
-        "mark": 75.65,
-        "pnl": -3740.75,
+        "mark": 74.9,
+        "pnl": -3854.5,
         "status": "OPEN",
         "target": 156.82
       }
@@ -441,8 +441,8 @@
         ],
         "entry_wvf": 10.406,
         "vix": 14.46,
-        "mark": 427.3,
-        "pnl": -16876.6,
+        "mark": 426.05,
+        "pnl": -17039.1,
         "status": "OPEN",
         "target": 835.68
       }
