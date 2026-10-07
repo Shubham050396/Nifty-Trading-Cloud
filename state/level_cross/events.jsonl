@@ -6628,3 +6628,8 @@
 {"id": 6628, "ts": "2026-10-07 14:32:37", "at": "14:32:37", "kind": "gap", "msg": "2026-10-27 23700 PE: no prices for 5 min - bar history restarts"}
 {"id": 6629, "ts": "2026-10-07 14:33:05", "at": "14:33:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 6630, "ts": "2026-10-07 14:34:04", "at": "14:34:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6631, "ts": "2026-10-07 14:35:02", "at": "14:35:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6632, "ts": "2026-10-07 14:36:00", "at": "14:36:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6633, "ts": "2026-10-07 14:37:49", "at": "14:37:49", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6634, "ts": "2026-10-07 14:38:19", "at": "14:38:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 6635, "ts": "2026-10-07 14:38:49", "at": "14:38:49", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

@@ -915,3 +915,14 @@
 {"id": 915, "ts": "2026-10-07 14:31:32", "at": "14:31:32", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 916, "ts": "2026-10-07 14:32:56", "at": "14:32:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 917, "ts": "2026-10-07 14:34:08", "at": "14:34:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 918, "ts": "2026-10-07 14:34:23", "at": "14:34:23", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 919, "ts": "2026-10-07 14:35:08", "at": "14:35:08", "kind": "signal", "msg": "2026-10-27 23000 PE VIX Fix crossed above 10.00 (9.77 -> 13.07, bar close 434.30)"}
+{"id": 920, "ts": "2026-10-07 14:35:08", "at": "14:35:08", "kind": "skip", "msg": "buy 2026-10-27 23000 PE ignored - Rs 72,426 in this strike already and this buy needs Rs 28,330 - over the Rs 100,000 limit"}
+{"id": 921, "ts": "2026-10-07 14:35:35", "at": "14:35:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 922, "ts": "2026-10-07 14:36:19", "at": "14:36:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 923, "ts": "2026-10-07 14:37:04", "at": "14:37:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 924, "ts": "2026-10-07 14:37:34", "at": "14:37:34", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 925, "ts": "2026-10-07 14:38:04", "at": "14:38:04", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 926, "ts": "2026-10-07 14:38:19", "at": "14:38:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 927, "ts": "2026-10-07 14:38:35", "at": "14:38:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 928, "ts": "2026-10-07 14:39:05", "at": "14:39:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}

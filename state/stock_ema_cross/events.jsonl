@@ -3231,3 +3231,12 @@
 {"id": 3231, "ts": "2026-10-07 14:31:40", "at": "14:31:40", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
 {"id": 3232, "ts": "2026-10-07 14:32:10", "at": "14:32:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3233, "ts": "2026-10-07 14:33:38", "at": "14:33:38", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3234, "ts": "2026-10-07 14:35:06", "at": "14:35:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3235, "ts": "2026-10-07 14:35:16", "at": "14:35:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3236, "ts": "2026-10-07 14:35:34", "at": "14:35:34", "kind": "signal", "msg": "HDFCBANK 700 PE 27 Oct crossed EMA 144 at 10.80 - not taken: under EMA 55, momentum -14.3%"}
+{"id": 3237, "ts": "2026-10-07 14:36:18", "at": "14:36:18", "kind": "warm", "msg": "bar history loaded for all 791 contracts"}
+{"id": 3238, "ts": "2026-10-07 14:36:30", "at": "14:36:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3239, "ts": "2026-10-07 14:38:05", "at": "14:38:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3240, "ts": "2026-10-07 14:38:49", "at": "14:38:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3241, "ts": "2026-10-07 14:38:58", "at": "14:38:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3242, "ts": "2026-10-07 14:39:16", "at": "14:39:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
