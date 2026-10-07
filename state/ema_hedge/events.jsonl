@@ -1669,3 +1669,16 @@
 {"id": 1669, "ts": "2026-10-07 14:16:18", "at": "14:16:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1670, "ts": "2026-10-07 14:17:19", "at": "14:17:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 1671, "ts": "2026-10-07 14:18:41", "at": "14:18:41", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1672, "ts": "2026-10-07 14:19:21", "at": "14:19:21", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1673, "ts": "2026-10-07 14:20:02", "at": "14:20:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1674, "ts": "2026-10-07 14:20:36", "at": "14:20:36", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 1675, "ts": "2026-10-07 14:20:43", "at": "14:20:43", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1676, "ts": "2026-10-07 14:21:03", "at": "14:21:03", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1677, "ts": "2026-10-07 14:21:44", "at": "14:21:44", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1678, "ts": "2026-10-07 14:22:24", "at": "14:22:24", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1679, "ts": "2026-10-07 14:22:45", "at": "14:22:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1680, "ts": "2026-10-07 14:23:05", "at": "14:23:05", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1681, "ts": "2026-10-07 14:23:25", "at": "14:23:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1682, "ts": "2026-10-07 14:23:38", "at": "14:23:38", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 1683, "ts": "2026-10-07 14:23:45", "at": "14:23:45", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 1684, "ts": "2026-10-07 14:24:06", "at": "14:24:06", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
