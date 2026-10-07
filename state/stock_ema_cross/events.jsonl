@@ -3001,3 +3001,11 @@
 {"id": 3001, "ts": "2026-10-07 12:45:58", "at": "12:45:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3002, "ts": "2026-10-07 12:46:57", "at": "12:46:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3003, "ts": "2026-10-07 12:47:16", "at": "12:47:16", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3004, "ts": "2026-10-07 12:48:50", "at": "12:48:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3005, "ts": "2026-10-07 12:49:58", "at": "12:49:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3006, "ts": "2026-10-07 12:50:16", "at": "12:50:16", "kind": "signal", "msg": "TCS 2120 PE 27 Oct crossed EMA 144 at 84.90 - not taken: under EMA 55, momentum 2.3%"}
+{"id": 3007, "ts": "2026-10-07 12:50:25", "at": "12:50:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3008, "ts": "2026-10-07 12:50:43", "at": "12:50:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3009, "ts": "2026-10-07 12:51:12", "at": "12:51:12", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 3010, "ts": "2026-10-07 12:51:32", "at": "12:51:32", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 3011, "ts": "2026-10-07 12:51:58", "at": "12:51:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
