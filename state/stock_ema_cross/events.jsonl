@@ -2958,3 +2958,19 @@
 {"id": 2958, "ts": "2026-10-07 12:27:43", "at": "12:27:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 2959, "ts": "2026-10-07 12:27:52", "at": "12:27:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
 {"id": 2960, "ts": "2026-10-07 12:28:00", "at": "12:28:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2961, "ts": "2026-10-07 12:28:26", "at": "12:28:26", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 2962, "ts": "2026-10-07 12:28:27", "at": "12:28:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2963, "ts": "2026-10-07 12:29:40", "at": "12:29:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2964, "ts": "2026-10-07 12:29:44", "at": "12:29:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.5 s"}
+{"id": 2965, "ts": "2026-10-07 12:29:49", "at": "12:29:49", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 3.5 s"}
+{"id": 2966, "ts": "2026-10-07 12:29:53", "at": "12:29:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 6.0 s"}
+{"id": 2967, "ts": "2026-10-07 12:30:06", "at": "12:30:06", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2968, "ts": "2026-10-07 12:30:24", "at": "12:30:24", "kind": "signal", "msg": "SBILIFE 1740 PE 27 Oct crossed EMA 144 at 45.35 - not taken: under EMA 55, momentum 0.8%"}
+{"id": 2969, "ts": "2026-10-07 12:30:24", "at": "12:30:24", "kind": "signal", "msg": "TATACONSUM 980 PE 27 Oct crossed EMA 144 at 24.35 - not taken: under EMA 55, momentum 3.2%"}
+{"id": 2970, "ts": "2026-10-07 12:30:24", "at": "12:30:24", "kind": "signal", "msg": "TCS 2100 PE 27 Oct crossed EMA 144 at 73.70 - not taken: under EMA 55, momentum 2.9%"}
+{"id": 2971, "ts": "2026-10-07 12:30:24", "at": "12:30:24", "kind": "signal", "msg": "VEDL 260 PE 27 Oct crossed EMA 144 at 8.65 - not taken: under EMA 55"}
+{"id": 2972, "ts": "2026-10-07 12:30:24", "at": "12:30:24", "kind": "signal", "msg": "TCS 2060 PE 27 Oct crossed EMA 144 at 54.00 - not taken: under EMA 55, momentum 2.9%"}
+{"id": 2973, "ts": "2026-10-07 12:30:24", "at": "12:30:24", "kind": "signal", "msg": "PNB 116 PE 27 Oct crossed EMA 144 at 3.95 - not taken: under EMA 55, momentum 3.4%, premium under Rs 5"}
+{"id": 2974, "ts": "2026-10-07 12:30:24", "at": "12:30:24", "kind": "signal", "msg": "NAUKRI 1200 PE 27 Oct crossed EMA 144 at 24.00 - not taken: under EMA 55"}
+{"id": 2975, "ts": "2026-10-07 12:31:53", "at": "12:31:53", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2976, "ts": "2026-10-07 12:32:45", "at": "12:32:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

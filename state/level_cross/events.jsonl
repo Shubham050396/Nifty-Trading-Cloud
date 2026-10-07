@@ -5705,3 +5705,12 @@
 {"id": 5705, "ts": "2026-10-07 12:26:02", "at": "12:26:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 5706, "ts": "2026-10-07 12:26:47", "at": "12:26:47", "kind": "exit", "msg": "L2 2026-10-19 22700 CE TRAIL_STOP @ 201.00  P&L Rs -2164.50"}
 {"id": 5707, "ts": "2026-10-07 12:27:27", "at": "12:27:27", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5708, "ts": "2026-10-07 12:28:25", "at": "12:28:25", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5709, "ts": "2026-10-07 12:29:50", "at": "12:29:50", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5710, "ts": "2026-10-07 12:30:20", "at": "12:30:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5711, "ts": "2026-10-07 12:30:35", "at": "12:30:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5712, "ts": "2026-10-07 12:31:05", "at": "12:31:05", "kind": "entry", "msg": "L3 BUY 2026-11-03 22800 PE @ 348.30  target 398.30  trail 313.47 (10%)"}
+{"id": 5713, "ts": "2026-10-07 12:31:19", "at": "12:31:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5714, "ts": "2026-10-07 12:32:18", "at": "12:32:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5715, "ts": "2026-10-07 12:32:48", "at": "12:32:48", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 5716, "ts": "2026-10-07 12:33:18", "at": "12:33:18", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
