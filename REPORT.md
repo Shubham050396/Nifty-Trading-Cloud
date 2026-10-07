@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 14:55 IST** · updated 07 Oct 2026 09:06 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37567149099)
+**Running until 14:55 IST** · updated 07 Oct 2026 09:11 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37567149099)
 
 India VIX **13.61 🔴 above the kill level** (kill above 13.50, trade only above 13.50) · Dhan token: valid until 07 Oct 21:50 IST · trading window: 09:01 → 14:55 IST (trading day)
 
@@ -81,12 +81,12 @@ serving NIFTY Credit Spreads on http://127.0.0.1:41829
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[09:01:46] CONTROL   started automatically on launch - 99 stocks
 [09:01:46] API       market quote: rate limited by Dhan - now one call every 2.0 s
 [09:01:46] API       share prices unavailable: HTTP 429
 127.0.0.1 - - [07/Oct/2026 03:31:50] "GET /api/state HTTP/1.1" 200 -
 [09:02:13] WARM      bar history loaded for all 7 contracts
 [09:02:16] CONTRACT  watching 594 contracts on 99 stocks (ATM +/- 1, CE/PE): 587 added, 0 dropped
+[09:08:50] CONTRACT  watching 674 contracts on 99 stocks (ATM +/- 1, CE/PE): 84 added, 4 dropped
 ```
 </details>
 
