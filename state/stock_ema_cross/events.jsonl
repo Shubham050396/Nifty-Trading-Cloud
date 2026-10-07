@@ -2917,3 +2917,18 @@
 {"id": 2917, "ts": "2026-10-07 12:11:27", "at": "12:11:27", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2918, "ts": "2026-10-07 12:11:38", "at": "12:11:38", "kind": "warm", "msg": "bar history loaded for all 786 contracts"}
 {"id": 2919, "ts": "2026-10-07 12:12:33", "at": "12:12:33", "kind": "warm", "msg": "bar history loaded for all 786 contracts"}
+{"id": 2920, "ts": "2026-10-07 12:13:40", "at": "12:13:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.1 s"}
+{"id": 2921, "ts": "2026-10-07 12:14:35", "at": "12:14:35", "kind": "warm", "msg": "bar history loaded for all 786 contracts"}
+{"id": 2922, "ts": "2026-10-07 12:14:52", "at": "12:14:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2923, "ts": "2026-10-07 12:15:10", "at": "12:15:10", "kind": "signal", "msg": "JIOFIN 215 PE 27 Oct crossed EMA 144 at 4.74 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2924, "ts": "2026-10-07 12:15:10", "at": "12:15:10", "kind": "signal", "msg": "TCS 2120 PE 27 Oct crossed EMA 144 at 82.45 - not taken: under EMA 55, momentum -1.7%"}
+{"id": 2925, "ts": "2026-10-07 12:15:10", "at": "12:15:10", "kind": "signal", "msg": "WIPRO 160 PE 27 Oct crossed EMA 144 at 4.60 - not taken: momentum 2.9%, premium under Rs 5"}
+{"id": 2926, "ts": "2026-10-07 12:15:10", "at": "12:15:10", "kind": "signal", "msg": "PFC 320 PE 27 Oct crossed EMA 144 at 4.85 - not taken: under EMA 55, momentum 2.1%, premium under Rs 5"}
+{"id": 2927, "ts": "2026-10-07 12:15:10", "at": "12:15:10", "kind": "signal", "msg": "ITC 262.5 CE 27 Oct crossed EMA 144 at 7.15 - not taken: momentum 1.4%"}
+{"id": 2928, "ts": "2026-10-07 12:15:10", "at": "12:15:10", "kind": "signal", "msg": "WIPRO 157.5 PE 27 Oct crossed EMA 144 at 3.51 - not taken: premium under Rs 5"}
+{"id": 2929, "ts": "2026-10-07 12:15:10", "at": "12:15:10", "kind": "signal", "msg": "HAL 4700 CE 27 Oct crossed EMA 144 at 168.30 - not taken: momentum 0.7%"}
+{"id": 2930, "ts": "2026-10-07 12:15:10", "at": "12:15:10", "kind": "signal", "msg": "CANBK 120 PE 27 Oct crossed EMA 144 at 3.25 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2931, "ts": "2026-10-07 12:15:19", "at": "12:15:19", "kind": "entry", "msg": "BUY LODHA 1120 PE 27 Oct x625 @ 35.30 (signal close 35.50, EMA 144 35.14, momentum 5.5%)  quick 40.59 till 12:45, target 60.01, stop below EMA 55"}
+{"id": 2932, "ts": "2026-10-07 12:15:19", "at": "12:15:19", "kind": "skip", "msg": "ADANIPORTS 1780 PE 27 Oct signal at 41.00 skipped - 10 positions already open"}
+{"id": 2933, "ts": "2026-10-07 12:15:52", "at": "12:15:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2934, "ts": "2026-10-07 12:16:51", "at": "12:16:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
