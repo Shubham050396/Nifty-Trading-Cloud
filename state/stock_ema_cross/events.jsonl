@@ -3037,3 +3037,11 @@
 {"id": 3037, "ts": "2026-10-07 13:01:21", "at": "13:01:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3038, "ts": "2026-10-07 13:02:05", "at": "13:02:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3039, "ts": "2026-10-07 13:03:06", "at": "13:03:06", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 3040, "ts": "2026-10-07 13:04:44", "at": "13:04:44", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 3041, "ts": "2026-10-07 13:05:03", "at": "13:05:03", "kind": "signal", "msg": "TCS 2080 PE 27 Oct crossed EMA 144 at 65.50 - not taken: under EMA 55"}
+{"id": 3042, "ts": "2026-10-07 13:05:04", "at": "13:05:04", "kind": "skip", "msg": "ITC 267.5 PE 27 Oct signal at 6.30 skipped - 20 trades already today"}
+{"id": 3043, "ts": "2026-10-07 13:05:18", "at": "13:05:18", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 3044, "ts": "2026-10-07 13:05:45", "at": "13:05:45", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 3045, "ts": "2026-10-07 13:05:51", "at": "13:05:51", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 3046, "ts": "2026-10-07 13:07:57", "at": "13:07:57", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 3047, "ts": "2026-10-07 13:08:01", "at": "13:08:01", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
