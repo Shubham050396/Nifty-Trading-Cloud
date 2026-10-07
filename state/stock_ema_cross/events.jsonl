@@ -2661,3 +2661,23 @@
 {"id": 2661, "ts": "2026-10-07 10:30:21", "at": "10:30:21", "kind": "skip", "msg": "ICICIBANK 1340 CE 27 Oct signal at 30.70 skipped - already 1 open on ICICIBANK"}
 {"id": 2662, "ts": "2026-10-07 10:30:21", "at": "10:30:21", "kind": "skip", "msg": "ETERNAL 330 CE 27 Oct signal at 10.65 skipped - already 1 open on ETERNAL"}
 {"id": 2663, "ts": "2026-10-07 10:31:11", "at": "10:31:11", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2664, "ts": "2026-10-07 10:32:52", "at": "10:32:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2665, "ts": "2026-10-07 10:33:19", "at": "10:33:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2666, "ts": "2026-10-07 10:34:19", "at": "10:34:19", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2667, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "signal", "msg": "HDFCBANK 700 PE 27 Oct crossed EMA 144 at 11.10 - not taken: momentum -0.9%"}
+{"id": 2668, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "signal", "msg": "HDFCBANK 710 PE 27 Oct crossed EMA 144 at 15.65 - not taken: momentum -0.6%"}
+{"id": 2669, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "signal", "msg": "JIOFIN 215 PE 27 Oct crossed EMA 144 at 4.75 - not taken: under EMA 55, momentum -0.6%, premium under Rs 5"}
+{"id": 2670, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "signal", "msg": "WIPRO 160 PE 27 Oct crossed EMA 144 at 4.50 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 2671, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "signal", "msg": "BANKBARODA 230 PE 27 Oct crossed EMA 144 at 4.55 - not taken: under EMA 55, momentum -9.9%, premium under Rs 5"}
+{"id": 2672, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "signal", "msg": "BANKBARODA 235 PE 27 Oct crossed EMA 144 at 6.76 - not taken: momentum -8.9%"}
+{"id": 2673, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "signal", "msg": "PFC 320 PE 27 Oct crossed EMA 144 at 5.10 - not taken: under EMA 55"}
+{"id": 2674, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "signal", "msg": "DABUR 380 CE 27 Oct crossed EMA 144 at 11.65 - not taken: momentum -1.7%"}
+{"id": 2675, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "signal", "msg": "HDFCBANK 690 PE 27 Oct crossed EMA 144 at 7.65 - not taken: under EMA 55, momentum -2.5%"}
+{"id": 2676, "ts": "2026-10-07 10:35:11", "at": "10:35:11", "kind": "exit", "msg": "SELL RECLTD 310 CE 27 Oct EMA_STOP @ 3.90  -42.2%  P&L Rs -4488.75"}
+{"id": 2677, "ts": "2026-10-07 10:35:18", "at": "10:35:18", "kind": "skip", "msg": "ICICIBANK 1350 CE 27 Oct signal at 26.95 skipped - already 1 open on ICICIBANK"}
+{"id": 2678, "ts": "2026-10-07 10:35:18", "at": "10:35:18", "kind": "skip", "msg": "ICICIBANK 1360 CE 27 Oct signal at 22.15 skipped - already 1 open on ICICIBANK"}
+{"id": 2679, "ts": "2026-10-07 10:35:42", "at": "10:35:42", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2680, "ts": "2026-10-07 10:36:17", "at": "10:36:17", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2681, "ts": "2026-10-07 10:36:44", "at": "10:36:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2682, "ts": "2026-10-07 10:37:14", "at": "10:37:14", "kind": "api", "msg": "chart history: rate limited by Dhan - now one call every 1.2 s"}
+{"id": 2683, "ts": "2026-10-07 10:37:20", "at": "10:37:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
