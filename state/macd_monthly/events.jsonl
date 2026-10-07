@@ -988,3 +988,13 @@
 {"id": 988, "ts": "2026-10-07 09:01:42", "at": "09:01:42", "kind": "day", "msg": "new session 2026-10-07 - counters reset"}
 {"id": 989, "ts": "2026-10-07 09:01:45", "at": "09:01:45", "kind": "boot", "msg": "ready - 14 monthly expiries, 4056 contracts in the scrip master"}
 {"id": 990, "ts": "2026-10-07 09:01:46", "at": "09:01:46", "kind": "vix", "msg": "India VIX prev close 13.61 - entries allowed"}
+{"id": 991, "ts": "2026-10-07 09:15:01", "at": "09:15:01", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 992, "ts": "2026-10-07 09:15:06", "at": "09:15:06", "kind": "contract", "msg": "2026-11-23: watching ATM 23000 +/- 1 strikes of 1000 (CE/PE)"}
+{"id": 993, "ts": "2026-10-07 09:15:11", "at": "09:15:11", "kind": "contract", "msg": "2026-12-29: watching ATM 23000 +/- 1 strikes of 1000 (CE/PE)"}
+{"id": 994, "ts": "2026-10-07 09:15:15", "at": "09:15:15", "kind": "contract", "msg": "2027-03-30: watching ATM 24000 +/- 1 strikes of 1000 (CE/PE)"}
+{"id": 995, "ts": "2026-10-07 09:15:19", "at": "09:15:19", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 996, "ts": "2026-10-07 09:15:37", "at": "09:15:37", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 997, "ts": "2026-10-07 09:15:56", "at": "09:15:56", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 998, "ts": "2026-10-07 09:16:14", "at": "09:16:14", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 999, "ts": "2026-10-07 09:16:32", "at": "09:16:32", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 1000, "ts": "2026-10-07 09:16:51", "at": "09:16:51", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}

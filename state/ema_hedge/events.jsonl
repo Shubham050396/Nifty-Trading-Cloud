@@ -1333,3 +1333,7 @@
 {"id": 1333, "ts": "2026-10-07 09:01:42", "at": "09:01:42", "kind": "vix", "msg": "India VIX 13.61 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new spreads, closing every open one"}
 {"id": 1334, "ts": "2026-10-07 09:01:42", "at": "09:01:42", "kind": "candles", "msg": "NIFTY candles unavailable: Too many requests on server from single user breaching rate limits. Try throttling API calls. - retrying"}
 {"id": 1335, "ts": "2026-10-07 09:01:46", "at": "09:01:46", "kind": "boot", "msg": "ready - 18 expiries listed, NIFTY lot 65"}
+{"id": 1336, "ts": "2026-10-07 09:15:00", "at": "09:15:00", "kind": "vix", "msg": "India VIX unavailable (HTTP 429) - no new spreads until it can be read"}
+{"id": 1337, "ts": "2026-10-07 09:15:00", "at": "09:15:00", "kind": "api", "msg": "rate limited by Dhan - now one call every 5.1 s"}
+{"id": 1338, "ts": "2026-10-07 09:15:41", "at": "09:15:41", "kind": "api", "msg": "rate limited by Dhan - now one call every 6.1 s"}
+{"id": 1339, "ts": "2026-10-07 09:16:21", "at": "09:16:21", "kind": "api", "msg": "rate limited by Dhan - now one call every 8.1 s"}

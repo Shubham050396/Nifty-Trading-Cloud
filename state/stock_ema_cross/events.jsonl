@@ -2311,3 +2311,9 @@
 {"id": 2311, "ts": "2026-10-07 09:02:13", "at": "09:02:13", "kind": "warm", "msg": "bar history loaded for all 7 contracts"}
 {"id": 2312, "ts": "2026-10-07 09:02:16", "at": "09:02:16", "kind": "contract", "msg": "watching 594 contracts on 99 stocks (ATM +/- 1, CE/PE): 587 added, 0 dropped"}
 {"id": 2313, "ts": "2026-10-07 09:08:50", "at": "09:08:50", "kind": "contract", "msg": "watching 674 contracts on 99 stocks (ATM +/- 1, CE/PE): 84 added, 4 dropped"}
+{"id": 2314, "ts": "2026-10-07 09:12:59", "at": "09:12:59", "kind": "warm", "msg": "bar history loaded for all 674 contracts"}
+{"id": 2315, "ts": "2026-10-07 09:15:01", "at": "09:15:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 2.0 s"}
+{"id": 2316, "ts": "2026-10-07 09:15:01", "at": "09:15:01", "kind": "exit", "msg": "SELL HDFCBANK 720 PE 27 Oct EMA_STOP @ 19.75  +4.2%  P&L Rs 520.00"}
+{"id": 2317, "ts": "2026-10-07 09:15:04", "at": "09:15:04", "kind": "contract", "msg": "watching 700 contracts on 99 stocks (ATM +/- 1, CE/PE): 32 added, 6 dropped"}
+{"id": 2318, "ts": "2026-10-07 09:16:44", "at": "09:16:44", "kind": "exit", "msg": "SELL ADANIGREEN 1300 CE 27 Oct PROFIT_TARGET @ 68.70  +50.2%  P&L Rs 13770.00"}
+{"id": 2319, "ts": "2026-10-07 09:16:49", "at": "09:16:49", "kind": "warm", "msg": "bar history loaded for all 756 contracts"}
