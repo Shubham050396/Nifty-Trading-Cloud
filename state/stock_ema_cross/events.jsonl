@@ -2695,3 +2695,21 @@
 {"id": 2695, "ts": "2026-10-07 10:41:20", "at": "10:41:20", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2696, "ts": "2026-10-07 10:42:12", "at": "10:42:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2697, "ts": "2026-10-07 10:42:30", "at": "10:42:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2698, "ts": "2026-10-07 10:42:40", "at": "10:42:40", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2699, "ts": "2026-10-07 10:44:01", "at": "10:44:01", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2700, "ts": "2026-10-07 10:44:28", "at": "10:44:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2701, "ts": "2026-10-07 10:44:57", "at": "10:44:57", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2702, "ts": "2026-10-07 10:45:12", "at": "10:45:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2703, "ts": "2026-10-07 10:45:21", "at": "10:45:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2704, "ts": "2026-10-07 10:45:40", "at": "10:45:40", "kind": "signal", "msg": "ETERNAL 330 CE 27 Oct crossed EMA 144 at 10.60 - not taken: momentum -4.1%"}
+{"id": 2705, "ts": "2026-10-07 10:45:40", "at": "10:45:40", "kind": "signal", "msg": "DIVISLAB 9700 CE 27 Oct crossed EMA 144 at 183.60 - not taken: momentum -3.4%"}
+{"id": 2706, "ts": "2026-10-07 10:45:40", "at": "10:45:40", "kind": "signal", "msg": "DLF 680 PE 27 Oct crossed EMA 144 at 27.10 - not taken: momentum -0.7%"}
+{"id": 2707, "ts": "2026-10-07 10:45:40", "at": "10:45:40", "kind": "signal", "msg": "GODREJCP 870 PE 27 Oct crossed EMA 144 at 24.35 - not taken: under EMA 55"}
+{"id": 2708, "ts": "2026-10-07 10:45:40", "at": "10:45:40", "kind": "signal", "msg": "GODREJCP 880 PE 27 Oct crossed EMA 144 at 30.70 - not taken: under EMA 55"}
+{"id": 2709, "ts": "2026-10-07 10:45:40", "at": "10:45:40", "kind": "signal", "msg": "RECLTD 300 PE 27 Oct crossed EMA 144 at 8.35 - not taken: under EMA 55"}
+{"id": 2710, "ts": "2026-10-07 10:45:40", "at": "10:45:40", "kind": "signal", "msg": "HINDUNILVR 1860 PE 27 Oct crossed EMA 144 at 29.45 - not taken: under EMA 55"}
+{"id": 2711, "ts": "2026-10-07 10:46:21", "at": "10:46:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2712, "ts": "2026-10-07 10:46:32", "at": "10:46:32", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2713, "ts": "2026-10-07 10:46:50", "at": "10:46:50", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2714, "ts": "2026-10-07 10:47:13", "at": "10:47:13", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2715, "ts": "2026-10-07 10:47:22", "at": "10:47:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
