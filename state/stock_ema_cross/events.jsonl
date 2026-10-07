@@ -2786,3 +2786,9 @@
 {"id": 2786, "ts": "2026-10-07 11:11:15", "at": "11:11:15", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2787, "ts": "2026-10-07 11:11:24", "at": "11:11:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2788, "ts": "2026-10-07 11:12:31", "at": "11:12:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2789, "ts": "2026-10-07 11:14:30", "at": "11:14:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2790, "ts": "2026-10-07 11:15:22", "at": "11:15:22", "kind": "signal", "msg": "LODHA 1140 PE 27 Oct crossed EMA 144 at 44.80 - not taken: under EMA 55"}
+{"id": 2791, "ts": "2026-10-07 11:15:22", "at": "11:15:22", "kind": "signal", "msg": "PIDILITIND 1500 PE 27 Oct crossed EMA 144 at 30.00 - not taken: under EMA 55"}
+{"id": 2792, "ts": "2026-10-07 11:15:30", "at": "11:15:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2793, "ts": "2026-10-07 11:15:30", "at": "11:15:30", "kind": "skip", "msg": "DLF 650 PE 27 Oct signal at 13.50 skipped - 10 positions already open"}
+{"id": 2794, "ts": "2026-10-07 11:16:22", "at": "11:16:22", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
