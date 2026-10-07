@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T09:01:50+05:30",
+  "updated": "2026-10-07T09:06:52+05:30",
   "headline": "Running until 14:55 IST",
   "phase": "running",
   "window": "09:01 \u2192 14:55 IST (trading day)",
@@ -229,8 +229,8 @@
       "summary": {
         "margin_used": 0,
         "open": 0,
-        "margin_next": 29474,
-        "margin_next_max": 30040,
+        "margin_next": 25798,
+        "margin_next_max": 34710,
         "basis": "option buying: ATM premium x quantity, paid in full",
         "pnl_today": 0,
         "pnl_all": 464,

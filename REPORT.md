@@ -1,6 +1,6 @@
 # NIFTY Cloud report
 
-**Running until 14:55 IST** · updated 07 Oct 2026 09:01 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37567149099)
+**Running until 14:55 IST** · updated 07 Oct 2026 09:06 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/37567149099)
 
 India VIX **13.61 🔴 above the kill level** (kill above 13.50, trade only above 13.50) · Dhan token: valid until 07 Oct 21:50 IST · trading window: 09:01 → 14:55 IST (trading day)
 
@@ -21,12 +21,12 @@ Paper trading only. Margin figures are estimates, as in the desktop app. Trades 
 <details><summary>NIFTY Credit Spreads - last log lines</summary>
 
 ```text
-[2026-10-07 09:01:40] SCAN      scanner started automatically on launch
 serving NIFTY Credit Spreads on http://127.0.0.1:41829
 [2026-10-07 09:01:46] BOOT      scrip master downloaded: 4056 NIFTY contracts in 5.2s
 [2026-10-07 09:01:46] VIX       India VIX 13.61 crossed ABOVE the 13.50 limit - KILL SWITCH ON: no new trades, closing every open spread
 [2026-10-07 09:01:46] BOOT      Ready - 18 expiries, 4056 NIFTY contracts
 127.0.0.1 - - [07/Oct/2026 03:31:50] "GET /api/status HTTP/1.1" 200 -
+[2026-10-07 09:01:51] MARKET    heartbeat: pre-open, session starts 09:15 IST; token expires in 12h 49m
 ```
 </details>
 
@@ -81,12 +81,12 @@ serving NIFTY Credit Spreads on http://127.0.0.1:41829
 <details><summary>Stock Options EMA Cross - last log lines</summary>
 
 ```text
-[09:01:46] BOOT      scrip master downloaded in 5s: 213 stocks with options
-[09:01:46] BOOT      99 of 100 listed stocks have options - skipped: LTIM
 [09:01:46] CONTROL   started automatically on launch - 99 stocks
 [09:01:46] API       market quote: rate limited by Dhan - now one call every 2.0 s
 [09:01:46] API       share prices unavailable: HTTP 429
 127.0.0.1 - - [07/Oct/2026 03:31:50] "GET /api/state HTTP/1.1" 200 -
+[09:02:13] WARM      bar history loaded for all 7 contracts
+[09:02:16] CONTRACT  watching 594 contracts on 99 stocks (ATM +/- 1, CE/PE): 587 added, 0 dropped
 ```
 </details>
 
