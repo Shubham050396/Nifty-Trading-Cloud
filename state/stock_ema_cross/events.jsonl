@@ -2804,3 +2804,21 @@
 {"id": 2804, "ts": "2026-10-07 11:20:30", "at": "11:20:30", "kind": "entry", "msg": "BUY ITC 262.5 CE 27 Oct x1725 @ 7.35 (signal close 7.70, EMA 144 7.15, momentum 10.8%)  quick 8.45 till 11:50, target 12.49, stop below EMA 55"}
 {"id": 2805, "ts": "2026-10-07 11:21:29", "at": "11:21:29", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2806, "ts": "2026-10-07 11:22:28", "at": "11:22:28", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2807, "ts": "2026-10-07 11:24:37", "at": "11:24:37", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 8.6 s"}
+{"id": 2808, "ts": "2026-10-07 11:24:46", "at": "11:24:46", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2809, "ts": "2026-10-07 11:24:55", "at": "11:24:55", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2810, "ts": "2026-10-07 11:25:13", "at": "11:25:13", "kind": "exit", "msg": "SELL DRREDDY 1220 CE 27 Oct EMA_STOP @ 26.75  -6.5%  P&L Rs -1156.25"}
+{"id": 2811, "ts": "2026-10-07 11:25:13", "at": "11:25:13", "kind": "signal", "msg": "TCS 2120 PE 27 Oct crossed EMA 144 at 83.90 - not taken: under EMA 55, momentum -4.7%"}
+{"id": 2812, "ts": "2026-10-07 11:25:13", "at": "11:25:13", "kind": "signal", "msg": "WIPRO 160 PE 27 Oct crossed EMA 144 at 4.47 - not taken: under EMA 55, momentum -0.7%, premium under Rs 5"}
+{"id": 2813, "ts": "2026-10-07 11:25:13", "at": "11:25:13", "kind": "signal", "msg": "INDHOTEL 750 CE 27 Oct crossed EMA 144 at 10.95 - not taken: momentum -13.8%"}
+{"id": 2814, "ts": "2026-10-07 11:25:13", "at": "11:25:13", "kind": "signal", "msg": "PFC 330 PE 27 Oct crossed EMA 144 at 8.80 - not taken: under EMA 55, momentum -4.3%"}
+{"id": 2815, "ts": "2026-10-07 11:25:13", "at": "11:25:13", "kind": "signal", "msg": "SOLARINDS 20250 CE 27 Oct crossed EMA 144 at 533.75 - not taken: momentum -1.3%"}
+{"id": 2816, "ts": "2026-10-07 11:25:13", "at": "11:25:13", "kind": "signal", "msg": "ICICIBANK 1360 CE 27 Oct crossed EMA 144 at 22.60 - not taken: momentum 2.0%"}
+{"id": 2817, "ts": "2026-10-07 11:25:22", "at": "11:25:22", "kind": "skip", "msg": "ICICIBANK 1350 CE 27 Oct signal at 28.00 skipped - already 1 open on ICICIBANK"}
+{"id": 2818, "ts": "2026-10-07 11:25:31", "at": "11:25:31", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2819, "ts": "2026-10-07 11:26:16", "at": "11:26:16", "kind": "warm", "msg": "bar history loaded for all 782 contracts"}
+{"id": 2820, "ts": "2026-10-07 11:26:30", "at": "11:26:30", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2821, "ts": "2026-10-07 11:26:48", "at": "11:26:48", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2822, "ts": "2026-10-07 11:26:58", "at": "11:26:58", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2823, "ts": "2026-10-07 11:27:25", "at": "11:27:25", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2824, "ts": "2026-10-07 11:27:43", "at": "11:27:43", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}

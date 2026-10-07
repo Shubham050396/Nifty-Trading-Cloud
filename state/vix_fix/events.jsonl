@@ -695,3 +695,9 @@
 {"id": 695, "ts": "2026-10-07 11:19:15", "at": "11:19:15", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 696, "ts": "2026-10-07 11:20:13", "at": "11:20:13", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 697, "ts": "2026-10-07 11:22:02", "at": "11:22:02", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 698, "ts": "2026-10-07 11:23:01", "at": "11:23:01", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 699, "ts": "2026-10-07 11:25:01", "at": "11:25:01", "kind": "signal", "msg": "2026-10-27 26000 CE VIX Fix crossed above 10.00 (9.09 -> 10.61, bar close 0.95)"}
+{"id": 700, "ts": "2026-10-07 11:25:01", "at": "11:25:01", "kind": "entry", "msg": "BUY 2026-10-27 26000 CE @ 1.00 x 65  (Rs 65) - buy 3 of 10, average 1.32, target 1.98"}
+{"id": 701, "ts": "2026-10-07 11:25:22", "at": "11:25:22", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 702, "ts": "2026-10-07 11:25:52", "at": "11:25:52", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 703, "ts": "2026-10-07 11:27:41", "at": "11:27:41", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
