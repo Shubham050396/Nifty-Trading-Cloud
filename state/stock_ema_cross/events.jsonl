@@ -2596,3 +2596,19 @@
 {"id": 2596, "ts": "2026-10-07 10:11:14", "at": "10:11:14", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2597, "ts": "2026-10-07 10:11:24", "at": "10:11:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 2598, "ts": "2026-10-07 10:11:53", "at": "10:11:53", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2599, "ts": "2026-10-07 10:12:23", "at": "10:12:23", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2600, "ts": "2026-10-07 10:12:52", "at": "10:12:52", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2601, "ts": "2026-10-07 10:13:09", "at": "10:13:09", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2602, "ts": "2026-10-07 10:13:52", "at": "10:13:52", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2603, "ts": "2026-10-07 10:15:13", "at": "10:15:13", "kind": "exit", "msg": "SELL GODREJCP 860 CE 27 Oct EMA_STOP @ 19.35  -25.0%  P&L Rs -3225.00"}
+{"id": 2604, "ts": "2026-10-07 10:15:13", "at": "10:15:13", "kind": "signal", "msg": "HINDUNILVR 1880 PE 27 Oct crossed EMA 144 at 38.25 - not taken: under EMA 55"}
+{"id": 2605, "ts": "2026-10-07 10:15:13", "at": "10:15:13", "kind": "signal", "msg": "HINDUNILVR 1900 PE 27 Oct crossed EMA 144 at 48.90 - not taken: under EMA 55"}
+{"id": 2606, "ts": "2026-10-07 10:15:13", "at": "10:15:13", "kind": "signal", "msg": "TATACONSUM 980 PE 27 Oct crossed EMA 144 at 25.00 - not taken: under EMA 55, momentum -1.2%"}
+{"id": 2607, "ts": "2026-10-07 10:15:13", "at": "10:15:13", "kind": "signal", "msg": "HINDUNILVR 1860 PE 27 Oct crossed EMA 144 at 29.30 - not taken: under EMA 55"}
+{"id": 2608, "ts": "2026-10-07 10:15:13", "at": "10:15:13", "kind": "signal", "msg": "WIPRO 157.5 PE 27 Oct crossed EMA 144 at 3.60 - not taken: premium under Rs 5"}
+{"id": 2609, "ts": "2026-10-07 10:15:20", "at": "10:15:20", "kind": "entry", "msg": "BUY ABB 7000 CE 27 Oct x125 @ 269.95 (signal close 265.00, EMA 144 264.53, momentum 14.6%)  quick 310.44 till 10:45, target 458.91, stop below EMA 55"}
+{"id": 2610, "ts": "2026-10-07 10:15:30", "at": "10:15:30", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2611, "ts": "2026-10-07 10:15:33", "at": "10:15:33", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2612, "ts": "2026-10-07 10:15:42", "at": "10:15:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 2613, "ts": "2026-10-07 10:15:53", "at": "10:15:53", "kind": "warm", "msg": "bar history loaded for all 780 contracts"}
+{"id": 2614, "ts": "2026-10-07 10:17:10", "at": "10:17:10", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
