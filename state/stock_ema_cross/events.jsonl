@@ -3017,3 +3017,23 @@
 {"id": 3017, "ts": "2026-10-07 12:56:24", "at": "12:56:24", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3018, "ts": "2026-10-07 12:57:59", "at": "12:57:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3019, "ts": "2026-10-07 12:58:28", "at": "12:58:28", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 3020, "ts": "2026-10-07 12:58:42", "at": "12:58:42", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3021, "ts": "2026-10-07 12:59:50", "at": "12:59:50", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3022, "ts": "2026-10-07 12:59:59", "at": "12:59:59", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3023, "ts": "2026-10-07 13:00:11", "at": "13:00:11", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 3024, "ts": "2026-10-07 13:00:17", "at": "13:00:17", "kind": "signal", "msg": "JIOFIN 215 PE 27 Oct crossed EMA 144 at 4.72 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 3025, "ts": "2026-10-07 13:00:17", "at": "13:00:17", "kind": "signal", "msg": "TCS 2100 PE 27 Oct crossed EMA 144 at 74.00 - not taken: under EMA 55"}
+{"id": 3026, "ts": "2026-10-07 13:00:17", "at": "13:00:17", "kind": "signal", "msg": "ABB 7000 PE 27 Oct crossed EMA 144 at 189.00 - not taken: under EMA 55"}
+{"id": 3027, "ts": "2026-10-07 13:00:17", "at": "13:00:17", "kind": "signal", "msg": "ITC 262.5 PE 27 Oct crossed EMA 144 at 3.75 - not taken: under EMA 55, premium under Rs 5"}
+{"id": 3028, "ts": "2026-10-07 13:00:17", "at": "13:00:17", "kind": "signal", "msg": "TCS 2060 PE 27 Oct crossed EMA 144 at 54.00 - not taken: under EMA 55"}
+{"id": 3029, "ts": "2026-10-07 13:00:17", "at": "13:00:17", "kind": "signal", "msg": "ITC 270 PE 27 Oct crossed EMA 144 at 7.65 - not taken: under EMA 55"}
+{"id": 3030, "ts": "2026-10-07 13:00:26", "at": "13:00:26", "kind": "entry", "msg": "BUY SHREECEM 22000 PE 27 Oct x25 @ 605.10 (signal close 575.00, EMA 144 534.09, momentum 20.0%)  quick 695.87 till 13:30, target 1028.67, stop below EMA 55"}
+{"id": 3031, "ts": "2026-10-07 13:00:26", "at": "13:00:26", "kind": "skip", "msg": "SBILIFE 1740 PE 27 Oct signal at 48.45 skipped - 20 trades already today"}
+{"id": 3032, "ts": "2026-10-07 13:00:35", "at": "13:00:35", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3033, "ts": "2026-10-07 13:00:44", "at": "13:00:44", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3034, "ts": "2026-10-07 13:00:58", "at": "13:00:58", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}
+{"id": 3035, "ts": "2026-10-07 13:01:02", "at": "13:01:02", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3036, "ts": "2026-10-07 13:01:12", "at": "13:01:12", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3037, "ts": "2026-10-07 13:01:21", "at": "13:01:21", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3038, "ts": "2026-10-07 13:02:05", "at": "13:02:05", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3039, "ts": "2026-10-07 13:03:06", "at": "13:03:06", "kind": "warm", "msg": "bar history loaded for all 788 contracts"}

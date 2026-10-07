@@ -811,3 +811,9 @@
 {"id": 811, "ts": "2026-10-07 12:54:35", "at": "12:54:35", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 812, "ts": "2026-10-07 12:55:20", "at": "12:55:20", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
 {"id": 813, "ts": "2026-10-07 12:57:08", "at": "12:57:08", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 814, "ts": "2026-10-07 12:58:57", "at": "12:58:57", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 815, "ts": "2026-10-07 13:00:09", "at": "13:00:09", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 816, "ts": "2026-10-07 13:00:53", "at": "13:00:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 817, "ts": "2026-10-07 13:01:09", "at": "13:01:09", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 818, "ts": "2026-10-07 13:01:53", "at": "13:01:53", "kind": "api", "msg": "rate limited by Dhan - now one call every 15.1 s"}
+{"id": 819, "ts": "2026-10-07 13:02:11", "at": "13:02:11", "kind": "vix", "msg": "India VIX prev close 13.61"}
