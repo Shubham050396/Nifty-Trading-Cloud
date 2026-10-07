@@ -3158,3 +3158,9 @@
 {"id": 3158, "ts": "2026-10-07 14:06:26", "at": "14:06:26", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3159, "ts": "2026-10-07 14:08:00", "at": "14:08:00", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
 {"id": 3160, "ts": "2026-10-07 14:08:47", "at": "14:08:47", "kind": "warm", "msg": "bar history loaded for all 790 contracts"}
+{"id": 3161, "ts": "2026-10-07 14:09:08", "at": "14:09:08", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3162, "ts": "2026-10-07 14:10:15", "at": "14:10:15", "kind": "signal", "msg": "HDFCLIFE 550 CE 27 Oct crossed EMA 144 at 11.55 - not taken: momentum 3.1%"}
+{"id": 3163, "ts": "2026-10-07 14:10:29", "at": "14:10:29", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3164, "ts": "2026-10-07 14:11:57", "at": "14:11:57", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
+{"id": 3165, "ts": "2026-10-07 14:12:43", "at": "14:12:43", "kind": "warm", "msg": "bar history loaded for all 790 contracts"}
+{"id": 3166, "ts": "2026-10-07 14:13:32", "at": "14:13:32", "kind": "api", "msg": "market quote: rate limited by Dhan - now one call every 9.1 s"}
