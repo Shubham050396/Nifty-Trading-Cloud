@@ -1,8 +1,8 @@
 # NIFTY Cloud report
 
-**❌ Not trading** · updated 02 Nov 2026 17:08 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/41438332692)
+**❌ Not trading** · updated 03 Nov 2026 16:46 IST · [this run](https://github.com/Shubham050396/Nifty-Trading-Cloud/actions/runs/41626181726)
 
-India VIX **-** (kill above 13.50, trade only above 13.50) · Dhan token: **EXPIRED** · trading window: 17:07 → 17:12 IST (check run (after the trading day))
+India VIX **-** (kill above 13.50, trade only above 13.50) · Dhan token: **EXPIRED** · trading window: 16:46 → 16:51 IST (check run (after the trading day))
 
 > ⚠️ The Dhan token expired at 07 Oct 21:50 IST. Paste a fresh one into the DHAN_ACCESS_TOKEN secret, then start this workflow again from the Actions tab.
 
